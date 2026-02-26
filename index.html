@@ -1066,9 +1066,9 @@ function openChart(rawSym, name) {
   const url = 'https://s.tradingview.com/widgetembed/?frameElementId=tv_frame'
     + '&symbol=' + encodeURIComponent(tvSym)
     + '&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=0'
-    + '&toolbarbg=131722&studies='+encodeURIComponent(JSON.stringify([{"id":"MAExp@tv-basicstudies","inputs":{"length":10},"overrides":{"Plot.color":"rgba(100,255,150,1)","Plot.linewidth":1}},{"id":"MAExp@tv-basicstudies","inputs":{"length":20},"overrides":{"Plot.color":"rgba(180,120,255,1)","Plot.linewidth":1}},{"id":"MA@tv-basicstudies","inputs":{"length":50},"overrides":{"Plot.color":"rgba(30,144,255,1)","Plot.linewidth":1}},{"id":"MA@tv-basicstudies","inputs":{"length":200},"overrides":{"Plot.color":"rgba(255,80,80,1)","Plot.linewidth":1}}]))+'&theme=dark&style=1'
+    + '&toolbarbg=131722&studies='+encodeURIComponent(JSON.stringify([{"id":"MAExp@tv-basicstudies","inputs":{"length":10}},{"id":"MAExp@tv-basicstudies","inputs":{"length":20}},{"id":"MA@tv-basicstudies","inputs":{"length":50}},{"id":"MA@tv-basicstudies","inputs":{"length":200}}]))+'&theme=dark&style=1'
     + '&timezone=exchange&withdateranges=1&showpopupbutton=1'
-    + '&studies_overrides=%7B%7D&overrides=%7B%7D'
+    + '&studies_overrides='+encodeURIComponent('{"moving average exponential.0.Plot.color":"rgba(100,255,150,1)","moving average exponential.0.Plot.linewidth":1,"moving average exponential.1.Plot.color":"rgba(180,120,255,1)","moving average exponential.1.Plot.linewidth":1,"moving average.0.Plot.color":"rgba(30,144,255,1)","moving average.0.Plot.linewidth":1,"moving average.1.Plot.color":"rgba(255,80,80,1)","moving average.1.Plot.linewidth":1}')+'&overrides=%7B%7D'
     + '&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en';
   document.getElementById('tv-frame').src = url;
   document.getElementById('tv-modal').classList.add('open');
