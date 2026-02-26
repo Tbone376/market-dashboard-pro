@@ -7,7 +7,6 @@ import math
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from io import StringIO
-
 try:
     import yfinance as yf
 except ImportError:
@@ -15,28 +14,27 @@ except ImportError:
     import subprocess
     subprocess.check_call([sys.executable, "-m", "pip", "install", "yfinance", "requests"])
     import yfinance as yf
-
 import requests
 
 # ── DEFAULT TICKERS (overridden by tickers.json if present) ────────────────────
-ETF_MAIN    = ['SPY','QQQ','DIA','IWM']
-SUBMARKET   = ['IVW','IVE','IJK','IJJ','IJT','IJS','MGK','VUG','VTV']
-SECTOR      = ['XLK','XLV','XLF','XLE','XLY','XLI','XLB','XLU','XLRE','XLC','XLP']
-SECTOR_EW   = ['RSPG','RSPT','RSPF','RSPN','RSPD','RSP','RSPU','RSPM','RSPH','RSPR','RSPS','RSPC']
-THEMATIC    = ['BOTZ','HACK','SOXX','ICLN','SKYY','XBI','ITA','FINX','ARKG','URA',
-               'AIQ','CIBR','ROBO','ARKK','DRIV','OGIG','ACES','PAVE','HERO','CLOU']
-COUNTRY     = ['GREK','ARGT','EWS','EWP','EUFN','MCHI','EWZ','EWI','EWY','EWH',
-               'ECH','EWC','EWL','EWQ','EWA','IEV','IEUR','INDA','EWG','EWW',
-               'EZU','EEM','EFA','EWD','TUR','EZA','ACWI','KSA','EIDO','EWJ','EWT','THD']
-FUTURES     = ['ES=F','NQ=F','RTY=F','YM=F']
-METALS      = ['GC=F','SI=F','HG=F','PL=F','PA=F']
-ENERGY      = ['CL=F','NG=F']
-GLOBAL_IDX  = ['^N225','^KS11','^NSEI','000001.SS','000300.SS','^HSI','^FTSE','^FCHI','^GDAXI']
-YIELDS      = ['^TNX','^TYX']
-DX_VIX      = ['DX-Y.NYB','^VIX']
-CRYPTO_YF   = ['BTC-USD','ETH-USD','SOL-USD','XRP-USD']
+ETF_MAIN   = ['SPY','QQQ','DIA','IWM']
+SUBMARKET  = ['IVW','IVE','IJK','IJJ','IJT','IJS','MGK','VUG','VTV']
+SECTOR     = ['XLK','XLV','XLF','XLE','XLY','XLI','XLB','XLU','XLRE','XLC','XLP']
+SECTOR_EW  = ['RSPG','RSPT','RSPF','RSPN','RSPD','RSP','RSPU','RSPM','RSPH','RSPR','RSPS','RSPC']
+THEMATIC   = ['BOTZ','HACK','SOXX','ICLN','SKYY','XBI','ITA','FINX','ARKG','URA',
+              'AIQ','CIBR','ROBO','ARKK','DRIV','OGIG','ACES','PAVE','HERO','CLOU']
+COUNTRY    = ['GREK','ARGT','EWS','EWP','EUFN','MCHI','EWZ','EWI','EWY','EWH',
+              'ECH','EWC','EWL','EWQ','EWA','IEV','IEUR','INDA','EWG','EWW',
+              'EZU','EEM','EFA','EWD','TUR','EZA','ACWI','KSA','EIDO','EWJ','EWT','THD']
+FUTURES    = ['ES=F','NQ=F','RTY=F','YM=F']
+METALS     = ['GC=F','SI=F','HG=F','PL=F','PA=F']
+ENERGY     = ['CL=F','NG=F']
+GLOBAL_IDX = ['^N225','^KS11','^NSEI','000001.SS','000300.SS','^HSI','^FTSE','^FCHI','^GDAXI']
+YIELDS     = ['^TNX','^TYX']
+DX_VIX     = ['DX-Y.NYB','^VIX']
+CRYPTO_YF  = ['BTC-USD','ETH-USD','SOL-USD','XRP-USD']
 
-# ── LOAD FROM tickers.json ────────────────────────────────────────────────────────────────────
+# ── LOAD FROM tickers.json ──────────────────────────────────────────────────────────────────────
 config_path = Path(__file__).parent / 'tickers.json'
 if config_path.exists():
     with open(config_path) as f:
@@ -56,9 +54,9 @@ if config_path.exists():
     CRYPTO_YF  = CFG.get('crypto',     CRYPTO_YF)
     print(f"\u2713 Loaded tickers from tickers.json ({len(THEMATIC)} thematic, {len(COUNTRY)} country)")
 else:
-    print("\u26a0 tickers.json not found — using built-in defaults")
+    print("\u26a0 tickers.json not found \u2014 using built-in defaults")
 
-# ── TICKER REMAPS ──────────────────────────────────────────────────────────────────────────────
+# ── TICKER REMAPS ────────────────────────────────────────────────────────────────────────────────
 TICKER_REMAP = {
     'ES=F':'ES1!', 'NQ=F':'NQ1!', 'RTY=F':'RTY1!', 'YM=F':'YM1!',
     'GC=F':'GC1!', 'SI=F':'SI1!', 'HG=F':'HG1!', 'PL=F':'PL1!', 'PA=F':'PA1!',
@@ -68,7 +66,7 @@ TICKER_REMAP = {
     'BTC-USD':'BTC','ETH-USD':'ETH','SOL-USD':'SOL','XRP-USD':'XRP',
 }
 
-# ── 2-YEAR TREASURY YIELD ─────────────────────────────────────────────────────────────────────────────
+# ── 2-YEAR TREASURY YIELD ───────────────────────────────────────────────────────────────────────────────
 def fetch_treasury_2y():
     try:
         url = 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS2'
@@ -107,7 +105,7 @@ def fetch_treasury_2y():
         print(f"  Treasury XML failed: {e}")
     return None
 
-# ── ETF HOLDINGS ──────────────────────────────────────────────────────────────────────────────────────
+# ── ETF HOLDINGS ─────────────────────────────────────────────────────────────────────────────────────────
 def _safe_float(val):
     """Convert val to float, return None if NaN/invalid."""
     try:
@@ -121,16 +119,13 @@ def _pct_from_val(val):
     f = _safe_float(val)
     if f is None or f == 0:
         return 0.0
-    # If value is between 0 and 1, treat as decimal fraction -> multiply by 100
     if 0 < f <= 1.0:
         return round(f * 100, 2)
-    # Otherwise treat as already-percentage
     return round(f, 2)
 
 def fetch_etf_holdings(tickers):
     holdings_map = {}
     total = len(tickers)
-    debug_done = False  # Print column debug for first ETF only
 
     for i, sym in enumerate(tickers):
         print(f"  Holdings [{i+1}/{total}] {sym}...", end=' ')
@@ -145,32 +140,21 @@ def fetch_etf_holdings(tickers):
                     th = fd.top_holdings
                     if th is not None and hasattr(th, 'iterrows') and not th.empty:
 
-                        # Debug: show actual columns for first ETF processed
-                        if not debug_done:
-                            cols = list(th.columns)
-                            idx0 = th.index[0] if len(th) > 0 else 'N/A'
-                            row0 = dict(th.iloc[0]) if len(th) > 0 else {}
-                            print(f"\n    [DEBUG] cols={cols} idx0={idx0!r} row0={row0}")
-                            debug_done = True
-
                         for idx, row in th.head(10).iterrows():
-                            # Index = holding name or ticker symbol
-                            n = str(idx).strip() if str(idx) not in ('', 'nan') else ''
-                            s = ''
+                            # Index = ticker symbol; Name column = company name
+                            s = str(idx).strip() if str(idx) not in ('', 'nan') else ''
+                            n = ''
+                            if 'Name' in row.index:
+                                v = str(row['Name']).strip()
+                                if v and v != 'nan':
+                                    n = v
+                            if not n:
+                                n = s
                             w = 0.0
 
-                            # Try to get symbol from columns
-                            for sym_col in ['symbol', 'Symbol', 'ticker', 'Ticker']:
-                                if sym_col in row.index:
-                                    v = str(row[sym_col]).strip()
-                                    if v and v != 'nan':
-                                        s = v
-                                    break
-
                             # Try known weight column names
-                            for pct_col in ['holdingPercent', 'holdingpercent',
-                                            'Holding Percent', '% Assets',
-                                            'weight', 'Weight', 'percent', 'Percent']:
+                            for pct_col in ['Holding Percent', 'holdingPercent', 'holdingpercent',
+                                            '% Assets', 'weight', 'Weight', 'percent', 'Percent']:
                                 if pct_col in row.index:
                                     w = _pct_from_val(row[pct_col])
                                     break
@@ -187,11 +171,11 @@ def fetch_etf_holdings(tickers):
                                         break
 
                             if n or s:
-                                rows.append({'s': s, 'n': n or s, 'w': w})
+                                rows.append({'s': s, 'n': n, 'w': w})
             except Exception as e:
                 print(f"(funds_data err: {e})", end=' ')
 
-            # ── Method 2: info['holdings'] fallback ───────────────────────────
+            # ── Method 2: info['holdings'] fallback ──────────────────────────
             if not rows:
                 try:
                     info = t.info
@@ -217,7 +201,7 @@ def fetch_etf_holdings(tickers):
 
     return holdings_map
 
-# ── CORE METRICS ───────────────────────────────────────────────────────────────────────────────────────────────
+# ── CORE METRICS ──────────────────────────────────────────────────────────────────────────────────────────────────
 def pct(new, old):
     if old and old != 0:
         return round((new - old) / abs(old) * 100, 2)
@@ -265,22 +249,26 @@ def extract_metrics(df, sym):
         return None
     closes = df['Close'].values
     price  = float(closes[-1])
-    d1 = pct(closes[-1], closes[-2]) if len(closes) >= 2 else 0.0
-    w1 = pct(closes[-1], closes[-6]) if len(closes) >= 6 else 0.0
+    d1     = pct(closes[-1], closes[-2]) if len(closes) >= 2 else 0.0
+    w1     = pct(closes[-1], closes[-6]) if len(closes) >= 6 else 0.0
     hi52_price = float(df['High'].max()) if 'High' in df else price
     hi52_pct   = pct(price, hi52_price)
     this_year  = datetime.datetime.now().year
     ytd_df     = df[df.index.year == this_year]
-    ytd = pct(price, float(ytd_df['Close'].iloc[0])) if len(ytd_df) > 0 else 0.0
+    ytd        = pct(price, float(ytd_df['Close'].iloc[0])) if len(ytd_df) > 0 else 0.0
     spark = []
     for i in range(max(1, len(closes)-5), len(closes)):
         spark.append(round(pct(closes[i], closes[i-1]), 2))
     while len(spark) < 5:
         spark.insert(0, 0.0)
     result = {
-        'sym': TICKER_REMAP.get(sym, sym),
+        'sym':   TICKER_REMAP.get(sym, sym),
         'price': round(price, 4),
-        'd1': d1, 'w1': w1, 'hi52': hi52_pct, 'ytd': ytd, 'spark': spark,
+        'd1':    d1,
+        'w1':    w1,
+        'hi52':  hi52_pct,
+        'ytd':   ytd,
+        'spark': spark,
     }
     crypto_ids   = {'BTC-USD':'bitcoin','ETH-USD':'ethereum','SOL-USD':'solana','XRP-USD':'ripple'}
     crypto_names = {'BTC-USD':'Bitcoin','ETH-USD':'Ethereum','SOL-USD':'Solana','XRP-USD':'Ripple'}
@@ -289,22 +277,30 @@ def extract_metrics(df, sym):
         result['name'] = crypto_names[sym]
     return result
 
-# ── MAIN FETCH ───────────────────────────────────────────────────────────────────────────────────────────────────
+# ── MAIN FETCH ──────────────────────────────────────────────────────────────────────────────────────────────────────
 def fetch_all():
     output = {
         'generated_at': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'futures': [], 'dxvix': [], 'metals': [], 'commod': [],
-        'yields': [], 'global': [], 'etfmain': [], 'submarket': [],
-        'sector': [], 'sectorew': [], 'thematic': [], 'country': [],
-        'crypto': [], 'holdings': {},
+        'futures':  [], 'dxvix':   [], 'metals':   [], 'commod':  [],
+        'yields':   [], 'global':  [], 'etfmain':  [], 'submarket':[],
+        'sector':   [], 'sectorew':[], 'thematic': [], 'country': [],
+        'crypto':   [], 'holdings':{},
     }
 
     batches = [
-        ('futures', FUTURES), ('etfmain', ETF_MAIN), ('submarket', SUBMARKET),
-        ('sector', SECTOR), ('sectorew', SECTOR_EW), ('thematic', THEMATIC),
-        ('country', COUNTRY), ('metals', METALS), ('commod', ENERGY),
-        ('global', GLOBAL_IDX), ('yields', YIELDS), ('dxvix', DX_VIX),
-        ('crypto', CRYPTO_YF),
+        ('futures',   FUTURES),
+        ('etfmain',   ETF_MAIN),
+        ('submarket', SUBMARKET),
+        ('sector',    SECTOR),
+        ('sectorew',  SECTOR_EW),
+        ('thematic',  THEMATIC),
+        ('country',   COUNTRY),
+        ('metals',    METALS),
+        ('commod',    ENERGY),
+        ('global',    GLOBAL_IDX),
+        ('yields',    YIELDS),
+        ('dxvix',     DX_VIX),
+        ('crypto',    CRYPTO_YF),
     ]
 
     for key, tickers in batches:
@@ -335,7 +331,6 @@ def fetch_all():
     print(f"\nFetching ETF holdings ({len(holdings_tickers)} ETFs)...")
     output['holdings'] = fetch_etf_holdings(holdings_tickers)
     print(f"\u2713 Holdings fetched for {len(output['holdings'])} ETFs")
-
     return output
 
 if __name__ == '__main__':
