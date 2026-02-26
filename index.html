@@ -361,11 +361,30 @@ td:first-child,td.l{text-align:left}
 <div class="divider"></div>
 
 <!-- ══════════════════════════════════════════════════════ -->
-<!-- SECTION 3: POSITION SIZING                            -->
 <!-- ══════════════════════════════════════════════════════ -->
-<div class="sec" id="s3">
+<!-- SECTION 3: MARKET BREADTH & SENTIMENT                 -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="sec" id="s-breadth">
   <div class="sec-hdr">
     <div class="sec-n">03</div>
+    <div class="sec-t">Market Breadth &amp; Sentiment</div>
+    <div class="sec-sub">S&amp;P 500 INTERNALS &middot; SENTIMENT INDICATORS &middot; UPDATED DAILY</div>
+  </div>
+  <div class="card" style="padding:16px 18px">
+    <div class="card-lbl" style="margin-bottom:14px">&#9658; Market Internals Dashboard</div>
+    <div id="breadthGrid" style="display:grid;grid-template-columns:repeat(7,1fr);gap:10px">
+      <div style="color:var(--text3);font-size:11px;grid-column:span 7;text-align:center;padding:20px 0">Loading breadth data&hellip;</div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 4: POSITION SIZING                            -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="sec" id="s4">
+  <div class="sec-hdr">
+    <div class="sec-n">04</div>
     <div class="sec-t">Position Sizing Calculator</div>
     <div class="sec-sub">RISK-BASED · STAGGERED STOPS</div>
   </div>
@@ -409,7 +428,7 @@ td:first-child,td.l{text-align:left}
         <button class="s-tab" id="st3" onclick="setStops(3)">3-STOP</button>
       </div>
       <div class="stops-body">
-        <div class="sr-hdr"><span>Level</span><span>Price</span><span>Shares at Level</span><span>% of Position</span><span>P&L at Stop</span></div>
+        <div class="sr-hdr"><span>Level</span><span>Price</span><span>Shares to Remove</span><span>% of Position</span><span>P&L at Stop</span></div>
         <div id="srRows"></div>
         <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--border)">
           <div class="viz-note">Scale-Out Visualization</div>
@@ -418,7 +437,7 @@ td:first-child,td.l{text-align:left}
         <!-- Risk/Reward helper -->
         <div style="margin-top:22px;padding-top:12px;border-top:1px solid var(--border)">
           <div class="viz-note" style="margin-bottom:8px">R:R Targets</div>
-          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:6px" id="rrTargets"></div>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px" id="rrTargets"></div>
         </div>
       </div>
     </div>
@@ -1066,7 +1085,7 @@ function openChart(rawSym, name) {
   const url = 'https://s.tradingview.com/widgetembed/?frameElementId=tv_frame'
     + '&symbol=' + encodeURIComponent(tvSym)
     + '&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=0'
-    + '&toolbarbg=131722&studies='+encodeURIComponent(JSON.stringify([{"id":"MAExp@tv-basicstudies","inputs":{"length":10}},{"id":"MAExp@tv-basicstudies","inputs":{"length":20}},{"id":"MASimple@tv-basicstudies","inputs":{"length":50}},{"id":"MASimple@tv-basicstudies","inputs":{"length":200}}]))+'&theme=dark&style=1'
+    + '&toolbarbg=131722&studies='+encodeURIComponent(JSON.stringify([{"id":"MAExp@tv-basicstudies","inputs":{"length":20}},{"id":"MASimple@tv-basicstudies","inputs":{"length":50}}]))+'&theme=dark&style=1'
     + '&timezone=exchange&withdateranges=1&showpopupbutton=1'
     + '&overrides=%7B%7D'
     + '&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en';
@@ -1090,6 +1109,68 @@ function toast(msg){
   const t=document.getElementById('toast');
   t.textContent=msg;t.classList.add('show');
   setTimeout(()=>t.classList.remove('show'),3200);
+}
+
+// ═══════════════════════════════════════════════════════
+// MARKET BREADTH & SENTIMENT
+// ═══════════════════════════════════════════════════════
+function renderBreadth(d) {
+  const br = d ? d.breadth : null;
+  const grid = document.getElementById('breadthGrid');
+  if (!grid) return;
+  if (!br) {
+    grid.innerHTML = '<div style="color:var(--text3);font-size:11px;grid-column:span 7;text-align:center;padding:20px 0">Breadth data unavailable — run fetch_data.py to generate</div>';
+    return;
+  }
+  grid.innerHTML = '';
+
+  const fg = br.fear_greed || {};
+  const fgScore = typeof fg.score === 'number' ? fg.score : 50;
+  const fgRating = (fg.rating || 'Neutral').replace(/_/g,' ');
+  const fgCol = fgScore >= 60 ? 'var(--green)' : fgScore <= 40 ? 'var(--red)' : 'var(--amber)';
+
+  const nm = br.naaim || {};
+  const nmVal = typeof nm.value === 'number' ? nm.value : 0;
+  const nmCol = nmVal >= 80 ? 'var(--red)' : nmVal <= 30 ? 'var(--green)' : 'var(--amber)';
+  const nmLbl = nmVal >= 80 ? 'OVEREXPOSED' : nmVal >= 50 ? 'BULLISH' : nmVal >= 30 ? 'NEUTRAL' : 'DEFENSIVE';
+
+  const ad = br.advance_decline || {};
+  const adv = ad.advancers ?? 0, dec = ad.decliners ?? 0, adNet = adv - dec;
+  const adCol = adNet >= 0 ? 'var(--green)' : 'var(--red)';
+
+  const hl = br.new_high_low || {};
+  const nH = hl.new_highs ?? 0, nL = hl.new_lows ?? 0, hlNet = nH - nL;
+  const hlCol = hlNet >= 0 ? 'var(--green)' : 'var(--red)';
+
+  const p20  = br.pct_above_sma20  ?? 0;
+  const p50  = br.pct_above_sma50  ?? 0;
+  const p200 = br.pct_above_sma200 ?? 0;
+  const pCol = p => p >= 60 ? 'var(--green)' : p <= 40 ? 'var(--red)' : 'var(--amber)';
+  const pLbl = p => p >= 60 ? 'BROAD STRENGTH' : p <= 40 ? 'WEAK BREADTH'  : 'MIXED';
+
+  const fmt = n => n >= 1000 ? n.toLocaleString() : String(n);
+  const netStr = n => (n >= 0 ? '▲ +' : '▼ ') + fmt(Math.abs(n)) + ' net';
+
+  const cards = [
+    { lbl:'Fear & Greed',   val:fgScore.toFixed(0),     sub:fgRating.toUpperCase(), col:fgCol,    note:'CNN Index · 0=Extreme Fear, 100=Extreme Greed' },
+    { lbl:'NAAIM Exposure', val:nmVal.toFixed(0)+'%',   sub:nmLbl,                  col:nmCol,    note:'Active mgr equity exposure · ' + (nm.date || 'weekly') },
+    { lbl:'Advancers',      val:fmt(adv),               sub:netStr(adNet),           col:adCol,    note:'vs ' + fmt(dec) + ' decliners · session' },
+    { lbl:'New Highs',      val:fmt(nH),                sub:netStr(hlNet),           col:hlCol,    note:'vs ' + fmt(nL) + ' new lows · 52-wk' },
+    { lbl:'% > SMA 20', val:p20.toFixed(1)+'%',  sub:pLbl(p20),              col:pCol(p20), note:'S&P 500 stocks above 20-day MA' },
+    { lbl:'% > SMA 50', val:p50.toFixed(1)+'%',  sub:pLbl(p50),              col:pCol(p50), note:'S&P 500 stocks above 50-day MA' },
+    { lbl:'% > SMA 200',    val:p200.toFixed(1)+'%',   sub:pLbl(p200),             col:pCol(p200),note:'S&P 500 stocks above 200-day MA' },
+  ];
+
+  cards.forEach(c => {
+    const el = document.createElement('div');
+    el.style.cssText = 'background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:12px 8px;text-align:center;display:flex;flex-direction:column;gap:4px;min-height:100px;justify-content:space-between';
+    el.innerHTML =
+      '<div style="font-size:8.5px;color:var(--text3);letter-spacing:1.2px;text-transform:uppercase">'   + c.lbl + '</div>'
+    + '<div style="font-size:20px;font-weight:700;color:' + c.col + ';font-family:var(--mono);line-height:1.1">' + c.val + '</div>'
+    + '<div style="font-size:8.5px;color:' + c.col + ';letter-spacing:0.5px;font-weight:500">'            + c.sub + '</div>'
+    + '<div style="font-size:7.5px;color:var(--text3);line-height:1.3">'                                  + c.note + '</div>';
+    grid.appendChild(el);
+  });
 }
 
 // ═══════════════════════════════════════════════════════
@@ -1133,20 +1214,22 @@ function calc(){
   document.getElementById('rPts').textContent='$'+rPts.toFixed(2);
   document.getElementById('rEq').textContent=pctEq.toFixed(1)+'%';
 
-  // Build staggered stops
+  // Build staggered stops (shares = qty to REMOVE at level; pct = % remaining)
   const levels=[];
   if(STOPS===2){
     const mid=(en+st)/2;
-    levels.push({lbl:'Entry',price:en,shares,pct:100,pnl:0,cls:'sr-entry'});
-    levels.push({lbl:'Stop 1 (mid)',price:mid,shares:Math.floor(shares/2),pct:50,pnl:-Math.abs(en-mid)*Math.floor(shares/2),cls:'sr-mid'});
-    levels.push({lbl:'Final Stop',price:st,shares,pct:100,pnl:-rAmt,cls:'sr-fin'});
+    const s1=Math.floor(shares/2), s2=shares-Math.floor(shares/2);
+    levels.push({lbl:'Entry',       price:en,  shares:0,  pct:100,                       pnl:0,              cls:'sr-entry'});
+    levels.push({lbl:'Stop 1 (mid)',price:mid, shares:s1, pct:Math.round(s2/shares*100), pnl:-Math.abs(en-mid)*s1, cls:'sr-mid'});
+    levels.push({lbl:'Final Stop',  price:st,  shares:s2, pct:0,                         pnl:-rPts*s2,       cls:'sr-fin'});
   } else {
-    const gap=rPts/3;
-    const d=DIR==='long'?-1:1;
-    levels.push({lbl:'Entry',price:en,shares,pct:100,pnl:0,cls:'sr-entry'});
-    levels.push({lbl:'Stop 1 (⅓)',price:en+gap*d,shares:Math.floor(shares/3),pct:33,pnl:-(gap*Math.floor(shares/3)),cls:'sr-mid'});
-    levels.push({lbl:'Stop 2 (⅔)',price:en+gap*2*d,shares:Math.floor(shares*2/3),pct:67,pnl:-(gap*2*Math.floor(shares*2/3)),cls:'sr-mid'});
-    levels.push({lbl:'Final Stop',price:st,shares,pct:100,pnl:-rAmt,cls:'sr-fin'});
+    const gap=rPts/3, dDir=DIR==='long'?-1:1;
+    const s1=Math.floor(shares/3), s2=Math.floor(shares/3), s3=shares-Math.floor(shares/3)-Math.floor(shares/3);
+    const p1=en+gap*dDir, p2=en+gap*2*dDir;
+    levels.push({lbl:'Entry',       price:en, shares:0,  pct:100,                              pnl:0,          cls:'sr-entry'});
+    levels.push({lbl:'Stop 1 (⅓)', price:p1, shares:s1, pct:Math.round((shares-s1)/shares*100), pnl:-(gap*s1),    cls:'sr-mid'});
+    levels.push({lbl:'Stop 2 (⅔)', price:p2, shares:s2, pct:Math.round(s3/shares*100),         pnl:-(gap*2*s2),  cls:'sr-mid'});
+    levels.push({lbl:'Final Stop',  price:st, shares:s3, pct:0,                                pnl:-(rPts*s3),   cls:'sr-fin'});
   }
 
   const rows=document.getElementById('srRows');rows.innerHTML='';
@@ -1155,7 +1238,7 @@ function calc(){
     const d=document.createElement('div');d.className='sr';
     d.innerHTML=`<span class="sr-lbl">${lv.lbl}</span>
       <span class="sr-price ${lv.cls}">$${fp(lv.price)}</span>
-      <span class="sr-shares">${lv.shares.toLocaleString()} sh</span>
+      <span class="sr-shares">${lv.shares===0?'—':lv.shares.toLocaleString()+' sh'}</span>
       <span class="sr-pct" style="color:var(--text2)">${lv.pct}%</span>
       <span class="sr-pnl" style="color:${pnlCol}">${lv.pnl===0?'—':'$'+Math.round(lv.pnl).toLocaleString()}</span>`;
     rows.appendChild(d);
@@ -1178,7 +1261,7 @@ function calc(){
 
   // R:R targets
   const rr=document.getElementById('rrTargets');rr.innerHTML='';
-  [1,1.5,2,3].forEach(r=>{
+  [1,1.5,2,3,4,5].forEach(r=>{
     const tgt=DIR==='long'?en+rPts*r:en-rPts*r;
     const pnl=rPts*r*shares;
     const d=document.createElement('div');
@@ -1290,6 +1373,7 @@ renderAll = function(d) {
       if (rows && rows.length > 0) HOLDINGS[sym] = rows;
     }
   }
+  if (typeof renderBreadth === 'function') renderBreadth(d);
   return __origRenderAll(d);
 };
 

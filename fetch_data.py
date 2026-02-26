@@ -14,6 +14,12 @@ except ImportError:
     import subprocess
     subprocess.check_call([sys.executable, "-m", "pip", "install", "yfinance", "requests"])
     import yfinance as yf
+try:
+    import pandas as pd
+except ImportError:
+    import subprocess
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "pandas", "lxml", "html5lib"])
+    import pandas as pd
 import requests
 
 # ── DEFAULT TICKERS (overridden by tickers.json if present) ────────────────────
@@ -277,6 +283,137 @@ def extract_metrics(df, sym):
         result['name'] = crypto_names[sym]
     return result
 
+# ── FEAR & GREED ──────────────────────────────────────────────────────────────────────────────────
+def fetch_fear_greed():
+    """Fetch CNN Fear & Greed Index score and rating."""
+    try:
+        url = "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+        r = requests.get(url, timeout=10, headers={'User-Agent': 'Mozilla/5.0'})
+        r.raise_for_status()
+        data = r.json()
+        fg = data.get('fear_and_greed', {})
+        score  = round(float(fg.get('score', 50)), 1)
+        rating = fg.get('rating', 'neutral').replace('_', ' ').title()
+        print(f"  ✓ Fear & Greed: {score} ({rating})")
+        return {'score': score, 'rating': rating}
+    except Exception as e:
+        print(f"  ⚠ Fear & Greed fetch failed: {e}")
+        return None
+
+# ── NAAIM EXPOSURE INDEX ────────────────────────────────────────────────────────────────────────────
+def fetch_naaim():
+    """Scrape NAAIM Exposure Index — latest weekly reading."""
+    try:
+        url = "https://www.naaim.org/programs/naaim-exposure-index/"
+        tables = pd.read_html(url)
+        if not tables:
+            raise ValueError("No tables found on NAAIM page")
+        df = tables[0]
+        df.columns = [str(c).strip() for c in df.columns]
+        # Identify the exposure column (NAAIM Number / exposure value)
+        naaim_col = None
+        for col in df.columns:
+            if any(k in col.lower() for k in ('naaim', 'number', 'exposure')):
+                naaim_col = col
+                break
+        if naaim_col is None:
+            naaim_col = df.columns[1] if len(df.columns) > 1 else df.columns[0]
+        date_col = df.columns[0]
+        for _, row in df.iterrows():
+            try:
+                val = float(row[naaim_col])
+                if -200 <= val <= 300:
+                    date_str = str(row[date_col])
+                    print(f"  ✓ NAAIM: {val:.1f}% ({date_str})")
+                    return {'value': round(val, 1), 'date': date_str}
+            except (ValueError, TypeError):
+                continue
+        raise ValueError("Could not parse NAAIM exposure value from table")
+    except Exception as e:
+        print(f"  ⚠ NAAIM fetch failed: {e}")
+        return None
+
+# ── S&P 500 BREADTH COMPUTATION ──────────────────────────────────────────────────────────────────────
+def compute_sp500_breadth():
+    """Download S&P 500 component data and compute breadth metrics."""
+    try:
+        # Get S&P 500 component list from Wikipedia
+        print("  Fetching S&P 500 component list...")
+        sp_df = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')[0]
+        tickers = [t.replace('.', '-') for t in sp_df['Symbol'].tolist()]
+        print(f"  Downloading {len(tickers)} tickers (1 year of daily closes)...")
+        raw = yf.download(tickers, period='1y', interval='1d',
+                          auto_adjust=True, progress=False, threads=True)
+        if raw.empty:
+            raise ValueError("No data returned")
+
+        # Extract close prices
+        close = raw['Close'] if isinstance(raw.columns, pd.MultiIndex) else raw
+        close = close.dropna(axis=1, how='all').ffill()
+        if len(close) < 5:
+            raise ValueError("Not enough trading days in data")
+
+        last = close.iloc[-1]
+        prev = close.iloc[-2]
+
+        # Advancers / Decliners
+        changes = last - prev
+        advancers = int((changes > 0).sum())
+        decliners = int((changes < 0).sum())
+        print(f"  A/D: {advancers} adv / {decliners} dec")
+
+        # New 52-week Highs / Lows (within 1% of extreme)
+        window = close.iloc[-252:] if len(close) >= 252 else close
+        hi52 = window.max()
+        lo52 = window.min()
+        new_highs = int((last >= hi52 * 0.99).sum())
+        new_lows  = int((last <= lo52 * 1.01).sum())
+        print(f"  NH/NL: {new_highs} highs / {new_lows} lows")
+
+        # % of stocks above SMA 20, 50, 200
+        def pct_above(n):
+            if len(close) < n:
+                return 0.0
+            sma = close.rolling(n).mean().iloc[-1]
+            valid = sma.dropna()
+            if valid.empty:
+                return 0.0
+            return round(float((last[valid.index] > valid).sum()) / len(valid) * 100, 1)
+
+        p20  = pct_above(20)
+        p50  = pct_above(50)
+        p200 = pct_above(200)
+        print(f"  % above SMA: 20={p20}% | 50={p50}% | 200={p200}%")
+
+        return {
+            'advance_decline': {'advancers': advancers, 'decliners': decliners},
+            'new_high_low':    {'new_highs': new_highs, 'new_lows': new_lows},
+            'pct_above_sma20':  p20,
+            'pct_above_sma50':  p50,
+            'pct_above_sma200': p200,
+        }
+    except Exception as e:
+        print(f"  ⚠ S&P 500 breadth failed: {e}")
+        return None
+
+# ── BREADTH WRAPPER ──────────────────────────────────────────────────────────────────────────────────
+def fetch_breadth():
+    """Fetch all market breadth & sentiment indicators."""
+    print("\nFetching market breadth & sentiment...")
+    fg = fetch_fear_greed()
+    nm = fetch_naaim()
+    sp = compute_sp500_breadth()
+    result = {
+        'fear_greed': fg,
+        'naaim':      nm,
+        'advance_decline':  sp.get('advance_decline')  if sp else None,
+        'new_high_low':     sp.get('new_high_low')     if sp else None,
+        'pct_above_sma20':  sp.get('pct_above_sma20')  if sp else None,
+        'pct_above_sma50':  sp.get('pct_above_sma50')  if sp else None,
+        'pct_above_sma200': sp.get('pct_above_sma200') if sp else None,
+    }
+    return result
+
 # ── MAIN FETCH ──────────────────────────────────────────────────────────────────────────────────────────────────────
 def fetch_all():
     output = {
@@ -284,7 +421,7 @@ def fetch_all():
         'futures':  [], 'dxvix':   [], 'metals':   [], 'commod':  [],
         'yields':   [], 'global':  [], 'etfmain':  [], 'submarket':[],
         'sector':   [], 'sectorew':[], 'thematic': [], 'country': [],
-        'crypto':   [], 'holdings':{},
+        'crypto':   [], 'holdings':{}, 'breadth':  {},
     }
 
     batches = [
@@ -331,6 +468,9 @@ def fetch_all():
     print(f"\nFetching ETF holdings ({len(holdings_tickers)} ETFs)...")
     output['holdings'] = fetch_etf_holdings(holdings_tickers)
     print(f"\u2713 Holdings fetched for {len(output['holdings'])} ETFs")
+
+    output['breadth'] = fetch_breadth()
+    print(f"\u2713 Breadth data fetched")
     return output
 
 if __name__ == '__main__':
