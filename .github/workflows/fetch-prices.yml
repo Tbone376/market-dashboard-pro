@@ -1,0 +1,47 @@
+name: Refresh Prices (Intraday)
+
+# Runs every 15 min across all global market sessions (Mon–Fri):
+#   UTC 00:00–21:00  =  HKT 08:00–05:00+1
+#   Covers: Tokyo (00:00–06:30 UTC) · HK/China (01:30–08:00 UTC)
+#           Europe (07:00–15:30 UTC) · US (13:30–20:00 UTC)
+on:
+  schedule:
+    - cron: '*/15 0-21 * * 1-5'
+  workflow_dispatch:
+
+# Prevent concurrent runs from stomping on each other
+concurrency:
+  group: market-data-write
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install yfinance requests pandas
+
+      - name: Refresh prices
+        run: python fetch_data.py --prices-only
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
+
+      - name: Commit & push data.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/data.json
+          git diff --staged --quiet || git commit -m "chore: refresh prices $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase origin main
+          git push

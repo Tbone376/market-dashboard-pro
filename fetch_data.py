@@ -606,13 +606,27 @@ def fetch_breadth():
     return result
 
 # ── MAIN FETCH ──────────────────────────────────────────────────────────────────────────────────────────────────────
-def fetch_all():
+def fetch_all(prices_only=False):
+    # In prices-only mode, preserve existing holdings & breadth from last full run
+    existing = {}
+    if prices_only:
+        out_path = Path('data/data.json')
+        if out_path.exists():
+            try:
+                with open(out_path) as f:
+                    existing = json.load(f)
+                print(f"✓ Loaded existing data.json (will preserve holdings & breadth)")
+            except Exception as e:
+                print(f"⚠ Could not load existing data.json: {e}")
+
     output = {
         'generated_at': datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
         'futures':  [], 'dxvix':   [], 'metals':   [], 'commod':  [],
         'yields':   [], 'global':  [], 'etfmain':  [], 'submarket':[],
         'sector':   [], 'sectorew':[], 'thematic': [], 'country': [],
-        'crypto':   [], 'holdings':{}, 'breadth':  {},
+        'crypto':   [],
+        'holdings': existing.get('holdings', {}),
+        'breadth':  existing.get('breadth',  {}),
     }
 
     # Batches using Massive API (ETFs, crypto, global indices, VIX)
@@ -690,21 +704,32 @@ def fetch_all():
     for key in ('country', 'sector', 'sectorew', 'thematic', 'submarket'):
         output[key].sort(key=lambda x: x.get('w1', 0), reverse=True)
 
-    holdings_tickers = list(dict.fromkeys(
-        ETF_MAIN + SUBMARKET + SECTOR + SECTOR_EW + THEMATIC + COUNTRY
-    ))
-    print(f"\nFetching ETF holdings ({len(holdings_tickers)} ETFs)...")
-    output['holdings'] = fetch_etf_holdings(holdings_tickers)
-    print(f"\u2713 Holdings fetched for {len(output['holdings'])} ETFs")
+    if not prices_only:
+        holdings_tickers = list(dict.fromkeys(
+            ETF_MAIN + SUBMARKET + SECTOR + SECTOR_EW + THEMATIC + COUNTRY
+        ))
+        print(f"\nFetching ETF holdings ({len(holdings_tickers)} ETFs)...")
+        output['holdings'] = fetch_etf_holdings(holdings_tickers)
+        print(f"\u2713 Holdings fetched for {len(output['holdings'])} ETFs")
 
-    output['breadth'] = fetch_breadth()
-    print(f"\u2713 Breadth data fetched")
+        output['breadth'] = fetch_breadth()
+        print(f"\u2713 Breadth data fetched")
+    else:
+        print("\nPrices-only mode \u2014 skipping holdings & breadth (preserved from last full run)")
+
     return output
 
 if __name__ == '__main__':
-    print("=== Market Dashboard Data Fetch ===")
+    import argparse
+    parser = argparse.ArgumentParser(description='Market Dashboard Data Fetcher')
+    parser.add_argument('--prices-only', action='store_true',
+                        help='Refresh prices only; skip holdings & breadth (for intraday runs)')
+    args = parser.parse_args()
+
+    mode = 'PRICES ONLY' if args.prices_only else 'FULL RUN'
+    print(f"=== Market Dashboard Data Fetch [{mode}] ===")
     print(f"Time: {datetime.datetime.utcnow()} UTC\n")
-    data = fetch_all()
+    data = fetch_all(prices_only=args.prices_only)
     out_path = Path('data/data.json')
     out_path.parent.mkdir(exist_ok=True)
     with open(out_path, 'w') as f:
