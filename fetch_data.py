@@ -638,15 +638,14 @@ def fetch_all(prices_only=False):
         ('thematic',  THEMATIC),
         ('country',   COUNTRY),
         ('crypto',    CRYPTO_YF),
-        ('global',    GLOBAL_IDX),  # global indices via Massive Indices API (I: prefix)
-        ('dxvix',     ['^VIX']),    # VIX via Massive Indices API
+        ('global',    GLOBAL_IDX),  # global indices via Massive Indices API (I: prefix)    
     ]
     # Batches using yfinance (futures, metals, energy, DXY)
     yf_batches = [
         ('futures',   FUTURES),
         ('metals',    METALS),
         ('commod',    ENERGY),
-        ('dxvix',     ['DX-Y.NYB']),  # DXY stays on yfinance (no Massive equivalent)
+        ('dxvix',    ['DX-Y.NYB', '^VIX']),  # DXY and VIX via yfinance
     ]
 
     use_massive = bool(MASSIVE_API_KEY)
