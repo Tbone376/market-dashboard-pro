@@ -196,6 +196,10 @@ td:first-child,td.l{text-align:left}
 .snap-flash{position:fixed;inset:0;background:rgba(0,200,255,.08);z-index:9998;pointer-events:none;opacity:0;transition:opacity .08s}
 .snap-flash.on{opacity:1}
 
+/* ── EMA TREND INDICATOR ── */
+.ema-up{color:var(--green);font-size:13px;font-weight:600}
+.ema-dn{color:var(--text3);font-size:12px;opacity:0.5}
+
 /* ── LOADING STATE ── */
 .loading{color:var(--text3);font-size:11px;letter-spacing:1px;padding:14px;text-align:center;animation:fade .8s infinite alternate}
 @keyframes fade{from{opacity:.4}to{opacity:1}}
@@ -318,43 +322,43 @@ td:first-child,td.l{text-align:left}
   <!-- Major ETF stats -->
   <div class="card" style="margin-bottom:9px">
     <div class="card-lbl">▸ Major ETF Stats</div>
-    <table><thead><tr><th class="l">ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th></tr></thead>
-    <tbody id="t-etfmain"><tr><td colspan="7" class="loading">Loading...</td></tr></tbody></table>
+    <table><thead><tr><th class="l">ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th>Trend</th></tr></thead>
+    <tbody id="t-etfmain"><tr><td colspan="9" class="loading">Loading...</td></tr></tbody></table>
   </div>
 
   <!-- Sub-market -->
   <div class="card" style="margin-bottom:9px">
     <div class="card-lbl">▸ S&P 500 Sub-Market Performance — Ranked by 1W</div>
-    <table><thead><tr><th class="l">#</th><th class="l">Sub-Market / ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th></tr></thead>
-    <tbody id="t-submarket"><tr><td colspan="8" class="loading">Loading...</td></tr></tbody></table>
+    <table><thead><tr><th class="l">#</th><th class="l">Sub-Market / ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th>Trend</th></tr></thead>
+    <tbody id="t-submarket"><tr><td colspan="9" class="loading">Loading...</td></tr></tbody></table>
   </div>
 
   <!-- Sectors side by side -->
   <div class="g2" style="margin-bottom:9px">
     <div class="card">
       <div class="card-lbl">▸ S&P 500 Sub-Sector — Ranked by 1W</div>
-      <table><thead><tr><th class="l">#</th><th class="l">Sector</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th class="l">Holdings</th></tr></thead>
-      <tbody id="t-sector"><tr><td colspan="8" class="loading">Loading...</td></tr></tbody></table>
+      <table><thead><tr><th class="l">#</th><th class="l">Sector</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th>Trend</th><th class="l">Holdings</th></tr></thead>
+      <tbody id="t-sector"><tr><td colspan="9" class="loading">Loading...</td></tr></tbody></table>
     </div>
     <div class="card">
       <div class="card-lbl">▸ S&P 500 EW Sub-Sector — Ranked by 1W</div>
-      <table><thead><tr><th class="l">#</th><th class="l">EW Sector</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th class="l">Holdings</th></tr></thead>
-      <tbody id="t-sectorew"><tr><td colspan="8" class="loading">Loading...</td></tr></tbody></table>
+      <table><thead><tr><th class="l">#</th><th class="l">EW Sector</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th>Trend</th><th class="l">Holdings</th></tr></thead>
+      <tbody id="t-sectorew"><tr><td colspan="9" class="loading">Loading...</td></tr></tbody></table>
     </div>
   </div>
 
   <!-- Thematic Top 10 -->
   <div class="card" style="margin-bottom:9px">
     <div class="card-lbl">▸ Top 10 Thematic Sectors — Ranked by 1W (Holdings expandable ▸)</div>
-    <table><thead><tr><th class="l">#</th><th class="l">Theme / ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th class="l">Holdings</th></tr></thead>
-    <tbody id="t-thematic"><tr><td colspan="9" class="loading">Loading...</td></tr></tbody></table>
+    <table><thead><tr><th class="l">#</th><th class="l">Theme / ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th>Trend</th><th class="l">Holdings</th></tr></thead>
+    <tbody id="t-thematic"><tr><td colspan="10" class="loading">Loading...</td></tr></tbody></table>
   </div>
 
   <!-- Country ETFs -->
   <div class="card">
     <div class="card-lbl">▸ Country ETFs — Top 10 by 1W Performance (Holdings expandable ▸)</div>
-    <table><thead><tr><th class="l">#</th><th class="l">Country / ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th class="l">Holdings</th></tr></thead>
-    <tbody id="t-country"><tr><td colspan="9" class="loading">Loading...</td></tr></tbody></table>
+    <table><thead><tr><th class="l">#</th><th class="l">Country / ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th>Trend</th><th class="l">Holdings</th></tr></thead>
+    <tbody id="t-country"><tr><td colspan="10" class="loading">Loading...</td></tr></tbody></table>
   </div>
 </div>
 
@@ -865,7 +869,7 @@ function holdRow(id,sym){
 // TABLE BUILDERS
 // ═══════════════════════════════════════════════════════
 function buildRows(data, tbodyId, opts={}) {
-  const {rank=false, hasPrice=true, isYield=false, hasHoldings=false, benchmarkSym=null} = opts;
+  const {rank=false, hasPrice=true, isYield=false, hasHoldings=false, benchmarkSym=null, showEma=false} = opts;
   const tbody = document.getElementById(tbodyId);
   tbody.innerHTML='';
 
@@ -888,6 +892,19 @@ function buildRows(data, tbodyId, opts={}) {
     sparkTd.style.cssText='text-align:center;padding:4px 8px';
     sparkTd.appendChild(spark(item.spark));
     tr.appendChild(sparkTd);
+    // EMA trend indicator column (equity ETFs only)
+    if(showEma){
+      const emaTd=document.createElement('td');
+      emaTd.style.cssText='text-align:center;padding:3px 8px';
+      if(item.ema_uptrend===true){
+        emaTd.innerHTML='<span class="ema-up" title="10-EMA > 20-EMA · Short-term uptrend">✓</span>';
+      } else if(item.ema_uptrend===false){
+        emaTd.innerHTML='<span class="ema-dn" title="10-EMA ≤ 20-EMA">✗</span>';
+      } else {
+        emaTd.innerHTML='<span style="color:var(--text3);font-size:11px">—</span>';
+      }
+      tr.appendChild(emaTd);
+    }
     if(hasHoldings){
       const hTd=document.createElement('td');
       hTd.className='l';
@@ -905,7 +922,7 @@ function buildRows(data, tbodyId, opts={}) {
         const holdTr=document.createElement('tr');
         holdTr.className='holdings-row';
         holdTr.id='hold'+hid;
-        const colspan = (rank?1:0)+1+(hasPrice?1:0)+4+1+(hasHoldings?1:0);
+        const colspan = (rank?1:0)+1+(hasPrice?1:0)+4+1+(showEma?1:0)+(hasHoldings?1:0);
         holdTr.innerHTML=`<td colspan="${colspan}" style="padding:0"><div class="holdings-inner">
           <div class="h-title">TOP 10 HOLDINGS BY WEIGHT — ${META[sym]?.name||sym}</div>
           <div class="h-list">${h.map(x=>`<div class="h-item"><span class="h-w">${x.w.toFixed(1)}%</span><span class="h-sym">${x.s}</span><span class="h-nm">${x.n}</span></div>`).join('')}</div>
@@ -938,20 +955,20 @@ function renderAll(d) {
   buildRows(d.commod,    't-commod',   {hasPrice:true});
   buildRows(d.yields,    't-yields',   {hasPrice:true,isYield:true});
   buildRows(d.global,    't-global',   {hasPrice:true});
-  buildRows(d.etfmain,   't-etfmain',  {hasPrice:true,hasHoldings:true});
-  buildRows(d.submarket, 't-submarket',{rank:true,hasPrice:true});
+  buildRows(d.etfmain,   't-etfmain',  {hasPrice:true,hasHoldings:true,showEma:true});
+  buildRows(d.submarket, 't-submarket',{rank:true,hasPrice:true,showEma:true});
   const _spySec = d.etfmain ? d.etfmain.find(e=>e.sym==='SPY') : null;
   let _secData = d.sector ? [...d.sector] : [];
   if(_spySec && !_secData.find(e=>e.sym==='SPY')) _secData.push({..._spySec});
   _secData.sort((a,b)=>(b.w1||0)-(a.w1||0));
-  buildRows(_secData, 't-sector', {rank:true,hasPrice:false,hasHoldings:true,benchmarkSym:'SPY'});
+  buildRows(_secData, 't-sector', {rank:true,hasPrice:false,hasHoldings:true,benchmarkSym:'SPY',showEma:true});
   let _sectorewData = d.sectorew ? [...d.sectorew] : [];
   const _rspData = d.etfmain ? d.etfmain.find(e=>e.sym==='RSP') : null;
   if(_rspData && !_sectorewData.find(e=>e.sym==='RSP')) _sectorewData.push({..._rspData});
   _sectorewData.sort((a,b)=>(b.w1||0)-(a.w1||0));
-  buildRows(_sectorewData, 't-sectorew', {rank:true,hasPrice:false,hasHoldings:true,benchmarkSym:'RSP'});
-  buildRows((d.thematic||[]).slice(0,10), 't-thematic', {rank:true,hasPrice:true,hasHoldings:true});
-  buildRows(d.country,   't-country',  {rank:true,hasPrice:true,hasHoldings:true});
+  buildRows(_sectorewData, 't-sectorew', {rank:true,hasPrice:false,hasHoldings:true,benchmarkSym:'RSP',showEma:true});
+  buildRows((d.thematic||[]).slice(0,10), 't-thematic', {rank:true,hasPrice:true,hasHoldings:true,showEma:true});
+  buildRows(d.country,   't-country',  {rank:true,hasPrice:true,hasHoldings:true,showEma:true});
 
   // Crypto
   const cb=document.getElementById('t-crypto');

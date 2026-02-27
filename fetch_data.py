@@ -36,6 +36,20 @@ MASSIVE_CRYPTO_MAP = {
     'XRP-USD': 'X:XRPUSD',
 }
 
+# Global Indices & VIX: yfinance symbol → Massive I: prefix symbol
+MASSIVE_INDICES_MAP = {
+    '^N225':     'I:NI225',
+    '^KS11':     'I:KOSPI',
+    '^NSEI':     'I:NIFTY50',
+    '000001.SS': 'I:SHCOMP',
+    '000300.SS': 'I:CSI300',
+    '^HSI':      'I:HSI',
+    '^FTSE':     'I:UKX',
+    '^FCHI':     'I:PX1',
+    '^GDAXI':    'I:DAX',
+    '^VIX':      'I:VIX',
+}
+
 # ── DEFAULT TICKERS (overridden by tickers.json if present) ────────────────────
 ETF_MAIN   = ['SPY','QQQ','DIA','IWM']
 SUBMARKET  = ['IVW','IVE','IJK','IJJ','IJT','IJS','MGK','VUG','VTV']
@@ -94,7 +108,12 @@ def fetch_massive_bars(yf_sym, days=400):
     end   = datetime.date.today()
     start = end - datetime.timedelta(days=days)
     # Determine Massive ticker symbol
-    massive_sym = MASSIVE_CRYPTO_MAP.get(yf_sym, yf_sym)
+    if yf_sym in MASSIVE_CRYPTO_MAP:
+        massive_sym = MASSIVE_CRYPTO_MAP[yf_sym]
+    elif yf_sym in MASSIVE_INDICES_MAP:
+        massive_sym = MASSIVE_INDICES_MAP[yf_sym]
+    else:
+        massive_sym = yf_sym
     url    = f"{MASSIVE_BASE}/v2/aggs/ticker/{massive_sym}/range/1/day/{start}/{end}"
     params = {'adjusted': 'true', 'sort': 'asc', 'limit': 500, 'apiKey': MASSIVE_API_KEY}
     try:
@@ -172,6 +191,77 @@ def fetch_treasury_2y():
     except Exception as e:
         print(f"  Treasury XML failed: {e}")
     return None
+
+# ── MASSIVE TREASURY YIELDS ─────────────────────────────────────────────────────────────────────────────
+def fetch_massive_treasury_yields():
+    """Fetch full yield curve from Massive Economy API (/fed/v1/treasury-yields).
+    Returns list of records for US2Y, US10Y, US30Y, or None on failure.
+    """
+    if not MASSIVE_API_KEY:
+        return None
+    end   = datetime.date.today()
+    start = end - datetime.timedelta(days=400)
+    url    = f"{MASSIVE_BASE}/fed/v1/treasury-yields"
+    params = {'from': str(start), 'to': str(end), 'limit': 500, 'sort': 'asc', 'apiKey': MASSIVE_API_KEY}
+    try:
+        r = requests.get(url, params=params, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        results = data.get('results', [])
+        if not results:
+            print(f"  Massive treasury yields: empty response (status={data.get('status')})")
+            return None
+        results.sort(key=lambda x: x.get('date', ''))
+
+        # Support multiple possible field name conventions
+        maturities = [
+            (['yield_2_year',  'rate_2_year',  'y2y',  'y2'],  'US2Y'),
+            (['yield_10_year', 'rate_10_year', 'y10y', 'y10'], 'US10Y'),
+            (['yield_30_year', 'rate_30_year', 'y30y', 'y30'], 'US30Y'),
+        ]
+
+        def _get(row, candidates):
+            for f in candidates:
+                v = row.get(f)
+                if v is not None:
+                    return float(v)
+            return None
+
+        yield_records = []
+        for fields, sym in maturities:
+            series = [_get(r, fields) for r in results]
+            series = [v for v in series if v is not None]
+            if len(series) < 2:
+                print(f"  ⚠ Massive yields: no data for {sym}")
+                continue
+            price    = series[-1]
+            d1_bps   = round((series[-1] - series[-2]) * 100, 1)
+            w1       = pct(series[-1], series[-6]) if len(series) >= 6 else 0.0
+            hi_val   = max(series[-252:]) if len(series) >= 252 else max(series)
+            hi52_pct = pct(price, hi_val)
+            this_year = str(datetime.datetime.now().year)
+            ytd_vals  = [_get(r, fields) for r in results if r.get('date', '').startswith(this_year)]
+            ytd_vals  = [v for v in ytd_vals if v is not None]
+            ytd       = pct(price, ytd_vals[0]) if ytd_vals else 0.0
+            spark_vals = []
+            for i in range(max(1, len(series) - 5), len(series)):
+                spark_vals.append(round(pct(series[i], series[i-1]), 2))
+            while len(spark_vals) < 5:
+                spark_vals.insert(0, 0.0)
+            yield_records.append({
+                'sym':   sym,
+                'price': round(price, 4),
+                'd1':    d1_bps,
+                'w1':    round(w1, 2),
+                'hi52':  round(hi52_pct, 2),
+                'ytd':   round(ytd, 2),
+                'spark': spark_vals,
+            })
+            print(f"  \u2713 {sym}: {price:.4f}% (d1={d1_bps:+.1f}bps)")
+        return yield_records if yield_records else None
+    except Exception as e:
+        print(f"  Massive treasury yields failed: {e}")
+        return None
 
 # ── ETF HOLDINGS ─────────────────────────────────────────────────────────────────────────────────────────
 def _safe_float(val):
@@ -275,6 +365,17 @@ def pct(new, old):
         return round((new - old) / abs(old) * 100, 2)
     return 0.0
 
+def _calc_ema(closes, period):
+    """Exponential moving average seeded with SMA of first `period` values."""
+    closes = list(closes)
+    if len(closes) < period:
+        return closes[-1] if closes else 0.0
+    k = 2.0 / (period + 1)
+    ema = sum(closes[:period]) / period
+    for c in closes[period:]:
+        ema = float(c) * k + ema * (1.0 - k)
+    return ema
+
 def fetch_batch(tickers, retries=3):
     results = {}
     for attempt in range(retries):
@@ -329,6 +430,13 @@ def extract_metrics(df, sym):
         spark.append(round(pct(closes[i], closes[i-1]), 2))
     while len(spark) < 5:
         spark.insert(0, 0.0)
+    # 10-EMA vs 20-EMA uptrend signal
+    ema_uptrend = None
+    if len(closes) >= 20:
+        ema10 = _calc_ema(closes, 10)
+        ema20 = _calc_ema(closes, 20)
+        ema_uptrend = bool(ema10 > ema20)
+
     result = {
         'sym':   TICKER_REMAP.get(sym, sym),
         'price': round(price, 4),
@@ -338,6 +446,8 @@ def extract_metrics(df, sym):
         'ytd':   ytd,
         'spark': spark,
     }
+    if ema_uptrend is not None:
+        result['ema_uptrend'] = ema_uptrend
     crypto_ids   = {'BTC-USD':'bitcoin','ETH-USD':'ethereum','SOL-USD':'solana','XRP-USD':'ripple'}
     crypto_names = {'BTC-USD':'Bitcoin','ETH-USD':'Ethereum','SOL-USD':'Solana','XRP-USD':'Ripple'}
     if sym in crypto_ids:
@@ -505,7 +615,7 @@ def fetch_all():
         'crypto':   [], 'holdings':{}, 'breadth':  {},
     }
 
-    # Batches using Massive API (ETFs + crypto)
+    # Batches using Massive API (ETFs, crypto, global indices, VIX)
     massive_batches = [
         ('etfmain',   ETF_MAIN),
         ('submarket', SUBMARKET),
@@ -514,15 +624,15 @@ def fetch_all():
         ('thematic',  THEMATIC),
         ('country',   COUNTRY),
         ('crypto',    CRYPTO_YF),
+        ('global',    GLOBAL_IDX),  # global indices via Massive Indices API (I: prefix)
+        ('dxvix',     ['^VIX']),    # VIX via Massive Indices API
     ]
-    # Batches using yfinance (futures, metals, energy, global indices, yields, DXY/VIX)
+    # Batches using yfinance (futures, metals, energy, DXY)
     yf_batches = [
         ('futures',   FUTURES),
         ('metals',    METALS),
         ('commod',    ENERGY),
-        ('global',    GLOBAL_IDX),
-        ('yields',    YIELDS),
-        ('dxvix',     DX_VIX),
+        ('dxvix',     ['DX-Y.NYB']),  # DXY stays on yfinance (no Massive equivalent)
     ]
 
     use_massive = bool(MASSIVE_API_KEY)
@@ -549,18 +659,33 @@ def fetch_all():
         for yf_sym in tickers:
             rec = raw.get(yf_sym)
             if rec:
-                if key == 'yields':
-                    yield_map = {'^TNX': 'US10Y', '^TYX': 'US30Y'}
-                    rec['sym'] = yield_map.get(yf_sym, rec['sym'])
                 output[key].append(rec)
             else:
                 print(f"  \u26a0 No data for {yf_sym}")
         time.sleep(1)
 
-    print("Fetching 2Y Treasury yield...")
-    rec_2y = fetch_treasury_2y()
-    if rec_2y:
-        output['yields'].insert(0, rec_2y)
+    # Treasury yields: Massive Economy API (full curve) with yfinance + FRED fallback
+    print("Fetching treasury yields...")
+    yield_records = fetch_massive_treasury_yields() if use_massive else None
+    if yield_records:
+        output['yields'] = yield_records
+    else:
+        print("  \u26a0 Massive yields unavailable \u2014 falling back to yfinance + FRED")
+        raw = fetch_batch(YIELDS)
+        for yf_sym in YIELDS:
+            rec = raw.get(yf_sym)
+            if rec:
+                yield_map = {'^TNX': 'US10Y', '^TYX': 'US30Y'}
+                rec['sym'] = yield_map.get(yf_sym, rec['sym'])
+                output['yields'].append(rec)
+        rec_2y = fetch_treasury_2y()
+        if rec_2y:
+            output['yields'].insert(0, rec_2y)
+
+    # Ensure dxvix order: DXY first, VIX second
+    if output['dxvix']:
+        _order = {'DX-Y.NYB': 0, 'CBOE:VIX': 1}
+        output['dxvix'].sort(key=lambda x: _order.get(x.get('sym', ''), 99))
 
     for key in ('country', 'sector', 'sectorew', 'thematic', 'submarket'):
         output[key].sort(key=lambda x: x.get('w1', 0), reverse=True)
