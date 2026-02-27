@@ -21,10 +21,12 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install yfinance requests
+        run: pip install yfinance requests pandas beautifulsoup4
 
       - name: Run data fetcher
         run: python fetch_data.py
+        env:
+          MASSIVE_API_KEY: ${{ secrets.MASSIVE_API_KEY }}
 
       - name: Commit & push data.json
         run: |

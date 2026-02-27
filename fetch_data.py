@@ -4,7 +4,9 @@ import datetime
 import sys
 import csv
 import math
+import os
 import xml.etree.ElementTree as ET
+import concurrent.futures
 from pathlib import Path
 from io import StringIO
 try:
@@ -21,6 +23,18 @@ except ImportError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "pandas", "lxml", "html5lib"])
     import pandas as pd
 import requests
+
+# ── MASSIVE API CONFIG ─────────────────────────────────────────────────────────
+MASSIVE_API_KEY = os.environ.get('MASSIVE_API_KEY', '')
+MASSIVE_BASE    = 'https://api.massive.com'
+
+# Crypto: yfinance symbol → Massive X: prefix symbol
+MASSIVE_CRYPTO_MAP = {
+    'BTC-USD': 'X:BTCUSD',
+    'ETH-USD': 'X:ETHUSD',
+    'SOL-USD': 'X:SOLUSD',
+    'XRP-USD': 'X:XRPUSD',
+}
 
 # ── DEFAULT TICKERS (overridden by tickers.json if present) ────────────────────
 ETF_MAIN   = ['SPY','QQQ','DIA','IWM']
@@ -71,6 +85,54 @@ TICKER_REMAP = {
     'DX-Y.NYB':'DX-Y.NYB', '^VIX':'CBOE:VIX',
     'BTC-USD':'BTC','ETH-USD':'ETH','SOL-USD':'SOL','XRP-USD':'XRP',
 }
+
+# ── MASSIVE API FETCH ─────────────────────────────────────────────────────────────────────────────────────
+def fetch_massive_bars(yf_sym, days=400):
+    """Fetch daily OHLCV bars from Massive API for one ticker. Returns DataFrame or None."""
+    if not MASSIVE_API_KEY:
+        return None
+    end   = datetime.date.today()
+    start = end - datetime.timedelta(days=days)
+    # Determine Massive ticker symbol
+    massive_sym = MASSIVE_CRYPTO_MAP.get(yf_sym, yf_sym)
+    url    = f"{MASSIVE_BASE}/v2/aggs/ticker/{massive_sym}/range/1/day/{start}/{end}"
+    params = {'adjusted': 'true', 'sort': 'asc', 'limit': 500, 'apiKey': MASSIVE_API_KEY}
+    try:
+        r = requests.get(url, params=params, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        if data.get('status') != 'OK' or not data.get('results'):
+            return None
+        df = pd.DataFrame(data['results'])
+        df.index = pd.to_datetime(df['t'], unit='ms').dt.normalize()
+        df.rename(columns={'c': 'Close', 'h': 'High', 'l': 'Low', 'o': 'Open', 'v': 'Volume'}, inplace=True)
+        return df[['Open', 'High', 'Low', 'Close', 'Volume']]
+    except Exception as e:
+        print(f"  Massive fetch failed for {yf_sym}: {e}")
+        return None
+
+def fetch_batch_massive(tickers):
+    """Fetch multiple tickers from Massive API concurrently."""
+    results = {}
+    def _fetch_one(sym):
+        df = fetch_massive_bars(sym)
+        if df is None or df.empty:
+            return sym, None
+        try:
+            return sym, extract_metrics(df, sym)
+        except Exception as e:
+            print(f"  Error extracting {sym}: {e}")
+            return sym, None
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(_fetch_one, sym): sym for sym in tickers}
+        for future in concurrent.futures.as_completed(futures):
+            sym, rec = future.result()
+            if rec:
+                results[sym] = rec
+                print(f"  ✓ {sym}: {rec['price']}")
+            else:
+                print(f"  ⚠ No data for {sym}")
+    return results
 
 # ── 2-YEAR TREASURY YIELD ───────────────────────────────────────────────────────────────────────────────
 def fetch_treasury_2y():
@@ -443,24 +505,46 @@ def fetch_all():
         'crypto':   [], 'holdings':{}, 'breadth':  {},
     }
 
-    batches = [
-        ('futures',   FUTURES),
+    # Batches using Massive API (ETFs + crypto)
+    massive_batches = [
         ('etfmain',   ETF_MAIN),
         ('submarket', SUBMARKET),
         ('sector',    SECTOR),
         ('sectorew',  SECTOR_EW),
         ('thematic',  THEMATIC),
         ('country',   COUNTRY),
+        ('crypto',    CRYPTO_YF),
+    ]
+    # Batches using yfinance (futures, metals, energy, global indices, yields, DXY/VIX)
+    yf_batches = [
+        ('futures',   FUTURES),
         ('metals',    METALS),
         ('commod',    ENERGY),
         ('global',    GLOBAL_IDX),
         ('yields',    YIELDS),
         ('dxvix',     DX_VIX),
-        ('crypto',    CRYPTO_YF),
     ]
 
-    for key, tickers in batches:
-        print(f"Fetching {key} ({len(tickers)} tickers)...")
+    use_massive = bool(MASSIVE_API_KEY)
+    if use_massive:
+        print(f"✓ MASSIVE_API_KEY found — using Massive API for ETFs & crypto")
+    else:
+        print(f"⚠ MASSIVE_API_KEY not set — falling back to yfinance for all tickers")
+
+    for key, tickers in massive_batches:
+        print(f"Fetching {key} ({len(tickers)} tickers) via {'Massive' if use_massive else 'yfinance'}...")
+        raw = fetch_batch_massive(tickers) if use_massive else fetch_batch(tickers)
+        for yf_sym in tickers:
+            rec = raw.get(yf_sym)
+            if rec:
+                output[key].append(rec)
+            else:
+                print(f"  \u26a0 No data for {yf_sym}")
+        if not use_massive:
+            time.sleep(1)
+
+    for key, tickers in yf_batches:
+        print(f"Fetching {key} ({len(tickers)} tickers) via yfinance...")
         raw = fetch_batch(tickers)
         for yf_sym in tickers:
             rec = raw.get(yf_sym)
