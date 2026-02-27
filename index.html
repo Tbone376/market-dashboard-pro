@@ -225,7 +225,7 @@ td:first-child,td.l{text-align:left}
       <div id="hdr-date" style="letter-spacing:1px">—</div>
       <strong id="hdr-time">—</strong>
     </div>
-    <div class="live"><span class="dot"></span>HKT LIVE</div>
+    <div class="live"><span class="dot"></span>ET LIVE</div>
   </div>
   <div class="hdr-r">
     <span id="lastUpdatedBadge" style="font-size:9px;color:var(--text3);letter-spacing:1px;padding:4px 8px;background:var(--bg3);border:1px solid var(--border);border-radius:2px">LOADING DATA...</span>
@@ -244,7 +244,7 @@ td:first-child,td.l{text-align:left}
 <div class="api-bar" id="dataStatusBar">
   ⬤ &nbsp;
   <span id="dataStatus" style="color:var(--text2)">Loading market data...</span>
-  <span id="dataAge" style="color:var(--text3);font-size:9px;margin-left:auto">Auto-refreshed daily 06:00 HKT via GitHub Actions · Yahoo Finance</span>
+  <span id="dataAge" style="color:var(--text3);font-size:9px;margin-left:auto">Auto-refreshed daily 08:30 ET via GitHub Actions · Yahoo Finance</span>
 </div>
 
 <!-- ══════════════════════════════════════════════════════ -->
@@ -784,7 +784,7 @@ let DIR = 'long', STOPS = 2;
 // ═══════════════════════════════════════════════════════
 function tick() {
   const now = new Date();
-  const hkt = new Date(now.toLocaleString('en-US',{timeZone:'Asia/Hong_Kong'}));
+  const hkt = new Date(now.toLocaleString('en-US',{timeZone:'America/New_York'}));
   const D=['SUN','MON','TUE','WED','THU','FRI','SAT'];
   const M=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
   document.getElementById('hdr-date').textContent=`${D[hkt.getDay()]} · ${hkt.getDate()} ${M[hkt.getMonth()]} ${hkt.getFullYear()}`;
@@ -985,9 +985,9 @@ function renderAll(d) {
   // Update freshness badge
   if(d.generated_at){
     const dt=new Date(d.generated_at);
-    const hkt=new Date(dt.toLocaleString('en-US',{timeZone:'Asia/Hong_Kong'}));
+    const hkt=new Date(dt.toLocaleString('en-US',{timeZone:'America/New_York'}));
     const M=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    const label=`DATA: ${hkt.getDate()} ${M[hkt.getMonth()]} ${hkt.getFullYear()} · ${String(hkt.getHours()).padStart(2,'0')}:${String(hkt.getMinutes()).padStart(2,'0')} HKT`;
+    const label=`DATA: ${hkt.getDate()} ${M[hkt.getMonth()]} ${hkt.getFullYear()} · ${String(hkt.getHours()).padStart(2,'0')}:${String(hkt.getMinutes()).padStart(2,'0')} ET`;
     document.getElementById('lastUpdatedBadge').textContent=label;
     document.getElementById('lastUpdatedBadge').style.color='var(--green)';
     document.getElementById('dataStatus').textContent='✓ Market data loaded — EOD prices';
@@ -995,7 +995,7 @@ function renderAll(d) {
 
     // How stale?
     const ageHrs=Math.round((Date.now()-dt.getTime())/3600000);
-    document.getElementById('dataAge').textContent=`Updated ${ageHrs}h ago · Auto-refreshes daily 06:00 HKT · Yahoo Finance (no API key)`;
+    document.getElementById('dataAge').textContent=`Updated ${ageHrs}h ago · Auto-refreshes daily 08:30 ET · Yahoo Finance (no API key)`;
   }
 }
 
