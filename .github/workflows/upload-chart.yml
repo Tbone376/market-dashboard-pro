@@ -1,1 +1,35 @@
-bmFtZTogVXBsb2FkIFNNQ0kgQ2hhcnQKCm9uOgogIHdvcmtmbG93X2Rpc3BhdGNoOgogIHB1c2g6CiAgICBicmFuY2hlczoKICAgICAgLSBtYWluCiAgICBwYXRoczoKICAgICAgLSAnLmdpdGh1Yi93b3JrZmxvd3MvdXBsb2FkLWNoYXJ0LnltbCcKCnBlcm1pc3Npb25zOgogIGNvbnRlbnRzOiB3cml0ZQoKam9iczoKICB1cGxvYWQ6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSBuYW1lOiBDaGVja291dCByZXBvCiAgICAgICAgdXNlczogYWN0aW9ucy9jaGVja291dEB2NAoKICAgICAgLSBuYW1lOiBEb3dubG9hZCBTTUNJIGNoYXJ0CiAgICAgICAgcnVuOiB8CiAgICAgICAgICBta2RpciAtcCBjaGFydHMKICAgICAgICAgIGN1cmwgLUwgLW8gY2hhcnRzL3NtY2lfYW5ub3RhdGVkX29jdDIwMjNfYXByMjAyNC5wbmcgImh0dHBzOi8vZmlsZXMuY2F0Ym94Lm1vZS9qcmtjMW8ucG5nIgogICAgICAgICAgbHMgLWxhIGNoYXJ0cy9zbWNpX2Fubm90YXRlZF9vY3QyMDIzX2FwcjIwMjQucG5nCiAgICAgICAgICBmaWxlIGNoYXJ0cy9zbWNpX2Fubm90YXRlZF9vY3QyMDIzX2FwcjIwMjQucG5nCgogICAgICAtIG5hbWU6IENvbW1pdCBhbmQgcHVzaCBjaGFydAogICAgICAgIHJ1bjogfAogICAgICAgICAgZ2l0IGNvbmZpZyB1c2VyLm5hbWUgImdpdGh1Yi1hY3Rpb25zW2JvdF0iCiAgICAgICAgICBnaXQgY29uZmlnIHVzZXIuZW1haWwgImdpdGh1Yi1hY3Rpb25zW2JvdF1AdXNlcnMubm9yZXBseS5naXRodWIuY29tIgogICAgICAgICAgZ2l0IGFkZCBjaGFydHMvc21jaV9hbm5vdGF0ZWRfb2N0MjAyM19hcHIyMDI0LnBuZwogICAgICAgICAgZ2l0IGRpZmYgLS1zdGFnZWQgLS1xdWlldCB8fCBnaXQgY29tbWl0IC1tICJBZGQgU01DSSBhbm5vdGF0ZWQgY2hhcnQgKE9jdCAyMDIzIC0gQXByIDIwMjQpIgogICAgICAgICAgZ2l0IHB1bGwgLS1yZWJhc2Ugb3JpZ2luIG1haW4KICAgICAgICAgIGdpdCBwdXNoCg==
+name: Upload SMCI Chart
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/upload-chart.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download SMCI chart
+        run: |
+          mkdir -p charts
+          curl -L -o charts/smci_annotated_oct2023_apr2024.png "https://files.catbox.moe/jrkc1o.png"
+          ls -la charts/smci_annotated_oct2023_apr2024.png
+          file charts/smci_annotated_oct2023_apr2024.png
+
+      - name: Commit and push chart
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add charts/smci_annotated_oct2023_apr2024.png
+          git diff --staged --quiet || git commit -m "Add SMCI annotated chart (Oct 2023 - Apr 2024)"
+          git pull --rebase origin main
+          git push
