@@ -1,0 +1,38 @@
+name: Restore and Fix index.html
+
+on:
+  push:
+    paths:
+      - 'apply_fix.py'
+
+jobs:
+  restore-and-fix:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout with full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Restore original index.html from git blob
+        run: |
+          echo "Restoring index.html from original blob 110bf316a0eed1278331dbda4b1534dd8893c90e"
+          git cat-file blob 110bf316a0eed1278331dbda4b1534dd8893c90e > index.html
+          echo "Restored: $(wc -c < index.html) bytes, $(wc -l < index.html) lines"
+          head -3 index.html
+
+      - name: Apply briefing preservation fix
+        run: python3 apply_fix.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git rm apply_fix.py
+          git add index.html
+          git diff --cached --stat
+          git commit -m "fix: preserve briefing data when loadData replaces DATA object [skip ci]"
+          git push
