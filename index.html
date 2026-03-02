@@ -241,6 +241,255 @@ td:first-child,td.l{text-align:left}
   .hdr{flex-direction:column;gap:10px;align-items:flex-start}
   .hdr-r{width:100%;justify-content:flex-end}
 }
+
+/* ── PRE-MARKET BRIEFING (SECTION 00) ─────────────────────────────────── */
+
+/* Main briefing card — matches .card but with an accent top-border */
+.briefing-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 9px;
+}
+.briefing-card-inner {
+  padding: 14px 16px;
+}
+
+/* Sentiment badge — large centrepiece */
+.briefing-sentiment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+  border-radius: 3px;
+  margin-bottom: 0;
+  position: relative;
+  overflow: hidden;
+}
+.briefing-sentiment.bull  { background: rgba(0,230,118,0.07);  border: 1px solid rgba(0,230,118,0.2); }
+.briefing-sentiment.bear  { background: rgba(255,51,85,0.07);   border: 1px solid rgba(255,51,85,0.2); }
+.briefing-sentiment.neut  { background: rgba(255,179,0,0.07);   border: 1px solid rgba(255,179,0,0.2); }
+.briefing-sentiment-word {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-family: var(--mono);
+  line-height: 1;
+}
+.briefing-sentiment.bull .briefing-sentiment-word { color: var(--green); }
+.briefing-sentiment.bear .briefing-sentiment-word { color: var(--red); }
+.briefing-sentiment.neut .briefing-sentiment-word { color: var(--amber); }
+.briefing-sentiment-label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text3);
+  margin-top: 5px;
+  font-family: var(--mono);
+}
+.briefing-sentiment-right {
+  text-align: right;
+}
+.briefing-sentiment-icon {
+  font-size: 36px;
+  opacity: 0.18;
+  user-select: none;
+}
+
+/* Colored badge — BULLISH / BEARISH / UNCERTAIN */
+.briefing-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 2px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+.briefing-badge.bull { background: var(--gdim);  color: var(--green); }
+.briefing-badge.bear { background: var(--rdim);  color: var(--red); }
+.briefing-badge.neut { background: var(--adim2); color: var(--amber); }
+
+/* Earnings timing badge — BMO / AMC */
+.earnings-badge {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 2px;
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+.earnings-badge.bmo { background: rgba(46,196,182,0.1); color: var(--accent); }
+.earnings-badge.amc { background: rgba(255,179,0,0.1);  color: var(--amber); }
+
+/* Economic event impact badge */
+.econ-badge {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 2px;
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+.econ-badge.high   { background: var(--rdim);  color: var(--red); }
+.econ-badge.medium { background: var(--adim2); color: var(--amber); }
+.econ-badge.low    { background: rgba(61,90,120,0.15); color: var(--text3); }
+
+/* Gapper rows — same rhythm as existing tbody tr */
+.gapper-row {
+  border-bottom: 1px solid rgba(28,37,53,.6);
+  transition: background .1s;
+}
+.gapper-row:hover { background: rgba(46,196,182,.025); }
+.gapper-row:last-child { border-bottom: none; }
+.gapper-row td {
+  padding: 6px 10px;
+  text-align: right;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+.gapper-row td:first-child { text-align: left; }
+.gapper-gap { color: var(--green); font-weight: 600; }
+
+/* Headlines list */
+.briefing-headline {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(28,37,53,.5);
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: var(--sans);
+}
+.briefing-headline:last-child { border-bottom: none; }
+.briefing-headline-bullet {
+  color: var(--accent);
+  font-size: 8px;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.briefing-headline a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color .15s;
+}
+.briefing-headline a:hover { color: var(--accent); }
+
+/* Date/time meta stamp */
+.briefing-meta {
+  font-size: 9.5px;
+  color: var(--text3);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: var(--mono);
+}
+
+/* Attitash rules reminder card */
+.briefing-rules {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-left: 3px solid rgba(46,196,182,0.35);
+  border-radius: 3px;
+  padding: 12px 16px;
+  margin-bottom: 9px;
+}
+.briefing-rules-title {
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.briefing-rules-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+}
+.briefing-rules-list li {
+  font-size: 11px;
+  color: var(--text2);
+  font-family: var(--sans);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.briefing-rules-list li::before {
+  content: '▸';
+  color: var(--accent);
+  font-size: 9px;
+  flex-shrink: 0;
+}
+
+/* Placeholder state */
+.briefing-placeholder {
+  padding: 22px 16px;
+  text-align: center;
+  font-size: 11px;
+  color: var(--text3);
+  letter-spacing: 1px;
+  font-family: var(--mono);
+}
+
+/* Two-column grid for earnings + econ events (reuses .g2 breakpoint) */
+.briefing-grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  margin-bottom: 9px;
+}
+
+/* Earnings / econ list rows */
+.briefing-list-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(28,37,53,.5);
+  gap: 8px;
+}
+.briefing-list-row:last-child { border-bottom: none; }
+.briefing-list-sym {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  font-family: var(--mono);
+}
+.briefing-list-time {
+  font-size: 10.5px;
+  color: var(--text3);
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+.briefing-list-event {
+  font-size: 11.5px;
+  color: var(--text);
+  font-family: var(--sans);
+  flex: 1;
+  min-width: 0;
+}
+
+@media(max-width:1100px) {
+  .briefing-grid2 { grid-template-columns: 1fr; }
+  .briefing-sentiment-word { font-size: 22px; }
+}
+@media(max-width:768px) {
+  .briefing-sentiment { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .briefing-sentiment-icon { display: none; }
+}
+
 </style>
 </head>
 <body>
@@ -295,6 +544,109 @@ td:first-child,td.l{text-align:left}
   <span id="dataStatus" style="color:var(--text2)">Loading market data...</span>
   <span id="dataAge" style="color:var(--text3);font-size:9px;margin-left:auto">Auto-refreshed daily 08:30 ET via GitHub Actions · Yahoo Finance</span>
 </div>
+
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 00: PRE-MARKET BRIEFING                       -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="sec" id="s0">
+  <div class="sec-hdr">
+    <div class="sec-n">00</div>
+    <div class="sec-t">Pre-Market Briefing</div>
+    <div class="sec-sub" id="briefing-date-sub">8:30 AM ET · DAILY</div>
+  </div>
+
+  <!-- ── Placeholder (shown when no briefing.json) ──────────── -->
+  <div id="briefing-placeholder" class="briefing-card">
+    <div class="briefing-placeholder">
+      No briefing data — runs at 8:30 AM ET
+    </div>
+  </div>
+
+  <!-- ── Live briefing content (hidden until data loads) ─────── -->
+  <div id="briefing-live" style="display:none">
+
+    <!-- Sentiment card -->
+    <div class="briefing-card" style="margin-bottom:9px">
+      <div class="card-lbl">▸ Market Sentiment</div>
+      <div class="briefing-card-inner" style="padding:12px 14px">
+        <div id="briefing-sentiment-block" class="briefing-sentiment neut">
+          <div>
+            <div class="briefing-sentiment-word" id="briefing-sentiment-word">UNCERTAIN</div>
+            <div class="briefing-sentiment-label">Pre-market sentiment</div>
+          </div>
+          <div class="briefing-sentiment-right">
+            <div class="briefing-sentiment-icon" id="briefing-sentiment-icon">⚖</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gap Candidates table -->
+    <div class="briefing-card" style="margin-bottom:9px">
+      <div class="card-lbl">▸ Gap Candidates &nbsp;<span style="color:var(--text3);font-size:9px;font-weight:400;letter-spacing:1px">PRE-MARKET · &gt;10% · MCAP &gt;$500M</span></div>
+      <table>
+        <thead>
+          <tr>
+            <th class="l">Symbol</th>
+            <th>Gap%</th>
+            <th>Price</th>
+            <th>Market Cap</th>
+            <th class="l">Catalyst</th>
+          </tr>
+        </thead>
+        <tbody id="briefing-gappers">
+          <tr><td colspan="5" class="loading">Loading...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Earnings + Economic Events (two-column) -->
+    <div class="briefing-grid2">
+
+      <!-- Earnings Today -->
+      <div class="briefing-card" style="margin-bottom:0">
+        <div class="card-lbl">▸ Earnings Today</div>
+        <div class="briefing-card-inner" id="briefing-earnings">
+          <div class="briefing-placeholder">Loading...</div>
+        </div>
+      </div>
+
+      <!-- Economic Events -->
+      <div class="briefing-card" style="margin-bottom:0">
+        <div class="card-lbl">▸ Economic Events &nbsp;<span style="color:var(--text3);font-size:9px;font-weight:400;letter-spacing:1px">ET</span></div>
+        <div class="briefing-card-inner" id="briefing-econ">
+          <div class="briefing-placeholder">Loading...</div>
+        </div>
+      </div>
+
+    </div><!-- /briefing-grid2 -->
+
+    <!-- Headlines -->
+    <div class="briefing-card" style="margin-bottom:9px">
+      <div class="card-lbl">▸ Market Headlines</div>
+      <div class="briefing-card-inner" id="briefing-headlines">
+        <div class="briefing-placeholder">Loading...</div>
+      </div>
+    </div>
+
+    <!-- Attitash Rules Reminder -->
+    <div class="briefing-rules">
+      <div class="briefing-rules-title">▸ Attitash Trading Rules — Daily Reminder</div>
+      <ul class="briefing-rules-list" id="briefing-rules-list">
+        <li>Only A-rated setups</li>
+        <li>Risk ≤ 0.5-1% per trade</li>
+        <li>Cut losses at hard stop — no averaging down</li>
+        <li>Trade where the momentum is</li>
+        <li>Journal every trade</li>
+      </ul>
+    </div>
+
+  </div><!-- /briefing-live -->
+
+</div><!-- /sec s0 -->
+
+<div class="divider"></div>
 
 <!-- ══════════════════════════════════════════════════════ -->
 <!-- SECTION 1: MACRO OVERVIEW                             -->
@@ -1064,6 +1416,218 @@ function buildWatchlist(data) {
 // ═══════════════════════════════════════════════════════
 let DATA = null;
 
+
+// ═══════════════════════════════════════════════════════
+// PRE-MARKET BRIEFING RENDERER
+// ═══════════════════════════════════════════════════════
+
+/** Format market cap number → "$5.8B" / "$614M" / "$120K" */
+function fmtMktCap(v) {
+  if (!v && v !== 0) return '—';
+  const n = Number(v);
+  if (isNaN(n)) return String(v);
+  if (n >= 1e12) return '$' + (n / 1e12).toFixed(2) + 'T';
+  if (n >= 1e9)  return '$' + (n / 1e9).toFixed(1)  + 'B';
+  if (n >= 1e6)  return '$' + (n / 1e6).toFixed(0)  + 'M';
+  if (n >= 1e3)  return '$' + (n / 1e3).toFixed(0)  + 'K';
+  return '$' + n.toFixed(0);
+}
+
+/** Escape HTML for attribute values */
+function _esc(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+/** Render a tn-link span exactly matching the existing dashboard pattern */
+function tnLink(sym, label) {
+  const s = _esc(sym), l = _esc(label || sym);
+  return `<span class="tn tn-link" data-sym="${s}" data-nm="${l}">${label || sym}</span>`;
+}
+
+/** Sentiment → CSS modifier class */
+function sentimentClass(s) {
+  if (!s) return 'neut';
+  const up = s.toUpperCase();
+  if (up === 'BULLISH')   return 'bull';
+  if (up === 'BEARISH')   return 'bear';
+  return 'neut';
+}
+
+/** Sentiment → icon character */
+function sentimentIcon(s) {
+  if (!s) return '⚖';
+  const up = s.toUpperCase();
+  if (up === 'BULLISH') return '▲';
+  if (up === 'BEARISH') return '▼';
+  return '⚖';
+}
+
+/**
+ * renderBriefing(d)
+ * Called from renderAll(). Reads d.briefing and populates section 00.
+ * Falls back to placeholder when no data present.
+ */
+function renderBriefing(d) {
+  const placeholder = document.getElementById('briefing-placeholder');
+  const live        = document.getElementById('briefing-live');
+  if (!placeholder || !live) return;
+
+  const b = d && d.briefing;
+
+  if (!b || !b.date) {
+    // No briefing data — show placeholder
+    placeholder.style.display = '';
+    live.style.display = 'none';
+    return;
+  }
+
+  // Hide placeholder, show live content
+  placeholder.style.display = 'none';
+  live.style.display = '';
+
+  // ── Date subtitle ───────────────────────────────────
+  const dateSub = document.getElementById('briefing-date-sub');
+  if (dateSub && b.date) {
+    dateSub.textContent = b.date + ' · 8:30 AM ET';
+  }
+
+  // ── Sentiment ────────────────────────────────────────
+  const sentWord  = document.getElementById('briefing-sentiment-word');
+  const sentBlock = document.getElementById('briefing-sentiment-block');
+  const sentIcon  = document.getElementById('briefing-sentiment-icon');
+  if (sentWord && sentBlock) {
+    const cls = sentimentClass(b.sentiment);
+    sentBlock.className = 'briefing-sentiment ' + cls;
+    sentWord.textContent = (b.sentiment || 'UNCERTAIN').toUpperCase();
+    if (sentIcon) sentIcon.textContent = sentimentIcon(b.sentiment);
+  }
+
+  // ── Gap Candidates ───────────────────────────────────
+  const gapTbody = document.getElementById('briefing-gappers');
+  if (gapTbody) {
+    const gappers = b.gappers || [];
+    if (gappers.length === 0) {
+      gapTbody.innerHTML = '<tr><td colspan="5" style="color:var(--text3);text-align:center;padding:14px;font-size:11px;letter-spacing:1px">No gap candidates today</td></tr>';
+    } else {
+      gapTbody.innerHTML = '';
+      gappers.forEach(g => {
+        const tr = document.createElement('tr');
+        tr.className = 'gapper-row';
+        const gapPct = typeof g.gap_pct === 'number'
+          ? '<span class="gapper-gap">+' + g.gap_pct.toFixed(1) + '%</span>'
+          : '<span class="gapper-gap">' + _esc(g.gap_pct) + '</span>';
+        const priceStr = typeof g.price === 'number'
+          ? '$' + g.price.toFixed(2)
+          : (g.price ? '$' + g.price : '—');
+        const mcapStr = fmtMktCap(g.market_cap);
+        const catalyst = _esc(g.catalyst || '—');
+        tr.innerHTML =
+          `<td>${tnLink(g.symbol, g.symbol)}</td>` +
+          `<td>${gapPct}</td>` +
+          `<td>${priceStr}</td>` +
+          `<td>${mcapStr}</td>` +
+          `<td class="l" style="color:var(--text2);font-size:11.5px;font-family:var(--sans)">${catalyst}</td>`;
+        gapTbody.appendChild(tr);
+      });
+    }
+  }
+
+  // ── Earnings Today ───────────────────────────────────
+  const earningsEl = document.getElementById('briefing-earnings');
+  if (earningsEl) {
+    const earnings = b.earnings || [];
+    if (earnings.length === 0) {
+      earningsEl.innerHTML = '<div class="briefing-placeholder">No earnings today</div>';
+    } else {
+      earningsEl.innerHTML = '';
+      earnings.forEach(e => {
+        const timingCls = (e.timing || '').toUpperCase() === 'BMO' ? 'bmo' : 'amc';
+        const timingTxt = (e.timing || '').toUpperCase() === 'BMO' ? 'BMO' : 'AMC';
+        const row = document.createElement('div');
+        row.className = 'briefing-list-row';
+        row.innerHTML =
+          `<span class="briefing-list-sym">${tnLink(e.ticker, e.ticker)}</span>` +
+          `<span style="display:flex;align-items:center;gap:6px">` +
+            `<span class="briefing-list-time">${_esc(e.time_et || '')}</span>` +
+            `<span class="earnings-badge ${timingCls}">${timingTxt}</span>` +
+          `</span>`;
+        earningsEl.appendChild(row);
+      });
+    }
+  }
+
+  // ── Economic Events ──────────────────────────────────
+  const econEl = document.getElementById('briefing-econ');
+  if (econEl) {
+    const events = b.econ_events || [];
+    if (events.length === 0) {
+      econEl.innerHTML = '<div class="briefing-placeholder">No major events today</div>';
+    } else {
+      econEl.innerHTML = '';
+      events.forEach(ev => {
+        const impactCls = (ev.impact || 'low').toLowerCase();
+        const row = document.createElement('div');
+        row.className = 'briefing-list-row';
+        row.innerHTML =
+          `<span class="briefing-list-event">${_esc(ev.event || '')}</span>` +
+          `<span style="display:flex;align-items:center;gap:6px;flex-shrink:0">` +
+            `<span class="briefing-list-time">${_esc(ev.time_et || '')}</span>` +
+            `<span class="econ-badge ${impactCls}">${impactCls.toUpperCase()}</span>` +
+          `</span>`;
+        econEl.appendChild(row);
+      });
+    }
+  }
+
+  // ── Headlines ────────────────────────────────────────
+  const hlEl = document.getElementById('briefing-headlines');
+  if (hlEl) {
+    const headlines = b.headlines || [];
+    if (headlines.length === 0) {
+      hlEl.innerHTML = '<div class="briefing-placeholder">No headlines</div>';
+    } else {
+      hlEl.innerHTML = '';
+      headlines.forEach(h => {
+        const div = document.createElement('div');
+        div.className = 'briefing-headline';
+        const href = h.url ? `href="${_esc(h.url)}" target="_blank" rel="noopener noreferrer"` : '';
+        div.innerHTML =
+          `<span class="briefing-headline-bullet">◆</span>` +
+          (h.url
+            ? `<a ${href}>${_esc(h.text || '')}</a>`
+            : `<span>${_esc(h.text || '')}</span>`);
+        hlEl.appendChild(div);
+      });
+    }
+  }
+}
+
+/**
+ * loadBriefing()
+ * Fetches data/briefing.json independently of data/data.json.
+ * Merges briefing into the global DATA object and re-renders the section.
+ * Called from window load alongside loadData().
+ */
+async function loadBriefing() {
+  try {
+    const resp = await fetch('data/briefing.json?_=' + Date.now());
+    if (!resp.ok) throw new Error('briefing.json not found');
+    const b = await resp.json();
+
+    // Validate freshness — only accept if briefing.date exists
+    if (b && b.date) {
+      if (!DATA) DATA = {};
+      DATA.briefing = b;
+      renderBriefing(DATA);
+    }
+  } catch (e) {
+    console.info('No briefing data:', e.message);
+    // Leave placeholder showing
+    if (DATA) renderBriefing(DATA);
+  }
+}
+
+
 function renderAll(d) {
   buildRows(d.futures,   't-futures',  {hasPrice:true});
   buildRows(d.dxvix,     't-dxvix',    {hasPrice:true});
@@ -1103,6 +1667,9 @@ function renderAll(d) {
 
   // Breadth
   if(typeof renderBreadth==='function') renderBreadth(d);
+
+  // Pre-Market Briefing
+  renderBriefing(d);
 
   // Update freshness badge
   if(d.generated_at){
@@ -1303,6 +1870,7 @@ function renderBreadth(d) {
 // ═══════════════════════════════════════════════════════
 window.addEventListener('load',()=>{
   loadData();
+  loadBriefing();
   calc();
 });
 
