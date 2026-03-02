@@ -1,0 +1,128 @@
+{
+  "date": "Mon, Mar 2, 2026",
+  "sentiment": "BEARISH",
+  "gappers": [
+    {
+      "symbol": "AAOI",
+      "gap_pct": 56.9,
+      "price": 84.23,
+      "market_cap": 5751214966,
+      "catalyst": "Earnings beat"
+    },
+    {
+      "symbol": "ARLO",
+      "gap_pct": 27.1,
+      "price": 15.69,
+      "market_cap": 1663018685,
+      "catalyst": "Earnings beat"
+    },
+    {
+      "symbol": "BWIN",
+      "gap_pct": 25.6,
+      "price": 23.23,
+      "market_cap": 1578188543,
+      "catalyst": "Earnings beat"
+    },
+    {
+      "symbol": "PRAA",
+      "gap_pct": 24.3,
+      "price": 15.75,
+      "market_cap": 614493212,
+      "catalyst": "Earnings beat"
+    },
+    {
+      "symbol": "FIGS",
+      "gap_pct": 23.9,
+      "price": 15.45,
+      "market_cap": 2541505023,
+      "catalyst": "Earnings beat"
+    },
+    {
+      "symbol": "DELL",
+      "gap_pct": 21.8,
+      "price": 147.95,
+      "market_cap": 99156121365,
+      "catalyst": "Earnings beat"
+    },
+    {
+      "symbol": "PSKY",
+      "gap_pct": 20.8,
+      "price": 13.51,
+      "market_cap": 14478220859,
+      "catalyst": "Earnings beat"
+    },
+    {
+      "symbol": "PSNY",
+      "gap_pct": 20.4,
+      "price": 23.28,
+      "market_cap": 1639399949,
+      "catalyst": "Earnings beat"
+    }
+  ],
+  "earnings": [
+    {
+      "ticker": "NCLH",
+      "time_et": "8:00 AM",
+      "timing": "BMO"
+    },
+    {
+      "ticker": "CRDO",
+      "time_et": "5:00 PM",
+      "timing": "AMC"
+    },
+    {
+      "ticker": "RIOT",
+      "time_et": "4:30 PM",
+      "timing": "AMC"
+    },
+    {
+      "ticker": "CORZ",
+      "time_et": "4:30 PM",
+      "timing": "AMC"
+    },
+    {
+      "ticker": "PLUG",
+      "time_et": "4:30 PM",
+      "timing": "AMC"
+    },
+    {
+      "ticker": "SATS",
+      "time_et": "11:00 AM",
+      "timing": "BMO"
+    }
+  ],
+  "econ_events": [
+    {
+      "event": "S&P Global US Manufacturing PMI (Feb, final)",
+      "time_et": "9:45 AM",
+      "impact": "medium"
+    },
+    {
+      "event": "ISM Manufacturing PMI (Feb)",
+      "time_et": "10:00 AM",
+      "impact": "high"
+    }
+  ],
+  "headlines": [
+    {
+      "text": "S&P 500 futures slide as tariff fears mount, VIX spikes above 22",
+      "url": "https://www.cnbc.com/2026/03/01/stock-market-today-live-update.html"
+    },
+    {
+      "text": "Crude oil surges nearly 7% on supply disruption concerns",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-03-01/"
+    },
+    {
+      "text": "ISM Manufacturing PMI in focus as market sentiment turns bearish",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03022026-11917019"
+    },
+    {
+      "text": "Dell gaps up 22% on strong AI server demand in Q4 earnings beat",
+      "url": ""
+    },
+    {
+      "text": "Nasdaq futures drop over 1% as tech selloff extends into new week",
+      "url": ""
+    }
+  ]
+}
