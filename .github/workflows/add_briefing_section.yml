@@ -1,34 +1,27 @@
-name: Add Pre-Market Briefing Section
+name: Apply Briefing Section
 
 on:
   push:
-    branches: [main]
     paths:
       - 'apply_briefing.py'
 
 jobs:
-  apply-briefing:
+  apply:
     runs-on: ubuntu-latest
-    # Prevent infinite loops from this workflow's own commit
-    if: "!contains(github.event.head_commit.message, '[skip ci]')"
-    
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
+      - uses: actions/checkout@v4
+
       - name: Apply briefing section to index.html
         run: python3 apply_briefing.py
-      
-      - name: Remove apply script (cleanup)
-        run: rm apply_briefing.py
-      
-      - name: Commit and push
+
+      - name: Commit updated index.html and cleanup
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html
           git rm apply_briefing.py
+          git rm briefing_patches.json
+          git add index.html
           git commit -m "feat: add Pre-Market Briefing section (Section 00) + data/briefing.json [skip ci]"
           git push
