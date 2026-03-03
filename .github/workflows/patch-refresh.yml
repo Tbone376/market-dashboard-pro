@@ -1,6 +1,10 @@
 name: Patch refresh.js into index.html
 
 on:
+  push:
+    paths:
+      - '.github/workflows/patch-refresh.yml'
+      - 'scripts/refresh.js'
   workflow_dispatch:
 
 jobs:
