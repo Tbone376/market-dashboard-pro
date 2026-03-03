@@ -6,6 +6,9 @@ on:
       - '.github/workflows/restore-index-v2.yml'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   restore:
     runs-on: ubuntu-latest
@@ -28,4 +31,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add index.html
-          git diff --cached --quiet && echo "No changes needed" || (git commit -m "fix: restore full index.html (was truncated to 510 bytes by chunked push)" && git push)
+          git diff --cached --quiet && echo "No changes needed" || (git commit -m "fix: restore full index.html (was truncated to 510 bytes)" && git push)
