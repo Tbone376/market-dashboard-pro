@@ -1,0 +1,26 @@
+name: Patch refresh.js into index.html
+
+on:
+  workflow_dispatch:
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Add refresh.js script tag if missing
+        run: |
+          if ! grep -q 'refresh.js' index.html; then
+            sed -i 's|</head>|<script src="scripts/refresh.js" defer></script>\n</head>|' index.html
+            echo "Patched refresh.js into index.html"
+          else
+            echo "refresh.js already present in index.html"
+          fi
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && echo "No changes" || (git commit -m "Add refresh.js script tag to index.html" && git push)
