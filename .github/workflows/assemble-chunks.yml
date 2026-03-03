@@ -16,17 +16,24 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Wait for all chunks
+        run: |
+          for i in 1 2 3 4 5 6; do
+            if [ ! -f "chunks/part${i}.txt" ]; then
+              echo "Missing chunk ${i} - exiting"
+              exit 0
+            fi
+          done
+          echo "All 6 chunks present - proceeding with assembly"
+
       - name: Assemble index.html
         run: |
           cat chunks/part1.txt chunks/part2.txt chunks/part3.txt \
               chunks/part4.txt chunks/part5.txt chunks/part6.txt > index.html
           echo "Assembled file size: $(wc -c < index.html) bytes"
           echo "Assembled file lines: $(wc -l < index.html) lines"
-
-      - name: Verify assembly
-        run: |
-          head -3 index.html
-          tail -3 index.html
+          head -5 index.html
+          tail -5 index.html
 
       - name: Commit and push index.html
         run: |
@@ -34,11 +41,13 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add index.html
           git diff --cached --stat
-          git commit -m "feat: add refresh button to header"
+          git commit -m "feat: add refresh button to header" || echo "Nothing to commit"
           git push
 
-      - name: Cleanup chunks
+      - name: Cleanup chunks and workflow
         run: |
-          git rm -r chunks/
-          git commit -m "chore: remove assembly chunks"
+          git rm -r chunks/ || true
+          git rm .github/workflows/assemble-chunks.yml || true
+          git diff --cached --stat
+          git commit -m "chore: remove assembly artifacts" || echo "Nothing to commit"
           git push
