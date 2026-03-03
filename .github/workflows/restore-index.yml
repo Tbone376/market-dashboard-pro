@@ -1,0 +1,35 @@
+name: Restore index.html
+
+on:
+  push:
+    paths:
+      - '.github/workflows/restore-index.yml'
+  workflow_dispatch:
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore index.html from last good commit
+        run: |
+          # The commit just before the chunking broke index.html
+          # 91f7fa0 = "fix: replace yfinance with raw HTTP" - should have full index.html
+          git checkout 91f7fa03628a33aa52d22ffb0cf36f3829e3b175 -- index.html
+          SIZE=$(wc -c < index.html)
+          echo "Restored index.html: $SIZE bytes"
+          if [ "$SIZE" -lt 1000 ]; then
+            echo "ERROR: File too small, something went wrong"
+            exit 1
+          fi
+          echo "File looks good"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && echo "No changes needed" || (git commit -m "fix: restore full index.html (was truncated by chunked push)" && git push)
