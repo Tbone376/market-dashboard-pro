@@ -1,0 +1,44 @@
+name: Assemble index.html from chunks
+
+on:
+  push:
+    paths:
+      - 'chunks/part*.txt'
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Assemble index.html
+        run: |
+          cat chunks/part1.txt chunks/part2.txt chunks/part3.txt \
+              chunks/part4.txt chunks/part5.txt chunks/part6.txt > index.html
+          echo "Assembled file size: $(wc -c < index.html) bytes"
+          echo "Assembled file lines: $(wc -l < index.html) lines"
+
+      - name: Verify assembly
+        run: |
+          head -3 index.html
+          tail -3 index.html
+
+      - name: Commit and push index.html
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --stat
+          git commit -m "feat: add refresh button to header"
+          git push
+
+      - name: Cleanup chunks
+        run: |
+          git rm -r chunks/
+          git commit -m "chore: remove assembly chunks"
+          git push
