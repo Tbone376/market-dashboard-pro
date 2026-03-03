@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Attitash Trading Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+:root {
+  --bg:      #07090d;
+  --bg2:     #0c0f15;
+  --bg3:     #111520;
+  --bg4:     #161b26;
+  --border:  #1c2535;
+  --border2: #243044;
+  --accent:  #2ec4b6;
+  --accent2: #1a9e92;
+  --adim:    rgba(46,196,182,0.07);
+  --green:   #00e676;
+  --gdim:    rgba(0,230,118,0.09);
+  --red:     #ff3355;
+  --rdim:    rgba(255,51,85,0.09);
+  --amber:   #ffb300;
+  --adim2:   rgba(255,179,0,0.09);
+  --text:    #c8d8ea;
+  --text2:   #7292b0;
+  --text3:   #3d5a78;
+  --mono:    'IBM Plex Mono', monospace;
+  --sans:    'DM Sans', sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--mono);font-size:13px;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(46,196,182,0.012) 1px,transparent 1px),linear-gradient(90deg,rgba(46,196,182,0.012) 1px,transparent 1px);background-size:48px 48px;pointer-events:none;z-index:0}
+.wrap{position:relative;z-index:1;max-width:1680px;margin:0 auto;padding:14px}
+
+/* tabular-nums on all data elements */
+td, .res-big, .rv, .sr-price, .sr-shares, .sr-pct, .sr-pnl, .fi, .breadth-val, .wl-data {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* ── HEADER ── */
+.hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;background:var(--bg2);border:1px solid var(--border);border-radius:4px;margin-bottom:0;position:relative;overflow:hidden}
+.hdr::after{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent 0%,var(--accent) 40%,var(--green) 70%,transparent 100%)}
+.hdr-l{display:flex;align-items:center;gap:14px}
+.logo-wrap{display:flex;align-items:center;gap:10px}
+.logo-wrap svg{flex-shrink:0}
+.logo{font-size:17px;font-weight:600;letter-spacing:3.5px;color:var(--accent);font-family:var(--mono)}
+.logo em{color:var(--text3);font-style:normal}
+.hdr-meta{font-size:11px;color:var(--text2);letter-spacing:1px;line-height:1.9}
+.hdr-meta strong{font-size:14px;color:var(--text);display:block;letter-spacing:0}
+.live{display:flex;align-items:center;gap:5px;font-size:10px;color:var(--text3);letter-spacing:1px}
+.dot{width:5px;height:5px;border-radius:50%;background:var(--green);box-shadow:0 0 6px var(--green);animation:blink 2s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.hdr-r{display:flex;gap:7px;align-items:center}
+
+/* ── NOTION QUICK-LINKS BAR ── */
+.notion-bar{display:flex;align-items:center;gap:6px;padding:7px 14px;background:var(--bg2);border:1px solid var(--border);border-top:none;border-radius:0 0 4px 4px;margin-bottom:10px;flex-wrap:wrap}
+.notion-bar-label{font-size:9px;color:var(--text3);letter-spacing:1.5px;text-transform:uppercase;margin-right:4px;white-space:nowrap}
+.notion-link{display:inline-flex;align-items:center;gap:4px;padding:4px 10px;border:1px solid var(--border2);border-radius:3px;background:var(--bg3);color:var(--text2);font-family:var(--mono);font-size:10px;letter-spacing:0.5px;cursor:pointer;transition:all .15s;text-decoration:none;white-space:nowrap}
+.notion-link:hover{border-color:var(--accent);color:var(--accent);background:var(--adim)}
+
+/* ── BUTTONS ── */
+.btn{display:flex;align-items:center;gap:5px;padding:7px 13px;border:1px solid var(--border2);border-radius:3px;background:var(--bg3);color:var(--text2);font-family:var(--mono);font-size:11px;letter-spacing:1px;cursor:pointer;transition:all .15s;text-transform:uppercase;white-space:nowrap}
+.btn:hover{border-color:var(--accent);color:var(--accent);background:var(--adim)}
+.btn-pri{background:rgba(46,196,182,.12);border-color:var(--accent);color:var(--accent);font-weight:600}
+.btn-pri:hover{background:rgba(46,196,182,.2)}
+.btn-snap{border-color:var(--amber);color:var(--amber)}
+.btn-snap:hover{background:var(--adim2)}
+.btn-x{border-color:#444;background:#000;color:#ccc}
+.btn-x:hover{border-color:#777;color:#fff;background:#111}
+.btn-copy{border-color:var(--green);color:var(--green)}
+.btn-copy:hover{background:var(--gdim)}
+
+/* ── BENCHMARK ROW ── */
+tr.bench-row{background:linear-gradient(90deg,rgba(255,51,85,0.08) 0%,rgba(255,51,85,0.04) 60%,transparent 100%)!important}
+tr.bench-row:hover{background:linear-gradient(90deg,rgba(255,51,85,0.14) 0%,rgba(255,51,85,0.07) 60%,transparent 100%)!important}
+tr.bench-row td{border-bottom:1px solid rgba(255,51,85,0.12)!important}
+
+.quote-bar{display:flex;align-items:center;justify-content:center;gap:14px;padding:10px 20px;background:linear-gradient(90deg,var(--bg2) 0%,rgba(46,196,182,0.05) 50%,var(--bg2) 100%);border:1px solid rgba(46,196,182,0.15);border-radius:4px;margin-bottom:10px;position:relative;overflow:hidden}
+.quote-bar::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent,transparent 200px,rgba(46,196,182,0.015) 200px,rgba(46,196,182,0.015) 201px);pointer-events:none}
+.quote-text{font-size:12px;color:var(--text);letter-spacing:1.5px;font-style:italic;text-align:center;font-family:var(--sans)}
+.quote-author{font-size:10px;color:var(--accent);letter-spacing:2px;text-transform:uppercase;white-space:nowrap}
+.quote-icon{color:rgba(46,196,182,0.3);font-size:12px}
+
+/* ── API BANNER ── */
+.api-bar{display:flex;align-items:center;gap:10px;padding:7px 12px;background:rgba(255,179,0,.05);border:1px solid rgba(255,179,0,.18);border-radius:3px;margin-bottom:10px;font-size:11px;color:var(--amber);letter-spacing:.5px}
+.api-bar input{flex:1;padding:5px 9px;background:var(--bg3);border:1px solid var(--border2);border-radius:2px;color:var(--text);font-family:var(--mono);font-size:11px;outline:none;transition:border .15s}
+.api-bar input:focus{border-color:var(--accent)}
+.api-bar label{color:var(--text3);white-space:nowrap}
+
+/* ── SECTION ── */
+.sec{margin-bottom:22px}
+.sec-hdr{display:flex;align-items:center;gap:10px;padding:8px 0 7px;border-bottom:1px solid var(--border);margin-bottom:9px}
+.sec-n{font-size:10px;color:var(--accent);letter-spacing:2px;padding:2px 7px;border:1px solid rgba(46,196,182,.25);border-radius:2px}
+.sec-t{font-size:13px;font-weight:600;color:var(--text);letter-spacing:2px;text-transform:uppercase}
+.sec-sub{font-size:10px;color:var(--text3);letter-spacing:1px;margin-left:auto}
+.divider{height:1px;background:linear-gradient(90deg,var(--accent),transparent);opacity:.2;margin:18px 0}
+
+/* ── TABLE CARD ── */
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-bottom:9px}
+.card-lbl{padding:7px 11px;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);background:var(--bg3);border-bottom:1px solid var(--border);font-weight:500}
+table{width:100%;border-collapse:collapse}
+thead th{padding:6px 10px;text-align:right;font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--text3);background:var(--bg3);border-bottom:1px solid var(--border);font-weight:500;white-space:nowrap}
+thead th:first-child,thead th.l{text-align:left}
+tbody tr{border-bottom:1px solid rgba(28,37,53,.6);transition:background .1s}
+tbody tr:hover{background:rgba(46,196,182,.025)}
+tbody tr:last-child{border-bottom:none}
+td{padding:6px 10px;text-align:right;font-size:12px;font-variant-numeric:tabular-nums lining-nums}
+td:first-child,td.l{text-align:left}
+.tn{color:var(--text);font-weight:500;font-size:12px}
+.ts{color:var(--text3);font-size:10px;display:block;letter-spacing:.5px}
+.up{color:var(--green)}
+.dn{color:var(--red)}
+.neu{color:var(--text3)}
+.up-b{background:var(--gdim);color:var(--green);padding:1px 5px;border-radius:2px;font-size:10.5px}
+.dn-b{background:var(--rdim);color:var(--red);padding:1px 5px;border-radius:2px;font-size:10.5px}
+.neu-b{background:rgba(61,90,120,.15);color:var(--text3);padding:1px 5px;border-radius:2px;font-size:10.5px}
+.rank{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:2px;font-size:9.5px;font-weight:600;background:var(--bg4);color:var(--text3)}
+.rank.g{background:rgba(255,179,0,.1);color:var(--amber)}
+
+/* ── GRIDS ── */
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:9px}
+.mg{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:9px}
+.mg3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:9px;margin-bottom:9px}
+
+/* ── SPARKLINE ── */
+.sp{display:inline-block;vertical-align:middle}
+
+/* ── TRADINGVIEW MODAL ── */
+#tv-modal{display:none;position:fixed;inset:0;z-index:9990;background:rgba(0,0,0,0.82);align-items:center;justify-content:center}
+#tv-modal.open{display:flex}
+#tv-modal-box{width:min(1000px,95vw);height:min(640px,90vh);background:var(--bg);border:1px solid var(--border2);border-radius:4px;display:flex;flex-direction:column;overflow:hidden}
+#tv-modal-hdr{display:flex;align-items:center;padding:8px 12px;background:var(--bg2);border-bottom:1px solid var(--border);gap:10px}
+#tv-modal-title{font-size:11.5px;color:var(--accent);letter-spacing:1.5px;text-transform:uppercase;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#tv-modal-hdr button{background:none;border:1px solid var(--border2);color:var(--text3);font-family:var(--mono);font-size:9.5px;letter-spacing:1px;padding:4px 8px;border-radius:2px;cursor:pointer;text-transform:uppercase}
+#tv-modal-hdr button:hover{border-color:var(--red);color:var(--red)}
+#tv-frame-wrap{flex:1;overflow:hidden}
+#tv-frame{width:100%;height:100%;border:none}
+/* ── PCT BAR ── */
+.pct-wrap{display:inline-flex;flex-direction:column;align-items:flex-end;gap:2px;min-width:52px}
+.pct-bar{height:4px;border-radius:2px;opacity:0.75;min-width:2px}
+/* ── TICKER LINK ── */
+.tn-link{cursor:pointer;border-bottom:1px dotted rgba(120,150,180,0.4);transition:color .15s}
+.tn-link:hover{color:var(--accent)!important;border-bottom-color:var(--accent)}
+
+/* ── HOLDINGS DROPDOWN ── */
+.expand-btn{display:inline-flex;align-items:center;gap:4px;background:none;border:none;color:var(--text3);font-family:var(--mono);font-size:10px;cursor:pointer;padding:0;letter-spacing:.5px;transition:color .15s}
+.expand-btn:hover{color:var(--accent)}
+.expand-btn .arr{transition:transform .2s;display:inline-block}
+.expand-btn.open .arr{transform:rotate(90deg)}
+.holdings-row{display:none}
+.holdings-row.show{display:table-row}
+.holdings-inner{padding:8px 11px 10px 28px;background:var(--bg4)}
+.h-title{font-size:10px;color:var(--text3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px}
+.h-list{display:flex;flex-wrap:wrap;gap:5px}
+.h-item{display:flex;align-items:center;gap:5px;background:var(--bg3);border:1px solid var(--border);border-radius:2px;padding:3px 7px;font-size:11px}
+.h-w{color:var(--accent);font-size:10px;min-width:30px;text-align:right}
+.h-sym{color:var(--text);font-weight:500}
+.h-nm{color:var(--text3);font-size:10px}
+
+/* ── VARS COLUMNS ── */
+.vars-col{font-size:11px;color:var(--text2);text-align:right;white-space:nowrap}
+.vars-col.rs-high{color:var(--green)}
+.vars-col.rs-mid{color:var(--amber)}
+.vars-col.rs-low{color:var(--text3)}
+
+/* ── WATCHLIST ── */
+.wl-add{display:flex;align-items:center;gap:8px;padding:10px 12px;background:var(--bg3);border-top:1px solid var(--border)}
+.wl-add input{flex:1;padding:6px 10px;background:var(--bg);border:1px solid var(--border2);border-radius:2px;color:var(--text);font-family:var(--mono);font-size:12px;outline:none;text-transform:uppercase;letter-spacing:1px}
+.wl-add input:focus{border-color:var(--accent)}
+.wl-add input::placeholder{color:var(--text3);text-transform:none;letter-spacing:0}
+.wl-add button{padding:6px 14px;border:1px solid var(--accent);border-radius:2px;background:var(--adim);color:var(--accent);font-family:var(--mono);font-size:11px;letter-spacing:1px;cursor:pointer;text-transform:uppercase;white-space:nowrap;transition:all .15s}
+.wl-add button:hover{background:rgba(46,196,182,.2)}
+.wl-notes{font-size:10px;color:var(--text3);max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* ── POSITION CALC ── */
+.calc-wrap{display:grid;grid-template-columns:320px 1fr;gap:10px}
+.cpanel{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:15px}
+.c-ttl{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:13px;font-weight:500}
+.dir-tog{display:flex;border:1px solid var(--border2);border-radius:3px;overflow:hidden;margin-bottom:14px}
+.dir-b{flex:1;padding:8px;border:none;background:var(--bg3);color:var(--text3);font-family:var(--mono);font-size:11px;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:all .15s;font-weight:500}
+.dir-b.long.on{background:var(--gdim);color:var(--green)}
+.dir-b.short.on{background:var(--rdim);color:var(--red)}
+.fg{margin-bottom:11px}
+.fl{font-size:9.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--text3);margin-bottom:4px;display:block}
+.fi{width:100%;padding:8px 10px;background:var(--bg3);border:1px solid var(--border2);border-radius:2px;color:var(--text);font-family:var(--mono);font-size:13px;outline:none;transition:border .15s}
+.fi:focus{border-color:var(--accent)}
+.fi::placeholder{color:var(--text3)}
+.fr{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+.res{background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:13px;margin-top:13px}
+.res-big{font-size:31px;font-weight:600;color:var(--accent);letter-spacing:-1px;line-height:1}
+.res-lbl{font-size:9.5px;color:var(--text3);letter-spacing:2px;text-transform:uppercase;margin-top:3px}
+.res-sub{display:flex;gap:18px;margin-top:11px;padding-top:11px;border-top:1px solid var(--border)}
+.ri{display:flex;flex-direction:column;gap:2px}
+.rv{font-size:13px;font-weight:500}
+.rl{font-size:9.5px;color:var(--text3);letter-spacing:1px;text-transform:uppercase}
+.stops-panel{background:var(--bg2);border:1px solid var(--border);border-radius:4px;overflow:hidden}
+.stops-hdr{display:flex;align-items:center;padding:9px 13px;background:var(--bg3);border-bottom:1px solid var(--border);gap:7px}
+.s-tab{padding:4px 11px;border:1px solid var(--border2);border-radius:2px;background:transparent;color:var(--text3);font-family:var(--mono);font-size:10.5px;letter-spacing:1px;cursor:pointer;transition:all .15s;text-transform:uppercase}
+.s-tab.on{border-color:var(--accent);color:var(--accent);background:var(--adim)}
+.stops-body{padding:11px}
+.sr-hdr{display:grid;grid-template-columns:100px 90px 1fr 1fr 1fr;gap:6px;padding:4px 0;font-size:9.5px;color:var(--text3);letter-spacing:1px;text-transform:uppercase;border-bottom:1px solid var(--border)}
+.sr{display:grid;grid-template-columns:100px 90px 1fr 1fr 1fr;gap:6px;padding:7px 0;border-bottom:1px solid rgba(28,37,53,.4);align-items:center}
+.sr:last-child{border-bottom:none}
+.sr-lbl{font-size:11px;color:var(--text2)}
+.sr-price{font-size:14px;font-weight:600}
+.sr-entry{color:var(--accent)}
+.sr-mid{color:var(--amber)}
+.sr-fin{color:var(--red)}
+.sr-shares{font-size:11px;color:var(--text2)}
+.sr-pct{font-size:11px}
+.sr-pnl{font-size:11px}
+.scale-viz{position:relative;height:48px;margin:10px 0 4px;border-top:1px solid var(--border)}
+.viz-note{font-size:10px;color:var(--text3);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
+
+/* ── TOAST ── */
+.toast{position:fixed;bottom:20px;right:20px;background:var(--bg2);border:1px solid var(--accent);border-radius:3px;padding:10px 16px;font-size:11px;color:var(--accent);letter-spacing:1px;z-index:9999;transform:translateY(10px);opacity:0;transition:all .25s;pointer-events:none}
+.toast.show{transform:translateY(0);opacity:1}
+.snap-flash{position:fixed;inset:0;background:rgba(46,196,182,.08);z-index:9998;pointer-events:none;opacity:0;transition:opacity .08s}
+.snap-flash.on{opacity:1}
+
+/* ── EMA TREND INDICATOR ── */
+.ema-up{color:var(--green);font-size:13px;font-weight:600}
+.ema-dn{color:var(--text3);font-size:12px;opacity:0.5}
+
+/* ── LOADING STATE ── */
+.loading{color:var(--text3);font-size:11px;letter-spacing:1px;padding:14px;text-align:center;animation:fade .8s infinite alternate}
+@keyframes fade{from{opacity:.4}to{opacity:1}}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1100px){
+  .mg,.mg3,.g2,.g3{grid-template-columns:1fr}
+  .calc-wrap{grid-template-columns:1fr}
+  .notion-bar{gap:4px}
+}
+@media(max-width:768px){
+  .hdr{flex-direction:column;gap:10px;align-items:flex-start}
+  .hdr-r{width:100%;justify-content:flex-end}
+}
+
+/* ── PRE-MARKET BRIEFING (SECTION 00) ─────────────────────────────────── */
+
+/* Main briefing card — matches .card but with an accent top-border */
+.briefing-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 9px;
+}
+.briefing-card-inner {
+  padding: 14px 16px;
+}
+
+/* Sentiment badge — large centrepiece */
+.briefing-sentiment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+  border-radius: 3px;
+  margin-bottom: 0;
+  position: relative;
+  overflow: hidden;
+}
+.briefing-sentiment.bull  { background: rgba(0,230,118,0.07);  border: 1px solid rgba(0,230,118,0.2); }
+.briefing-sentiment.bear  { background: rgba(255,51,85,0.07);   border: 1px solid rgba(255,51,85,0.2); }
+.briefing-sentiment.neut  { background: rgba(255,179,0,0.07);   border: 1px solid rgba(255,179,0,0.2); }
+.briefing-sentiment-word {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-family: var(--mono);
+  line-height: 1;
+}
+.briefing-sentiment.bull .briefing-sentiment-word { color: var(--green); }
+.briefing-sentiment.bear .briefing-sentiment-word { color: var(--red); }
+.briefing-sentiment.neut .briefing-sentiment-word { color: var(--amber); }
+.briefing-sentiment-label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text3);
+  margin-top: 5px;
+  font-family: var(--mono);
+}
+.briefing-sentiment-right {
+  text-align: right;
+}
+.briefing-sentiment-icon {
+  font-size: 36px;
+  opacity: 0.18;
+  user-select: none;
+}
+
+/* Colored badge — BULLISH / BEARISH / UNCERTAIN */
+.briefing-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 2px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+.briefing-badge.bull { background: var(--gdim);  color: var(--green); }
+.briefing-badge.bear { background: var(--rdim);  color: var(--red); }
+.briefing-badge.neut { background: var(--adim2); color: var(--amber); }
+
+/* Earnings timing badge — BMO / AMC */
+.earnings-badge {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 2px;
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+.earnings-badge.bmo { background: rgba(46,196,182,0.1); color: var(--accent); }
+.earnings-badge.amc { background: rgba(255,179,0,0.1);  color: var(--amber); }
+
+/* Economic event impact badge */
+.econ-badge {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 2px;
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+.econ-badge.high   { background: var(--rdim);  color: var(--red); }
+.econ-badge.medium { background: var(--adim2); color: var(--amber); }
+.econ-badge.low    { background: rgba(61,90,120,0.15); color: var(--text3); }
+
+/* Gapper rows — same rhythm as existing tbody tr */
+.gapper-row {
+  border-bottom: 1px solid rgba(28,37,53,.6);
+  transition: background .1s;
+}
+.gapper-row:hover { background: rgba(46,196,182,.025); }
+.gapper-row:last-child { border-bottom: none; }
+.gapper-row td {
+  padding: 6px 10px;
+  text-align: right;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+.gapper-row td:first-child { text-align: left; }
+.gapper-gap { color: var(--green); font-weight: 600; }
+
+/* Headlines list */
+.briefing-headline {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(28,37,53,.5);
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: var(--sans);
+}
+.briefing-headline:last-child { border-bottom: none; }
+.briefing-headline-bullet {
+  color: var(--accent);
+  font-size: 8px;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.briefing-headline a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color .15s;
+}
+.briefing-headline a:hover { color: var(--accent); }
+
+/* Date/time meta stamp */
+.briefing-meta {
+  font-size: 9.5px;
+  color: var(--text3);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: var(--mono);
+}
+
+/* Attitash rules reminder card */
+.briefing-rules {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-left: 3px solid rgba(46,196,182,0.35);
+  border-radius: 3px;
+  padding: 12px 16px;
+  margin-bottom: 9px;
+}
+.briefing-rules-title {
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.briefing-rules-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+}
+.briefing-rules-list li {
+  font-size: 11px;
+  color: var(--text2);
+  font-family: var(--sans);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.briefing-rules-list li::before {
+  content: '▸';
+  color: var(--accent);
+  font-size: 9px;
+  flex-shrink: 0;
+}
+
+/* Placeholder state */
+.briefing-placeholder {
+  padding: 22px 16px;
+  text-align: center;
+  font-size: 11px;
+  color: var(--text3);
+  letter-spacing: 1px;
+  font-family: var(--mono);
+}
+
+/* Two-column grid for earnings + econ events (reuses .g2 breakpoint) */
+.briefing-grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  margin-bottom: 9px;
+}
+
+/* Earnings / econ list rows */
+.briefing-list-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(28,37,53,.5);
+  gap: 8px;
+}
+.briefing-list-row:last-child { border-bottom: none; }
+.briefing-list-sym {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text);
+  font-family: var(--mono);
+}
+.briefing-list-time {
+  font-size: 10.5px;
+  color: var(--text3);
+  font-family: var(--mono);
+  white-space: nowrap;
+}
+.briefing-list-event {
+  font-size: 11.5px;
+  color: var(--text);
+  font-family: var(--sans);
+  flex: 1;
+  min-width: 0;
+}
+
+@media(max-width:1100px) {
+  .briefing-grid2 { grid-template-columns: 1fr; }
+  .briefing-sentiment-word { font-size: 22px; }
+}
+@media(max-width:768px) {
+  .briefing-sentiment { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .briefing-sentiment-icon { display: none; }
+}
+
+</style>
+</head>
+<body>
+<div class="snap-flash" id="snapFlash"></div>
+<div class="toast" id="toast"></div>
+<div class="wrap" id="root">
+
+<!-- ══ HEADER ══════════════════════════════════════════ -->
+<div class="hdr">
+  <div class="hdr-l">
+    <div class="logo-wrap">
+      <!-- Attitash Mountain Logo SVG — geometric peak / stylized A -->
+      <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Attitash logo">
+        <path d="M16 2L30 28H22L16 16L10 28H2L16 2Z" fill="var(--accent)" opacity="0.9"/>
+        <path d="M16 10L22 22H10L16 10Z" fill="var(--bg)" opacity="0.85"/>
+        <path d="M16 14L19.5 21H12.5L16 14Z" fill="var(--accent)" opacity="0.5"/>
+      </svg>
+      <div class="logo">ATTITASH TRADING</div>
+    </div>
+    <div class="hdr-meta">
+      <div id="hdr-date" style="letter-spacing:1px">—</div>
+      <strong id="hdr-time">—</strong>
+    </div>
+    <div class="live"><span class="dot"></span>ET LIVE</div>
+  </div>
+  <div class="hdr-r" style="display:flex;align-items:center;gap:8px">
+    <button id="refreshBtn" onclick="manualRefresh()" title="Refresh all data" style="
+      background:var(--bg3);border:1px solid var(--border);border-radius:3px;
+      color:var(--text2);font-size:10px;letter-spacing:1px;padding:5px 12px;
+      cursor:pointer;display:flex;align-items:center;gap:5px;font-family:inherit;
+      transition:all 0.2s ease;
+    " onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--accent)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--text2)'">
+      <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1 1v5h5"/><path d="M15 15v-5h-5"/>
+        <path d="M2.3 10a6 6 0 0 0 10.3 1.4L15 10M1 6l2.4-1.4A6 6 0 0 1 13.7 6"/>
+      </svg>
+      REFRESH
+    </button>
+    <span id="lastUpdatedBadge" style="font-size:9px;color:var(--text3);letter-spacing:1px;padding:4px 8px;background:var(--bg3);border:1px solid var(--border);border-radius:2px">LOADING DATA...</span>
+  </div>
+</div>
+
+<!-- ══ NOTION QUICK-LINKS BAR ═══════════════════════════ -->
+<div class="notion-bar">
+  <span class="notion-bar-label">Quick Links</span>
+  <a class="notion-link" href="https://www.notion.so/1eb17c0b064d81309b07ca03378fd780" target="_blank" rel="noopener noreferrer">📓 Journal</a>
+  <a class="notion-link" href="https://www.notion.so/1ee17c0b064d81bc9d73000b6a3772e3" target="_blank" rel="noopener noreferrer">📘 Playbook</a>
+  <a class="notion-link" href="https://www.notion.so/3e0b5009303948fea7633fb132ce44d8" target="_blank" rel="noopener noreferrer">📋 Setup Catalog</a>
+  <a class="notion-link" href="https://www.notion.so/3501068723d84ffa85c1f9cde22b21aa" target="_blank" rel="noopener noreferrer">📜 Trading Rules</a>
+  <a class="notion-link" href="https://www.notion.so/1eb17c0b064d81bab85f000bbc3266d2" target="_blank" rel="noopener noreferrer">🏆 Best Trade Opps</a>
+</div>
+
+<!-- ══ QUOTE BANNER ═════════════════════════════════════ -->
+<div class="quote-bar">
+  <div class="quote-icon">✦</div>
+  <div class="quote-text" id="quoteText">"Trade what you see, not what you think."</div>
+  <div class="quote-author" id="quoteAuthor"></div>
+  <div class="quote-icon">✦</div>
+</div>
+
+<!-- ══ DATA STATUS BAR ═══════════════════════════════════ -->
+<div class="api-bar" id="dataStatusBar">
+  ⬤ &nbsp;
+  <span id="dataStatus" style="color:var(--text2)">Loading market data...</span>
+  <span id="dataAge" style="color:var(--text3);font-size:9px;margin-left:auto">Auto-refreshed daily 08:30 ET via GitHub Actions · Yahoo Finance</span>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 00: PRE-MARKET BRIEFING                       -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="sec" id="s0">
+  <div class="sec-hdr">
+    <div class="sec-n">00</div>
+    <div class="sec-t">Pre-Market Briefing</div>
+    <div class="sec-sub" id="briefing-date-sub">8:30 AM ET · DAILY</div>
+  </div>
+
+  <!-- ── Placeholder (shown when no briefing.json) ──────────── -->
+  <div id="briefing-placeholder" class="briefing-card">
+    <div class="briefing-placeholder">
+      No briefing data — runs at 8:30 AM ET
+    </div>
+  </div>
+
+  <!-- ── Live briefing content (hidden until data loads) ─────── -->
+  <div id="briefing-live" style="display:none">
+
+    <!-- Sentiment card -->
+    <div class="briefing-card" style="margin-bottom:9px">
+      <div class="card-lbl">▸ Market Sentiment</div>
+      <div class="briefing-card-inner" style="padding:12px 14px">
+        <div id="briefing-sentiment-block" class="briefing-sentiment neut">
+          <div>
+            <div class="briefing-sentiment-word" id="briefing-sentiment-word">UNCERTAIN</div>
+            <div class="briefing-sentiment-label">Pre-market sentiment</div>
+          </div>
+          <div class="briefing-sentiment-right">
+            <div class="briefing-sentiment-icon" id="briefing-sentiment-icon">⚖</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gap Candidates table -->
+    <div class="briefing-card" style="margin-bottom:9px">
+      <div class="card-lbl">▸ Gap Candidates &nbsp;<span style="color:var(--text3);font-size:9px;font-weight:400;letter-spacing:1px">PRE-MARKET · &gt;10% · MCAP &gt;$500M</span></div>
+      <table>
+        <thead>
+          <tr>
+            <th class="l">Symbol</th>
+            <th>Gap%</th>
+            <th>Price</th>
+            <th>Market Cap</th>
+            <th class="l">Catalyst</th>
+          </tr>
+        </thead>
+        <tbody id="briefing-gappers">
+          <tr><td colspan="5" class="loading">Loading...</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Earnings + Economic Events (two-column) -->
+    <div class="briefing-grid2">
+
+      <!-- Earnings Today -->
+      <div class="briefing-card" style="margin-bottom:0">
+        <div class="card-lbl">▸ Earnings Today</div>
+        <div class="briefing-card-inner" id="briefing-earnings">
+          <div class="briefing-placeholder">Loading...</div>
+        </div>
+      </div>
+
+      <!-- Economic Events -->
+      <div class="briefing-card" style="margin-bottom:0">
+        <div class="card-lbl">▸ Economic Events &nbsp;<span style="color:var(--text3);font-size:9px;font-weight:400;letter-spacing:1px">ET</span></div>
+        <div class="briefing-card-inner" id="briefing-econ">
+          <div class="briefing-placeholder">Loading...</div>
+        </div>
+      </div>
+
+    </div><!-- /briefing-grid2 -->
+
+    <!-- Headlines -->
+    <div class="briefing-card" style="margin-bottom:9px">
+      <div class="card-lbl">▸ Market Headlines</div>
+      <div class="briefing-card-inner" id="briefing-headlines">
+        <div class="briefing-placeholder">Loading...</div>
+      </div>
+    </div>
+
