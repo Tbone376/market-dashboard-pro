@@ -1,0 +1,404 @@
+    <!-- Attitash Rules Reminder -->
+    <div class="briefing-rules">
+      <div class="briefing-rules-title">▸ Attitash Trading Rules — Daily Reminder</div>
+      <ul class="briefing-rules-list" id="briefing-rules-list">
+        <li>Only A-rated setups</li>
+        <li>Risk ≤ 0.5-1% per trade</li>
+        <li>Cut losses at hard stop — no averaging down</li>
+        <li>Trade where the momentum is</li>
+        <li>Journal every trade</li>
+      </ul>
+    </div>
+
+  </div><!-- /briefing-live -->
+
+</div><!-- /sec s0 -->
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 1: MACRO OVERVIEW                             -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="sec" id="s1">
+  <div class="sec-hdr">
+    <div class="sec-n">01</div>
+    <div class="sec-t">Macro Overview</div>
+    <div class="sec-sub">EOD SNAPSHOT · PREV CLOSE · RANKED BY CATEGORY</div>
+  </div>
+
+  <!-- Futures + DXY/VIX -->
+  <div class="mg">
+    <div class="card">
+      <div class="card-lbl">▸ US Index Futures</div>
+      <table><thead><tr><th class="l">Contract</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th></tr></thead>
+      <tbody id="t-futures"><tr><td colspan="7" class="loading">Loading...</td></tr></tbody></table>
+    </div>
+    <div class="card">
+      <div class="card-lbl">▸ Volatility & Dollar</div>
+      <table><thead><tr><th class="l">Instrument</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th></tr></thead>
+      <tbody id="t-dxvix"><tr><td colspan="7" class="loading">Loading...</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <!-- Crypto -->
+  <div class="card" style="margin-bottom:9px">
+    <div class="card-lbl">▸ Crypto</div>
+    <table><thead><tr><th class="l">Asset</th><th>Price (USD)</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th></tr></thead>
+    <tbody id="t-crypto"><tr><td colspan="7" class="loading">Loading...</td></tr></tbody></table>
+  </div>
+
+  <!-- Metals + Commodities -->
+  <div class="mg">
+    <div class="card">
+      <div class="card-lbl">▸ Precious & Base Metals</div>
+      <table><thead><tr><th class="l">Metal</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th></tr></thead>
+      <tbody id="t-metals"><tr><td colspan="7" class="loading">Loading...</td></tr></tbody></table>
+    </div>
+    <div class="card">
+      <div class="card-lbl">▸ Energy Commodities</div>
+      <table><thead><tr><th class="l">Commodity</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th></tr></thead>
+      <tbody id="t-commod"><tr><td colspan="7" class="loading">Loading...</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <!-- Yields + Global -->
+  <div class="mg">
+    <div class="card">
+      <div class="card-lbl">▸ US Treasury Yields</div>
+      <table><thead><tr><th class="l">Tenor</th><th>Yield%</th><th>1D (bps)</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th></tr></thead>
+      <tbody id="t-yields"><tr><td colspan="7" class="loading">Loading...</td></tr></tbody></table>
+    </div>
+    <div class="card">
+      <div class="card-lbl">▸ Global Market Indices</div>
+      <table><thead><tr><th class="l">Index</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th></tr></thead>
+      <tbody id="t-global"><tr><td colspan="7" class="loading">Loading...</td></tr></tbody></table>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 2: EQUITIES OVERVIEW                          -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="sec" id="s2">
+  <div class="sec-hdr">
+    <div class="sec-n">02</div>
+    <div class="sec-t">Equities Overview</div>
+    <div class="sec-sub">RANKED BY 1W PERFORMANCE</div>
+  </div>
+
+  <!-- Major ETF stats -->
+  <div class="card" style="margin-bottom:9px">
+    <div class="card-lbl">▸ Major ETF Stats</div>
+    <table><thead><tr><th class="l">ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>Vol</th><th>ADR%</th><th>RS</th><th>SI%</th><th>5D</th><th>Trend</th></tr></thead>
+    <tbody id="t-etfmain"><tr><td colspan="12" class="loading">Loading...</td></tr></tbody></table>
+  </div>
+
+  <!-- Sub-market -->
+  <div class="card" style="margin-bottom:9px">
+    <div class="card-lbl">▸ S&P 500 Sub-Market Performance — Ranked by 1W</div>
+    <table><thead><tr><th class="l">#</th><th class="l">Sub-Market / ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>Vol</th><th>ADR%</th><th>RS</th><th>SI%</th><th>5D</th><th>Trend</th></tr></thead>
+    <tbody id="t-submarket"><tr><td colspan="13" class="loading">Loading...</td></tr></tbody></table>
+  </div>
+
+  <!-- Sectors side by side -->
+  <div class="g2" style="margin-bottom:9px">
+    <div class="card">
+      <div class="card-lbl">▸ S&P 500 Sub-Sector — Ranked by 1W</div>
+      <table><thead><tr><th class="l">#</th><th class="l">Sector</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th>Trend</th><th class="l">Holdings</th></tr></thead>
+      <tbody id="t-sector"><tr><td colspan="9" class="loading">Loading...</td></tr></tbody></table>
+    </div>
+    <div class="card">
+      <div class="card-lbl">▸ S&P 500 EW Sub-Sector — Ranked by 1W</div>
+      <table><thead><tr><th class="l">#</th><th class="l">EW Sector</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>5D</th><th>Trend</th><th class="l">Holdings</th></tr></thead>
+      <tbody id="t-sectorew"><tr><td colspan="9" class="loading">Loading...</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <!-- Thematic Top 10 -->
+  <div class="card" style="margin-bottom:9px">
+    <div class="card-lbl">▸ Top 10 Thematic Sectors — Ranked by 1W (Holdings expandable ▸)</div>
+    <table><thead><tr><th class="l">#</th><th class="l">Theme / ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>Vol</th><th>ADR%</th><th>RS</th><th>SI%</th><th>5D</th><th>Trend</th><th class="l">Holdings</th></tr></thead>
+    <tbody id="t-thematic"><tr><td colspan="14" class="loading">Loading...</td></tr></tbody></table>
+  </div>
+
+  <!-- Country ETFs -->
+  <div class="card">
+    <div class="card-lbl">▸ Country ETFs — Top 10 by 1W Performance (Holdings expandable ▸)</div>
+    <table><thead><tr><th class="l">#</th><th class="l">Country / ETF</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>Vol</th><th>ADR%</th><th>RS</th><th>SI%</th><th>5D</th><th>Trend</th><th class="l">Holdings</th></tr></thead>
+    <tbody id="t-country"><tr><td colspan="14" class="loading">Loading...</td></tr></tbody></table>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 3: MARKET BREADTH & SENTIMENT                 -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="sec" id="s-breadth">
+  <div class="sec-hdr">
+    <div class="sec-n">03</div>
+    <div class="sec-t">Market Breadth &amp; Sentiment</div>
+    <div class="sec-sub">S&amp;P 500 INTERNALS &middot; SENTIMENT INDICATORS &middot; UPDATED DAILY</div>
+  </div>
+  <div class="card" style="padding:16px 18px">
+    <div class="card-lbl" style="margin-bottom:14px">&#9658; Market Internals Dashboard</div>
+    <div id="breadthGrid" style="display:grid;grid-template-columns:repeat(7,1fr);gap:10px">
+      <div style="color:var(--text3);font-size:11px;grid-column:span 7;text-align:center;padding:20px 0">Loading breadth data&hellip;</div>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!-- SECTION 5: WATCHLIST                                   -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="sec" id="s-watchlist">
+  <div class="sec-hdr">
+    <div class="sec-n">05</div>
+    <div class="sec-t">Watchlist</div>
+    <div class="sec-sub">PERSONAL FOCUS LIST · CLICK TICKER FOR CHART</div>
+  </div>
+  <div class="card">
+    <div class="card-lbl">▸ Active Watchlist</div>
+    <table>
+      <thead><tr>
+        <th class="l">Ticker</th><th class="l">Name</th><th>Price</th><th>1D%</th><th>1W%</th><th>52W Hi%</th><th>YTD%</th><th>Vol</th><th>ADR%</th><th>RS</th><th>SI%</th><th>5D</th><th>Trend</th><th class="l">Notes</th>
+      </tr></thead>
+      <tbody id="t-watchlist"><tr><td colspan="14" class="loading">Loading...</td></tr></tbody>
+    </table>
+    <div class="wl-add">
+      <input type="text" id="wlInput" placeholder="Enter ticker symbol..." maxlength="10">
+      <button onclick="toast('Watchlist sync via data pipeline')">+ ADD</button>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SECTION 4: POSITION SIZING                            -->
+<!-- ══════════════════════════════════════════════════════ -->
+<div class="sec" id="s4">
+  <div class="sec-hdr">
+    <div class="sec-n">04</div>
+    <div class="sec-t">Position Sizing Calculator</div>
+    <div class="sec-sub">RISK-BASED · STAGGERED STOPS</div>
+  </div>
+  <div class="calc-wrap">
+    <!-- Inputs -->
+    <div class="cpanel">
+      <div class="c-ttl">▸ Trade Parameters</div>
+      <div class="dir-tog">
+        <button class="dir-b long on" id="bLong" onclick="setDir('long')">&#9650; LONG</button>
+        <button class="dir-b short" id="bShort" onclick="setDir('short')">&#9660; SHORT</button>
+      </div>
+      <div class="fg"><label class="fl">Account Equity (USD)</label>
+        <input class="fi" type="number" id="cEquity" value="10000000" oninput="calc()"></div>
+      <div class="fg"><label class="fl">Risk per Trade (%)</label>
+        <input class="fi" type="number" id="cRisk" value="0.3" step="0.05" oninput="calc()"></div>
+      <div class="fr">
+        <div class="fg"><label class="fl">Entry Price ($)</label>
+          <input class="fi" type="number" id="cEntry" value="100" oninput="calc()"></div>
+        <div class="fg"><label class="fl">Stop Loss ($)</label>
+          <input class="fi" type="number" id="cStop" value="95" oninput="calc()"></div>
+      </div>
+      <div class="fg"><label class="fl">Ticker (optional)</label>
+        <input class="fi" type="text" id="cTicker" placeholder="e.g. AAPL" style="text-transform:uppercase"></div>
+      <div class="res">
+        <div class="res-big" id="rShares">6,000</div>
+        <div class="res-lbl">SHARES TO TRADE</div>
+        <div class="res-sub">
+          <div class="ri"><div class="rv" id="rRisk" style="color:var(--red)">$30,000</div><div class="rl">Max Risk $</div></div>
+          <div class="ri"><div class="rv" id="rVal">$600,000</div><div class="rl">Position Value</div></div>
+          <div class="ri"><div class="rv" id="rPts" style="color:var(--amber)">$5.00</div><div class="rl">Risk/Share</div></div>
+          <div class="ri"><div class="rv" id="rEq" style="color:var(--text2)">6.0%</div><div class="rl">% Equity</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stops -->
+    <div class="stops-panel">
+      <div class="stops-hdr">
+        <span style="font-size:9px;color:var(--text2);letter-spacing:1px;text-transform:uppercase;margin-right:auto">▸ Staggered Stop Levels</span>
+        <button class="s-tab on" id="st2" onclick="setStops(2)">2-STOP</button>
+        <button class="s-tab" id="st3" onclick="setStops(3)">3-STOP</button>
+      </div>
+      <div class="stops-body">
+        <div class="sr-hdr"><span>Level</span><span>Price</span><span>Shares to Remove</span><span>% of Position</span><span>P&L at Stop</span></div>
+        <div id="srRows"></div>
+        <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--border)">
+          <div class="viz-note">Scale-Out Visualization</div>
+          <div class="scale-viz" id="scaleViz"></div>
+        </div>
+        <!-- Risk/Reward helper -->
+        <div style="margin-top:22px;padding-top:12px;border-top:1px solid var(--border)">
+          <div class="viz-note" style="margin-bottom:8px">R:R Targets</div>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px" id="rrTargets"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /wrap -->
+<!-- ══ TRADINGVIEW CHART MODAL ════════════════ -->
+<div id="tv-modal" onclick="if(event.target===this)closeChart()">
+  <div id="tv-modal-box">
+    <div id="tv-modal-hdr">
+      <div id="tv-modal-title">—</div>
+      <button onclick="closeChart()">✕ &nbsp;CLOSE</button>
+    </div>
+    <div id="tv-frame-wrap">
+      <iframe id="tv-frame" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+// QUOTE ROTATION
+// ═══════════════════════════════════════════════════════
+const QUOTES = [
+  {text:'"One A-rated setup with proper execution beats multiple B/C setups."', author:''},
+  {text:'"If you Fail to Plan, You are Planning to Fail."', author:'— Benjamin Franklin'},
+  {text:'"The goal is not to make money, it\'s to be right about the market."', author:'— Jesse Livermore'},
+  {text:'"Trade what you see, not what you think."', author:''},
+  {text:'"Cut your losses short. Let your winners run."', author:''},
+];
+(function setQuote(){
+  const q = QUOTES[Math.floor(Math.random()*QUOTES.length)];
+  document.getElementById('quoteText').textContent = q.text;
+  document.getElementById('quoteAuthor').textContent = q.author;
+})();
+
+// ═══════════════════════════════════════════════════════
+// DATA DEFINITIONS
+// ═══════════════════════════════════════════════════════
+const FINNHUB_SYMBOLS = {
+  futures:   ['ES1!','NQ1!','RTY1!','YM1!'],
+  dxvix:     ['DX-Y.NYB','CBOE:VIX'],
+  metals:    ['GC1!','SI1!','HG1!','PL1!','PA1!','ALI1!'],
+  commod:    ['CL1!','NG1!'],
+  yields:    ['US2Y','US10Y','US30Y'],
+  global:    ['^N225','^KS11','^NSEI','000001.SS','000300.SS','^HSI','^FTSE','^FCHI','^GDAXI'],
+  etfmain:   ['SPY','QQQ','DIA','IWM'],
+  submarket: ['IVW','IVE','IJK','IJJ','IJT','IJS','MGK','VUG','VTV'],
+  sector:    ['XLK','XLV','XLF','XLE','XLY','XLI','XLB','XLU','XLRE','XLC','XLP'],
+  sectorew:  ['RYT','RYH','RYF','RYE','RCD','RGI','RTM','RYU','EWRE','EWCO','RHS'],
+  thematic:  ['BOTZ','HACK','SOXX','ICLN','SKYY','XBI','ITA','FINX','ARKG','URA','AIQ','CIBR','ROBO','ARKK','DRIV','OGIG','ACES','PAVE','HERO','CLOU'],
+  country:   ['EWJ','EWY','INDA','MCHI','GXC','EWH','EWU','EWQ','EWG','EWZ','EWT','EWA','EWC','EWL','EWP','EWS','TUR','EWM','EPHE','THD','VNM','EWI','EWN','EWD','EWK','EWO'],
+};
+
+const META = {
+  'ES1!':   { name:'S&P 500 Futures',     sym:'ES1!' },
+  'NQ1!':   { name:'Nasdaq Futures',       sym:'NQ1!' },
+  'RTY1!':  { name:'Russell 2000 Futures', sym:'RTY1!' },
+  'YM1!':   { name:'Dow Jones Futures',    sym:'YM1!' },
+  'DX-Y.NYB':{ name:'US Dollar Index',    sym:'DXY' },
+  'CBOE:VIX':{ name:'CBOE VIX',           sym:'VIX' },
+  'GC1!':   { name:'Gold',       sym:'GC1!', unit:'$/oz' },
+  'SI1!':   { name:'Silver',     sym:'SI1!', unit:'$/oz' },
+  'HG1!':   { name:'Copper',     sym:'HG1!', unit:'$/lb' },
+  'PL1!':   { name:'Platinum',   sym:'PL1!', unit:'$/oz' },
+  'PA1!':   { name:'Palladium',  sym:'PA1!', unit:'$/oz' },
+  'ALI1!':  { name:'Aluminum',   sym:'ALI1!', unit:'$/cwt' },
+  'CL1!':   { name:'WTI Crude Oil', sym:'CL1!', unit:'$/bbl' },
+  'NG1!':   { name:'Natural Gas',   sym:'NG1!', unit:'$/mmBtu' },
+  'US2Y':   { name:'2-Year Treasury', sym:'US02Y', isYield:true },
+  'US10Y':  { name:'10-Year Treasury', sym:'US10Y', isYield:true },
+  'US30Y':  { name:'30-Year Treasury', sym:'US30Y', isYield:true },
+  '^N225':  { name:'Nikkei 225',      sym:'N225' },
+  '^KS11':  { name:'KOSPI',           sym:'KOSPI' },
+  '^NSEI':  { name:'Nifty 50',        sym:'NIFTY' },
+  '000001.SS':{ name:'Shanghai Comp.',sym:'SHCOMP'},
+  '000300.SS':{ name:'CSI 300',       sym:'CSI300'},
+  '^HSI':   { name:'Hang Seng',       sym:'HSI' },
+  '^FTSE':  { name:'FTSE 100',        sym:'UKX' },
+  '^FCHI':  { name:'CAC 40',          sym:'CAC' },
+  '^GDAXI': { name:'DAX',             sym:'DAX' },
+  'SPY':    { name:'SPDR S&P 500',       sym:'SPY' },
+  'QQQ':    { name:'Invesco QQQ',        sym:'QQQ' },
+  'DIA':    { name:'SPDR Dow Jones',     sym:'DIA' },
+  'IWM':    { name:'iShares Russell 2000',sym:'IWM' },
+  'IVW':    { name:'iSh S&P 500 Growth', sym:'IVW' },
+  'IVE':    { name:'iSh S&P 500 Value',  sym:'IVE' },
+  'IJK':    { name:'iSh S&P 400 MidCap Growth',sym:'IJK' },
+  'IJJ':    { name:'iSh S&P 400 MidCap Value', sym:'IJJ' },
+  'IJT':    { name:'iSh S&P 600 SmCap Growth', sym:'IJT' },
+  'IJS':    { name:'iSh S&P 600 SmCap Value',  sym:'IJS' },
+  'MGK':    { name:'Vanguard Mega Cap Growth',  sym:'MGK' },
+  'VUG':    { name:'Vanguard Growth',    sym:'VUG' },
+  'VTV':    { name:'Vanguard Value',     sym:'VTV' },
+  'XLK':    { name:'Technology',         sym:'XLK' },
+  'XLV':    { name:'Health Care',        sym:'XLV' },
+  'XLF':    { name:'Financials',         sym:'XLF' },
+  'XLE':    { name:'Energy',             sym:'XLE' },
+  'XLY':    { name:'Consumer Discret.', sym:'XLY' },
+  'XLI':    { name:'Industrials',        sym:'XLI' },
+  'XLB':    { name:'Materials',          sym:'XLB' },
+  'XLU':    { name:'Utilities',          sym:'XLU' },
+  'XLRE':   { name:'Real Estate',        sym:'XLRE' },
+  'XLC':    { name:'Comm. Services',     sym:'XLC' },
+  'XLP':    { name:'Consumer Staples',   sym:'XLP' },
+  'RYT':    { name:'EW Technology',      sym:'RYT' },
+  'RYH':    { name:'EW Health Care',     sym:'RYH' },
+  'RYF':    { name:'EW Financials',      sym:'RYF' },
+  'RYE':    { name:'EW Energy',          sym:'RYE' },
+  'RCD':    { name:'EW Consumer Disc.',  sym:'RCD' },
+  'RGI':    { name:'EW Industrials',     sym:'RGI' },
+  'RTM':    { name:'EW Materials',       sym:'RTM' },
+  'RYU':    { name:'EW Utilities',       sym:'RYU' },
+  'EWRE':   { name:'EW Real Estate',     sym:'EWRE' },
+  'EWCO':   { name:'EW Comm. Services',  sym:'EWCO' },
+  'RHS':    { name:'EW Consumer Stap.',  sym:'RHS' },
+  'BOTZ':   { name:'Global X AI & Robotics',  sym:'BOTZ' },
+  'HACK':   { name:'ETFMG Prime Cybersecurity',sym:'HACK' },
+  'SOXX':   { name:'iSh Semiconductor',        sym:'SOXX' },
+  'ICLN':   { name:'iSh Global Clean Energy',  sym:'ICLN' },
+  'SKYY':   { name:'First Trust Cloud Computing',sym:'SKYY' },
+  'XBI':    { name:'SPDR Biotech',             sym:'XBI' },
+  'ITA':    { name:'iSh Aerospace & Defense',  sym:'ITA' },
+  'FINX':   { name:'Global X FinTech',         sym:'FINX' },
+  'ARKG':   { name:'ARK Genomic Revolution',   sym:'ARKG' },
+  'URA':    { name:'Global X Uranium',          sym:'URA' },
+  'AIQ':    { name:'Global X AI & Technology', sym:'AIQ' },
+  'CIBR':   { name:'First Trust Cybersecurity', sym:'CIBR' },
+  'ROBO':   { name:'ROBO Global Robotics',      sym:'ROBO' },
+  'ARKK':   { name:'ARK Innovation',            sym:'ARKK' },
+  'DRIV':   { name:'Global X Autonomous & EV',  sym:'DRIV' },
+  'OGIG':   { name:"O'Shares Global Internet", sym:'OGIG' },
+  'ACES':   { name:'ALPS Clean Energy',          sym:'ACES' },
+  'PAVE':   { name:'Global X U.S. Infrastructure',sym:'PAVE' },
+  'HERO':   { name:'Global X Video Games & Esports',sym:'HERO' },
+  'CLOU':   { name:'Global X Cloud Computing',  sym:'CLOU' },
+  'EWJ':    { name:'Japan',          sym:'EWJ',  flag:'🇯🇵' },
+  'EWY':    { name:'South Korea',    sym:'EWY',  flag:'🇰🇷' },
+  'INDA':   { name:'India',          sym:'INDA', flag:'🇮🇳' },
+  'MCHI':   { name:'China Large Cap',sym:'MCHI', flag:'🇨🇳' },
+  'GXC':    { name:'China S&P ETF',  sym:'GXC',  flag:'🇨🇳' },
+  'EWH':    { name:'Hong Kong',      sym:'EWH',  flag:'🇭🇰' },
+  'EWU':    { name:'United Kingdom', sym:'EWU',  flag:'🇬🇧' },
+  'EWQ':    { name:'France',         sym:'EWQ',  flag:'🇫🇷' },
+  'EWG':    { name:'Germany',        sym:'EWG',  flag:'🇩🇪' },
+  'EWZ':    { name:'Brazil',         sym:'EWZ',  flag:'🇧🇷' },
+  'EWT':    { name:'Taiwan',         sym:'EWT',  flag:'🇹🇼' },
+  'EWA':    { name:'Australia',      sym:'EWA',  flag:'🇦🇺' },
+  'EWC':    { name:'Canada',         sym:'EWC',  flag:'🇨🇦' },
+  'EWL':    { name:'Switzerland',    sym:'EWL',  flag:'🇨🇭' },
+  'EWP':    { name:'Spain',          sym:'EWP',  flag:'🇪🇸' },
+  'EWS':    { name:'Singapore',      sym:'EWS',  flag:'🇸🇬' },
+  'TUR':    { name:'Turkey',         sym:'TUR',  flag:'🇹🇷' },
+  'EWM':    { name:'Malaysia',       sym:'EWM',  flag:'🇲🇾' },
+  'EPHE':   { name:'Philippines',    sym:'EPHE', flag:'🇵🇭' },
+  'THD':    { name:'Thailand',       sym:'THD',  flag:'🇹🇭' },
+  'VNM':    { name:'Vietnam',        sym:'VNM',  flag:'🇻🇳' },
+  'EWI':    { name:'Italy',          sym:'EWI',  flag:'🇮🇹' },
+  'EWN':    { name:'Netherlands',    sym:'EWN',  flag:'🇳🇱' },
+  'EWD':    { name:'Sweden',         sym:'EWD',  flag:'🇸🇪' },
+  'EWK':    { name:'Belgium',        sym:'EWK',  flag:'🇧🇪' },
+  'EWO':    { name:'Austria',        sym:'EWO',  flag:'🇦🇹' },
+};
+
+const SECTOR_HOLDINGS
