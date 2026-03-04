@@ -1,128 +1,84 @@
 {
-  "date": "Mon, Mar 2, 2026",
-  "sentiment": "BEARISH",
+  "date": "Wed, Mar 4, 2026",
+  "generated_at": "2026-03-04T08:14:39.897673-05:00",
+  "sentiment": "BULLISH",
+  "futures": {
+    "ES": {
+      "price": 0,
+      "change": 0,
+      "change_pct": 0,
+      "prev_close": 0
+    },
+    "NQ": {
+      "price": 0,
+      "change": 0,
+      "change_pct": 0,
+      "prev_close": 0
+    },
+    "CL": {
+      "price": 0,
+      "change": 0,
+      "change_pct": 0,
+      "prev_close": 0
+    },
+    "DXY": {
+      "price": 0,
+      "change": 0,
+      "change_pct": 0,
+      "prev_close": 0
+    },
+    "VIX": {
+      "price": 0,
+      "change": 0,
+      "change_pct": 0,
+      "prev_close": 0
+    }
+  },
   "gappers": [
     {
-      "symbol": "AAOI",
-      "gap_pct": 56.9,
-      "price": 84.23,
-      "market_cap": 5751214966,
-      "catalyst": "Earnings beat"
+      "symbol": "KTB",
+      "gap_pct": 20.6,
+      "price": 78.18,
+      "market_cap": 4346308608,
+      "catalyst": ""
     },
     {
-      "symbol": "ARLO",
-      "gap_pct": 27.1,
-      "price": 15.69,
-      "market_cap": 1663018685,
-      "catalyst": "Earnings beat"
+      "symbol": "INGM",
+      "gap_pct": 14.3,
+      "price": 24.41,
+      "market_cap": 5738123264,
+      "catalyst": ""
     },
     {
-      "symbol": "BWIN",
-      "gap_pct": 25.6,
-      "price": 23.23,
-      "market_cap": 1578188543,
-      "catalyst": "Earnings beat"
-    },
-    {
-      "symbol": "PRAA",
-      "gap_pct": 24.3,
-      "price": 15.75,
-      "market_cap": 614493212,
-      "catalyst": "Earnings beat"
-    },
-    {
-      "symbol": "FIGS",
-      "gap_pct": 23.9,
-      "price": 15.45,
-      "market_cap": 2541505023,
-      "catalyst": "Earnings beat"
-    },
-    {
-      "symbol": "DELL",
-      "gap_pct": 21.8,
-      "price": 147.95,
-      "market_cap": 99156121365,
-      "catalyst": "Earnings beat"
-    },
-    {
-      "symbol": "PSKY",
-      "gap_pct": 20.8,
-      "price": 13.51,
-      "market_cap": 14478220859,
-      "catalyst": "Earnings beat"
-    },
-    {
-      "symbol": "PSNY",
-      "gap_pct": 20.4,
-      "price": 23.28,
-      "market_cap": 1639399949,
-      "catalyst": "Earnings beat"
+      "symbol": "INTA",
+      "gap_pct": 11.5,
+      "price": 26.14,
+      "market_cap": 2141558144,
+      "catalyst": ""
     }
   ],
-  "earnings": [
-    {
-      "ticker": "NCLH",
-      "time_et": "8:00 AM",
-      "timing": "BMO"
-    },
-    {
-      "ticker": "CRDO",
-      "time_et": "5:00 PM",
-      "timing": "AMC"
-    },
-    {
-      "ticker": "RIOT",
-      "time_et": "4:30 PM",
-      "timing": "AMC"
-    },
-    {
-      "ticker": "CORZ",
-      "time_et": "4:30 PM",
-      "timing": "AMC"
-    },
-    {
-      "ticker": "PLUG",
-      "time_et": "4:30 PM",
-      "timing": "AMC"
-    },
-    {
-      "ticker": "SATS",
-      "time_et": "11:00 AM",
-      "timing": "BMO"
-    }
-  ],
-  "econ_events": [
-    {
-      "event": "S&P Global US Manufacturing PMI (Feb, final)",
-      "time_et": "9:45 AM",
-      "impact": "medium"
-    },
-    {
-      "event": "ISM Manufacturing PMI (Feb)",
-      "time_et": "10:00 AM",
-      "impact": "high"
-    }
-  ],
+  "earnings": [],
+  "econ_events": [],
   "headlines": [
     {
-      "text": "S&P 500 futures slide as tariff fears mount, VIX spikes above 22",
-      "url": "https://www.cnbc.com/2026/03/01/stock-market-today-live-update.html"
+      "text": "3 Simple ETFs to Buy With $1,000 and Hold for a Lifetime",
+      "url": "https://finance.yahoo.com/m/c139570d-5df6-3b9b-a827-4579da48d687/3-simple-etfs-to-buy-with.html"
     },
     {
-      "text": "Crude oil surges nearly 7% on supply disruption concerns",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-03-01/"
+      "text": "3 Ways to Profit From the Iran Crisis With Options",
+      "url": "https://finance.yahoo.com/m/c5d55d7a-eb84-365d-ae9f-31b5568b778c/3-ways-to-profit-from-the.html"
     },
     {
-      "text": "ISM Manufacturing PMI in focus as market sentiment turns bearish",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-03022026-11917019"
+      "text": "These S&P 500 Dividend Stocks Are Quietly Crushing the Index \u2014 And Paying You Monthly",
+      "url": "https://finance.yahoo.com/m/8fc8cd04-5f0e-3fd0-82d8-ba7fe05902d1/these-s%26p-500-dividend-stocks.html"
     },
     {
-      "text": "Dell gaps up 22% on strong AI server demand in Q4 earnings beat",
-      "url": ""
+      "text": "Better S&P 500 ETF: State Street's SPY vs. Vanguard's VOO",
+      "url": "https://finance.yahoo.com/m/d7618d99-510f-37dd-897d-3f90da6c49f4/better-s%26p-500-etf%3A-state.html"
     },
     {
-      "text": "Nasdaq futures drop over 1% as tech selloff extends into new week",
-      "url": ""
+      "text": "3 Macro Charts That Matter Now: U.S. Dollar, Gold, S&P 500",
+      "url": "https://finance.yahoo.com/m/9eba54ce-78e6-37b3-8636-44248a6c5dfd/3-macro-charts-that-matter.html"
     }
   ]
 }
