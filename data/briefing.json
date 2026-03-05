@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Mar 4, 2026",
-  "generated_at": "2026-03-04T08:14:39.897673-05:00",
+  "date": "Thu, Mar 5, 2026",
+  "generated_at": "2026-03-05T08:18:12.575594-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "KTB",
-      "gap_pct": 20.6,
-      "price": 78.18,
-      "market_cap": 4346308608,
+      "symbol": "STVN",
+      "gap_pct": 18.8,
+      "price": 17.5,
+      "market_cap": 4777564160,
       "catalyst": ""
     },
     {
-      "symbol": "INGM",
-      "gap_pct": 14.3,
-      "price": 24.41,
-      "market_cap": 5738123264,
+      "symbol": "GLXY",
+      "gap_pct": 17.7,
+      "price": 24.34,
+      "market_cap": 9507456000,
       "catalyst": ""
     },
     {
-      "symbol": "INTA",
-      "gap_pct": 11.5,
-      "price": 26.14,
-      "market_cap": 2141558144,
+      "symbol": "MRNA",
+      "gap_pct": 16.0,
+      "price": 57.8,
+      "market_cap": 22827497472,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SSRM",
+      "gap_pct": 15.0,
+      "price": 33.26,
+      "market_cap": 6762632192,
+      "catalyst": ""
+    },
+    {
+      "symbol": "COIN",
+      "gap_pct": 14.6,
+      "price": 208.93,
+      "market_cap": 56339558400,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HUT",
+      "gap_pct": 13.9,
+      "price": 54.21,
+      "market_cap": 6011199488,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ASTS",
+      "gap_pct": 13.2,
+      "price": 104.89,
+      "market_cap": 39868116992,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IREN",
+      "gap_pct": 12.8,
+      "price": 43.84,
+      "market_cap": 14544321536,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PBF",
+      "gap_pct": 12.7,
+      "price": 44.8,
+      "market_cap": 5238321152,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WIX",
+      "gap_pct": 12.7,
+      "price": 83.78,
+      "market_cap": 4665392128,
       "catalyst": ""
     }
   ],
@@ -61,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "3 Simple ETFs to Buy With $1,000 and Hold for a Lifetime",
-      "url": "https://finance.yahoo.com/m/c139570d-5df6-3b9b-a827-4579da48d687/3-simple-etfs-to-buy-with.html"
+      "text": "CTA Gained While the S&P 500 Collapsed. Here Is What It Holds",
+      "url": "https://finance.yahoo.com/m/94b45f84-ae34-32cb-82a0-412ccbe21c53/cta-gained-while-the-s%26p-500.html"
     },
     {
-      "text": "3 Ways to Profit From the Iran Crisis With Options",
-      "url": "https://finance.yahoo.com/m/c5d55d7a-eb84-365d-ae9f-31b5568b778c/3-ways-to-profit-from-the.html"
+      "text": "COWG Is Up While QQQ Slips. What the Free Cash Flow Screen Is Actually Doing",
+      "url": "https://finance.yahoo.com/m/9364904e-50b0-3faf-b8cb-56afd750b10d/cowg-is-up-while-qqq-slips..html"
     },
     {
-      "text": "These S&P 500 Dividend Stocks Are Quietly Crushing the Index \u2014 And Paying You Monthly",
-      "url": "https://finance.yahoo.com/m/8fc8cd04-5f0e-3fd0-82d8-ba7fe05902d1/these-s%26p-500-dividend-stocks.html"
+      "text": "Turns Out, a Simple ETF That Bets on Farmers Is Beating The S&P 500 Right Now",
+      "url": "https://finance.yahoo.com/m/bb55044b-7243-3f2f-a6ed-99264193967d/turns-out%2C-a-simple-etf-that.html"
     },
     {
-      "text": "Better S&P 500 ETF: State Street's SPY vs. Vanguard's VOO",
-      "url": "https://finance.yahoo.com/m/d7618d99-510f-37dd-897d-3f90da6c49f4/better-s%26p-500-etf%3A-state.html"
+      "text": "Why Cybersecurity ETF CIBR Belongs in Every Retirement Portfolio Right Now",
+      "url": "https://finance.yahoo.com/m/bf3591bb-8b27-3f70-a2a9-934071d4d25f/why-cybersecurity-etf-cibr.html"
     },
     {
-      "text": "3 Macro Charts That Matter Now: U.S. Dollar, Gold, S&P 500",
-      "url": "https://finance.yahoo.com/m/9eba54ce-78e6-37b3-8636-44248a6c5dfd/3-macro-charts-that-matter.html"
+      "text": "BCA Research upgrades Canada and Australia amid Hormuz closure",
+      "url": "https://finance.yahoo.com/news/bca-research-upgrades-canada-australia-182409122.html"
     }
   ]
 }
