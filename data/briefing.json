@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Mar 5, 2026",
-  "generated_at": "2026-03-05T08:18:12.575594-05:00",
+  "date": "Fri, Mar 6, 2026",
+  "generated_at": "2026-03-06T08:14:02.903363-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "STVN",
-      "gap_pct": 18.8,
-      "price": 17.5,
-      "market_cap": 4777564160,
+      "symbol": "SOC",
+      "gap_pct": 37.3,
+      "price": 13.85,
+      "market_cap": 2007720832,
       "catalyst": ""
     },
     {
-      "symbol": "GLXY",
-      "gap_pct": 17.7,
-      "price": 24.34,
-      "market_cap": 9507456000,
+      "symbol": "TNGX",
+      "gap_pct": 36.3,
+      "price": 16.83,
+      "market_cap": 2266615296,
       "catalyst": ""
     },
     {
-      "symbol": "MRNA",
-      "gap_pct": 16.0,
-      "price": 57.8,
-      "market_cap": 22827497472,
+      "symbol": "TTD",
+      "gap_pct": 18.4,
+      "price": 29.79,
+      "market_cap": 14179356672,
       "catalyst": ""
     },
     {
-      "symbol": "SSRM",
-      "gap_pct": 15.0,
-      "price": 33.26,
-      "market_cap": 6762632192,
+      "symbol": "EXPE",
+      "gap_pct": 13.7,
+      "price": 251.54,
+      "market_cap": 30822420480,
       "catalyst": ""
     },
     {
-      "symbol": "COIN",
-      "gap_pct": 14.6,
-      "price": 208.93,
-      "market_cap": 56339558400,
+      "symbol": "UNF",
+      "gap_pct": 13.6,
+      "price": 262.76,
+      "market_cap": 4751177728,
       "catalyst": ""
     },
     {
-      "symbol": "HUT",
-      "gap_pct": 13.9,
-      "price": 54.21,
-      "market_cap": 6011199488,
+      "symbol": "CRDO",
+      "gap_pct": 11.9,
+      "price": 114.74,
+      "market_cap": 21163786240,
       "catalyst": ""
     },
     {
-      "symbol": "ASTS",
-      "gap_pct": 13.2,
-      "price": 104.89,
-      "market_cap": 39868116992,
+      "symbol": "RTO",
+      "gap_pct": 11.3,
+      "price": 31.99,
+      "market_cap": 16454462464,
       "catalyst": ""
     },
     {
-      "symbol": "IREN",
-      "gap_pct": 12.8,
-      "price": 43.84,
-      "market_cap": 14544321536,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PBF",
-      "gap_pct": 12.7,
-      "price": 44.8,
-      "market_cap": 5238321152,
+      "symbol": "OKTA",
+      "gap_pct": 11.0,
+      "price": 79.65,
+      "market_cap": 14116387840,
       "catalyst": ""
     },
     {
       "symbol": "WIX",
-      "gap_pct": 12.7,
-      "price": 83.78,
-      "market_cap": 4665392128,
+      "gap_pct": 10.9,
+      "price": 92.94,
+      "market_cap": 5175478272,
+      "catalyst": ""
+    },
+    {
+      "symbol": "VG",
+      "gap_pct": 10.0,
+      "price": 12.28,
+      "market_cap": 30062796800,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "CTA Gained While the S&P 500 Collapsed. Here Is What It Holds",
-      "url": "https://finance.yahoo.com/m/94b45f84-ae34-32cb-82a0-412ccbe21c53/cta-gained-while-the-s%26p-500.html"
+      "text": "Stock Market Today: Dow Drops On Surging Oil Prices With Jobs Report Up Next; Nvidia Slides (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/813084aa-a02d-3d77-b4d2-3ab9224fd1e7/stock-market-today%3A-dow-drops.html"
     },
     {
-      "text": "COWG Is Up While QQQ Slips. What the Free Cash Flow Screen Is Actually Doing",
-      "url": "https://finance.yahoo.com/m/9364904e-50b0-3faf-b8cb-56afd750b10d/cowg-is-up-while-qqq-slips..html"
+      "text": "The Last Time the Fed Chair Was This Hawkish, the Market Did Something Surprising",
+      "url": "https://finance.yahoo.com/m/8bdb1da9-f4d7-3bea-863c-03315ff3c4b2/the-last-time-the-fed-chair.html"
     },
     {
-      "text": "Turns Out, a Simple ETF That Bets on Farmers Is Beating The S&P 500 Right Now",
-      "url": "https://finance.yahoo.com/m/bb55044b-7243-3f2f-a6ed-99264193967d/turns-out%2C-a-simple-etf-that.html"
+      "text": "Forget Tariffs, If Stock Market Crash Occurs Under Trump, These 3 Catalysts Will Be To Blame",
+      "url": "https://finance.yahoo.com/news/forget-tariffs-stock-market-crash-123036247.html"
     },
     {
-      "text": "Why Cybersecurity ETF CIBR Belongs in Every Retirement Portfolio Right Now",
-      "url": "https://finance.yahoo.com/m/bf3591bb-8b27-3f70-a2a9-934071d4d25f/why-cybersecurity-etf-cibr.html"
+      "text": "U.S. Stock Funds Eke Out February Gain Despite AI Worries",
+      "url": "https://finance.yahoo.com/m/74a3c987-3ee7-391a-be1f-ab10de78d88b/u.s.-stock-funds-eke-out.html"
     },
     {
-      "text": "BCA Research upgrades Canada and Australia amid Hormuz closure",
-      "url": "https://finance.yahoo.com/news/bca-research-upgrades-canada-australia-182409122.html"
+      "text": "The Zacks Analyst Blog Highlights SPY, DIA, QQQ, WCLD, XTL, RSPC, IHF and XOP",
+      "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-spy-101000444.html"
     }
   ]
 }
