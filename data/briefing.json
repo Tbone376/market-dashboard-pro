@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Mar 9, 2026",
-  "generated_at": "2026-03-09T09:21:59.746473-04:00",
+  "date": "Tue, Mar 10, 2026",
+  "generated_at": "2026-03-10T09:19:40.029263-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "DAWN",
-      "gap_pct": 65.9,
-      "price": 21.2,
-      "market_cap": 2189911040,
+      "symbol": "GSIW",
+      "gap_pct": 248.1,
+      "price": 33.21,
+      "market_cap": 7244727808,
       "catalyst": ""
     },
     {
-      "symbol": "IOT",
-      "gap_pct": 19.5,
-      "price": 35.36,
-      "market_cap": 20402862080,
+      "symbol": "XENE",
+      "gap_pct": 49.6,
+      "price": 62.76,
+      "market_cap": 5221024256,
       "catalyst": ""
     },
     {
-      "symbol": "MRVL",
-      "gap_pct": 18.4,
-      "price": 89.57,
-      "market_cap": 78234894336,
+      "symbol": "HIMS",
+      "gap_pct": 40.8,
+      "price": 22.16,
+      "market_cap": 5051123200,
       "catalyst": ""
     },
     {
-      "symbol": "EMAT",
+      "symbol": "DNTH",
+      "gap_pct": 21.5,
+      "price": 79.23,
+      "market_cap": 3424565504,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AXTI",
+      "gap_pct": 19.1,
+      "price": 38.56,
+      "market_cap": 2131371648,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DYN",
+      "gap_pct": 19.0,
+      "price": 17.69,
+      "market_cap": 2919329792,
+      "catalyst": ""
+    },
+    {
+      "symbol": "KC",
+      "gap_pct": 19.0,
+      "price": 14.27,
+      "market_cap": 4221330944,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AAOI",
+      "gap_pct": 15.7,
+      "price": 110.62,
+      "market_cap": 8318493184,
+      "catalyst": ""
+    },
+    {
+      "symbol": "LITE",
       "gap_pct": 14.7,
-      "price": 9.76,
-      "market_cap": 5791094272,
+      "price": 640.69,
+      "market_cap": 45745266688,
       "catalyst": ""
     },
     {
-      "symbol": "IOVA",
-      "gap_pct": 12.0,
-      "price": 5.13,
-      "market_cap": 2113363072,
+      "symbol": "AGX",
+      "gap_pct": 12.6,
+      "price": 466.38,
+      "market_cap": 6470281216,
       "catalyst": ""
     }
   ],
@@ -75,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Oil Price Surge",
-      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-125308605.html"
+      "text": "Stock Market Today: Dow Dips After Trump's Iran Comments As Oil Prices Tumble (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/20d0c652-b6f0-3272-b5a9-2de42a64a28a/stock-market-today%3A-dow-dips.html"
     },
     {
-      "text": "Stock Market Today: Dow Dives 500 Points On U.S.-Iran News As Oil Surges (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/e230812b-48d3-3774-8d8c-753b75626331/stock-market-today%3A-dow-dives.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Investors Weigh Middle East War Signals, Oil Price Volatility",
+      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-124514170.html"
     },
     {
-      "text": "Does $150 Oil Matter to Nvidia?",
-      "url": "https://finance.yahoo.com/m/a69214fb-6d42-31bc-8327-e0de6c373cc9/does-%24150-oil-matter-to.html"
+      "text": "Fidelity\u2019s Zero-Fee ETF Is Quietly Keeping Pace With the S&P 500 And Costs Absolutely Nothing",
+      "url": "https://finance.yahoo.com/m/a8d9f983-d4a1-33eb-8553-74984a6e842a/fidelity%E2%80%99s-zero-fee-etf-is.html"
     },
     {
-      "text": "DIA Skips the S&P 500 Noise and Delivers Monthly Checks to Retirees Instead",
-      "url": "https://finance.yahoo.com/m/cd9fe831-e5a1-3d2a-b4dd-f71f0e9df635/dia-skips-the-s%26p-500-noise.html"
+      "text": "ETFs to Play as Oil Surges Past $110 on Middle East Conflict",
+      "url": "https://finance.yahoo.com/news/etfs-play-oil-surges-past-110000894.html"
     },
     {
-      "text": "Pool Corporation Is Down 39%, But Wall Street Still Sees a $281 Stock",
-      "url": "https://finance.yahoo.com/m/1845b80e-6126-3c62-aa57-28486886fd03/pool-corporation-is-down-39%25%2C.html"
+      "text": "DJT Is No Longer a Media Company. It\u2019s a Bitcoin Treasury With a Brand",
+      "url": "https://finance.yahoo.com/m/4d88e92c-28f4-3d15-a4e2-5e7aaeaaa486/djt-is-no-longer-a-media.html"
     }
   ]
 }
