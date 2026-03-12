@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Mar 11, 2026",
-  "generated_at": "2026-03-11T09:19:20.123083-04:00",
+  "date": "Thu, Mar 12, 2026",
+  "generated_at": "2026-03-12T09:19:22.764148-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,66 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "FIGR",
-      "gap_pct": 21.3,
-      "price": 39.59,
-      "market_cap": 8543900160,
+      "symbol": "NVTS",
+      "gap_pct": 24.9,
+      "price": 10.84,
+      "market_cap": 2501793536,
       "catalyst": ""
     },
     {
-      "symbol": "NIO",
-      "gap_pct": 15.4,
-      "price": 5.7,
-      "market_cap": 14413357056,
+      "symbol": "NBIS",
+      "gap_pct": 16.1,
+      "price": 112.0,
+      "market_cap": 28336635904,
       "catalyst": ""
     },
     {
-      "symbol": "AXTI",
-      "gap_pct": 14.9,
-      "price": 44.3,
-      "market_cap": 2448645120,
+      "symbol": "SOC",
+      "gap_pct": 15.1,
+      "price": 16.58,
+      "market_cap": 2441306880,
       "catalyst": ""
     },
     {
-      "symbol": "VNET",
-      "gap_pct": 14.7,
-      "price": 11.23,
-      "market_cap": 3021160704,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MAZE",
-      "gap_pct": 13.3,
-      "price": 51.05,
-      "market_cap": 2456738304,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BBIO",
-      "gap_pct": 13.2,
-      "price": 74.32,
-      "market_cap": 14407887872,
-      "catalyst": ""
-    },
-    {
-      "symbol": "DYN",
+      "symbol": "PTRN",
       "gap_pct": 11.8,
-      "price": 19.78,
-      "market_cap": 3264236544,
+      "price": 12.42,
+      "market_cap": 2458258944,
       "catalyst": ""
     },
     {
-      "symbol": "HYMC",
-      "gap_pct": 10.5,
-      "price": 44.85,
-      "market_cap": 4082966272,
+      "symbol": "CZR",
+      "gap_pct": 11.8,
+      "price": 29.07,
+      "market_cap": 5933417472,
       "catalyst": ""
     },
     {
-      "symbol": "SEDG",
-      "gap_pct": 10.2,
-      "price": 38.11,
-      "market_cap": 2300559360,
+      "symbol": "DOCN",
+      "gap_pct": 10.8,
+      "price": 68.69,
+      "market_cap": 6319212032,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CVI",
+      "gap_pct": 10.3,
+      "price": 28.37,
+      "market_cap": 2852053248,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HIMS",
+      "gap_pct": 10.3,
+      "price": 25.88,
+      "market_cap": 5899055104,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IREN",
+      "gap_pct": 10.1,
+      "price": 41.98,
+      "market_cap": 13927249920,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MOS",
+      "gap_pct": 10.1,
+      "price": 29.15,
+      "market_cap": 9255277568,
       "catalyst": ""
     }
   ],
@@ -103,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday Amid CPI Inflation Data",
-      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-125234255.html"
+      "text": "4 ETFs Yielding Up to 9.25% That Belong in Every Income Portfolio in 2026",
+      "url": "https://finance.yahoo.com/m/1f5b56d7-c0ac-3bba-9186-f8d6d4a581bd/4-etfs-yielding-up-to-9.25%25.html"
     },
     {
-      "text": "Stock Market Today: Dow Drops On Inflation Data; This AI Giant Surges On Earnings (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/f133ae8a-24f1-344a-9fa5-e6d2f2f2c945/stock-market-today%3A-dow-drops.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday as Traders React to Oil Supply Risks From Iran Conflict",
+      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-125355502.html"
     },
     {
-      "text": "I\u2019d Own VGT for the Next 30 Years, And Never Look Back",
-      "url": "https://finance.yahoo.com/m/2b88fad5-6261-325d-8065-7aee36532265/i%E2%80%99d-own-vgt-for-the-next-30.html"
+      "text": "Stock Market Today: Dow Falls 400 Points As Oil Prices Jump Again; Dollar General Stock Tumbles (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/ed882cd5-7d88-32a9-99aa-db85d59c85ec/stock-market-today%3A-dow-falls.html"
     },
     {
-      "text": "Clarivate: The Data Intelligence Company Flying Under the Radar",
-      "url": "https://finance.yahoo.com/m/870d468d-aae0-3869-8b63-88654e08d81f/clarivate%3A-the-data.html"
+      "text": "EUSA Is Beating SPY in 2026 While Retirees Rethink Mega-Cap Concentration",
+      "url": "https://finance.yahoo.com/m/4ad7c023-e570-3201-bbf1-f969d18f35ac/eusa-is-beating-spy-in-2026.html"
     },
     {
-      "text": "AMAT and Micron still winning in AI trade despite QQQ and sector weakness",
-      "url": "https://finance.yahoo.com/m/93d01fe0-e4e5-3059-b01f-0560f358cc0b/amat-and-micron-still-winning.html"
+      "text": "HRZN\u2019s $0.06 Monthly Distribution Looks Razor Thin With Four High-Risk Loans on the Books",
+      "url": "https://finance.yahoo.com/m/fa51f8b1-70fc-34c7-973b-2db6b0a142d7/hrzn%E2%80%99s-%240.06-monthly.html"
     }
   ]
 }
