@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Mar 13, 2026",
-  "generated_at": "2026-03-13T09:17:07.890640-04:00",
+  "date": "Mon, Mar 16, 2026",
+  "generated_at": "2026-03-16T09:44:45.458407-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,31 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "CE",
-      "gap_pct": 14.7,
-      "price": 59.6,
-      "market_cap": 6670596096,
+      "symbol": "NSA",
+      "gap_pct": 28.1,
+      "price": 39.62,
+      "market_cap": 5834156032,
       "catalyst": ""
     },
     {
-      "symbol": "CF",
-      "gap_pct": 13.2,
-      "price": 136.0,
-      "market_cap": 21212551168,
+      "symbol": "NBIS",
+      "gap_pct": 15.0,
+      "price": 129.89,
+      "market_cap": 32864374784,
       "catalyst": ""
     },
     {
-      "symbol": "FLY",
-      "gap_pct": 12.8,
-      "price": 23.23,
-      "market_cap": 3699403520,
+      "symbol": "NVTS",
+      "gap_pct": 12.7,
+      "price": 11.38,
+      "market_cap": 2626421760,
       "catalyst": ""
     },
     {
-      "symbol": "LYB",
-      "gap_pct": 10.3,
-      "price": 74.33,
-      "market_cap": 23946895360,
+      "symbol": "BMNR",
+      "gap_pct": 11.3,
+      "price": 22.87,
+      "market_cap": 10402705408,
       "catalyst": ""
     }
   ],
@@ -68,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Oil Prices Ease From Recent Surge",
-      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-130200978.html"
+      "text": "This Schwab ETF Holds 100 Dividend Stocks, Charges $6 a Year, and Yields More Than Most Savings Accounts",
+      "url": "https://finance.yahoo.com/m/ae1f02ba-06a7-3523-a325-18efba7680c5/this-schwab-etf-holds-100.html"
     },
     {
-      "text": "Stock Market Today: Dow Rises On Surprise Inflation, GDP Data; Adobe Dives On Earnings (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/1d17411b-303d-374f-92a6-fdf9e0c08cdc/stock-market-today%3A-dow-rises.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday as Investors Weigh Tech Rally Against Geopolitical Risks",
+      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-125548179.html"
     },
     {
-      "text": "4 ETFs That Are Worth Buying For $100 Oil",
-      "url": "https://finance.yahoo.com/m/d29f4a6f-7301-3508-a9c3-02530d0f0312/4-etfs-that-are-worth-buying.html"
+      "text": "The 3 Best Monthly Dividend ETFs to Buy Today for Lifelong Passive Income",
+      "url": "https://finance.yahoo.com/m/96701e47-c138-3eda-b7af-9824ad7cec58/the-3-best-monthly-dividend.html"
     },
     {
-      "text": "Palantir CEO: adversaries targeting AI infrastructure they \u2018can\u2019t produce\u2019",
-      "url": "https://finance.yahoo.com/m/4ee4c47f-9333-342c-ae0d-962d32aa2078/palantir-ceo%3A-adversaries.html"
+      "text": "Lucid\u2019s new Gravity outmatches high-powered gas rivals on every spec, CEO says",
+      "url": "https://finance.yahoo.com/m/7b9ff22d-5e2c-383d-80f2-d587b13708f1/lucid%E2%80%99s-new-gravity.html"
     },
     {
-      "text": "SPY Has Survived Every Geopolitical Shock of the Last 30 Years. This One Is Unlikely to Be the Exception.",
-      "url": "https://finance.yahoo.com/m/18421147-f144-3415-af6c-193f89cfacad/spy-has-survived-every.html"
+      "text": "NVDY Offers 77% Yield on Nvidia Exposure, But You\u2019re Getting Your Own Capital Back",
+      "url": "https://finance.yahoo.com/m/e71ff2b3-a255-3634-a983-0121fbc2d94b/nvdy-offers-77%25-yield-on.html"
     }
   ]
 }
