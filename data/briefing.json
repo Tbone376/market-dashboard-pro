@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Mar 17, 2026",
-  "generated_at": "2026-03-17T09:42:16.595431-04:00",
+  "date": "Wed, Mar 18, 2026",
+  "generated_at": "2026-03-18T09:43:39.453671-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,17 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "SEI",
-      "gap_pct": 13.8,
-      "price": 64.93,
-      "market_cap": 6217068032,
+      "symbol": "KC",
+      "gap_pct": 13.0,
+      "price": 14.83,
+      "market_cap": 4386989056,
       "catalyst": ""
     },
     {
-      "symbol": "ESLT",
-      "gap_pct": 11.0,
-      "price": 970.67,
-      "market_cap": 45100138496,
+      "symbol": "LITE",
+      "gap_pct": 12.7,
+      "price": 731.75,
+      "market_cap": 52247306240,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RGC",
+      "gap_pct": 12.0,
+      "price": 25.73,
+      "market_cap": 12723198976,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AAOI",
+      "gap_pct": 10.9,
+      "price": 95.77,
+      "market_cap": 7438946816,
       "catalyst": ""
     }
   ],
@@ -54,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rises As Oil Prices Creep Back Up; Fed Meeting Next (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/6f082ef0-4b4c-37ca-aec0-c65022535085/stock-market-today%3A-dow-rises.html"
+      "text": "Stock Market Today: Dow Falls On Surprise Inflation Data; Fed Decision, Powell Briefing Due (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/650ce47d-25dc-3a18-a0db-8c4b65555006/stock-market-today%3A-dow-falls.html"
     },
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday Ahead of US Federal Reserve Meeting",
-      "url": "https://finance.yahoo.com/news/exchange-traded-funds-higher-equity-125618314.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Ahead of Key Economic Data, FOMC Meeting",
+      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-132829827.html"
     },
     {
-      "text": "Only One S&P 500 Stock Is Expected To Outgrow Nvidia By 2029",
-      "url": "https://finance.yahoo.com/m/fa81b3c7-0003-36c0-be55-d113f726cf1f/only-one-s%26p-500-stock-is.html"
+      "text": "Cramer: Better conditions than expected will drive higher Nvidia stock prices",
+      "url": "https://finance.yahoo.com/m/550f3d10-d51c-3a33-88bd-cbd42a375535/cramer%3A-better-conditions.html"
     },
     {
-      "text": "Zacks Investment Ideas feature highlights: S&P 500",
-      "url": "https://finance.yahoo.com/news/zacks-investment-ideas-feature-highlights-094300889.html"
+      "text": "Betting Against Semiconductors: Contrarian Play of Sucker Play?",
+      "url": "https://finance.yahoo.com/m/3431b732-7011-38e2-b184-244c45e77697/betting-against.html"
     },
     {
-      "text": "Neocloud Stocks Skyrocket: Why IREN, CoreWeave, and MARA Holdings Are Rallying",
-      "url": "https://finance.yahoo.com/m/a9b4104e-1604-32fe-9b8c-55fc14aaf9d1/neocloud-stocks-skyrocket%3A.html"
+      "text": "Palantir CTO: U.S. Has Only 8 Days of Weapons for China War, Needs 800",
+      "url": "https://finance.yahoo.com/m/3a2a8de1-63c8-36fe-b9fb-1da2ce886ea0/palantir-cto%3A-u.s.-has-only-8.html"
     }
   ]
 }
