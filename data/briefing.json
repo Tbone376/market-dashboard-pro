@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Mar 18, 2026",
-  "generated_at": "2026-03-18T09:43:39.453671-04:00",
+  "date": "Thu, Mar 19, 2026",
+  "generated_at": "2026-03-19T09:24:03.811420-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,31 +36,52 @@
   },
   "gappers": [
     {
-      "symbol": "KC",
-      "gap_pct": 13.0,
-      "price": 14.83,
-      "market_cap": 4386989056,
-      "catalyst": ""
-    },
-    {
-      "symbol": "LITE",
-      "gap_pct": 12.7,
-      "price": 731.75,
-      "market_cap": 52247306240,
-      "catalyst": ""
-    },
-    {
       "symbol": "RGC",
-      "gap_pct": 12.0,
-      "price": 25.73,
-      "market_cap": 12723198976,
+      "gap_pct": 14.8,
+      "price": 26.38,
+      "market_cap": 13044616192,
       "catalyst": ""
     },
     {
-      "symbol": "AAOI",
-      "gap_pct": 10.9,
-      "price": 95.77,
-      "market_cap": 7438946816,
+      "symbol": "VG",
+      "gap_pct": 14.5,
+      "price": 14.85,
+      "market_cap": 36486008832,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ANDG",
+      "gap_pct": 13.6,
+      "price": 28.27,
+      "market_cap": 3136627200,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HTFL",
+      "gap_pct": 13.1,
+      "price": 25.47,
+      "market_cap": 2168992512,
+      "catalyst": ""
+    },
+    {
+      "symbol": "KC",
+      "gap_pct": 12.7,
+      "price": 14.78,
+      "market_cap": 4372198400,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FSLY",
+      "gap_pct": 11.2,
+      "price": 26.88,
+      "market_cap": 4080384000,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CVI",
+      "gap_pct": 10.4,
+      "price": 32.91,
+      "market_cap": 3308462080,
       "catalyst": ""
     }
   ],
@@ -68,24 +89,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Falls On Surprise Inflation Data; Fed Decision, Powell Briefing Due (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/650ce47d-25dc-3a18-a0db-8c4b65555006/stock-market-today%3A-dow-falls.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Rising Oil Prices, Reduced Rate-Cut Expectations",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-124923636.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Ahead of Key Economic Data, FOMC Meeting",
-      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-132829827.html"
+      "text": "The Market Is Selling Off But These 3 Oil and Gas ETFs Are Still Green",
+      "url": "https://finance.yahoo.com/m/39a2935f-e093-30d2-82f2-bc8df639230f/the-market-is-selling-off-but.html"
     },
     {
-      "text": "Cramer: Better conditions than expected will drive higher Nvidia stock prices",
-      "url": "https://finance.yahoo.com/m/550f3d10-d51c-3a33-88bd-cbd42a375535/cramer%3A-better-conditions.html"
+      "text": "Apple Stock Is Already A Portfolio Staple \u2014 And This ETF Is Turning It Into A Casino Chip",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-already-portfolio-staple-104623976.html"
     },
     {
-      "text": "Betting Against Semiconductors: Contrarian Play of Sucker Play?",
-      "url": "https://finance.yahoo.com/m/3431b732-7011-38e2-b184-244c45e77697/betting-against.html"
+      "text": "The 3 Best Dividend ETFs to Build Lasting Retirement Income in 2026",
+      "url": "https://finance.yahoo.com/m/b2ea0e6d-c2b0-384a-bbc2-522c76f780c1/the-3-best-dividend-etfs-to.html"
     },
     {
-      "text": "Palantir CTO: U.S. Has Only 8 Days of Weapons for China War, Needs 800",
-      "url": "https://finance.yahoo.com/m/3a2a8de1-63c8-36fe-b9fb-1da2ce886ea0/palantir-cto%3A-u.s.-has-only-8.html"
+      "text": "Nvidia CEO: AI agents will be in every part of every company",
+      "url": "https://finance.yahoo.com/m/89de50f1-c1a2-313c-a35a-4ac810f8d698/nvidia-ceo%3A-ai-agents-will-be.html"
     }
   ]
 }
