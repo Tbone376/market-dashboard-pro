@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Mar 19, 2026",
-  "generated_at": "2026-03-19T09:24:03.811420-04:00",
+  "date": "Fri, Mar 20, 2026",
+  "generated_at": "2026-03-20T09:17:27.058671-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,52 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "RGC",
-      "gap_pct": 14.8,
-      "price": 26.38,
-      "market_cap": 13044616192,
+      "symbol": "AXTI",
+      "gap_pct": 19.1,
+      "price": 58.09,
+      "market_cap": 3210875904,
       "catalyst": ""
     },
     {
-      "symbol": "VG",
-      "gap_pct": 14.5,
-      "price": 14.85,
-      "market_cap": 36486008832,
+      "symbol": "TSEM",
+      "gap_pct": 17.0,
+      "price": 166.08,
+      "market_cap": 18675320832,
       "catalyst": ""
     },
     {
-      "symbol": "ANDG",
-      "gap_pct": 13.6,
-      "price": 28.27,
-      "market_cap": 3136627200,
+      "symbol": "VET",
+      "gap_pct": 14.4,
+      "price": 14.42,
+      "market_cap": 2200492032,
       "catalyst": ""
     },
     {
-      "symbol": "HTFL",
-      "gap_pct": 13.1,
-      "price": 25.47,
-      "market_cap": 2168992512,
+      "symbol": "SRRK",
+      "gap_pct": 14.4,
+      "price": 45.5,
+      "market_cap": 5227181056,
       "catalyst": ""
     },
     {
-      "symbol": "KC",
-      "gap_pct": 12.7,
-      "price": 14.78,
-      "market_cap": 4372198400,
+      "symbol": "SIG",
+      "gap_pct": 13.7,
+      "price": 89.56,
+      "market_cap": 3667379712,
       "catalyst": ""
     },
     {
-      "symbol": "FSLY",
-      "gap_pct": 11.2,
-      "price": 26.88,
-      "market_cap": 4080384000,
+      "symbol": "ERAS",
+      "gap_pct": 13.0,
+      "price": 15.26,
+      "market_cap": 4742801408,
       "catalyst": ""
     },
     {
-      "symbol": "CVI",
-      "gap_pct": 10.4,
-      "price": 32.91,
-      "market_cap": 3308462080,
+      "symbol": "PAYP",
+      "gap_pct": 10.8,
+      "price": 20.45,
+      "market_cap": 13673391104,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FIVE",
+      "gap_pct": 10.7,
+      "price": 235.17,
+      "market_cap": 12971291648,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BW",
+      "gap_pct": 10.6,
+      "price": 15.67,
+      "market_cap": 2044104448,
+      "catalyst": ""
+    },
+    {
+      "symbol": "LITE",
+      "gap_pct": 10.2,
+      "price": 772.13,
+      "market_cap": 55130083328,
       "catalyst": ""
     }
   ],
@@ -89,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Rising Oil Prices, Reduced Rate-Cut Expectations",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-124923636.html"
+      "text": "Steward Partners exec: Nvidia earnings staggering, but nervous investors hold stock back",
+      "url": "https://finance.yahoo.com/m/3ed19dce-0f21-34a7-893f-89b8bf168784/steward-partners-exec%3A-nvidia.html"
     },
     {
-      "text": "The Market Is Selling Off But These 3 Oil and Gas ETFs Are Still Green",
-      "url": "https://finance.yahoo.com/m/39a2935f-e093-30d2-82f2-bc8df639230f/the-market-is-selling-off-but.html"
+      "text": "Stock Market Today: Dow, Indexes Continue Their Slide; Super Micro Crashes (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/7ce5024f-1a12-3301-9c8d-4e57d56eda41/stock-market-today%3A-dow%2C.html"
     },
     {
-      "text": "Apple Stock Is Already A Portfolio Staple \u2014 And This ETF Is Turning It Into A Casino Chip",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-already-portfolio-staple-104623976.html"
+      "text": "Why The Monster Energy Rally Can't Fix The S&P 500's Pain",
+      "url": "https://finance.yahoo.com/m/7513b08b-1160-31e2-9fe7-b74e3e271e3d/why-the-monster-energy-rally.html"
     },
     {
-      "text": "The 3 Best Dividend ETFs to Build Lasting Retirement Income in 2026",
-      "url": "https://finance.yahoo.com/m/b2ea0e6d-c2b0-384a-bbc2-522c76f780c1/the-3-best-dividend-etfs-to.html"
+      "text": "The Income ETF Built for Bear Markets: Why SPHD Belongs in Every Retirement Portfolio",
+      "url": "https://finance.yahoo.com/m/0d67115d-3195-3858-9bd0-2f5f831bbe1b/the-income-etf-built-for-bear.html"
     },
     {
-      "text": "Nvidia CEO: AI agents will be in every part of every company",
-      "url": "https://finance.yahoo.com/m/89de50f1-c1a2-313c-a35a-4ac810f8d698/nvidia-ceo%3A-ai-agents-will-be.html"
+      "text": "Nvidia CEO: $10 trillion company valuation absolutely possible",
+      "url": "https://finance.yahoo.com/m/4d3d42e9-a674-32a4-bf9e-fdde1f1a4742/nvidia-ceo%3A-%2410-trillion.html"
     }
   ]
 }
