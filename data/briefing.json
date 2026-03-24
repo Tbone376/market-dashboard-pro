@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Mar 23, 2026",
-  "generated_at": "2026-03-23T09:26:09.105550-04:00",
+  "date": "Tue, Mar 24, 2026",
+  "generated_at": "2026-03-24T09:41:50.336782-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,45 +36,10 @@
   },
   "gappers": [
     {
-      "symbol": "PL",
-      "gap_pct": 25.5,
-      "price": 33.83,
-      "market_cap": 11539076096,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PSNYW",
-      "gap_pct": 20.1,
-      "price": 5.25,
-      "market_cap": 34442977280,
-      "catalyst": ""
-    },
-    {
-      "symbol": "YSS",
-      "gap_pct": 19.2,
-      "price": 21.07,
-      "market_cap": 2674718208,
-      "catalyst": ""
-    },
-    {
-      "symbol": "LBTYB",
-      "gap_pct": 16.7,
-      "price": 14.17,
-      "market_cap": 4747356672,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SEDG",
-      "gap_pct": 13.1,
-      "price": 51.69,
-      "market_cap": 3120333568,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VG",
-      "gap_pct": 10.6,
-      "price": 15.81,
-      "market_cap": 38844698624,
+      "symbol": "WRD",
+      "gap_pct": 10.8,
+      "price": 7.67,
+      "market_cap": 2626521088,
       "catalyst": ""
     }
   ],
@@ -82,24 +47,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Fidelity\u2019s ETF For Russell 1000 Large-Cap Growth",
-      "url": "https://finance.yahoo.com/m/af799e96-167e-3d92-b511-ea2bafbab855/fidelity%E2%80%99s-etf-for-russell.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday Amid Economic Data Releases",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131344896.html"
     },
     {
-      "text": "Stock Market Today: Dow Surges 1,000 Points On Trump's Iran Comments; Nvidia Stock Rebounds (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/30930a3a-24fd-32a0-a00c-16b447ac4de6/stock-market-today%3A-dow.html"
+      "text": "In Moment Of Brutal Candor, Dave Ramsey Goes Off \u201cYour financial planner\u2019s full of crap is the problem,\u201d",
+      "url": "https://finance.yahoo.com/m/34bbd8a4-8619-35dc-8ef5-6778e2fdbd26/in-moment-of-brutal-candor%2C.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Gain Pre-Bell Monday as Trump Declares 5-Day Pause in Iran Energy Attacks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125759315.html"
+      "text": "Stock Market Today: Dow Jones Index Drops After Rebound; Oil Prices Bounce (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/bea8ef72-df4b-3e1e-ab78-2408eee50913/stock-market-today%3A-dow-jones.html"
     },
     {
-      "text": "MIDD\u2019s $3.3B Restructuring: A Leaner Company Chasing a Higher Stock Price",
-      "url": "https://finance.yahoo.com/m/823bc14a-1cc8-3341-bcf4-d26e038cb3cf/midd%E2%80%99s-%243.3b-restructuring%3A-a.html"
+      "text": "One S&P 500 Stock Lords Over More Cash Than Anybody Else",
+      "url": "https://finance.yahoo.com/m/0427e575-d8c8-3a37-9944-a17fbbe4c9ee/one-s%26p-500-stock-lords-over.html"
     },
     {
-      "text": "USA Compression Partners Eyes Debt Reduction as Record Cash Flow Powers 1.6x Coverage Target",
-      "url": "https://finance.yahoo.com/m/bb42235a-4b01-3ebc-8526-6df04c704ab0/usa-compression-partners-eyes.html"
+      "text": "Make 10% Off Wall Street's SPY Panic",
+      "url": "https://finance.yahoo.com/m/f342c8ae-89c5-3512-8cd2-4fb8b1d9e5e9/make-10%25-off-wall-street%27s.html"
     }
   ]
 }
