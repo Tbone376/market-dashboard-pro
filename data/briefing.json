@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Mar 24, 2026",
-  "generated_at": "2026-03-24T09:41:50.336782-04:00",
+  "date": "Wed, Mar 25, 2026",
+  "generated_at": "2026-03-25T09:40:50.615472-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,10 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "WRD",
+      "symbol": "BRZE",
+      "gap_pct": 20.9,
+      "price": 21.8,
+      "market_cap": 2672895232,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SRPT",
+      "gap_pct": 19.2,
+      "price": 20.99,
+      "market_cap": 2203735296,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ARM",
+      "gap_pct": 16.0,
+      "price": 156.62,
+      "market_cap": 166324912128,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CHWY",
+      "gap_pct": 14.0,
+      "price": 26.73,
+      "market_cap": 11092911104,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ELVN",
       "gap_pct": 10.8,
-      "price": 7.67,
-      "market_cap": 2626521088,
+      "price": 34.54,
+      "market_cap": 2065506176,
       "catalyst": ""
     }
   ],
@@ -47,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday Amid Economic Data Releases",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131344896.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Hopes of Iran, US Truce",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125518439.html"
     },
     {
-      "text": "In Moment Of Brutal Candor, Dave Ramsey Goes Off \u201cYour financial planner\u2019s full of crap is the problem,\u201d",
-      "url": "https://finance.yahoo.com/m/34bbd8a4-8619-35dc-8ef5-6778e2fdbd26/in-moment-of-brutal-candor%2C.html"
+      "text": "Stock Market Today: Dow Rallies On Trump Peace Plan; Oil Prices Dive (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/f291dd83-b2cd-374a-9129-444e00ecdc50/stock-market-today%3A-dow.html"
     },
     {
-      "text": "Stock Market Today: Dow Jones Index Drops After Rebound; Oil Prices Bounce (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/bea8ef72-df4b-3e1e-ab78-2408eee50913/stock-market-today%3A-dow-jones.html"
+      "text": "Bitcoin Is Down 19% in 2026 and These 3 ETFs Give You Every Way to Play It",
+      "url": "https://finance.yahoo.com/m/d3fbe68d-1c35-3eda-aea0-d18a840c8e8e/bitcoin-is-down-19%25-in-2026.html"
     },
     {
-      "text": "One S&P 500 Stock Lords Over More Cash Than Anybody Else",
-      "url": "https://finance.yahoo.com/m/0427e575-d8c8-3a37-9944-a17fbbe4c9ee/one-s%26p-500-stock-lords-over.html"
+      "text": "The 3 ETFs Beating the Market in 2026 Have Almost Nothing in Common With the S&P 500",
+      "url": "https://finance.yahoo.com/m/12494bb6-d2d9-3ad3-8821-2c095ca83f86/the-3-etfs-beating-the-market.html"
     },
     {
-      "text": "Make 10% Off Wall Street's SPY Panic",
-      "url": "https://finance.yahoo.com/m/f342c8ae-89c5-3512-8cd2-4fb8b1d9e5e9/make-10%25-off-wall-street%27s.html"
+      "text": "Can Hedging Really Support a Struggling Market?",
+      "url": "https://finance.yahoo.com/markets/options/articles/hedging-really-support-struggling-market-120017004.html"
     }
   ]
 }
