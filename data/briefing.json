@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Mar 25, 2026",
-  "generated_at": "2026-03-25T09:40:50.615472-04:00",
+  "date": "Thu, Mar 26, 2026",
+  "generated_at": "2026-03-26T09:47:00.710870-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,17 @@
   },
   "gappers": [
     {
-      "symbol": "BRZE",
-      "gap_pct": 20.9,
-      "price": 21.8,
-      "market_cap": 2672895232,
+      "symbol": "KOD",
+      "gap_pct": 70.7,
+      "price": 38.84,
+      "market_cap": 2371182080,
       "catalyst": ""
     },
     {
-      "symbol": "SRPT",
-      "gap_pct": 19.2,
-      "price": 20.99,
-      "market_cap": 2203735296,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ARM",
-      "gap_pct": 16.0,
-      "price": 156.62,
-      "market_cap": 166324912128,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CHWY",
-      "gap_pct": 14.0,
-      "price": 26.73,
-      "market_cap": 11092911104,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ELVN",
-      "gap_pct": 10.8,
-      "price": 34.54,
-      "market_cap": 2065506176,
+      "symbol": "NAVN",
+      "gap_pct": 24.4,
+      "price": 11.38,
+      "market_cap": 2830812672,
       "catalyst": ""
     }
   ],
@@ -75,24 +54,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Hopes of Iran, US Truce",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125518439.html"
+      "text": "How the Euro at $1.16 Changes Everything About These 3 Europe ETFs",
+      "url": "https://finance.yahoo.com/m/8811156b-9aa7-3d82-b715-d14e1cdaaf84/how-the-euro-at-%241.16-changes.html"
     },
     {
-      "text": "Stock Market Today: Dow Rallies On Trump Peace Plan; Oil Prices Dive (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/f291dd83-b2cd-374a-9129-444e00ecdc50/stock-market-today%3A-dow.html"
+      "text": "Stock Market Today: Dow Slides As Trump Warns Iran To 'Get Serious Soon'; Oil Prices Surge Higher (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/227c543e-24c0-387f-9305-f07f9a33eadc/stock-market-today%3A-dow.html"
     },
     {
-      "text": "Bitcoin Is Down 19% in 2026 and These 3 ETFs Give You Every Way to Play It",
-      "url": "https://finance.yahoo.com/m/d3fbe68d-1c35-3eda-aea0-d18a840c8e8e/bitcoin-is-down-19%25-in-2026.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125601376.html"
     },
     {
-      "text": "The 3 ETFs Beating the Market in 2026 Have Almost Nothing in Common With the S&P 500",
-      "url": "https://finance.yahoo.com/m/12494bb6-d2d9-3ad3-8821-2c095ca83f86/the-3-etfs-beating-the-market.html"
+      "text": "7 Signs Your 401(k) Is Quietly Underperforming",
+      "url": "https://finance.yahoo.com/m/df023e77-a6a2-3594-910a-8d387cad46be/7-signs-your-401%28k%29-is.html"
     },
     {
-      "text": "Can Hedging Really Support a Struggling Market?",
-      "url": "https://finance.yahoo.com/markets/options/articles/hedging-really-support-struggling-market-120017004.html"
+      "text": "4 ETFs That Beat the S&P 500 by Ignoring Market Cap Entirely",
+      "url": "https://finance.yahoo.com/m/a436ea40-320b-382e-ad1d-f2833caa9ed1/4-etfs-that-beat-the-s%26p-500.html"
     }
   ]
 }
