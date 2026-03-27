@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Mar 26, 2026",
-  "generated_at": "2026-03-26T09:47:00.710870-04:00",
+  "date": "Fri, Mar 27, 2026",
+  "generated_at": "2026-03-27T09:23:25.916449-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -37,16 +37,44 @@
   "gappers": [
     {
       "symbol": "KOD",
-      "gap_pct": 70.7,
-      "price": 38.84,
-      "market_cap": 2371182080,
+      "gap_pct": 74.8,
+      "price": 39.76,
+      "market_cap": 2427285504,
       "catalyst": ""
     },
     {
       "symbol": "NAVN",
-      "gap_pct": 24.4,
-      "price": 11.38,
-      "market_cap": 2830812672,
+      "gap_pct": 43.3,
+      "price": 13.11,
+      "market_cap": 3259723520,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CAR",
+      "gap_pct": 13.0,
+      "price": 139.58,
+      "market_cap": 4921402880,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MDGL",
+      "gap_pct": 12.3,
+      "price": 518.76,
+      "market_cap": 11900338176,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NEXT",
+      "gap_pct": 11.0,
+      "price": 8.15,
+      "market_cap": 2159180032,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ELVN",
+      "gap_pct": 10.6,
+      "price": 39.29,
+      "market_cap": 2349558016,
       "catalyst": ""
     }
   ],
@@ -54,24 +82,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "How the Euro at $1.16 Changes Everything About These 3 Europe ETFs",
-      "url": "https://finance.yahoo.com/m/8811156b-9aa7-3d82-b715-d14e1cdaaf84/how-the-euro-at-%241.16-changes.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday as Investor Concerns Linger Amid Middle East Conflict",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131702047.html"
     },
     {
-      "text": "Stock Market Today: Dow Slides As Trump Warns Iran To 'Get Serious Soon'; Oil Prices Surge Higher (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/227c543e-24c0-387f-9305-f07f9a33eadc/stock-market-today%3A-dow.html"
+      "text": "3 ETFs That Are Beating the Market Right Now \u2014 and None of Them Are the Ones Everyone Already Owns",
+      "url": "https://finance.yahoo.com/m/452a767a-3f29-3257-9d31-248d17518a7e/3-etfs-that-are-beating-the.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Ongoing Middle East Tensions",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125601376.html"
+      "text": "Stock Market Today: Dow Falls On U.S.-Iran War News; Oil Prices Continue To Rally (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/6f427f71-e4e2-3dee-af0d-09a1e56d4bd3/stock-market-today%3A-dow-falls.html"
     },
     {
-      "text": "7 Signs Your 401(k) Is Quietly Underperforming",
-      "url": "https://finance.yahoo.com/m/df023e77-a6a2-3594-910a-8d387cad46be/7-signs-your-401%28k%29-is.html"
+      "text": "Think Trump's War Crash Isn't Bad Yet? 5 Big Stocks Implode 60%",
+      "url": "https://finance.yahoo.com/m/db34d9fc-5a53-31de-b8d3-e9ddd77856da/think-trump%27s-war-crash-isn%27t.html"
     },
     {
-      "text": "4 ETFs That Beat the S&P 500 by Ignoring Market Cap Entirely",
-      "url": "https://finance.yahoo.com/m/a436ea40-320b-382e-ad1d-f2833caa9ed1/4-etfs-that-beat-the-s%26p-500.html"
+      "text": "The First ETF Ever Created Just Turned 33. Here Is Why It Is Still One of the Most Powerful Investment Available",
+      "url": "https://finance.yahoo.com/m/dc30976b-1a35-3aab-a91c-e5adebbbd41d/the-first-etf-ever-created.html"
     }
   ]
 }
