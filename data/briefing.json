@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Mar 27, 2026",
-  "generated_at": "2026-03-27T09:23:25.916449-04:00",
+  "date": "Mon, Mar 30, 2026",
+  "generated_at": "2026-03-30T09:52:29.580272-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,45 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "KOD",
-      "gap_pct": 74.8,
-      "price": 39.76,
-      "market_cap": 2427285504,
+      "symbol": "CLMT",
+      "gap_pct": 14.3,
+      "price": 36.66,
+      "market_cap": 3181228288,
       "catalyst": ""
     },
     {
-      "symbol": "NAVN",
-      "gap_pct": 43.3,
-      "price": 13.11,
-      "market_cap": 3259723520,
+      "symbol": "CENX",
+      "gap_pct": 13.8,
+      "price": 56.52,
+      "market_cap": 5593518080,
       "catalyst": ""
     },
     {
-      "symbol": "CAR",
-      "gap_pct": 13.0,
-      "price": 139.58,
-      "market_cap": 4921402880,
+      "symbol": "UTHR",
+      "gap_pct": 12.9,
+      "price": 590.26,
+      "market_cap": 25869627392,
       "catalyst": ""
     },
     {
-      "symbol": "MDGL",
-      "gap_pct": 12.3,
-      "price": 518.76,
-      "market_cap": 11900338176,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NEXT",
-      "gap_pct": 11.0,
-      "price": 8.15,
-      "market_cap": 2159180032,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ELVN",
-      "gap_pct": 10.6,
-      "price": 39.29,
-      "market_cap": 2349558016,
+      "symbol": "AA",
+      "gap_pct": 12.2,
+      "price": 65.56,
+      "market_cap": 17297512448,
       "catalyst": ""
     }
   ],
@@ -82,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday as Investor Concerns Linger Amid Middle East Conflict",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131702047.html"
+      "text": "Stock Market Today: Dow Rises On U.S.-Iran News; Powell Comments Up Next (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/905d7fa9-c2e1-35ed-bad2-3f12b77e9c4c/stock-market-today%3A-dow-rises.html"
     },
     {
-      "text": "3 ETFs That Are Beating the Market Right Now \u2014 and None of Them Are the Ones Everyone Already Owns",
-      "url": "https://finance.yahoo.com/m/452a767a-3f29-3257-9d31-248d17518a7e/3-etfs-that-are-beating-the.html"
+      "text": "The Low-Volatility Promise of ACWV Costs Investors 118% Over a Decade Compared to SPY",
+      "url": "https://finance.yahoo.com/m/2f531cd3-953a-3142-83ec-e3891385e167/the-low-volatility-promise-of.html"
     },
     {
-      "text": "Stock Market Today: Dow Falls On U.S.-Iran War News; Oil Prices Continue To Rally (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/6f427f71-e4e2-3dee-af0d-09a1e56d4bd3/stock-market-today%3A-dow-falls.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Fresh Economic Data",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125115183.html"
     },
     {
-      "text": "Think Trump's War Crash Isn't Bad Yet? 5 Big Stocks Implode 60%",
-      "url": "https://finance.yahoo.com/m/db34d9fc-5a53-31de-b8d3-e9ddd77856da/think-trump%27s-war-crash-isn%27t.html"
+      "text": "ACWI\u2019s 18.3% Run Beat the S&P 500, But the 10-Year Story Is More Complicated",
+      "url": "https://finance.yahoo.com/m/3d4412c7-30f1-3b8a-8a9a-87d71e8258a7/acwi%E2%80%99s-18.3%25-run-beat-the-s%26p.html"
     },
     {
-      "text": "The First ETF Ever Created Just Turned 33. Here Is Why It Is Still One of the Most Powerful Investment Available",
-      "url": "https://finance.yahoo.com/m/dc30976b-1a35-3aab-a91c-e5adebbbd41d/the-first-etf-ever-created.html"
+      "text": "3 Stocks Turn $10,000 Into $53,314 In 3 Months",
+      "url": "https://finance.yahoo.com/m/6dc9d348-c9ed-3d1c-8869-91d3ad3c6e6b/3-stocks-turn-%2410%2C000-into.html"
     }
   ]
 }
