@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Mar 30, 2026",
-  "generated_at": "2026-03-30T09:52:29.580272-04:00",
+  "date": "Tue, Mar 31, 2026",
+  "generated_at": "2026-03-31T09:52:19.547497-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,31 +36,66 @@
   },
   "gappers": [
     {
-      "symbol": "CLMT",
-      "gap_pct": 14.3,
-      "price": 36.66,
-      "market_cap": 3181228288,
+      "symbol": "APLS",
+      "gap_pct": 136.1,
+      "price": 40.35,
+      "market_cap": 5157936640,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CNTA",
+      "gap_pct": 45.6,
+      "price": 40.17,
+      "market_cap": 5937926656,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AGIO",
+      "gap_pct": 18.8,
+      "price": 35.17,
+      "market_cap": 2060979584,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SRRK",
+      "gap_pct": 15.1,
+      "price": 49.57,
+      "market_cap": 5694754816,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WRD",
+      "gap_pct": 13.4,
+      "price": 8.06,
+      "market_cap": 2759055360,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ALKS",
+      "gap_pct": 13.0,
+      "price": 34.08,
+      "market_cap": 5678596608,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PRAX",
+      "gap_pct": 12.1,
+      "price": 310.0,
+      "market_cap": 8633757696,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PRM",
+      "gap_pct": 10.3,
+      "price": 23.48,
+      "market_cap": 3508852736,
       "catalyst": ""
     },
     {
       "symbol": "CENX",
-      "gap_pct": 13.8,
-      "price": 56.52,
-      "market_cap": 5593518080,
-      "catalyst": ""
-    },
-    {
-      "symbol": "UTHR",
-      "gap_pct": 12.9,
-      "price": 590.26,
-      "market_cap": 25869627392,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AA",
-      "gap_pct": 12.2,
-      "price": 65.56,
-      "market_cap": 17297512448,
+      "gap_pct": 10.0,
+      "price": 58.59,
+      "market_cap": 5798889472,
       "catalyst": ""
     }
   ],
@@ -68,24 +103,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rises On U.S.-Iran News; Powell Comments Up Next (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/905d7fa9-c2e1-35ed-bad2-3f12b77e9c4c/stock-market-today%3A-dow-rises.html"
+      "text": "Stock Market Today: Dow Surges Over Trump's Olive Branch; Oil Prices Higher (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/65c30b06-abf7-37a2-af14-6e12b4e02f94/stock-market-today%3A-dow.html"
     },
     {
-      "text": "The Low-Volatility Promise of ACWV Costs Investors 118% Over a Decade Compared to SPY",
-      "url": "https://finance.yahoo.com/m/2f531cd3-953a-3142-83ec-e3891385e167/the-low-volatility-promise-of.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as De-Escalation Hopes Lift Risk Sentiment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125126157.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Fresh Economic Data",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125115183.html"
+      "text": "There Are Only 2 Main Ways To Protect Money From Trump's Iran War",
+      "url": "https://finance.yahoo.com/m/b524e27a-78a0-3e98-868b-ad65657b23a7/there-are-only-2-main-ways-to.html"
     },
     {
-      "text": "ACWI\u2019s 18.3% Run Beat the S&P 500, But the 10-Year Story Is More Complicated",
-      "url": "https://finance.yahoo.com/m/3d4412c7-30f1-3b8a-8a9a-87d71e8258a7/acwi%E2%80%99s-18.3%25-run-beat-the-s%26p.html"
+      "text": "This Options Spread Can Pay Off Up To $5,200 If The Market Weakens",
+      "url": "https://finance.yahoo.com/m/2b09384f-18a7-3cab-8030-291b487552a4/this-options-spread-can-pay.html"
     },
     {
-      "text": "3 Stocks Turn $10,000 Into $53,314 In 3 Months",
-      "url": "https://finance.yahoo.com/m/6dc9d348-c9ed-3d1c-8869-91d3ad3c6e6b/3-stocks-turn-%2410%2C000-into.html"
+      "text": "Pre-Markets Attract Bargain Buyers Ahead of \"Jobs Week\"",
+      "url": "https://finance.yahoo.com/economy/articles/pre-markets-attract-bargain-buyers-142200411.html"
     }
   ]
 }
