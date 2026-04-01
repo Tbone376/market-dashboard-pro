@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Mar 31, 2026",
-  "generated_at": "2026-03-31T09:52:19.547497-04:00",
+  "date": "Wed, Apr 1, 2026",
+  "generated_at": "2026-04-01T09:55:12.134637-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,66 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "APLS",
-      "gap_pct": 136.1,
-      "price": 40.35,
-      "market_cap": 5157936640,
+      "symbol": "RGC",
+      "gap_pct": 26.1,
+      "price": 32.07,
+      "market_cap": 15858258944,
       "catalyst": ""
     },
     {
-      "symbol": "CNTA",
-      "gap_pct": 45.6,
-      "price": 40.17,
-      "market_cap": 5937926656,
+      "symbol": "UNIT",
+      "gap_pct": 11.5,
+      "price": 10.46,
+      "market_cap": 2500705792,
       "catalyst": ""
     },
     {
-      "symbol": "AGIO",
-      "gap_pct": 18.8,
-      "price": 35.17,
-      "market_cap": 2060979584,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SRRK",
-      "gap_pct": 15.1,
-      "price": 49.57,
-      "market_cap": 5694754816,
-      "catalyst": ""
-    },
-    {
-      "symbol": "WRD",
-      "gap_pct": 13.4,
-      "price": 8.06,
-      "market_cap": 2759055360,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ALKS",
-      "gap_pct": 13.0,
-      "price": 34.08,
-      "market_cap": 5678596608,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PRAX",
-      "gap_pct": 12.1,
-      "price": 310.0,
-      "market_cap": 8633757696,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PRM",
-      "gap_pct": 10.3,
-      "price": 23.48,
-      "market_cap": 3508852736,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CENX",
-      "gap_pct": 10.0,
-      "price": 58.59,
-      "market_cap": 5798889472,
+      "symbol": "PVH",
+      "gap_pct": 10.1,
+      "price": 76.89,
+      "market_cap": 3700170752,
       "catalyst": ""
     }
   ],
@@ -103,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Surges Over Trump's Olive Branch; Oil Prices Higher (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/65c30b06-abf7-37a2-af14-6e12b4e02f94/stock-market-today%3A-dow.html"
+      "text": "A $2 Million 401(k) in Retirement Can Still Cost You Six Figures Without These Moves",
+      "url": "https://finance.yahoo.com/m/6cebfc49-82ff-3e55-b6fd-c91144b6a389/a-%242-million-401%28k%29-in.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as De-Escalation Hopes Lift Risk Sentiment",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125126157.html"
+      "text": "Exchange-Traded Funds, Equity Futures Gain Pre-Bell Wednesday as Iran War De-Escalation Hopes Drive Sentiment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130639197.html"
     },
     {
-      "text": "There Are Only 2 Main Ways To Protect Money From Trump's Iran War",
-      "url": "https://finance.yahoo.com/m/b524e27a-78a0-3e98-868b-ad65657b23a7/there-are-only-2-main-ways-to.html"
+      "text": "S&P 500 Index Investors Burned In Nightmare-Scenario Market",
+      "url": "https://finance.yahoo.com/m/56fe8c6c-6b00-3e91-b6f2-84e5d62dcb5f/s%26p-500-index-investors.html"
     },
     {
-      "text": "This Options Spread Can Pay Off Up To $5,200 If The Market Weakens",
-      "url": "https://finance.yahoo.com/m/2b09384f-18a7-3cab-8030-291b487552a4/this-options-spread-can-pay.html"
+      "text": "Best-Performing Leveraged ETFs of March",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-leveraged-etfs-march-120000915.html"
     },
     {
-      "text": "Pre-Markets Attract Bargain Buyers Ahead of \"Jobs Week\"",
-      "url": "https://finance.yahoo.com/economy/articles/pre-markets-attract-bargain-buyers-142200411.html"
+      "text": "Think the War Is Over? Consider This Trade.",
+      "url": "https://finance.yahoo.com/m/4db8c277-04ca-33b8-9061-dc5ff20ed85a/think-the-war-is-over%3F.html"
     }
   ]
 }
