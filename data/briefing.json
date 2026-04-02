@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Apr 1, 2026",
-  "generated_at": "2026-04-01T09:55:12.134637-04:00",
+  "date": "Thu, Apr 2, 2026",
+  "generated_at": "2026-04-02T09:45:12.016903-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,10 @@
   },
   "gappers": [
     {
-      "symbol": "RGC",
-      "gap_pct": 26.1,
-      "price": 32.07,
-      "market_cap": 15858258944,
-      "catalyst": ""
-    },
-    {
-      "symbol": "UNIT",
+      "symbol": "GSAT",
       "gap_pct": 11.5,
-      "price": 10.46,
-      "market_cap": 2500705792,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PVH",
-      "gap_pct": 10.1,
-      "price": 76.89,
-      "market_cap": 3700170752,
+      "price": 76.39,
+      "market_cap": 9820266496,
       "catalyst": ""
     }
   ],
@@ -61,24 +47,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "A $2 Million 401(k) in Retirement Can Still Cost You Six Figures Without These Moves",
-      "url": "https://finance.yahoo.com/m/6cebfc49-82ff-3e55-b6fd-c91144b6a389/a-%242-million-401%28k%29-in.html"
+      "text": "Stock Market Today: Dow Sells Off On Trump Speech As Oil Surges; Tesla Slides On Deliveries (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/1bbc71c7-f41b-36b0-af8a-6ac0ddc6d86a/stock-market-today%3A-dow-sells.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Gain Pre-Bell Wednesday as Iran War De-Escalation Hopes Drive Sentiment",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130639197.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday as Escalation Signals in Iran Conflict Lift Oil Prices",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131017404.html"
     },
     {
-      "text": "S&P 500 Index Investors Burned In Nightmare-Scenario Market",
-      "url": "https://finance.yahoo.com/m/56fe8c6c-6b00-3e91-b6f2-84e5d62dcb5f/s%26p-500-index-investors.html"
+      "text": "ETF Inflows Hit $462 Billion in Q1 as Investors Ignore Market Drop",
+      "url": "https://finance.yahoo.com/m/3cb25b5a-6de6-32d6-a21a-67522e11e801/etf-inflows-hit-%24462-billion.html"
     },
     {
-      "text": "Best-Performing Leveraged ETFs of March",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-leveraged-etfs-march-120000915.html"
+      "text": "Wall Street Turns Tactical on Constellation Brands With $170 Target Into Earnings",
+      "url": "https://finance.yahoo.com/m/cdd6737f-c9cd-351f-aa36-4903a347696c/wall-street-turns-tactical-on.html"
     },
     {
-      "text": "Think the War Is Over? Consider This Trade.",
-      "url": "https://finance.yahoo.com/m/4db8c277-04ca-33b8-9061-dc5ff20ed85a/think-the-war-is-over%3F.html"
+      "text": "No Foolin': ADP Jobs Led by Small Companies",
+      "url": "https://finance.yahoo.com/economy/articles/no-foolin-adp-jobs-led-143300862.html"
     }
   ]
 }
