@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Apr 7, 2026",
-  "generated_at": "2026-04-07T09:49:16.021971-04:00",
+  "date": "Wed, Apr 8, 2026",
+  "generated_at": "2026-04-08T09:51:34.134679-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,10 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "ALHC",
-      "gap_pct": 15.2,
-      "price": 21.5,
-      "market_cap": 4392374784,
+      "symbol": "AXTI",
+      "gap_pct": 20.3,
+      "price": 54.7,
+      "market_cap": 3040160512,
+      "catalyst": ""
+    },
+    {
+      "symbol": "USAR",
+      "gap_pct": 14.8,
+      "price": 16.8,
+      "market_cap": 3661999616,
+      "catalyst": ""
+    },
+    {
+      "symbol": "OSCR",
+      "gap_pct": 14.8,
+      "price": 14.88,
+      "market_cap": 4431532544,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BE",
+      "gap_pct": 14.4,
+      "price": 155.54,
+      "market_cap": 43636469760,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MMYT",
+      "gap_pct": 14.0,
+      "price": 43.62,
+      "market_cap": 4150329088,
+      "catalyst": ""
+    },
+    {
+      "symbol": "VICR",
+      "gap_pct": 13.7,
+      "price": 181.66,
+      "market_cap": 8242485760,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CCL",
+      "gap_pct": 13.1,
+      "price": 28.5,
+      "market_cap": 39476477952,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SGI",
+      "gap_pct": 13.1,
+      "price": 81.47,
+      "market_cap": 17135397888,
+      "catalyst": ""
+    },
+    {
+      "symbol": "LEVI",
+      "gap_pct": 13.1,
+      "price": 22.29,
+      "market_cap": 8701563904,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ALK",
+      "gap_pct": 13.0,
+      "price": 41.74,
+      "market_cap": 4785134080,
       "catalyst": ""
     }
   ],
@@ -47,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Falls Ahead Of Hormuz Deadline; UnitedHealth Surges (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/74536421-73d6-3adf-993c-3cae1adadc67/stock-market-today%3A-dow-falls.html"
+      "text": "First Trust Expands Its Target Outcome Laddered Fund Suite with Three New Strategies",
+      "url": "https://finance.yahoo.com/markets/options/articles/first-trust-expands-target-outcome-132500250.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday Ahead of Trump's Hormuz Reopening Deadline",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130136759.html"
+      "text": "Stock Market Today: Dow Surges 1,200 Points, Oil Prices Crash On U.S.-Iran Ceasefire (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/c9240d23-e72c-3dc7-b480-3c3cfd25afe1/stock-market-today%3A-dow.html"
     },
     {
-      "text": "8 'Rock Solid' Stocks Hold Strong During Iran War Chaos",
-      "url": "https://finance.yahoo.com/m/b50e7dd7-e958-347f-abd6-d4991a45950f/8-%27rock-solid%27-stocks-hold.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Two-Week US-Iran Ceasefire",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125023363.html"
     },
     {
-      "text": "The S&P 500 Dropped Below 6,300 and Is Already Bouncing. Here Are 2 Options Trades to Ride It Higher.",
-      "url": "https://finance.yahoo.com/m/fb952dce-531f-3fef-a443-59b9124f5b7e/the-s%26p-500-dropped-below.html"
+      "text": "Best-Performing ETF Areas of March",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/best-performing-etf-areas-march-110000390.html"
     },
     {
-      "text": "Pre-Markets Mixed Post-BLS Jobs, Pre-Iran Ultimatum",
-      "url": "https://finance.yahoo.com/economy/articles/pre-markets-mixed-post-bls-142100399.html"
+      "text": "Oil Volatility Is High. This Options Strategy Is Risky\u2014But Could Pay Off Big.",
+      "url": "https://finance.yahoo.com/m/95f3a143-0261-3d88-8267-7c9ae9930284/oil-volatility-is-high.-this.html"
     }
   ]
 }
