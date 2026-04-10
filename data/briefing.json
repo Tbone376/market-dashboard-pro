@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Apr 9, 2026",
-  "generated_at": "2026-04-09T10:01:23.295449-04:00",
+  "date": "Fri, Apr 10, 2026",
+  "generated_at": "2026-04-10T09:40:21.984702-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,10 +36,10 @@
   },
   "gappers": [
     {
-      "symbol": "AXTI",
-      "gap_pct": 13.8,
-      "price": 60.5,
-      "market_cap": 3362505216,
+      "symbol": "OGN",
+      "gap_pct": 17.2,
+      "price": 8.11,
+      "market_cap": 2110795392,
       "catalyst": ""
     }
   ],
@@ -47,24 +47,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Drops On Fragile Ceasefire, Hot Inflation Data; CoreWeave Jumps (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/999afe85-e68f-35c3-bbb7-873b11646595/stock-market-today%3A-dow-drops.html"
+      "text": "Stock Market Today: Dow Wavers On Surprise CPI Inflation Data; Nvidia Chipmaker TSMC Jumps (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/4ee0e1e2-41cf-353b-8d26-7dc9317db118/stock-market-today%3A-dow.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday as Fragile Middle East Ceasefire Lifts Oil Prices",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131633339.html"
+      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Lingering Geopolitical Uncertainty, CPI Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131518323.html"
     },
     {
-      "text": "A rare S&P 500 gap-up on Wednesday: What history tells us happens next",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rare-p-500-gap-wednesday-121121835.html"
+      "text": "The S&P Hangs On The Edge As Today\u2019s CPI Report Looms Over Open",
+      "url": "https://finance.yahoo.com/m/ce2380ae-f18f-394d-887d-02fdc9f57e32/the-s%26p-hangs-on-the-edge-as.html"
     },
     {
-      "text": "Trump's War On The World Makes 3 Nations Great (Not The U.S.)",
-      "url": "https://finance.yahoo.com/m/4d2dc738-3178-3879-8935-6e622743736b/trump%27s-war-on-the-world.html"
+      "text": "The VIX Looks Calm, But Could Swing Wildly As The Market Digests CPI Data",
+      "url": "https://finance.yahoo.com/m/a44e01b3-2e22-38a3-86e3-440a20495c62/the-vix-looks-calm%2C-but-could.html"
     },
     {
-      "text": "A Few Reasons Why Small-Cap ETFs Are Good Bets Now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/few-reasons-why-small-cap-120000850.html"
+      "text": "The Nasdaq Turns Green, But The CPI Release Could Rock Markets Today",
+      "url": "https://finance.yahoo.com/m/b9e935a7-9df0-31e6-9877-c339b5c4a115/the-nasdaq-turns-green%2C-but.html"
     }
   ]
 }
