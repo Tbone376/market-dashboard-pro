@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Apr 10, 2026",
-  "generated_at": "2026-04-10T09:40:21.984702-04:00",
+  "date": "Mon, Apr 13, 2026",
+  "generated_at": "2026-04-13T09:59:55.790042-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,10 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "OGN",
-      "gap_pct": 17.2,
-      "price": 8.11,
-      "market_cap": 2110795392,
+      "symbol": "RVMD",
+      "gap_pct": 39.0,
+      "price": 134.0,
+      "market_cap": 26554243072,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SYRE",
+      "gap_pct": 28.2,
+      "price": 65.77,
+      "market_cap": 5165585920,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IDYA",
+      "gap_pct": 23.1,
+      "price": 37.54,
+      "market_cap": 3296538624,
+      "catalyst": ""
+    },
+    {
+      "symbol": "XNDU",
+      "gap_pct": 12.7,
+      "price": 10.1,
+      "market_cap": 3465171968,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CRDO",
+      "gap_pct": 12.4,
+      "price": 134.39,
+      "market_cap": 24788207616,
       "catalyst": ""
     }
   ],
@@ -47,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Wavers On Surprise CPI Inflation Data; Nvidia Chipmaker TSMC Jumps (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/4ee0e1e2-41cf-353b-8d26-7dc9317db118/stock-market-today%3A-dow.html"
+      "text": "Stock Market Today: Dow Slides On Trump's Strait Of Hormuz Blockade; Oil Prices Surging Again (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/67798b21-fe64-3914-8525-78ec96833a9b/stock-market-today%3A-dow.html"
     },
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Lingering Geopolitical Uncertainty, CPI Focus",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131518323.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Trump Prepares to Block Strait of Hormuz",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131230625.html"
     },
     {
-      "text": "The S&P Hangs On The Edge As Today\u2019s CPI Report Looms Over Open",
-      "url": "https://finance.yahoo.com/m/ce2380ae-f18f-394d-887d-02fdc9f57e32/the-s%26p-hangs-on-the-edge-as.html"
+      "text": "Dividend Stocks Are Red-Hot With Investors \u2014 Especially These 7",
+      "url": "https://finance.yahoo.com/m/0350e084-51e3-3b92-a8ac-e4b3088c8d95/dividend-stocks-are-red-hot.html"
     },
     {
-      "text": "The VIX Looks Calm, But Could Swing Wildly As The Market Digests CPI Data",
-      "url": "https://finance.yahoo.com/m/a44e01b3-2e22-38a3-86e3-440a20495c62/the-vix-looks-calm%2C-but-could.html"
+      "text": "Why $1 Million Is the Worst Amount of Money and What to Do About It",
+      "url": "https://finance.yahoo.com/m/dfc5584f-bdb7-3458-9536-12b316c1d4b1/why-%241-million-is-the-worst.html"
     },
     {
-      "text": "The Nasdaq Turns Green, But The CPI Release Could Rock Markets Today",
-      "url": "https://finance.yahoo.com/m/b9e935a7-9df0-31e6-9877-c339b5c4a115/the-nasdaq-turns-green%2C-but.html"
+      "text": "Foreigners Own Nearly $30 Trillion in U.S. Stocks and Bonds. Here Is Why That Number Should Be on Every Investor's Radar",
+      "url": "https://finance.yahoo.com/m/8d98ee30-dc17-3c50-bcf6-c4f977483635/foreigners-own-nearly-%2430.html"
     }
   ]
 }
