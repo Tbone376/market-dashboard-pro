@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Apr 13, 2026",
-  "generated_at": "2026-04-13T09:59:55.790042-04:00",
+  "date": "Tue, Apr 14, 2026",
+  "generated_at": "2026-04-14T10:03:27.045990-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,52 @@
   },
   "gappers": [
     {
-      "symbol": "RVMD",
-      "gap_pct": 39.0,
-      "price": 134.0,
-      "market_cap": 26554243072,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SYRE",
-      "gap_pct": 28.2,
-      "price": 65.77,
-      "market_cap": 5165585920,
-      "catalyst": ""
-    },
-    {
-      "symbol": "IDYA",
-      "gap_pct": 23.1,
-      "price": 37.54,
-      "market_cap": 3296538624,
+      "symbol": "TVTX",
+      "gap_pct": 33.6,
+      "price": 41.03,
+      "market_cap": 3789933056,
       "catalyst": ""
     },
     {
       "symbol": "XNDU",
-      "gap_pct": 12.7,
-      "price": 10.1,
-      "market_cap": 3465171968,
+      "gap_pct": 30.0,
+      "price": 14.94,
+      "market_cap": 5126532096,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BE",
+      "gap_pct": 17.3,
+      "price": 207.19,
+      "market_cap": 58882129920,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IONQ",
+      "gap_pct": 13.4,
+      "price": 33.76,
+      "market_cap": 12412668928,
       "catalyst": ""
     },
     {
       "symbol": "CRDO",
-      "gap_pct": 12.4,
-      "price": 134.39,
-      "market_cap": 24788207616,
+      "gap_pct": 12.5,
+      "price": 151.1,
+      "market_cap": 27870386176,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RGTI",
+      "gap_pct": 11.9,
+      "price": 16.93,
+      "market_cap": 5624969728,
+      "catalyst": ""
+    },
+    {
+      "symbol": "QBTS",
+      "gap_pct": 10.7,
+      "price": 16.21,
+      "market_cap": 5998150656,
       "catalyst": ""
     }
   ],
@@ -75,24 +89,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Slides On Trump's Strait Of Hormuz Blockade; Oil Prices Surging Again (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/67798b21-fe64-3914-8525-78ec96833a9b/stock-market-today%3A-dow.html"
+      "text": "Stock Market Today: Dow Rises On Surprise Inflation Data; Bloom Soars On This Oracle News (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/654956d3-f14e-33a0-9884-03175b572fbb/stock-market-today%3A-dow-rises.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Trump Prepares to Block Strait of Hormuz",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131230625.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday Amid Hopes of Long-Term US-Iran Truce",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132020547.html"
     },
     {
-      "text": "Dividend Stocks Are Red-Hot With Investors \u2014 Especially These 7",
-      "url": "https://finance.yahoo.com/m/0350e084-51e3-3b92-a8ac-e4b3088c8d95/dividend-stocks-are-red-hot.html"
+      "text": "Warning: \u201cExistential Risk\u201d as Mega IPOs Could Trigger $100 Billion Stock Selloff",
+      "url": "https://finance.yahoo.com/m/1f83a17f-a712-3ac0-8cd7-849d85ced629/warning%3A-%E2%80%9Cexistential-risk%E2%80%9D.html"
     },
     {
-      "text": "Why $1 Million Is the Worst Amount of Money and What to Do About It",
-      "url": "https://finance.yahoo.com/m/dfc5584f-bdb7-3458-9536-12b316c1d4b1/why-%241-million-is-the-worst.html"
+      "text": "AI trade is leading the stock market again: Chart of the Day",
+      "url": "https://finance.yahoo.com/news/ai-trade-is-leading-the-stock-market-again-chart-of-the-day-100044721.html"
     },
     {
-      "text": "Foreigners Own Nearly $30 Trillion in U.S. Stocks and Bonds. Here Is Why That Number Should Be on Every Investor's Radar",
-      "url": "https://finance.yahoo.com/m/8d98ee30-dc17-3c50-bcf6-c4f977483635/foreigners-own-nearly-%2430.html"
+      "text": "ETF Fund Flows Tool: Track ETF, Issuer  Asset Class Flows",
+      "url": "https://finance.yahoo.com/m/bcbe80e8-439a-3c47-a4f3-c5971e5276b6/etf-fund-flows-tool%3A-track.html"
     }
   ]
 }
