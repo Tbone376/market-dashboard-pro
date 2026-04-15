@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Apr 14, 2026",
-  "generated_at": "2026-04-14T10:03:27.045990-04:00",
+  "date": "Wed, Apr 15, 2026",
+  "generated_at": "2026-04-15T09:56:17.818791-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,52 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "TVTX",
-      "gap_pct": 33.6,
-      "price": 41.03,
-      "market_cap": 3789933056,
-      "catalyst": ""
-    },
-    {
-      "symbol": "XNDU",
-      "gap_pct": 30.0,
-      "price": 14.94,
-      "market_cap": 5126532096,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BE",
-      "gap_pct": 17.3,
-      "price": 207.19,
-      "market_cap": 58882129920,
-      "catalyst": ""
-    },
-    {
       "symbol": "IONQ",
-      "gap_pct": 13.4,
-      "price": 33.76,
-      "market_cap": 12412668928,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CRDO",
-      "gap_pct": 12.5,
-      "price": 151.1,
-      "market_cap": 27870386176,
-      "catalyst": ""
-    },
-    {
-      "symbol": "RGTI",
-      "gap_pct": 11.9,
-      "price": 16.93,
-      "market_cap": 5624969728,
+      "gap_pct": 14.2,
+      "price": 40.85,
+      "market_cap": 15020544000,
       "catalyst": ""
     },
     {
       "symbol": "QBTS",
-      "gap_pct": 10.7,
-      "price": 16.21,
-      "market_cap": 5998150656,
+      "gap_pct": 13.5,
+      "price": 19.27,
+      "market_cap": 7130086400,
+      "catalyst": ""
+    },
+    {
+      "symbol": "XNDU",
+      "gap_pct": 13.4,
+      "price": 16.81,
+      "market_cap": 5770137600,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SMR",
+      "gap_pct": 13.0,
+      "price": 11.59,
+      "market_cap": 3691017216,
+      "catalyst": ""
+    },
+    {
+      "symbol": "OKLO",
+      "gap_pct": 10.2,
+      "price": 64.55,
+      "market_cap": 11203865600,
       "catalyst": ""
     }
   ],
@@ -89,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rises On Surprise Inflation Data; Bloom Soars On This Oracle News (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/654956d3-f14e-33a0-9884-03175b572fbb/stock-market-today%3A-dow-rises.html"
+      "text": "Stock Market Today: Dow Rises As Trump Points To U.S.-Iran Talks; ASML Drops On Outlook (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/e4af691f-37b2-3a47-9f37-6166299cfe08/stock-market-today%3A-dow-rises.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday Amid Hopes of Long-Term US-Iran Truce",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132020547.html"
+      "text": "11 S&P 500 Stocks' Earnings To Skyrocket 200% In Three Months",
+      "url": "https://finance.yahoo.com/m/96af72c3-f8ea-3e06-8afe-59ef57c53696/11-s%26p-500-stocks%27-earnings.html"
     },
     {
-      "text": "Warning: \u201cExistential Risk\u201d as Mega IPOs Could Trigger $100 Billion Stock Selloff",
-      "url": "https://finance.yahoo.com/m/1f83a17f-a712-3ac0-8cd7-849d85ced629/warning%3A-%E2%80%9Cexistential-risk%E2%80%9D.html"
+      "text": "VOO vs. QQQ vs. SPY \u2014 Which ETF Is the Best Buy Right Now?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/voo-vs-qqq-vs-spy-104138064.html"
     },
     {
-      "text": "AI trade is leading the stock market again: Chart of the Day",
-      "url": "https://finance.yahoo.com/news/ai-trade-is-leading-the-stock-market-again-chart-of-the-day-100044721.html"
+      "text": "Gabelli\u2019s 10.5% Yield Comes With a Hidden Cost Retirees Should Know",
+      "url": "https://finance.yahoo.com/m/d577dc87-acf4-31c5-b994-b1cd7f38f6f7/gabelli%E2%80%99s-10.5%25-yield-comes.html"
     },
     {
-      "text": "ETF Fund Flows Tool: Track ETF, Issuer  Asset Class Flows",
-      "url": "https://finance.yahoo.com/m/bcbe80e8-439a-3c47-a4f3-c5971e5276b6/etf-fund-flows-tool%3A-track.html"
+      "text": "Small-Cap Stocks May Be About to Pull Ahead, and IJR Will Win Big",
+      "url": "https://finance.yahoo.com/m/9d303b8a-382e-34ac-be85-c89025dc42c7/small-cap-stocks-may-be-about.html"
     }
   ]
 }
