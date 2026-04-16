@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Apr 15, 2026",
-  "generated_at": "2026-04-15T09:56:17.818791-04:00",
+  "date": "Thu, Apr 16, 2026",
+  "generated_at": "2026-04-16T10:04:54.943620-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "IONQ",
-      "gap_pct": 14.2,
-      "price": 40.85,
-      "market_cap": 15020544000,
-      "catalyst": ""
-    },
-    {
-      "symbol": "QBTS",
-      "gap_pct": 13.5,
-      "price": 19.27,
-      "market_cap": 7130086400,
+      "symbol": "AEHR",
+      "gap_pct": 18.2,
+      "price": 86.54,
+      "market_cap": 2721964544,
       "catalyst": ""
     },
     {
       "symbol": "XNDU",
-      "gap_pct": 13.4,
-      "price": 16.81,
-      "market_cap": 5770137600,
+      "gap_pct": 16.9,
+      "price": 29.44,
+      "market_cap": 10105464832,
       "catalyst": ""
     },
     {
-      "symbol": "SMR",
-      "gap_pct": 13.0,
-      "price": 11.59,
-      "market_cap": 3691017216,
+      "symbol": "NN",
+      "gap_pct": 13.3,
+      "price": 19.22,
+      "market_cap": 2614461696,
       "catalyst": ""
     },
     {
-      "symbol": "OKLO",
-      "gap_pct": 10.2,
-      "price": 64.55,
-      "market_cap": 11203865600,
+      "symbol": "SGML",
+      "gap_pct": 11.8,
+      "price": 20.37,
+      "market_cap": 2269278720,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PL",
+      "gap_pct": 10.3,
+      "price": 37.94,
+      "market_cap": 13132893184,
       "catalyst": ""
     }
   ],
@@ -75,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rises As Trump Points To U.S.-Iran Talks; ASML Drops On Outlook (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/e4af691f-37b2-3a47-9f37-6166299cfe08/stock-market-today%3A-dow-rises.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Incoming Economic Data Releases",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131013078.html"
     },
     {
-      "text": "11 S&P 500 Stocks' Earnings To Skyrocket 200% In Three Months",
-      "url": "https://finance.yahoo.com/m/96af72c3-f8ea-3e06-8afe-59ef57c53696/11-s%26p-500-stocks%27-earnings.html"
+      "text": "Stock Market Today: Dow Higher After Labor Data Surprise; TSMC Slides (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/c55e30bd-f999-3fc3-90be-215a49ce656d/stock-market-today%3A-dow.html"
     },
     {
-      "text": "VOO vs. QQQ vs. SPY \u2014 Which ETF Is the Best Buy Right Now?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/voo-vs-qqq-vs-spy-104138064.html"
+      "text": "GraniteShares Announces Weekly Distributions for its YieldBOOST ETFs: COYY, TSYY, NVYY, XBTY, AMYY, TQQY, AZYY, YSPY, MTYY, PLYY, HOYY, SMYY, BBYY, FBYY, IOYY, MAAY, NUGY, SEMY, QBY, RGYY, HMYY, RTYY, MUYY, TMYY and CWY",
+      "url": "https://finance.yahoo.com/markets/options/articles/graniteshares-announces-weekly-distributions-yieldboost-124000059.html"
     },
     {
-      "text": "Gabelli\u2019s 10.5% Yield Comes With a Hidden Cost Retirees Should Know",
-      "url": "https://finance.yahoo.com/m/d577dc87-acf4-31c5-b994-b1cd7f38f6f7/gabelli%E2%80%99s-10.5%25-yield-comes.html"
+      "text": "This Easy-To-Overlook ETF Soars 663% As It Wins From Iran War",
+      "url": "https://finance.yahoo.com/m/3dce7df4-95cf-3d86-a360-a66f2604fdcf/this-easy-to-overlook-etf.html"
     },
     {
-      "text": "Small-Cap Stocks May Be About to Pull Ahead, and IJR Will Win Big",
-      "url": "https://finance.yahoo.com/m/9d303b8a-382e-34ac-be85-c89025dc42c7/small-cap-stocks-may-be-about.html"
+      "text": "Why Cardiologists Are Pulling Money Out of Their 401(k)s During Market Downturns While Most Investors Hold On",
+      "url": "https://finance.yahoo.com/m/9bf18a2f-5abd-3b8d-91af-4595b7572d7d/why-cardiologists-are-pulling.html"
     }
   ]
 }
