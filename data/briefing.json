@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Apr 16, 2026",
-  "generated_at": "2026-04-16T10:04:54.943620-04:00",
+  "date": "Fri, Apr 17, 2026",
+  "generated_at": "2026-04-17T09:48:07.832826-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,10 @@
   },
   "gappers": [
     {
-      "symbol": "AEHR",
-      "gap_pct": 18.2,
-      "price": 86.54,
-      "market_cap": 2721964544,
-      "catalyst": ""
-    },
-    {
       "symbol": "XNDU",
-      "gap_pct": 16.9,
-      "price": 29.44,
-      "market_cap": 10105464832,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NN",
-      "gap_pct": 13.3,
-      "price": 19.22,
-      "market_cap": 2614461696,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SGML",
-      "gap_pct": 11.8,
-      "price": 20.37,
-      "market_cap": 2269278720,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PL",
-      "gap_pct": 10.3,
-      "price": 37.94,
-      "market_cap": 13132893184,
+      "gap_pct": 16.3,
+      "price": 38.0,
+      "market_cap": 13043737600,
       "catalyst": ""
     }
   ],
@@ -75,24 +47,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Incoming Economic Data Releases",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131013078.html"
+      "text": "Stock Market Today: Dow Rallies On Trump's Iran Comments; Netflix Shares Plunge On Earnings (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/9410d1ad-32a8-3e0a-ac9f-6e3f7754487f/stock-market-today%3A-dow.html"
     },
     {
-      "text": "Stock Market Today: Dow Higher After Labor Data Surprise; TSMC Slides (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/c55e30bd-f999-3fc3-90be-215a49ce656d/stock-market-today%3A-dow.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Investors Take Positions Amid Corporate Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-122237305.html"
     },
     {
-      "text": "GraniteShares Announces Weekly Distributions for its YieldBOOST ETFs: COYY, TSYY, NVYY, XBTY, AMYY, TQQY, AZYY, YSPY, MTYY, PLYY, HOYY, SMYY, BBYY, FBYY, IOYY, MAAY, NUGY, SEMY, QBY, RGYY, HMYY, RTYY, MUYY, TMYY and CWY",
-      "url": "https://finance.yahoo.com/markets/options/articles/graniteshares-announces-weekly-distributions-yieldboost-124000059.html"
+      "text": "10 Tech Stocks Soar In The New Rally \u2014 None Are Magnificent 7",
+      "url": "https://finance.yahoo.com/m/3ae31bd7-6688-317f-875e-daa1a35153f8/10-tech-stocks-soar-in-the.html"
     },
     {
-      "text": "This Easy-To-Overlook ETF Soars 663% As It Wins From Iran War",
-      "url": "https://finance.yahoo.com/m/3dce7df4-95cf-3d86-a360-a66f2604fdcf/this-easy-to-overlook-etf.html"
+      "text": "The stock market's big breakout still needs an under-the-hood check: Chart of the Day",
+      "url": "https://finance.yahoo.com/news/the-stock-markets-big-breakout-still-needs-an-under-the-hood-check-chart-of-the-day-100030247.html"
     },
     {
-      "text": "Why Cardiologists Are Pulling Money Out of Their 401(k)s During Market Downturns While Most Investors Hold On",
-      "url": "https://finance.yahoo.com/m/9bf18a2f-5abd-3b8d-91af-4595b7572d7d/why-cardiologists-are-pulling.html"
+      "text": "The rally in tech stocks is widening beyond semiconductors and into software",
+      "url": "https://finance.yahoo.com/news/the-rally-in-tech-stocks-is-widening-beyond-semiconductors-and-into-software-100008649.html"
     }
   ]
 }
