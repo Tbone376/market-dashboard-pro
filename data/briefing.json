@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Apr 17, 2026",
-  "generated_at": "2026-04-17T09:48:07.832826-04:00",
+  "date": "Mon, Apr 20, 2026",
+  "generated_at": "2026-04-20T10:02:37.791978-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,10 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "XNDU",
-      "gap_pct": 16.3,
-      "price": 38.0,
-      "market_cap": 13043737600,
+      "symbol": "NKTR",
+      "gap_pct": 20.3,
+      "price": 102.06,
+      "market_cap": 2927893504,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BLD",
+      "gap_pct": 16.4,
+      "price": 477.57,
+      "market_cap": 13441272832,
+      "catalyst": ""
+    },
+    {
+      "symbol": "USAR",
+      "gap_pct": 14.3,
+      "price": 22.8,
+      "market_cap": 4969835008,
+      "catalyst": ""
+    },
+    {
+      "symbol": "KSPI",
+      "gap_pct": 12.1,
+      "price": 95.2,
+      "market_cap": 18076108800,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MXL",
+      "gap_pct": 11.7,
+      "price": 29.36,
+      "market_cap": 2628130048,
       "catalyst": ""
     }
   ],
@@ -47,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rallies On Trump's Iran Comments; Netflix Shares Plunge On Earnings (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/9410d1ad-32a8-3e0a-ac9f-6e3f7754487f/stock-market-today%3A-dow.html"
+      "text": "Stock Market Today: Dow Falls, Oil Prices Jump On Rising U.S.-Iran Tensions (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/eb0ff88d-6203-3b32-b483-5da2153bf650/stock-market-today%3A-dow.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Investors Take Positions Amid Corporate Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-122237305.html"
+      "text": "Nasdaq Composite Battles Oil Price Fears Ahead of High-Stakes Tech Earnings",
+      "url": "https://finance.yahoo.com/m/879c467b-603d-339f-b270-7c8839a9eacf/nasdaq-composite-battles-oil.html"
     },
     {
-      "text": "10 Tech Stocks Soar In The New Rally \u2014 None Are Magnificent 7",
-      "url": "https://finance.yahoo.com/m/3ae31bd7-6688-317f-875e-daa1a35153f8/10-tech-stocks-soar-in-the.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Oil Prices Rise on Renewed Middle East Tensions",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131028007.html"
     },
     {
-      "text": "The stock market's big breakout still needs an under-the-hood check: Chart of the Day",
-      "url": "https://finance.yahoo.com/news/the-stock-markets-big-breakout-still-needs-an-under-the-hood-check-chart-of-the-day-100030247.html"
+      "text": "S&P 500 Holds 7100 as Oil Surges Amid Moment of Hormuz Strait Reckoning",
+      "url": "https://finance.yahoo.com/m/a0aa8109-e2b6-3c5c-8ce9-a41639755e97/s%26p-500-holds-7100-as-oil.html"
     },
     {
-      "text": "The rally in tech stocks is widening beyond semiconductors and into software",
-      "url": "https://finance.yahoo.com/news/the-rally-in-tech-stocks-is-widening-beyond-semiconductors-and-into-software-100008649.html"
+      "text": "Top-Performing ETFs of Last Week",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/top-performing-etfs-last-week-120000761.html"
     }
   ]
 }
