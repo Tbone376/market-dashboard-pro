@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Apr 20, 2026",
-  "generated_at": "2026-04-20T10:02:37.791978-04:00",
+  "date": "Tue, Apr 21, 2026",
+  "generated_at": "2026-04-21T10:01:13.708705-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "NKTR",
+      "symbol": "NVTS",
       "gap_pct": 20.3,
-      "price": 102.06,
-      "market_cap": 2927893504,
+      "price": 15.88,
+      "market_cap": 3664989184,
       "catalyst": ""
     },
     {
-      "symbol": "BLD",
-      "gap_pct": 16.4,
-      "price": 477.57,
-      "market_cap": 13441272832,
+      "symbol": "VMI",
+      "gap_pct": 13.3,
+      "price": 464.56,
+      "market_cap": 9080755200,
       "catalyst": ""
     },
     {
-      "symbol": "USAR",
-      "gap_pct": 14.3,
-      "price": 22.8,
-      "market_cap": 4969835008,
-      "catalyst": ""
-    },
-    {
-      "symbol": "KSPI",
-      "gap_pct": 12.1,
-      "price": 95.2,
-      "market_cap": 18076108800,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MXL",
-      "gap_pct": 11.7,
-      "price": 29.36,
-      "market_cap": 2628130048,
+      "symbol": "LCID",
+      "gap_pct": 10.7,
+      "price": 7.48,
+      "market_cap": 2737619200,
       "catalyst": ""
     }
   ],
@@ -75,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Falls, Oil Prices Jump On Rising U.S.-Iran Tensions (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/eb0ff88d-6203-3b32-b483-5da2153bf650/stock-market-today%3A-dow.html"
+      "text": "Russell 2000\u2019s Gains Fueled by Risk-On Trade as Small Caps Extend Run",
+      "url": "https://finance.yahoo.com/m/d42108de-938b-3bb9-9324-eae2768f705a/russell-2000%E2%80%99s-gains-fueled.html"
     },
     {
-      "text": "Nasdaq Composite Battles Oil Price Fears Ahead of High-Stakes Tech Earnings",
-      "url": "https://finance.yahoo.com/m/879c467b-603d-339f-b270-7c8839a9eacf/nasdaq-composite-battles-oil.html"
+      "text": "Stock Market Today: Dow Rises On Trump's New Iran Comments; UnitedHealth Surges On Earnings (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/e81783f5-f375-3023-a796-be49147ad66f/stock-market-today%3A-dow-rises.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Oil Prices Rise on Renewed Middle East Tensions",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131028007.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Second Round of US-Iran Talks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130622104.html"
     },
     {
-      "text": "S&P 500 Holds 7100 as Oil Surges Amid Moment of Hormuz Strait Reckoning",
-      "url": "https://finance.yahoo.com/m/a0aa8109-e2b6-3c5c-8ce9-a41639755e97/s%26p-500-holds-7100-as-oil.html"
+      "text": "S&P 500 Eyes Apple\u2019s Changing of Guard, AI Tailwinds as Oil Pulls Back on Iran Deal Talks",
+      "url": "https://finance.yahoo.com/m/c9439a1d-4e45-3586-b3a4-112d26ab9d31/s%26p-500-eyes-apple%E2%80%99s-changing.html"
     },
     {
-      "text": "Top-Performing ETFs of Last Week",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/top-performing-etfs-last-week-120000761.html"
+      "text": "Best-Performing Leveraged ETFs of Last Week",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-leveraged-etfs-last-120000570.html"
     }
   ]
 }
