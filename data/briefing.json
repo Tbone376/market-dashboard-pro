@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Apr 21, 2026",
-  "generated_at": "2026-04-21T10:01:13.708705-04:00",
+  "date": "Wed, Apr 22, 2026",
+  "generated_at": "2026-04-22T10:01:21.050918-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "NVTS",
-      "gap_pct": 20.3,
-      "price": 15.88,
-      "market_cap": 3664989184,
+      "symbol": "MAAS",
+      "gap_pct": 28.3,
+      "price": 11.65,
+      "market_cap": 4133133568,
       "catalyst": ""
     },
     {
-      "symbol": "VMI",
-      "gap_pct": 13.3,
-      "price": 464.56,
-      "market_cap": 9080755200,
+      "symbol": "RDW",
+      "gap_pct": 15.8,
+      "price": 11.94,
+      "market_cap": 2375089408,
       "catalyst": ""
     },
     {
-      "symbol": "LCID",
-      "gap_pct": 10.7,
-      "price": 7.48,
-      "market_cap": 2737619200,
+      "symbol": "MCRI",
+      "gap_pct": 14.2,
+      "price": 112.54,
+      "market_cap": 2012903936,
+      "catalyst": ""
+    },
+    {
+      "symbol": "VICR",
+      "gap_pct": 14.1,
+      "price": 281.05,
+      "market_cap": 12752121856,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RCUS",
+      "gap_pct": 14.0,
+      "price": 27.95,
+      "market_cap": 3504144384,
+      "catalyst": ""
+    },
+    {
+      "symbol": "XNDU",
+      "gap_pct": 13.1,
+      "price": 25.91,
+      "market_cap": 8801143808,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FRMI",
+      "gap_pct": 12.1,
+      "price": 5.67,
+      "market_cap": 3571254784,
+      "catalyst": ""
+    },
+    {
+      "symbol": "GEV",
+      "gap_pct": 11.8,
+      "price": 1108.02,
+      "market_cap": 298644045824,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MAS",
+      "gap_pct": 11.4,
+      "price": 74.36,
+      "market_cap": 15140222976,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MSTR",
+      "gap_pct": 11.4,
+      "price": 182.68,
+      "market_cap": 63743483904,
       "catalyst": ""
     }
   ],
@@ -61,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Russell 2000\u2019s Gains Fueled by Risk-On Trade as Small Caps Extend Run",
-      "url": "https://finance.yahoo.com/m/d42108de-938b-3bb9-9324-eae2768f705a/russell-2000%E2%80%99s-gains-fueled.html"
+      "text": "Stock Market Today: Dow Rallies On Trump Ceasefire; Tesla Earnings Due (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/7ab1524e-92c4-32c9-81b7-f9d2fd027cef/stock-market-today%3A-dow.html"
     },
     {
-      "text": "Stock Market Today: Dow Rises On Trump's New Iran Comments; UnitedHealth Surges On Earnings (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/e81783f5-f375-3023-a796-be49147ad66f/stock-market-today%3A-dow-rises.html"
+      "text": "S&P 500 Climbs on Ceasefire Extension, Tech Tailwinds amid Improving Sentiment",
+      "url": "https://finance.yahoo.com/m/66f03ae3-7552-31ce-a13e-7141b4e906f2/s%26p-500-climbs-on-ceasefire.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Second Round of US-Iran Talks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130622104.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Extended US-Iran Ceasefire",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424366.html"
     },
     {
-      "text": "S&P 500 Eyes Apple\u2019s Changing of Guard, AI Tailwinds as Oil Pulls Back on Iran Deal Talks",
-      "url": "https://finance.yahoo.com/m/c9439a1d-4e45-3586-b3a4-112d26ab9d31/s%26p-500-eyes-apple%E2%80%99s-changing.html"
+      "text": "A $1.3 Million Portfolio Lost $210,000 in One Week, Proving the Case for a 2-Year Cash Buffer",
+      "url": "https://finance.yahoo.com/m/ca7a77a1-2b27-3c22-ad25-5a8d4952684e/a-%241.3-million-portfolio-lost.html"
     },
     {
-      "text": "Best-Performing Leveraged ETFs of Last Week",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-leveraged-etfs-last-120000570.html"
+      "text": "The AI-Enabled Wealth Transfer No One is Talking About",
+      "url": "https://finance.yahoo.com/m/61771aa2-d21a-3c65-abca-1f52f822a5cb/the-ai-enabled-wealth.html"
     }
   ]
 }
