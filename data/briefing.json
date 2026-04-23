@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Apr 22, 2026",
-  "generated_at": "2026-04-22T10:01:21.050918-04:00",
+  "date": "Thu, Apr 23, 2026",
+  "generated_at": "2026-04-23T10:03:22.332557-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
+      "symbol": "URI",
+      "gap_pct": 19.2,
+      "price": 957.03,
+      "market_cap": 60291121152,
+      "catalyst": ""
+    },
+    {
       "symbol": "MAAS",
-      "gap_pct": 28.3,
-      "price": 11.65,
-      "market_cap": 4133133568,
+      "gap_pct": 18.4,
+      "price": 12.2,
+      "market_cap": 4328224768,
       "catalyst": ""
     },
     {
-      "symbol": "RDW",
-      "gap_pct": 15.8,
-      "price": 11.94,
-      "market_cap": 2375089408,
+      "symbol": "TXN",
+      "gap_pct": 16.3,
+      "price": 274.75,
+      "market_cap": 250149814272,
       "catalyst": ""
     },
     {
-      "symbol": "MCRI",
-      "gap_pct": 14.2,
-      "price": 112.54,
-      "market_cap": 2012903936,
+      "symbol": "PENN",
+      "gap_pct": 15.3,
+      "price": 17.02,
+      "market_cap": 2273625344,
       "catalyst": ""
     },
     {
-      "symbol": "VICR",
-      "gap_pct": 14.1,
-      "price": 281.05,
-      "market_cap": 12752121856,
+      "symbol": "EQPT",
+      "gap_pct": 15.2,
+      "price": 24.74,
+      "market_cap": 6582006272,
       "catalyst": ""
     },
     {
-      "symbol": "RCUS",
+      "symbol": "WST",
       "gap_pct": 14.0,
-      "price": 27.95,
-      "market_cap": 3504144384,
+      "price": 312.7,
+      "market_cap": 22539919360,
       "catalyst": ""
     },
     {
-      "symbol": "XNDU",
-      "gap_pct": 13.1,
-      "price": 25.91,
-      "market_cap": 8801143808,
+      "symbol": "MOH",
+      "gap_pct": 12.7,
+      "price": 172.38,
+      "market_cap": 8979198976,
       "catalyst": ""
     },
     {
-      "symbol": "FRMI",
-      "gap_pct": 12.1,
-      "price": 5.67,
-      "market_cap": 3571254784,
+      "symbol": "APLD",
+      "gap_pct": 12.4,
+      "price": 36.45,
+      "market_cap": 10416300032,
       "catalyst": ""
     },
     {
-      "symbol": "GEV",
+      "symbol": "QS",
       "gap_pct": 11.8,
-      "price": 1108.02,
-      "market_cap": 298644045824,
+      "price": 8.18,
+      "market_cap": 5007857152,
       "catalyst": ""
     },
     {
-      "symbol": "MAS",
-      "gap_pct": 11.4,
-      "price": 74.36,
-      "market_cap": 15140222976,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MSTR",
-      "gap_pct": 11.4,
-      "price": 182.68,
-      "market_cap": 63743483904,
+      "symbol": "MBLY",
+      "gap_pct": 10.1,
+      "price": 8.7,
+      "market_cap": 7315811840,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rallies On Trump Ceasefire; Tesla Earnings Due (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/7ab1524e-92c4-32c9-81b7-f9d2fd027cef/stock-market-today%3A-dow.html"
+      "text": "Stock Market Today: Dow Falls After Jobless Claims Surprise; Tesla Drops On Musk Comments (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/dd150f08-7aaf-39f4-90a4-dbd584ca0259/stock-market-today%3A-dow-falls.html"
     },
     {
-      "text": "S&P 500 Climbs on Ceasefire Extension, Tech Tailwinds amid Improving Sentiment",
-      "url": "https://finance.yahoo.com/m/66f03ae3-7552-31ce-a13e-7141b4e906f2/s%26p-500-climbs-on-ceasefire.html"
+      "text": "Nasdaq Composite Succumbs to Selling Pressure amid Netflix and Tesla Tug-of-War",
+      "url": "https://finance.yahoo.com/m/7bf826c4-9b42-3fd8-bee9-537a7f6a947a/nasdaq-composite-succumbs-to.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Extended US-Iran Ceasefire",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131424366.html"
+      "text": "S&P 500 Retreats but Holds 7100 on Fresh Mideast Escalation as Earnings Kick Off",
+      "url": "https://finance.yahoo.com/m/989e2c97-5b56-374c-8cfe-d4ed98585b45/s%26p-500-retreats-but-holds.html"
     },
     {
-      "text": "A $1.3 Million Portfolio Lost $210,000 in One Week, Proving the Case for a 2-Year Cash Buffer",
-      "url": "https://finance.yahoo.com/m/ca7a77a1-2b27-3c22-ad25-5a8d4952684e/a-%241.3-million-portfolio-lost.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Stalled US-Iran Talks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131452787.html"
     },
     {
-      "text": "The AI-Enabled Wealth Transfer No One is Talking About",
-      "url": "https://finance.yahoo.com/m/61771aa2-d21a-3c65-abca-1f52f822a5cb/the-ai-enabled-wealth.html"
+      "text": "Analyst IMS Loads Up on AAXJ With a $112.7 Million Buy",
+      "url": "https://finance.yahoo.com/m/f6de1eb1-83cb-30b4-a188-1a1ef32eacbf/analyst-ims-loads-up-on-aaxj.html"
     }
   ]
 }
