@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Apr 23, 2026",
-  "generated_at": "2026-04-23T10:03:22.332557-04:00",
+  "date": "Fri, Apr 24, 2026",
+  "generated_at": "2026-04-24T09:56:42.460416-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,52 @@
   },
   "gappers": [
     {
-      "symbol": "URI",
-      "gap_pct": 19.2,
-      "price": 957.03,
-      "market_cap": 60291121152,
+      "symbol": "MXL",
+      "gap_pct": 68.3,
+      "price": 57.65,
+      "market_cap": 5161735680,
       "catalyst": ""
     },
     {
-      "symbol": "MAAS",
-      "gap_pct": 18.4,
-      "price": 12.2,
-      "market_cap": 4328224768,
+      "symbol": "OGN",
+      "gap_pct": 23.1,
+      "price": 10.58,
+      "market_cap": 2754764288,
       "catalyst": ""
     },
     {
-      "symbol": "TXN",
-      "gap_pct": 16.3,
-      "price": 274.75,
-      "market_cap": 250149814272,
+      "symbol": "INTC",
+      "gap_pct": 20.9,
+      "price": 80.77,
+      "market_cap": 405546991616,
       "catalyst": ""
     },
     {
-      "symbol": "PENN",
-      "gap_pct": 15.3,
-      "price": 17.02,
-      "market_cap": 2273625344,
+      "symbol": "SXT",
+      "gap_pct": 17.7,
+      "price": 116.92,
+      "market_cap": 4975099904,
       "catalyst": ""
     },
     {
-      "symbol": "EQPT",
-      "gap_pct": 15.2,
-      "price": 24.74,
-      "market_cap": 6582006272,
+      "symbol": "CHE",
+      "gap_pct": 14.7,
+      "price": 440.08,
+      "market_cap": 5903196160,
       "catalyst": ""
     },
     {
-      "symbol": "WST",
-      "gap_pct": 14.0,
-      "price": 312.7,
-      "market_cap": 22539919360,
+      "symbol": "APPF",
+      "gap_pct": 13.6,
+      "price": 173.0,
+      "market_cap": 6226257408,
       "catalyst": ""
     },
     {
-      "symbol": "MOH",
-      "gap_pct": 12.7,
-      "price": 172.38,
-      "market_cap": 8979198976,
-      "catalyst": ""
-    },
-    {
-      "symbol": "APLD",
-      "gap_pct": 12.4,
-      "price": 36.45,
-      "market_cap": 10416300032,
-      "catalyst": ""
-    },
-    {
-      "symbol": "QS",
-      "gap_pct": 11.8,
-      "price": 8.18,
-      "market_cap": 5007857152,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MBLY",
-      "gap_pct": 10.1,
-      "price": 8.7,
-      "market_cap": 7315811840,
+      "symbol": "AMD",
+      "gap_pct": 10.6,
+      "price": 337.66,
+      "market_cap": 550524551168,
       "catalyst": ""
     }
   ],
@@ -110,24 +89,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Falls After Jobless Claims Surprise; Tesla Drops On Musk Comments (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/dd150f08-7aaf-39f4-90a4-dbd584ca0259/stock-market-today%3A-dow-falls.html"
+      "text": "Exchange-Traded Funds Rise, Equity Futures Mixed Pre-Bell as Traders Assess Tech Earnings Amid Global Uncertainty",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-130802590.html"
     },
     {
-      "text": "Nasdaq Composite Succumbs to Selling Pressure amid Netflix and Tesla Tug-of-War",
-      "url": "https://finance.yahoo.com/m/7bf826c4-9b42-3fd8-bee9-537a7f6a947a/nasdaq-composite-succumbs-to.html"
+      "text": "Stock Market Today: Dow Slips As Intel Soars On Earnings; AMD, Arm Tag Along (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/52e306ce-7e7b-3209-bf84-7e6ce3d57e4f/stock-market-today%3A-dow-slips.html"
     },
     {
-      "text": "S&P 500 Retreats but Holds 7100 on Fresh Mideast Escalation as Earnings Kick Off",
-      "url": "https://finance.yahoo.com/m/989e2c97-5b56-374c-8cfe-d4ed98585b45/s%26p-500-retreats-but-holds.html"
+      "text": "Gold Is Now a Strategic Mineral: Mining ETFs in Focus",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-now-strategic-mineral-mining-120000283.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Stalled US-Iran Talks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131452787.html"
+      "text": "SPY vs. FIGB: SPDR S&P 500 ETF Provides Equity-Based Growth, While Fidelity Bond ETF Offers a Higher Yield",
+      "url": "https://finance.yahoo.com/m/7b9f17fc-8b79-3bd3-ab65-bb86ca933261/spy-vs.-figb%3A-spdr-s%26p-500.html"
     },
     {
-      "text": "Analyst IMS Loads Up on AAXJ With a $112.7 Million Buy",
-      "url": "https://finance.yahoo.com/m/f6de1eb1-83cb-30b4-a188-1a1ef32eacbf/analyst-ims-loads-up-on-aaxj.html"
+      "text": "VIX Creeps Toward 20 as Iran Fears and Tesla\u2019s Whipsaw Rattle Nerves",
+      "url": "https://finance.yahoo.com/m/c2121850-2dda-3556-9337-71804347cf73/vix-creeps-toward-20-as-iran.html"
     }
   ]
 }
