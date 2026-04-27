@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Apr 24, 2026",
-  "generated_at": "2026-04-24T09:56:42.460416-04:00",
+  "date": "Mon, Apr 27, 2026",
+  "generated_at": "2026-04-27T10:17:36.696464-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,52 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "MXL",
-      "gap_pct": 68.3,
-      "price": 57.65,
-      "market_cap": 5161735680,
+      "symbol": "MANE",
+      "gap_pct": 46.0,
+      "price": 99.24,
+      "market_cap": 3705650176,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ORKA",
+      "gap_pct": 21.0,
+      "price": 83.55,
+      "market_cap": 4193952256,
       "catalyst": ""
     },
     {
       "symbol": "OGN",
-      "gap_pct": 23.1,
-      "price": 10.58,
-      "market_cap": 2754764288,
+      "gap_pct": 17.2,
+      "price": 13.2,
+      "market_cap": 3434864896,
       "catalyst": ""
     },
     {
-      "symbol": "INTC",
-      "gap_pct": 20.9,
-      "price": 80.77,
-      "market_cap": 405546991616,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SXT",
-      "gap_pct": 17.7,
-      "price": 116.92,
-      "market_cap": 4975099904,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CHE",
-      "gap_pct": 14.7,
-      "price": 440.08,
-      "market_cap": 5903196160,
-      "catalyst": ""
-    },
-    {
-      "symbol": "APPF",
-      "gap_pct": 13.6,
-      "price": 173.0,
-      "market_cap": 6226257408,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AMD",
+      "symbol": "XE",
       "gap_pct": 10.6,
-      "price": 337.66,
-      "market_cap": 550524551168,
+      "price": 32.3,
+      "market_cap": 8526294016,
       "catalyst": ""
     }
   ],
@@ -89,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds Rise, Equity Futures Mixed Pre-Bell as Traders Assess Tech Earnings Amid Global Uncertainty",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-rise-equity-130802590.html"
+      "text": "Stock Market Today: Dow Rises With Eye On Hormuz Proposal; Nvidia Nears Record Highs (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/f9f717d0-6e2a-3469-b2c4-9fdc9ca13971/stock-market-today%3A-dow-rises.html"
     },
     {
-      "text": "Stock Market Today: Dow Slips As Intel Soars On Earnings; AMD, Arm Tag Along (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/52e306ce-7e7b-3209-bf84-7e6ce3d57e4f/stock-market-today%3A-dow-slips.html"
+      "text": "S&P 500 Holding Pattern: Mag 7 Earnings Collide With Oil Surge and Fed Fears",
+      "url": "https://finance.yahoo.com/m/9f3d6014-060c-3db0-8db9-1ef499c09c0c/s%26p-500-holding-pattern%3A-mag.html"
     },
     {
-      "text": "Gold Is Now a Strategic Mineral: Mining ETFs in Focus",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/gold-now-strategic-mineral-mining-120000283.html"
+      "text": "Exchange-Traded Funds Down, Equity Futures Mixed Pre-Bell Monday Amid Hormuz Uncertainty, Corporate Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-down-equity-130934447.html"
     },
     {
-      "text": "SPY vs. FIGB: SPDR S&P 500 ETF Provides Equity-Based Growth, While Fidelity Bond ETF Offers a Higher Yield",
-      "url": "https://finance.yahoo.com/m/7b9f17fc-8b79-3bd3-ab65-bb86ca933261/spy-vs.-figb%3A-spdr-s%26p-500.html"
+      "text": "Technical Assessment: Bullish in the Intermediate-Term",
+      "url": "https://finance.yahoo.com/m/d7ea88e6-a7d8-3ab8-a88b-8244bda1f705/technical-assessment%3A-bullish.html"
     },
     {
-      "text": "VIX Creeps Toward 20 as Iran Fears and Tesla\u2019s Whipsaw Rattle Nerves",
-      "url": "https://finance.yahoo.com/m/c2121850-2dda-3556-9337-71804347cf73/vix-creeps-toward-20-as-iran.html"
+      "text": "EXCLUSIVE: Ryan Detrick Shares A Political Trend For 2026 That Has Produced 'Some Really Solid Returns'",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exclusive-ryan-detrick-shares-political-104746864.html"
     }
   ]
 }
