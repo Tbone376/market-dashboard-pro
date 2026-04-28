@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Apr 27, 2026",
-  "generated_at": "2026-04-27T10:17:36.696464-04:00",
+  "date": "Tue, Apr 28, 2026",
+  "generated_at": "2026-04-28T10:33:03.700901-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,31 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "MANE",
-      "gap_pct": 46.0,
-      "price": 99.24,
-      "market_cap": 3705650176,
+      "symbol": "KNSA",
+      "gap_pct": 17.8,
+      "price": 51.36,
+      "market_cap": 3930856960,
       "catalyst": ""
     },
     {
-      "symbol": "ORKA",
-      "gap_pct": 21.0,
-      "price": 83.55,
-      "market_cap": 4193952256,
+      "symbol": "AXGN",
+      "gap_pct": 10.9,
+      "price": 43.67,
+      "market_cap": 2266470400,
       "catalyst": ""
     },
     {
-      "symbol": "OGN",
-      "gap_pct": 17.2,
-      "price": 13.2,
-      "market_cap": 3434864896,
+      "symbol": "SANM",
+      "gap_pct": 10.7,
+      "price": 208.25,
+      "market_cap": 11371467776,
       "catalyst": ""
     },
     {
-      "symbol": "XE",
-      "gap_pct": 10.6,
-      "price": 32.3,
-      "market_cap": 8526294016,
+      "symbol": "CVLT",
+      "gap_pct": 10.2,
+      "price": 97.47,
+      "market_cap": 4286183680,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HRI",
+      "gap_pct": 10.1,
+      "price": 137.16,
+      "market_cap": 4576897536,
       "catalyst": ""
     }
   ],
@@ -68,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rises With Eye On Hormuz Proposal; Nvidia Nears Record Highs (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/f9f717d0-6e2a-3469-b2c4-9fdc9ca13971/stock-market-today%3A-dow-rises.html"
+      "text": "Stock Market Today: Nasdaq Sells Off On OpenAI Report; Rambus, Celestica, Nvidia Take A Dive (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/210216ba-f50c-300d-8b38-70d0e52edd57/stock-market-today%3A-nasdaq.html"
+    },
+    {
+      "text": "OpenAI\u2019s Revenue Miss Is Ripples Through S&P 500 While Earnings Pour In",
+      "url": "https://finance.yahoo.com/m/185cf74d-7d85-3c46-ae2b-17fb8ead2601/openai%E2%80%99s-revenue-miss-is.html"
+    },
+    {
+      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Tuesday Amid Higher Oil Prices, Earnings Deluge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-123347031.html"
+    },
+    {
+      "text": "Investors Worry About Mounting Debt \u2014 7 S&P 500 Companies Owe Most",
+      "url": "https://finance.yahoo.com/m/228693d0-c63a-3535-b1b1-da3c1164079a/investors-worry-about.html"
     },
     {
       "text": "S&P 500 Holding Pattern: Mag 7 Earnings Collide With Oil Surge and Fed Fears",
       "url": "https://finance.yahoo.com/m/9f3d6014-060c-3db0-8db9-1ef499c09c0c/s%26p-500-holding-pattern%3A-mag.html"
-    },
-    {
-      "text": "Exchange-Traded Funds Down, Equity Futures Mixed Pre-Bell Monday Amid Hormuz Uncertainty, Corporate Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-down-equity-130934447.html"
-    },
-    {
-      "text": "Technical Assessment: Bullish in the Intermediate-Term",
-      "url": "https://finance.yahoo.com/m/d7ea88e6-a7d8-3ab8-a88b-8244bda1f705/technical-assessment%3A-bullish.html"
-    },
-    {
-      "text": "EXCLUSIVE: Ryan Detrick Shares A Political Trend For 2026 That Has Produced 'Some Really Solid Returns'",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exclusive-ryan-detrick-shares-political-104746864.html"
     }
   ]
 }
