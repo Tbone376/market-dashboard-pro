@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Apr 28, 2026",
-  "generated_at": "2026-04-28T10:33:03.700901-04:00",
+  "date": "Wed, Apr 29, 2026",
+  "generated_at": "2026-04-29T10:21:53.047112-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "KNSA",
-      "gap_pct": 17.8,
-      "price": 51.36,
-      "market_cap": 3930856960,
+      "symbol": "SIMO",
+      "gap_pct": 31.0,
+      "price": 195.43,
+      "market_cap": 6641428992,
       "catalyst": ""
     },
     {
-      "symbol": "AXGN",
-      "gap_pct": 10.9,
-      "price": 43.67,
-      "market_cap": 2266470400,
+      "symbol": "NXPI",
+      "gap_pct": 24.7,
+      "price": 287.26,
+      "market_cap": 72548384768,
       "catalyst": ""
     },
     {
-      "symbol": "SANM",
-      "gap_pct": 10.7,
-      "price": 208.25,
-      "market_cap": 11371467776,
+      "symbol": "BE",
+      "gap_pct": 23.9,
+      "price": 280.39,
+      "market_cap": 79753887744,
       "catalyst": ""
     },
     {
-      "symbol": "CVLT",
-      "gap_pct": 10.2,
-      "price": 97.47,
-      "market_cap": 4286183680,
+      "symbol": "EXTR",
+      "gap_pct": 19.1,
+      "price": 20.3,
+      "market_cap": 2725671424,
       "catalyst": ""
     },
     {
-      "symbol": "HRI",
-      "gap_pct": 10.1,
-      "price": 137.16,
-      "market_cap": 4576897536,
+      "symbol": "COCO",
+      "gap_pct": 18.2,
+      "price": 61.05,
+      "market_cap": 3484581120,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RSI",
+      "gap_pct": 16.6,
+      "price": 27.98,
+      "market_cap": 2904238592,
+      "catalyst": ""
+    },
+    {
+      "symbol": "GNRC",
+      "gap_pct": 16.0,
+      "price": 251.8,
+      "market_cap": 14774574080,
+      "catalyst": ""
+    },
+    {
+      "symbol": "EAT",
+      "gap_pct": 14.3,
+      "price": 147.66,
+      "market_cap": 6430423552,
+      "catalyst": ""
+    },
+    {
+      "symbol": "STX",
+      "gap_pct": 13.8,
+      "price": 658.85,
+      "market_cap": 147599114240,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MXL",
+      "gap_pct": 13.8,
+      "price": 59.2,
+      "market_cap": 5301121024,
       "catalyst": ""
     }
   ],
@@ -75,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Nasdaq Sells Off On OpenAI Report; Rambus, Celestica, Nvidia Take A Dive (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/210216ba-f50c-300d-8b38-70d0e52edd57/stock-market-today%3A-nasdaq.html"
+      "text": "Stock Market Today: Dow Slips Ahead Of Fed Decision, Powell; Robinhood Sinks On Earnings (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/e3652675-afe0-328b-9e2e-987e4785dbf7/stock-market-today%3A-dow-slips.html"
     },
     {
-      "text": "OpenAI\u2019s Revenue Miss Is Ripples Through S&P 500 While Earnings Pour In",
-      "url": "https://finance.yahoo.com/m/185cf74d-7d85-3c46-ae2b-17fb8ead2601/openai%E2%80%99s-revenue-miss-is.html"
+      "text": "S&P 500 Holds Steady as Big Tech Earnings, Fed Decision and Oil Prices Collide",
+      "url": "https://finance.yahoo.com/m/a6298440-dad3-3cab-afd0-13c92dc09d36/s%26p-500-holds-steady-as-big.html"
     },
     {
-      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Tuesday Amid Higher Oil Prices, Earnings Deluge",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-123347031.html"
+      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed Policy Decision",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131853356.html"
     },
     {
-      "text": "Investors Worry About Mounting Debt \u2014 7 S&P 500 Companies Owe Most",
-      "url": "https://finance.yahoo.com/m/228693d0-c63a-3535-b1b1-da3c1164079a/investors-worry-about.html"
+      "text": "Healthcare\u2019s Defensive Promise Crumbles: XLV Down 7% While SPY Rises 5% in 2026",
+      "url": "https://finance.yahoo.com/m/45eee925-a3cc-3919-9a20-ea0b9c6144f9/healthcare%E2%80%99s-defensive.html"
     },
     {
-      "text": "S&P 500 Holding Pattern: Mag 7 Earnings Collide With Oil Surge and Fed Fears",
-      "url": "https://finance.yahoo.com/m/9f3d6014-060c-3db0-8db9-1ef499c09c0c/s%26p-500-holding-pattern%3A-mag.html"
+      "text": "Intel Stock Is Up 92% in April. How to Safeguard Your Gains.",
+      "url": "https://finance.yahoo.com/m/fcecbae5-5b02-3923-a626-74dce62f062d/intel-stock-is-up-92%25-in.html"
     }
   ]
 }
