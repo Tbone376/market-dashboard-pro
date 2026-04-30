@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Apr 29, 2026",
-  "generated_at": "2026-04-29T10:21:53.047112-04:00",
+  "date": "Thu, Apr 30, 2026",
+  "generated_at": "2026-04-30T10:16:16.936440-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "SIMO",
-      "gap_pct": 31.0,
-      "price": 195.43,
-      "market_cap": 6641428992,
+      "symbol": "VISN",
+      "gap_pct": 22.0,
+      "price": 12.77,
+      "market_cap": 2879160832,
       "catalyst": ""
     },
     {
-      "symbol": "NXPI",
-      "gap_pct": 24.7,
-      "price": 287.26,
-      "market_cap": 72548384768,
+      "symbol": "HTZ",
+      "gap_pct": 21.2,
+      "price": 6.79,
+      "market_cap": 2137634688,
       "catalyst": ""
     },
     {
-      "symbol": "BE",
-      "gap_pct": 23.9,
-      "price": 280.39,
-      "market_cap": 79753887744,
+      "symbol": "GTX",
+      "gap_pct": 20.0,
+      "price": 24.59,
+      "market_cap": 4614482944,
       "catalyst": ""
     },
     {
-      "symbol": "EXTR",
-      "gap_pct": 19.1,
-      "price": 20.3,
-      "market_cap": 2725671424,
+      "symbol": "VIAV",
+      "gap_pct": 16.8,
+      "price": 53.18,
+      "market_cap": 12305285120,
       "catalyst": ""
     },
     {
-      "symbol": "COCO",
-      "gap_pct": 18.2,
-      "price": 61.05,
-      "market_cap": 3484581120,
-      "catalyst": ""
-    },
-    {
-      "symbol": "RSI",
+      "symbol": "PI",
       "gap_pct": 16.6,
-      "price": 27.98,
-      "market_cap": 2904238592,
+      "price": 139.94,
+      "market_cap": 4230622208,
       "catalyst": ""
     },
     {
-      "symbol": "GNRC",
-      "gap_pct": 16.0,
-      "price": 251.8,
-      "market_cap": 14774574080,
+      "symbol": "SFM",
+      "gap_pct": 16.6,
+      "price": 82.96,
+      "market_cap": 7846057472,
       "catalyst": ""
     },
     {
-      "symbol": "EAT",
-      "gap_pct": 14.3,
-      "price": 147.66,
-      "market_cap": 6430423552,
+      "symbol": "FTAI",
+      "gap_pct": 16.6,
+      "price": 248.57,
+      "market_cap": 25498474496,
       "catalyst": ""
     },
     {
-      "symbol": "STX",
-      "gap_pct": 13.8,
-      "price": 658.85,
-      "market_cap": 147599114240,
+      "symbol": "GKOS",
+      "gap_pct": 15.9,
+      "price": 135.6,
+      "market_cap": 7936291328,
       "catalyst": ""
     },
     {
-      "symbol": "MXL",
-      "gap_pct": 13.8,
-      "price": 59.2,
-      "market_cap": 5301121024,
+      "symbol": "WCC",
+      "gap_pct": 15.9,
+      "price": 353.9,
+      "market_cap": 17250570240,
+      "catalyst": ""
+    },
+    {
+      "symbol": "QCOM",
+      "gap_pct": 13.3,
+      "price": 176.68,
+      "market_cap": 188702212096,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Slips Ahead Of Fed Decision, Powell; Robinhood Sinks On Earnings (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/e3652675-afe0-328b-9e2e-987e4785dbf7/stock-market-today%3A-dow-slips.html"
+      "text": "S&P 500 Rides Tech Earnings Wave Despite Inflation Warning Shot",
+      "url": "https://finance.yahoo.com/m/2d83d518-b1da-38e4-9e54-6a08dcefa8ad/s%26p-500-rides-tech-earnings.html"
     },
     {
-      "text": "S&P 500 Holds Steady as Big Tech Earnings, Fed Decision and Oil Prices Collide",
-      "url": "https://finance.yahoo.com/m/a6298440-dad3-3cab-afd0-13c92dc09d36/s%26p-500-holds-steady-as-big.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Big Tech Earnings, Economic Data",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-122608330.html"
     },
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed Policy Decision",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131853356.html"
+      "text": "8 Microcap Stocks Pick Up A Head Of Steam For Enormous Gains",
+      "url": "https://finance.yahoo.com/m/ad2bed74-a89a-3ddc-ba3f-f2099c506e24/8-microcap-stocks-pick-up-a.html"
     },
     {
-      "text": "Healthcare\u2019s Defensive Promise Crumbles: XLV Down 7% While SPY Rises 5% in 2026",
-      "url": "https://finance.yahoo.com/m/45eee925-a3cc-3919-9a20-ea0b9c6144f9/healthcare%E2%80%99s-defensive.html"
+      "text": "Intel Stock Is Up 115% in April. How to Play It With Options Now.",
+      "url": "https://finance.yahoo.com/m/fcecbae5-5b02-3923-a626-74dce62f062d/intel-stock-is-up-115%25-in.html"
     },
     {
-      "text": "Intel Stock Is Up 92% in April. How to Safeguard Your Gains.",
-      "url": "https://finance.yahoo.com/m/fcecbae5-5b02-3923-a626-74dce62f062d/intel-stock-is-up-92%25-in.html"
+      "text": "S 500 ETFs Flows Surge as ARK Leads Outflows",
+      "url": "https://finance.yahoo.com/m/d418af2f-92b8-3e60-9d0a-975821607ca7/s-500-etfs-flows-surge-as-ark.html"
     }
   ]
 }
