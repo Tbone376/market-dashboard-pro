@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Apr 30, 2026",
-  "generated_at": "2026-04-30T10:16:16.936440-04:00",
+  "date": "Fri, May 1, 2026",
+  "generated_at": "2026-05-01T09:44:24.817982-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,45 @@
   },
   "gappers": [
     {
-      "symbol": "VISN",
-      "gap_pct": 22.0,
-      "price": 12.77,
-      "market_cap": 2879160832,
+      "symbol": "TEAM",
+      "gap_pct": 28.3,
+      "price": 87.98,
+      "market_cap": 23204204544,
       "catalyst": ""
     },
     {
-      "symbol": "HTZ",
-      "gap_pct": 21.2,
-      "price": 6.79,
-      "market_cap": 2137634688,
+      "symbol": "TWLO",
+      "gap_pct": 18.1,
+      "price": 174.7,
+      "market_cap": 26514892800,
       "catalyst": ""
     },
     {
-      "symbol": "GTX",
-      "gap_pct": 20.0,
-      "price": 24.59,
-      "market_cap": 4614482944,
+      "symbol": "NVT",
+      "gap_pct": 12.7,
+      "price": 161.12,
+      "market_cap": 26053640192,
       "catalyst": ""
     },
     {
-      "symbol": "VIAV",
-      "gap_pct": 16.8,
-      "price": 53.18,
-      "market_cap": 12305285120,
+      "symbol": "VEEV",
+      "gap_pct": 10.5,
+      "price": 172.31,
+      "market_cap": 28323815424,
       "catalyst": ""
     },
     {
-      "symbol": "PI",
-      "gap_pct": 16.6,
-      "price": 139.94,
-      "market_cap": 4230622208,
+      "symbol": "AXTI",
+      "gap_pct": 10.1,
+      "price": 87.19,
+      "market_cap": 5704247808,
       "catalyst": ""
     },
     {
-      "symbol": "SFM",
-      "gap_pct": 16.6,
-      "price": 82.96,
-      "market_cap": 7846057472,
-      "catalyst": ""
-    },
-    {
-      "symbol": "FTAI",
-      "gap_pct": 16.6,
-      "price": 248.57,
-      "market_cap": 25498474496,
-      "catalyst": ""
-    },
-    {
-      "symbol": "GKOS",
-      "gap_pct": 15.9,
-      "price": 135.6,
-      "market_cap": 7936291328,
-      "catalyst": ""
-    },
-    {
-      "symbol": "WCC",
-      "gap_pct": 15.9,
-      "price": 353.9,
-      "market_cap": 17250570240,
-      "catalyst": ""
-    },
-    {
-      "symbol": "QCOM",
-      "gap_pct": 13.3,
-      "price": 176.68,
-      "market_cap": 188702212096,
+      "symbol": "BTSG",
+      "gap_pct": 10.1,
+      "price": 52.82,
+      "market_cap": 10203119616,
       "catalyst": ""
     }
   ],
@@ -110,24 +82,24 @@
   "econ_events": [],
   "headlines": [
     {
+      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Amid Continued Earnings Results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132154542.html"
+    },
+    {
+      "text": "S&P 500\u2019s Strong May Footing Powered by Apple, SanDisk, and Easing Oil",
+      "url": "https://finance.yahoo.com/m/3a4f47b6-e70a-3264-b4b0-9d6244771099/s%26p-500%E2%80%99s-strong-may-footing.html"
+    },
+    {
+      "text": "4 S&P 500 Stocks Turn $10,000 To $109,607 In Four Months",
+      "url": "https://finance.yahoo.com/m/411bce67-9920-3964-8ee1-760d16f92613/4-s%26p-500-stocks-turn-%2410%2C000.html"
+    },
+    {
+      "text": "K-Shaped and Cracking: Stocks Hit All-Time Highs as Consumer Sentiment Posts Lowest Score in History",
+      "url": "https://finance.yahoo.com/m/a59c1274-34b2-3492-8d4f-289fc6470abf/k-shaped-and-cracking%3A-stocks.html"
+    },
+    {
       "text": "S&P 500 Rides Tech Earnings Wave Despite Inflation Warning Shot",
       "url": "https://finance.yahoo.com/m/2d83d518-b1da-38e4-9e54-6a08dcefa8ad/s%26p-500-rides-tech-earnings.html"
-    },
-    {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Big Tech Earnings, Economic Data",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-122608330.html"
-    },
-    {
-      "text": "8 Microcap Stocks Pick Up A Head Of Steam For Enormous Gains",
-      "url": "https://finance.yahoo.com/m/ad2bed74-a89a-3ddc-ba3f-f2099c506e24/8-microcap-stocks-pick-up-a.html"
-    },
-    {
-      "text": "Intel Stock Is Up 115% in April. How to Play It With Options Now.",
-      "url": "https://finance.yahoo.com/m/fcecbae5-5b02-3923-a626-74dce62f062d/intel-stock-is-up-115%25-in.html"
-    },
-    {
-      "text": "S 500 ETFs Flows Surge as ARK Leads Outflows",
-      "url": "https://finance.yahoo.com/m/d418af2f-92b8-3e60-9d0a-975821607ca7/s-500-etfs-flows-surge-as-ark.html"
     }
   ]
 }
