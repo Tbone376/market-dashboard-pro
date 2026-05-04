@@ -1,6 +1,6 @@
 {
-  "date": "Fri, May 1, 2026",
-  "generated_at": "2026-05-01T09:44:24.817982-04:00",
+  "date": "Mon, May 4, 2026",
+  "generated_at": "2026-05-04T10:21:28.055981-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,45 +36,59 @@
   },
   "gappers": [
     {
-      "symbol": "TEAM",
-      "gap_pct": 28.3,
-      "price": 87.98,
-      "market_cap": 23204204544,
+      "symbol": "GBTG",
+      "gap_pct": 58.1,
+      "price": 9.38,
+      "market_cap": 4906339840,
       "catalyst": ""
     },
     {
-      "symbol": "TWLO",
-      "gap_pct": 18.1,
-      "price": 174.7,
-      "market_cap": 26514892800,
+      "symbol": "CELC",
+      "gap_pct": 16.4,
+      "price": 146.22,
+      "market_cap": 7067788800,
       "catalyst": ""
     },
     {
-      "symbol": "NVT",
-      "gap_pct": 12.7,
-      "price": 161.12,
-      "market_cap": 26053640192,
+      "symbol": "CRCL",
+      "gap_pct": 13.5,
+      "price": 113.19,
+      "market_cap": 27982983168,
       "catalyst": ""
     },
     {
-      "symbol": "VEEV",
-      "gap_pct": 10.5,
-      "price": 172.31,
-      "market_cap": 28323815424,
+      "symbol": "NBIS",
+      "gap_pct": 12.1,
+      "price": 173.18,
+      "market_cap": 43817476096,
       "catalyst": ""
     },
     {
-      "symbol": "AXTI",
-      "gap_pct": 10.1,
-      "price": 87.19,
-      "market_cap": 5704247808,
+      "symbol": "AXSM",
+      "gap_pct": 11.3,
+      "price": 229.86,
+      "market_cap": 11823987712,
       "catalyst": ""
     },
     {
-      "symbol": "BTSG",
-      "gap_pct": 10.1,
-      "price": 52.82,
-      "market_cap": 10203119616,
+      "symbol": "NICE",
+      "gap_pct": 11.2,
+      "price": 125.5,
+      "market_cap": 7334595072,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IREN",
+      "gap_pct": 10.7,
+      "price": 50.53,
+      "market_cap": 16763790336,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BB",
+      "gap_pct": 10.6,
+      "price": 6.0,
+      "market_cap": 3524354816,
       "catalyst": ""
     }
   ],
@@ -82,24 +96,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Amid Continued Earnings Results",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132154542.html"
+      "text": "Stock Market Today: Dow Drops On U.S.-Iran News; Micron, Sandisk Shares Continue To Rally (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/68a7ae61-7710-373a-aaa2-a40e3ac796c7/stock-market-today%3A-dow-drops.html"
     },
     {
-      "text": "S&P 500\u2019s Strong May Footing Powered by Apple, SanDisk, and Easing Oil",
-      "url": "https://finance.yahoo.com/m/3a4f47b6-e70a-3264-b4b0-9d6244771099/s%26p-500%E2%80%99s-strong-may-footing.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US-Iran Tensions Escalate Near Strait of Hormuz",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130447905.html"
     },
     {
-      "text": "4 S&P 500 Stocks Turn $10,000 To $109,607 In Four Months",
-      "url": "https://finance.yahoo.com/m/411bce67-9920-3964-8ee1-760d16f92613/4-s%26p-500-stocks-turn-%2410%2C000.html"
+      "text": "Why Gold Won\u2019t Save You in a Real Crisis (But Stocks Will)",
+      "url": "https://finance.yahoo.com/m/9fdf0760-c6b9-3560-bf57-25d3df2e264c/why-gold-won%E2%80%99t-save-you-in-a.html"
     },
     {
-      "text": "K-Shaped and Cracking: Stocks Hit All-Time Highs as Consumer Sentiment Posts Lowest Score in History",
-      "url": "https://finance.yahoo.com/m/a59c1274-34b2-3492-8d4f-289fc6470abf/k-shaped-and-cracking%3A-stocks.html"
+      "text": "A $300,000 Annuity Guarantees $1,900 a Month for Life, but Here Is What Retirees Are Giving Up",
+      "url": "https://finance.yahoo.com/m/271a4478-0bf8-3037-81e1-d6c6b209068b/a-%24300%2C000-annuity-guarantees.html"
     },
     {
-      "text": "S&P 500 Rides Tech Earnings Wave Despite Inflation Warning Shot",
-      "url": "https://finance.yahoo.com/m/2d83d518-b1da-38e4-9e54-6a08dcefa8ad/s%26p-500-rides-tech-earnings.html"
+      "text": "SMH Has Crushed the S&P 500 by 2,041% Over a Decade, But Recent 42% Rally Signals Dangerous Valuations",
+      "url": "https://finance.yahoo.com/m/910efdc2-74d8-3a86-aeb7-f8148b34fcf0/smh-has-crushed-the-s%26p-500.html"
     }
   ]
 }
