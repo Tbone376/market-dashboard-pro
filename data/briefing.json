@@ -1,6 +1,6 @@
 {
-  "date": "Mon, May 4, 2026",
-  "generated_at": "2026-05-04T10:21:28.055981-04:00",
+  "date": "Tue, May 5, 2026",
+  "generated_at": "2026-05-05T10:14:48.040317-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,59 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "GBTG",
-      "gap_pct": 58.1,
-      "price": 9.38,
-      "market_cap": 4906339840,
+      "symbol": "STRL",
+      "gap_pct": 39.1,
+      "price": 736.48,
+      "market_cap": 22595745792,
       "catalyst": ""
     },
     {
-      "symbol": "CELC",
-      "gap_pct": 16.4,
-      "price": 146.22,
-      "market_cap": 7067788800,
+      "symbol": "DOCN",
+      "gap_pct": 36.5,
+      "price": 148.53,
+      "market_cap": 15499616256,
       "catalyst": ""
     },
     {
-      "symbol": "CRCL",
-      "gap_pct": 13.5,
-      "price": 113.19,
-      "market_cap": 27982983168,
+      "symbol": "EWTX",
+      "gap_pct": 24.0,
+      "price": 39.0,
+      "market_cap": 4193754880,
       "catalyst": ""
     },
     {
-      "symbol": "NBIS",
-      "gap_pct": 12.1,
-      "price": 173.18,
-      "market_cap": 43817476096,
+      "symbol": "CYTK",
+      "gap_pct": 18.3,
+      "price": 78.14,
+      "market_cap": 9707943936,
       "catalyst": ""
     },
     {
-      "symbol": "AXSM",
-      "gap_pct": 11.3,
-      "price": 229.86,
-      "market_cap": 11823987712,
+      "symbol": "BLSH",
+      "gap_pct": 17.4,
+      "price": 47.78,
+      "market_cap": 7181439488,
       "catalyst": ""
     },
     {
-      "symbol": "NICE",
-      "gap_pct": 11.2,
-      "price": 125.5,
-      "market_cap": 7334595072,
+      "symbol": "FSLY",
+      "gap_pct": 15.6,
+      "price": 31.78,
+      "market_cap": 4969373184,
       "catalyst": ""
     },
     {
-      "symbol": "IREN",
-      "gap_pct": 10.7,
-      "price": 50.53,
-      "market_cap": 16763790336,
+      "symbol": "VVX",
+      "gap_pct": 14.2,
+      "price": 77.44,
+      "market_cap": 2421715456,
       "catalyst": ""
     },
     {
-      "symbol": "BB",
-      "gap_pct": 10.6,
-      "price": 6.0,
-      "market_cap": 3524354816,
+      "symbol": "PINS",
+      "gap_pct": 13.2,
+      "price": 23.6,
+      "market_cap": 15122070528,
+      "catalyst": ""
+    },
+    {
+      "symbol": "UCTT",
+      "gap_pct": 12.8,
+      "price": 82.43,
+      "market_cap": 3695201024,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WAT",
+      "gap_pct": 12.7,
+      "price": 340.3,
+      "market_cap": 33405227008,
       "catalyst": ""
     }
   ],
@@ -96,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Drops On U.S.-Iran News; Micron, Sandisk Shares Continue To Rally (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/68a7ae61-7710-373a-aaa2-a40e3ac796c7/stock-market-today%3A-dow-drops.html"
+      "text": "Stock Market Today: Dow Rises Amid U.S.-Iran Tensions; Palantir Slides After Earnings Report (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/74413965-709f-3e0f-9948-a4177b6be6de/stock-market-today%3A-dow-rises.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as US-Iran Tensions Escalate Near Strait of Hormuz",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130447905.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Corporate Earnings Rush",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-122241417.html"
     },
     {
-      "text": "Why Gold Won\u2019t Save You in a Real Crisis (But Stocks Will)",
-      "url": "https://finance.yahoo.com/m/9fdf0760-c6b9-3560-bf57-25d3df2e264c/why-gold-won%E2%80%99t-save-you-in-a.html"
+      "text": "Best-Performing ETFs of April",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-etfs-april-120000860.html"
     },
     {
-      "text": "A $300,000 Annuity Guarantees $1,900 a Month for Life, but Here Is What Retirees Are Giving Up",
-      "url": "https://finance.yahoo.com/m/271a4478-0bf8-3037-81e1-d6c6b209068b/a-%24300%2C000-annuity-guarantees.html"
+      "text": "10 S&P 500 Stocks Come Out Of Nowhere And Now Rank High With Investors",
+      "url": "https://finance.yahoo.com/m/6cbd9fdc-4b62-3a45-a06f-25a35a2064a1/10-s%26p-500-stocks-come-out-of.html"
     },
     {
-      "text": "SMH Has Crushed the S&P 500 by 2,041% Over a Decade, But Recent 42% Rally Signals Dangerous Valuations",
-      "url": "https://finance.yahoo.com/m/910efdc2-74d8-3a86-aeb7-f8148b34fcf0/smh-has-crushed-the-s%26p-500.html"
+      "text": "The Stock Market Is Doing Something for Only the 4th Time in 156 Years -- and History Is Very Clear About What Happens Next",
+      "url": "https://finance.yahoo.com/m/93de1479-224e-3a05-946d-c192114d2842/the-stock-market-is-doing.html"
     }
   ]
 }
