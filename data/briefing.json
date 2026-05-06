@@ -1,6 +1,6 @@
 {
-  "date": "Tue, May 5, 2026",
-  "generated_at": "2026-05-05T10:14:48.040317-04:00",
+  "date": "Wed, May 6, 2026",
+  "generated_at": "2026-05-06T10:33:48.337703-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "STRL",
-      "gap_pct": 39.1,
-      "price": 736.48,
-      "market_cap": 22595745792,
+      "symbol": "HUT",
+      "gap_pct": 31.4,
+      "price": 105.81,
+      "market_cap": 11909195776,
       "catalyst": ""
     },
     {
-      "symbol": "DOCN",
-      "gap_pct": 36.5,
-      "price": 148.53,
-      "market_cap": 15499616256,
+      "symbol": "FLEX",
+      "gap_pct": 27.2,
+      "price": 122.7,
+      "market_cap": 45115428864,
       "catalyst": ""
     },
     {
-      "symbol": "EWTX",
-      "gap_pct": 24.0,
-      "price": 39.0,
-      "market_cap": 4193754880,
+      "symbol": "COMP",
+      "gap_pct": 26.1,
+      "price": 9.15,
+      "market_cap": 6830961152,
       "catalyst": ""
     },
     {
-      "symbol": "CYTK",
-      "gap_pct": 18.3,
-      "price": 78.14,
-      "market_cap": 9707943936,
+      "symbol": "VCYT",
+      "gap_pct": 22.3,
+      "price": 40.33,
+      "market_cap": 3217619200,
       "catalyst": ""
     },
     {
-      "symbol": "BLSH",
-      "gap_pct": 17.4,
-      "price": 47.78,
-      "market_cap": 7181439488,
+      "symbol": "DVA",
+      "gap_pct": 19.6,
+      "price": 187.88,
+      "market_cap": 12389952512,
       "catalyst": ""
     },
     {
-      "symbol": "FSLY",
-      "gap_pct": 15.6,
-      "price": 31.78,
-      "market_cap": 4969373184,
+      "symbol": "IFF",
+      "gap_pct": 18.5,
+      "price": 83.85,
+      "market_cap": 21418461184,
       "catalyst": ""
     },
     {
-      "symbol": "VVX",
-      "gap_pct": 14.2,
-      "price": 77.44,
-      "market_cap": 2421715456,
+      "symbol": "SSRM",
+      "gap_pct": 17.5,
+      "price": 33.2,
+      "market_cap": 6797755904,
       "catalyst": ""
     },
     {
-      "symbol": "PINS",
-      "gap_pct": 13.2,
-      "price": 23.6,
-      "market_cap": 15122070528,
+      "symbol": "VECO",
+      "gap_pct": 17.0,
+      "price": 57.97,
+      "market_cap": 3500927744,
       "catalyst": ""
     },
     {
-      "symbol": "UCTT",
-      "gap_pct": 12.8,
-      "price": 82.43,
-      "market_cap": 3695201024,
+      "symbol": "IAG",
+      "gap_pct": 16.1,
+      "price": 18.94,
+      "market_cap": 11027283968,
       "catalyst": ""
     },
     {
-      "symbol": "WAT",
-      "gap_pct": 12.7,
-      "price": 340.3,
-      "market_cap": 33405227008,
+      "symbol": "USAS",
+      "gap_pct": 15.5,
+      "price": 6.4,
+      "market_cap": 2085715968,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rises Amid U.S.-Iran Tensions; Palantir Slides After Earnings Report (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/74413965-709f-3e0f-9948-a4177b6be6de/stock-market-today%3A-dow-rises.html"
+      "text": "CBOE VIX Slides Toward 17 as Oil Retreat and Tech Stock Surge Restore Risk Appetite",
+      "url": "https://finance.yahoo.com/m/75612be6-707a-3044-9b86-10490df4f71d/cboe-vix-slides-toward-17-as.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Corporate Earnings Rush",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-122241417.html"
+      "text": "It\u2019s Time to Bet Against This Roaring Stock Market With Options",
+      "url": "https://finance.yahoo.com/m/73a57891-52dc-374f-a1b9-2f101525a29a/it%E2%80%99s-time-to-bet-against-this.html"
     },
     {
-      "text": "Best-Performing ETFs of April",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/best-performing-etfs-april-120000860.html"
+      "text": "S&P 500 Extends Record Run as Semis Soar, Oil Falls and Strait Traffic Flows",
+      "url": "https://finance.yahoo.com/m/794ce593-81bc-3c9a-9d25-5d2c8e3e8ae6/s%26p-500-extends-record-run-as.html"
     },
     {
-      "text": "10 S&P 500 Stocks Come Out Of Nowhere And Now Rank High With Investors",
-      "url": "https://finance.yahoo.com/m/6cbd9fdc-4b62-3a45-a06f-25a35a2064a1/10-s%26p-500-stocks-come-out-of.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Potential US-Iran Truce",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-123233630.html"
     },
     {
-      "text": "The Stock Market Is Doing Something for Only the 4th Time in 156 Years -- and History Is Very Clear About What Happens Next",
-      "url": "https://finance.yahoo.com/m/93de1479-224e-3a05-946d-c192114d2842/the-stock-market-is-doing.html"
+      "text": "ETF Fund Flows as of May 5, 2026",
+      "url": "https://finance.yahoo.com/m/0257123a-1992-3d57-9daa-c994fd1926c2/etf-fund-flows-as-of-may-5%2C.html"
     }
   ]
 }
