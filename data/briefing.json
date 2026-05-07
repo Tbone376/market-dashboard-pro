@@ -1,6 +1,6 @@
 {
-  "date": "Wed, May 6, 2026",
-  "generated_at": "2026-05-06T10:33:48.337703-04:00",
+  "date": "Thu, May 7, 2026",
+  "generated_at": "2026-05-07T10:36:52.574560-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "HUT",
-      "gap_pct": 31.4,
-      "price": 105.81,
-      "market_cap": 11909195776,
+      "symbol": "AAON",
+      "gap_pct": 51.3,
+      "price": 148.74,
+      "market_cap": 12173433856,
       "catalyst": ""
     },
     {
-      "symbol": "FLEX",
-      "gap_pct": 27.2,
-      "price": 122.7,
-      "market_cap": 45115428864,
+      "symbol": "HIMX",
+      "gap_pct": 42.5,
+      "price": 17.59,
+      "market_cap": 3068152064,
       "catalyst": ""
     },
     {
-      "symbol": "COMP",
-      "gap_pct": 26.1,
-      "price": 9.15,
-      "market_cap": 6830961152,
+      "symbol": "XMTR",
+      "gap_pct": 36.2,
+      "price": 76.82,
+      "market_cap": 4040639744,
       "catalyst": ""
     },
     {
-      "symbol": "VCYT",
-      "gap_pct": 22.3,
-      "price": 40.33,
-      "market_cap": 3217619200,
+      "symbol": "FLNC",
+      "gap_pct": 34.6,
+      "price": 18.25,
+      "market_cap": 3356818944,
       "catalyst": ""
     },
     {
-      "symbol": "DVA",
-      "gap_pct": 19.6,
-      "price": 187.88,
-      "market_cap": 12389952512,
+      "symbol": "DDOG",
+      "gap_pct": 29.4,
+      "price": 185.92,
+      "market_cap": 66177093632,
       "catalyst": ""
     },
     {
-      "symbol": "IFF",
-      "gap_pct": 18.5,
-      "price": 83.85,
-      "market_cap": 21418461184,
+      "symbol": "WRBY",
+      "gap_pct": 26.9,
+      "price": 27.95,
+      "market_cap": 3430504192,
       "catalyst": ""
     },
     {
-      "symbol": "SSRM",
-      "gap_pct": 17.5,
-      "price": 33.2,
-      "market_cap": 6797755904,
+      "symbol": "SITM",
+      "gap_pct": 25.4,
+      "price": 781.59,
+      "market_cap": 20631496704,
       "catalyst": ""
     },
     {
-      "symbol": "VECO",
-      "gap_pct": 17.0,
-      "price": 57.97,
-      "market_cap": 3500927744,
+      "symbol": "FTNT",
+      "gap_pct": 23.2,
+      "price": 110.79,
+      "market_cap": 81109581824,
       "catalyst": ""
     },
     {
-      "symbol": "IAG",
-      "gap_pct": 16.1,
-      "price": 18.94,
-      "market_cap": 11027283968,
+      "symbol": "HRB",
+      "gap_pct": 22.8,
+      "price": 36.0,
+      "market_cap": 4563350528,
       "catalyst": ""
     },
     {
-      "symbol": "USAS",
-      "gap_pct": 15.5,
-      "price": 6.4,
-      "market_cap": 2085715968,
+      "symbol": "EXK",
+      "gap_pct": 21.1,
+      "price": 11.28,
+      "market_cap": 3337988352,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "CBOE VIX Slides Toward 17 as Oil Retreat and Tech Stock Surge Restore Risk Appetite",
-      "url": "https://finance.yahoo.com/m/75612be6-707a-3044-9b86-10490df4f71d/cboe-vix-slides-toward-17-as.html"
+      "text": "Stock Market Today: Dow Edges Higher After Jobless Claims; AI Stock Dives On Earnings (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/6df9343e-bdd6-3212-ad42-4ad18116fb79/stock-market-today%3A-dow-edges.html"
     },
     {
-      "text": "It\u2019s Time to Bet Against This Roaring Stock Market With Options",
-      "url": "https://finance.yahoo.com/m/73a57891-52dc-374f-a1b9-2f101525a29a/it%E2%80%99s-time-to-bet-against-this.html"
+      "text": "S&P 500 Gains Unleashed on Chip Stock Strength, Falling Oil and Return to Optimism",
+      "url": "https://finance.yahoo.com/m/e31e91d1-7ea6-3493-b24a-1d654085caf1/s%26p-500-gains-unleashed-on.html"
     },
     {
-      "text": "S&P 500 Extends Record Run as Semis Soar, Oil Falls and Strait Traffic Flows",
-      "url": "https://finance.yahoo.com/m/794ce593-81bc-3c9a-9d25-5d2c8e3e8ae6/s%26p-500-extends-record-run-as.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Corporate Earnings, Economic Data Deluge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125032677.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Potential US-Iran Truce",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-123233630.html"
+      "text": "10 S&P 500 Stocks Surge From The Low \u2014 You Can Still Gain From Some",
+      "url": "https://finance.yahoo.com/m/8dffa2cd-eb05-3a9a-bfd1-cf502de69fa9/10-s%26p-500-stocks-surge-from.html"
     },
     {
-      "text": "ETF Fund Flows as of May 5, 2026",
-      "url": "https://finance.yahoo.com/m/0257123a-1992-3d57-9daa-c994fd1926c2/etf-fund-flows-as-of-may-5%2C.html"
+      "text": "GraniteShares Declares Weekly YieldBOOST ETF Distributions: COYY, TSYY, NVYY, XBTY, AMYY, TQQY, AZYY, YSPY, MTYY, PLYY, HOYY, SMYY, BBYY, FBYY, IOYY, MAAY, NUGY, SEMY, QBY, RGYY, HMYY, RTYY, COIY, ASTY, CONY, CRWY, BIOY, FINY, TECY, FIYY",
+      "url": "https://finance.yahoo.com/markets/options/articles/graniteshares-declares-weekly-yieldboost-etf-120000579.html"
     }
   ]
 }
