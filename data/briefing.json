@@ -1,6 +1,6 @@
 {
-  "date": "Thu, May 7, 2026",
-  "generated_at": "2026-05-07T10:36:52.574560-04:00",
+  "date": "Fri, May 8, 2026",
+  "generated_at": "2026-05-08T10:06:48.888912-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "AAON",
-      "gap_pct": 51.3,
-      "price": 148.74,
-      "market_cap": 12173433856,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HIMX",
-      "gap_pct": 42.5,
-      "price": 17.59,
-      "market_cap": 3068152064,
-      "catalyst": ""
-    },
-    {
-      "symbol": "XMTR",
-      "gap_pct": 36.2,
-      "price": 76.82,
-      "market_cap": 4040639744,
+      "symbol": "INOD",
+      "gap_pct": 93.3,
+      "price": 88.24,
+      "market_cap": 2881477888,
       "catalyst": ""
     },
     {
       "symbol": "FLNC",
-      "gap_pct": 34.6,
-      "price": 18.25,
-      "market_cap": 3356818944,
+      "gap_pct": 36.9,
+      "price": 25.96,
+      "market_cap": 4785627136,
       "catalyst": ""
     },
     {
-      "symbol": "DDOG",
-      "gap_pct": 29.4,
-      "price": 185.92,
-      "market_cap": 66177093632,
+      "symbol": "RKLB",
+      "gap_pct": 24.1,
+      "price": 97.48,
+      "market_cap": 56347758592,
       "catalyst": ""
     },
     {
-      "symbol": "WRBY",
-      "gap_pct": 26.9,
-      "price": 27.95,
-      "market_cap": 3430504192,
+      "symbol": "LASR",
+      "gap_pct": 24.0,
+      "price": 82.07,
+      "market_cap": 4629278208,
       "catalyst": ""
     },
     {
-      "symbol": "SITM",
-      "gap_pct": 25.4,
-      "price": 781.59,
-      "market_cap": 20631496704,
+      "symbol": "HIMX",
+      "gap_pct": 17.7,
+      "price": 18.87,
+      "market_cap": 3291417344,
       "catalyst": ""
     },
     {
-      "symbol": "FTNT",
-      "gap_pct": 23.2,
-      "price": 110.79,
-      "market_cap": 81109581824,
+      "symbol": "FROG",
+      "gap_pct": 15.9,
+      "price": 66.06,
+      "market_cap": 8003651072,
       "catalyst": ""
     },
     {
-      "symbol": "HRB",
-      "gap_pct": 22.8,
-      "price": 36.0,
-      "market_cap": 4563350528,
+      "symbol": "AKAM",
+      "gap_pct": 15.6,
+      "price": 134.93,
+      "market_cap": 19864070144,
       "catalyst": ""
     },
     {
-      "symbol": "EXK",
-      "gap_pct": 21.1,
-      "price": 11.28,
-      "market_cap": 3337988352,
+      "symbol": "WSC",
+      "gap_pct": 15.3,
+      "price": 26.86,
+      "market_cap": 4861516800,
+      "catalyst": ""
+    },
+    {
+      "symbol": "EOSE",
+      "gap_pct": 14.2,
+      "price": 7.26,
+      "market_cap": 2466487808,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MXL",
+      "gap_pct": 14.0,
+      "price": 93.9,
+      "market_cap": 8408365568,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Edges Higher After Jobless Claims; AI Stock Dives On Earnings (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/6df9343e-bdd6-3212-ad42-4ad18116fb79/stock-market-today%3A-dow-edges.html"
+      "text": "Stock Market Today: Dow Rises On Jobs Data, Iran Optimism; Coinbase, Cloudflare Dive (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/b8d58ef5-7101-33bc-96a9-9dcc9f0843d1/stock-market-today%3A-dow-rises.html"
     },
     {
-      "text": "S&P 500 Gains Unleashed on Chip Stock Strength, Falling Oil and Return to Optimism",
-      "url": "https://finance.yahoo.com/m/e31e91d1-7ea6-3493-b24a-1d654085caf1/s%26p-500-gains-unleashed-on.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Employment Data",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125303923.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Corporate Earnings, Economic Data Deluge",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125032677.html"
+      "text": "Tesla Just Ripped 19% in a Month. Is It Time to Sell in May and Go Away?",
+      "url": "https://finance.yahoo.com/m/ea66a757-720e-3fed-8dee-a44710646400/tesla-just-ripped-19%25-in-a.html"
     },
     {
-      "text": "10 S&P 500 Stocks Surge From The Low \u2014 You Can Still Gain From Some",
-      "url": "https://finance.yahoo.com/m/8dffa2cd-eb05-3a9a-bfd1-cf502de69fa9/10-s%26p-500-stocks-surge-from.html"
+      "text": "Stock Funds Shake Off War Shock To Post Best Month Since 2020",
+      "url": "https://finance.yahoo.com/m/147fab1d-f5b5-36bd-9a52-59acb2e5b547/stock-funds-shake-off-war.html"
     },
     {
-      "text": "GraniteShares Declares Weekly YieldBOOST ETF Distributions: COYY, TSYY, NVYY, XBTY, AMYY, TQQY, AZYY, YSPY, MTYY, PLYY, HOYY, SMYY, BBYY, FBYY, IOYY, MAAY, NUGY, SEMY, QBY, RGYY, HMYY, RTYY, COIY, ASTY, CONY, CRWY, BIOY, FINY, TECY, FIYY",
-      "url": "https://finance.yahoo.com/markets/options/articles/graniteshares-declares-weekly-yieldboost-etf-120000579.html"
+      "text": "Don\u2019t Trust This Top-Heavy Stock Market, Hedge It. Here\u2019s Your Roadmap.",
+      "url": "https://finance.yahoo.com/m/3a5dab82-cf23-3cee-b04e-50c5f2f43f39/don%E2%80%99t-trust-this-top-heavy.html"
     }
   ]
 }
