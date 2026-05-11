@@ -1,6 +1,6 @@
 {
-  "date": "Fri, May 8, 2026",
-  "generated_at": "2026-05-08T10:06:48.888912-04:00",
+  "date": "Mon, May 11, 2026",
+  "generated_at": "2026-05-11T11:29:29.342166-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -37,72 +37,72 @@
   "gappers": [
     {
       "symbol": "INOD",
-      "gap_pct": 93.3,
-      "price": 88.24,
-      "market_cap": 2881477888,
+      "gap_pct": 30.2,
+      "price": 110.45,
+      "market_cap": 3606784256,
       "catalyst": ""
     },
     {
-      "symbol": "FLNC",
-      "gap_pct": 36.9,
-      "price": 25.96,
-      "market_cap": 4785627136,
+      "symbol": "POET",
+      "gap_pct": 23.8,
+      "price": 13.54,
+      "market_cap": 2067709440,
       "catalyst": ""
     },
     {
-      "symbol": "RKLB",
-      "gap_pct": 24.1,
-      "price": 97.48,
-      "market_cap": 56347758592,
+      "symbol": "BW",
+      "gap_pct": 23.3,
+      "price": 17.93,
+      "market_cap": 2433850624,
       "catalyst": ""
     },
     {
-      "symbol": "LASR",
-      "gap_pct": 24.0,
-      "price": 82.07,
-      "market_cap": 4629278208,
+      "symbol": "AAOI",
+      "gap_pct": 22.4,
+      "price": 182.27,
+      "market_cap": 14625849344,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NVTS",
+      "gap_pct": 21.8,
+      "price": 22.17,
+      "market_cap": 5181421056,
       "catalyst": ""
     },
     {
       "symbol": "HIMX",
-      "gap_pct": 17.7,
-      "price": 18.87,
-      "market_cap": 3291417344,
+      "gap_pct": 19.8,
+      "price": 21.32,
+      "market_cap": 3718760448,
       "catalyst": ""
     },
     {
-      "symbol": "FROG",
-      "gap_pct": 15.9,
-      "price": 66.06,
-      "market_cap": 8003651072,
+      "symbol": "VICR",
+      "gap_pct": 19.0,
+      "price": 305.1,
+      "market_cap": 13906805760,
       "catalyst": ""
     },
     {
-      "symbol": "AKAM",
-      "gap_pct": 15.6,
-      "price": 134.93,
-      "market_cap": 19864070144,
+      "symbol": "LITE",
+      "gap_pct": 16.0,
+      "price": 1048.22,
+      "market_cap": 81551228928,
       "catalyst": ""
     },
     {
-      "symbol": "WSC",
-      "gap_pct": 15.3,
-      "price": 26.86,
-      "market_cap": 4861516800,
+      "symbol": "IONQ",
+      "gap_pct": 16.0,
+      "price": 57.1,
+      "market_cap": 21315579904,
       "catalyst": ""
     },
     {
-      "symbol": "EOSE",
-      "gap_pct": 14.2,
-      "price": 7.26,
-      "market_cap": 2466487808,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MXL",
-      "gap_pct": 14.0,
-      "price": 93.9,
-      "market_cap": 8408365568,
+      "symbol": "HYMC",
+      "gap_pct": 15.7,
+      "price": 44.49,
+      "market_cap": 4064633344,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rises On Jobs Data, Iran Optimism; Coinbase, Cloudflare Dive (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/b8d58ef5-7101-33bc-96a9-9dcc9f0843d1/stock-market-today%3A-dow-rises.html"
+      "text": "The Hidden Drag of SPY\u2019s Outdated UIT Structure: Why VOO\u2019s 6.45 Basis Point Fee Advantage Matters Over a Decade",
+      "url": "https://finance.yahoo.com/m/2b328ea1-40f3-3e62-a4ba-cb053d5a1ba7/the-hidden-drag-of-spy%E2%80%99s.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Employment Data",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125303923.html"
+      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Monday as Trump Rejects Reported Iran Proposal",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130725999.html"
     },
     {
-      "text": "Tesla Just Ripped 19% in a Month. Is It Time to Sell in May and Go Away?",
-      "url": "https://finance.yahoo.com/m/ea66a757-720e-3fed-8dee-a44710646400/tesla-just-ripped-19%25-in-a.html"
+      "text": "2 Iconic ETFs, 2 Very Different Slices of the U.S. Economy: IWM vs. SPY",
+      "url": "https://finance.yahoo.com/m/5db01004-4b27-33a4-8a9f-13cc02e603b4/2-iconic-etfs%2C-2-very.html"
     },
     {
-      "text": "Stock Funds Shake Off War Shock To Post Best Month Since 2020",
-      "url": "https://finance.yahoo.com/m/147fab1d-f5b5-36bd-9a52-59acb2e5b547/stock-funds-shake-off-war.html"
+      "text": "IWO vs. SPY: Small-Cap Growth Potential Against Large-Cap Stability",
+      "url": "https://finance.yahoo.com/m/13583328-ad0c-3ff1-b0f7-157e8aa59492/iwo-vs.-spy%3A-small-cap-growth.html"
     },
     {
-      "text": "Don\u2019t Trust This Top-Heavy Stock Market, Hedge It. Here\u2019s Your Roadmap.",
-      "url": "https://finance.yahoo.com/m/3a5dab82-cf23-3cee-b04e-50c5f2f43f39/don%E2%80%99t-trust-this-top-heavy.html"
+      "text": "Time for Risk-On Trades? ETFs in Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/time-risk-trades-etfs-focus-120000550.html"
     }
   ]
 }
