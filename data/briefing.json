@@ -1,6 +1,6 @@
 {
-  "date": "Tue, May 12, 2026",
-  "generated_at": "2026-05-12T10:41:40.521841-04:00",
+  "date": "Wed, May 13, 2026",
+  "generated_at": "2026-05-13T10:51:17.205435-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,45 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "QUBT",
-      "gap_pct": 21.7,
-      "price": 12.38,
-      "market_cap": 2793091840,
+      "symbol": "VNET",
+      "gap_pct": 23.5,
+      "price": 11.14,
+      "market_cap": 3171265792,
       "catalyst": ""
     },
     {
-      "symbol": "PACS",
-      "gap_pct": 20.4,
-      "price": 38.4,
-      "market_cap": 6035137024,
+      "symbol": "KC",
+      "gap_pct": 19.9,
+      "price": 18.36,
+      "market_cap": 5494929920,
       "catalyst": ""
     },
     {
-      "symbol": "ZBRA",
-      "gap_pct": 19.1,
-      "price": 258.43,
-      "market_cap": 12712611840,
+      "symbol": "NBIS",
+      "gap_pct": 17.8,
+      "price": 211.07,
+      "market_cap": 53589708800,
       "catalyst": ""
     },
     {
-      "symbol": "RAL",
-      "gap_pct": 15.1,
-      "price": 57.04,
-      "market_cap": 6384464896,
+      "symbol": "OUST",
+      "gap_pct": 16.8,
+      "price": 31.65,
+      "market_cap": 2015248768,
       "catalyst": ""
     },
     {
-      "symbol": "SE",
-      "gap_pct": 11.5,
-      "price": 94.6,
-      "market_cap": 57941037056,
+      "symbol": "WOLF",
+      "gap_pct": 14.5,
+      "price": 61.51,
+      "market_cap": 2973309696,
       "catalyst": ""
     },
     {
-      "symbol": "HLIO",
+      "symbol": "NXT",
+      "gap_pct": 12.9,
+      "price": 141.55,
+      "market_cap": 21286950912,
+      "catalyst": ""
+    },
+    {
+      "symbol": "VEON",
+      "gap_pct": 12.6,
+      "price": 56.32,
+      "market_cap": 3872984064,
+      "catalyst": ""
+    },
+    {
+      "symbol": "TSEM",
+      "gap_pct": 12.5,
+      "price": 248.45,
+      "market_cap": 29562822656,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PENG",
+      "gap_pct": 12.4,
+      "price": 49.62,
+      "market_cap": 2608034816,
+      "catalyst": ""
+    },
+    {
+      "symbol": "LUNR",
       "gap_pct": 11.0,
-      "price": 75.47,
-      "market_cap": 2494008576,
+      "price": 35.63,
+      "market_cap": 5700240384,
       "catalyst": ""
     }
   ],
@@ -82,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Analysts See Big Upside for Chipotle Stock For This Reason",
-      "url": "https://finance.yahoo.com/m/ac4a493c-44db-3211-9ee7-2f9485cd74aa/analysts-see-big-upside-for.html"
+      "text": "S&P 500 vs Nasdaq-100: What's the Better Index to Track Right Now?",
+      "url": "https://finance.yahoo.com/m/0e33cefb-1f01-306e-9f82-d1a2e750d803/s%26p-500-vs-nasdaq-100%3A-what%27s.html"
     },
     {
-      "text": "Stock Market Today: Dow Drops, Nasdaq Falls On $100 Oil, South Korea AI News; Inflation Pops (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/05d937e7-3189-3e30-a046-88b8b65cbef4/stock-market-today%3A-dow.html"
+      "text": "Producer Inflation Shock: PPI Spikes To 6%, Fanning Fed Hike Fears (UPDATED)",
+      "url": "https://finance.yahoo.com/news/producer-inflation-shock-ppi-spikes-124325191.html"
     },
     {
-      "text": "Beware: Trump\u2019s Bull Market Might Skip Tesla This Year",
-      "url": "https://finance.yahoo.com/m/a735a172-998b-366a-8290-f88ccbd36def/beware%3A-trump%E2%80%99s-bull-market.html"
+      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Ahead of US-China Meeting",
+      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-131321756.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Fall Pre-Bell Tuesday Amid Consumer Inflation Report Release",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-124800218.html"
+      "text": "Stock Market Today: Dow Jones Futures Fall, Nasdaq Gains As Trump Takes Big Tech Leaders To China\u2014 Nvidia, Nextpower, Red Cat In Focus (UPDATED)",
+      "url": "https://finance.yahoo.com/news/stock-market-today-dow-jones-094209448.html"
     },
     {
-      "text": "Why JPMorgan Equity Premium Income ETF Limits Upside While JPMorgan Nasdaq Equity Premium Income ETF Sacrifices Growth for 11.98% Yields",
-      "url": "https://finance.yahoo.com/m/87cb4804-5573-3f64-ae83-6a3697b7aea0/why-jpmorgan-equity-premium.html"
+      "text": "Trade Strategy For SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, And TSLA",
+      "url": "https://finance.yahoo.com/news/trade-strategy-spy-qqq-aapl-121548760.html"
     }
   ]
 }
