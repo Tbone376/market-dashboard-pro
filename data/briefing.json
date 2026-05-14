@@ -1,6 +1,6 @@
 {
-  "date": "Wed, May 13, 2026",
-  "generated_at": "2026-05-13T10:51:17.205435-04:00",
+  "date": "Thu, May 14, 2026",
+  "generated_at": "2026-05-14T10:31:40.579391-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "VNET",
-      "gap_pct": 23.5,
-      "price": 11.14,
-      "market_cap": 3171265792,
+      "symbol": "POET",
+      "gap_pct": 25.7,
+      "price": 18.06,
+      "market_cap": 2757948672,
       "catalyst": ""
     },
     {
-      "symbol": "KC",
-      "gap_pct": 19.9,
-      "price": 18.36,
-      "market_cap": 5494929920,
+      "symbol": "PCT",
+      "gap_pct": 21.1,
+      "price": 12.36,
+      "market_cap": 2234569216,
       "catalyst": ""
     },
     {
-      "symbol": "NBIS",
-      "gap_pct": 17.8,
-      "price": 211.07,
-      "market_cap": 53589708800,
+      "symbol": "STUB",
+      "gap_pct": 19.3,
+      "price": 8.97,
+      "market_cap": 3355278592,
       "catalyst": ""
     },
     {
-      "symbol": "OUST",
-      "gap_pct": 16.8,
-      "price": 31.65,
-      "market_cap": 2015248768,
+      "symbol": "ARX",
+      "gap_pct": 18.3,
+      "price": 14.82,
+      "market_cap": 3293521920,
+      "catalyst": ""
+    },
+    {
+      "symbol": "KLAR",
+      "gap_pct": 14.8,
+      "price": 15.72,
+      "market_cap": 5934424576,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CSCO",
+      "gap_pct": 14.8,
+      "price": 116.9,
+      "market_cap": 461742505984,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RDW",
+      "gap_pct": 14.0,
+      "price": 13.06,
+      "market_cap": 2597878528,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ONDS",
+      "gap_pct": 13.7,
+      "price": 10.07,
+      "market_cap": 4965680640,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CPA",
+      "gap_pct": 12.7,
+      "price": 129.5,
+      "market_cap": 5327442432,
       "catalyst": ""
     },
     {
       "symbol": "WOLF",
-      "gap_pct": 14.5,
-      "price": 61.51,
-      "market_cap": 2973309696,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NXT",
-      "gap_pct": 12.9,
-      "price": 141.55,
-      "market_cap": 21286950912,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VEON",
-      "gap_pct": 12.6,
-      "price": 56.32,
-      "market_cap": 3872984064,
-      "catalyst": ""
-    },
-    {
-      "symbol": "TSEM",
-      "gap_pct": 12.5,
-      "price": 248.45,
-      "market_cap": 29562822656,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PENG",
-      "gap_pct": 12.4,
-      "price": 49.62,
-      "market_cap": 2608034816,
-      "catalyst": ""
-    },
-    {
-      "symbol": "LUNR",
-      "gap_pct": 11.0,
-      "price": 35.63,
-      "market_cap": 5700240384,
+      "gap_pct": 10.0,
+      "price": 68.88,
+      "market_cap": 3329595648,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "S&P 500 vs Nasdaq-100: What's the Better Index to Track Right Now?",
-      "url": "https://finance.yahoo.com/m/0e33cefb-1f01-306e-9f82-d1a2e750d803/s%26p-500-vs-nasdaq-100%3A-what%27s.html"
+      "text": "Exchange-Traded Funds, Equity Futures Advance Pre-Bell Thursday Amid US-China Meeting",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131335219.html"
     },
     {
-      "text": "Producer Inflation Shock: PPI Spikes To 6%, Fanning Fed Hike Fears (UPDATED)",
-      "url": "https://finance.yahoo.com/news/producer-inflation-shock-ppi-spikes-124325191.html"
+      "text": "Why the Dave Ramsey \u2018Pay Off the Mortgage\u2019 Rule Is Costing High-Income Households $400,000 Over a 25-Year Retirement",
+      "url": "https://finance.yahoo.com/m/e7ef70f4-bc65-37c3-8aa4-36a3e969d04b/why-the-dave-ramsey-%E2%80%98pay-off.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Ahead of US-China Meeting",
-      "url": "https://finance.yahoo.com/news/exchange-traded-funds-equity-futures-131321756.html"
+      "text": "S&P 500 Headed for Massive Highs Ahead? ETFs in Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-headed-massive-highs-130000503.html"
     },
     {
-      "text": "Stock Market Today: Dow Jones Futures Fall, Nasdaq Gains As Trump Takes Big Tech Leaders To China\u2014 Nvidia, Nextpower, Red Cat In Focus (UPDATED)",
-      "url": "https://finance.yahoo.com/news/stock-market-today-dow-jones-094209448.html"
+      "text": "SpaceX IPO Will Force Index Funds to Buy $7 Billion in One Day. What Happens to Nasdaq Next.",
+      "url": "https://finance.yahoo.com/m/69e96019-1d5b-3a54-bb5d-0daab61e8ec3/spacex-ipo-will-force-index.html"
     },
     {
-      "text": "Trade Strategy For SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, And TSLA",
-      "url": "https://finance.yahoo.com/news/trade-strategy-spy-qqq-aapl-121548760.html"
+      "text": "Elizabeth Warren Slams New Fed Chair Kevin Warsh As Trump's 'Sock Puppet'",
+      "url": "https://finance.yahoo.com/economy/policy/articles/elizabeth-warren-slams-fed-chair-062650109.html"
     }
   ]
 }
