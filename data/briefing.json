@@ -1,6 +1,6 @@
 {
-  "date": "Thu, May 14, 2026",
-  "generated_at": "2026-05-14T10:31:40.579391-04:00",
+  "date": "Fri, May 15, 2026",
+  "generated_at": "2026-05-15T10:25:40.053508-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "POET",
-      "gap_pct": 25.7,
-      "price": 18.06,
-      "market_cap": 2757948672,
+      "symbol": "FIG",
+      "gap_pct": 17.1,
+      "price": 23.7,
+      "market_cap": 12489256960,
       "catalyst": ""
     },
     {
-      "symbol": "PCT",
-      "gap_pct": 21.1,
-      "price": 12.36,
-      "market_cap": 2234569216,
+      "symbol": "MICC",
+      "gap_pct": 11.4,
+      "price": 16.73,
+      "market_cap": 10252765184,
       "catalyst": ""
     },
     {
-      "symbol": "STUB",
-      "gap_pct": 19.3,
-      "price": 8.97,
-      "market_cap": 3355278592,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ARX",
-      "gap_pct": 18.3,
-      "price": 14.82,
-      "market_cap": 3293521920,
-      "catalyst": ""
-    },
-    {
-      "symbol": "KLAR",
-      "gap_pct": 14.8,
-      "price": 15.72,
-      "market_cap": 5934424576,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CSCO",
-      "gap_pct": 14.8,
-      "price": 116.9,
-      "market_cap": 461742505984,
-      "catalyst": ""
-    },
-    {
-      "symbol": "RDW",
-      "gap_pct": 14.0,
-      "price": 13.06,
-      "market_cap": 2597878528,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ONDS",
-      "gap_pct": 13.7,
-      "price": 10.07,
-      "market_cap": 4965680640,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CPA",
-      "gap_pct": 12.7,
-      "price": 129.5,
-      "market_cap": 5327442432,
-      "catalyst": ""
-    },
-    {
-      "symbol": "WOLF",
-      "gap_pct": 10.0,
-      "price": 68.88,
-      "market_cap": 3329595648,
+      "symbol": "RXO",
+      "gap_pct": 10.5,
+      "price": 19.35,
+      "market_cap": 3190597888,
       "catalyst": ""
     }
   ],
@@ -110,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Advance Pre-Bell Thursday Amid US-China Meeting",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131335219.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday Amid Oil Surge, Higher Yields, Geopolitical Uncertainty",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131414580.html"
     },
     {
-      "text": "Why the Dave Ramsey \u2018Pay Off the Mortgage\u2019 Rule Is Costing High-Income Households $400,000 Over a 25-Year Retirement",
-      "url": "https://finance.yahoo.com/m/e7ef70f4-bc65-37c3-8aa4-36a3e969d04b/why-the-dave-ramsey-%E2%80%98pay-off.html"
+      "text": "CF Industries and Norwegian Cruise Line have been highlighted as Zacks Bull and Bear of the Day",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cf-industries-norwegian-cruise-line-124600665.html"
     },
     {
-      "text": "S&P 500 Headed for Massive Highs Ahead? ETFs in Focus",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-headed-massive-highs-130000503.html"
+      "text": "The Professor Who Tracks Every US IPO Just Issued a Warning on SpaceX: \u201cMost of the Time, Things Don\u2019t Go According to Plan.\u201d",
+      "url": "https://finance.yahoo.com/m/9ef804ca-e132-3282-82b6-2065fa782200/the-professor-who-tracks.html"
     },
     {
-      "text": "SpaceX IPO Will Force Index Funds to Buy $7 Billion in One Day. What Happens to Nasdaq Next.",
-      "url": "https://finance.yahoo.com/m/69e96019-1d5b-3a54-bb5d-0daab61e8ec3/spacex-ipo-will-force-index.html"
+      "text": "Nvidia earnings alone won\u2019t rescue the S&P 500 from its new sell signal",
+      "url": "https://finance.yahoo.com/m/7a68c133-5f95-390b-95c6-55555bc95c75/nvidia-earnings-alone-won%E2%80%99t.html"
     },
     {
-      "text": "Elizabeth Warren Slams New Fed Chair Kevin Warsh As Trump's 'Sock Puppet'",
-      "url": "https://finance.yahoo.com/economy/policy/articles/elizabeth-warren-slams-fed-chair-062650109.html"
+      "text": "What Does the Strong Q1 Earnings Growth Say About the Economy?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/does-strong-q1-earnings-growth-201500452.html"
     }
   ]
 }
