@@ -1,6 +1,6 @@
 {
-  "date": "Fri, May 15, 2026",
-  "generated_at": "2026-05-15T10:25:40.053508-04:00",
+  "date": "Mon, May 18, 2026",
+  "generated_at": "2026-05-18T11:50:11.728366-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "FIG",
-      "gap_pct": 17.1,
-      "price": 23.7,
-      "market_cap": 12489256960,
+      "symbol": "RAMP",
+      "gap_pct": 27.6,
+      "price": 37.85,
+      "market_cap": 2409108736,
       "catalyst": ""
     },
     {
-      "symbol": "MICC",
-      "gap_pct": 11.4,
-      "price": 16.73,
-      "market_cap": 10252765184,
+      "symbol": "BRC",
+      "gap_pct": 15.0,
+      "price": 81.59,
+      "market_cap": 3853335552,
       "catalyst": ""
     },
     {
-      "symbol": "RXO",
-      "gap_pct": 10.5,
-      "price": 19.35,
-      "market_cap": 3190597888,
+      "symbol": "BIO",
+      "gap_pct": 11.0,
+      "price": 274.76,
+      "market_cap": 7353016832,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RBLX",
+      "gap_pct": 10.2,
+      "price": 47.23,
+      "market_cap": 33812094976,
       "catalyst": ""
     }
   ],
@@ -61,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday Amid Oil Surge, Higher Yields, Geopolitical Uncertainty",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131414580.html"
+      "text": "If You Hold This Growth ETF, You Are Losing Money",
+      "url": "https://finance.yahoo.com/m/f8074d37-c6eb-3c9f-830e-b8f51109b8df/if-you-hold-this-growth-etf%2C.html"
     },
     {
-      "text": "CF Industries and Norwegian Cruise Line have been highlighted as Zacks Bull and Bear of the Day",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cf-industries-norwegian-cruise-line-124600665.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Stalled Iran Peace Efforts, Inflation Concerns",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131222722.html"
     },
     {
-      "text": "The Professor Who Tracks Every US IPO Just Issued a Warning on SpaceX: \u201cMost of the Time, Things Don\u2019t Go According to Plan.\u201d",
-      "url": "https://finance.yahoo.com/m/9ef804ca-e132-3282-82b6-2065fa782200/the-professor-who-tracks.html"
+      "text": "A $1.7 Million Portfolio Lost $312,000 in 18 Trading Days, Proving the Case Most Retirees Hate to Hear",
+      "url": "https://finance.yahoo.com/m/43033b01-849a-3c02-b50e-07d27b161ffc/a-%241.7-million-portfolio-lost.html"
     },
     {
-      "text": "Nvidia earnings alone won\u2019t rescue the S&P 500 from its new sell signal",
-      "url": "https://finance.yahoo.com/m/7a68c133-5f95-390b-95c6-55555bc95c75/nvidia-earnings-alone-won%E2%80%99t.html"
+      "text": "Should State Street SPDR S&P 500 ETF Trust (SPY) Be on Your Investing Radar?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-p-500-102002302.html"
     },
     {
-      "text": "What Does the Strong Q1 Earnings Growth Say About the Economy?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/does-strong-q1-earnings-growth-201500452.html"
+      "text": "Transferring Retirement Accounts: Why Timing Your Move to Fidelity or Schwab Won\u2019t Beat the Market",
+      "url": "https://finance.yahoo.com/m/d6e79413-1138-3642-8b29-f57342277de0/transferring-retirement.html"
     }
   ]
 }
