@@ -1,6 +1,6 @@
 {
-  "date": "Tue, May 19, 2026",
-  "generated_at": "2026-05-19T11:41:05.313196-04:00",
+  "date": "Wed, May 20, 2026",
+  "generated_at": "2026-05-20T11:44:41.452403-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "CMBT",
+      "symbol": "IMVT",
+      "gap_pct": 31.9,
+      "price": 34.67,
+      "market_cap": 7057478144,
+      "catalyst": ""
+    },
+    {
+      "symbol": "TE",
+      "gap_pct": 23.5,
+      "price": 8.49,
+      "market_cap": 2372410368,
+      "catalyst": ""
+    },
+    {
+      "symbol": "XNDU",
+      "gap_pct": 17.4,
+      "price": 13.77,
+      "market_cap": 4675714048,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ARM",
+      "gap_pct": 15.6,
+      "price": 257.95,
+      "market_cap": 274460983296,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ROIV",
+      "gap_pct": 14.6,
+      "price": 32.33,
+      "market_cap": 23138619392,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ALAB",
+      "gap_pct": 13.4,
+      "price": 277.0,
+      "market_cap": 47479996416,
+      "catalyst": ""
+    },
+    {
+      "symbol": "LPG",
+      "gap_pct": 12.5,
+      "price": 47.62,
+      "market_cap": 2035474176,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RXO",
       "gap_pct": 12.1,
-      "price": 16.88,
-      "market_cap": 4898065408,
+      "price": 23.69,
+      "market_cap": 3906962432,
       "catalyst": ""
     },
     {
-      "symbol": "AGYS",
-      "gap_pct": 11.9,
-      "price": 78.57,
-      "market_cap": 2208465152,
+      "symbol": "NVTS",
+      "gap_pct": 11.8,
+      "price": 21.71,
+      "market_cap": 5075081728,
       "catalyst": ""
     },
     {
-      "symbol": "RLAY",
-      "gap_pct": 11.7,
-      "price": 13.52,
-      "market_cap": 2589286912,
+      "symbol": "GH",
+      "gap_pct": 10.8,
+      "price": 108.78,
+      "market_cap": 14423557120,
       "catalyst": ""
     }
   ],
@@ -61,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "MSA Advisors Sells Out of Vail Resorts Position, Unloads $8.3 Million in Stock",
-      "url": "https://finance.yahoo.com/m/c1911421-0f94-3f2a-a802-ad151a3be42f/msa-advisors-sells-out-of.html"
+      "text": "Exchange-Traded Funds, Equity Futures Advance Pre-Bell Wednesday Ahead of Nvidia Earnings Report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131319548.html"
     },
     {
-      "text": "This Is the Only ETF That Gets You More Gains With Less Risk",
-      "url": "https://finance.yahoo.com/m/2f4180ac-fd78-3fe5-b832-ea84704e283d/this-is-the-only-etf-that.html"
+      "text": "Arm Holdings Is Up 104% and Smart Money Is Waiting for One Specific Level to Buy More",
+      "url": "https://finance.yahoo.com/m/73f54e2e-5811-3b26-bba1-2038303f6542/arm-holdings-is-up-104%25-and.html"
     },
     {
-      "text": "NorthCoast Adds $15.7 Million Worth of IBTH -- a Steady Bet on Short-Term Treasuries",
-      "url": "https://finance.yahoo.com/m/52bb76db-ae96-33b0-9d4c-9f0ce336bbea/northcoast-adds-%2415.7-million.html"
+      "text": "Should You Invest in Gold or the S&P 500? It Depends.",
+      "url": "https://finance.yahoo.com/m/811c58ee-da9d-378e-89f9-1baa8da5b337/should-you-invest-in-gold-or.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Edge Lower Pre-Bell Tuesday Amid Uncertainty Surrounding US-Iran Talks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131414683.html"
+      "text": "Dave Ramsey on Why Index Funds vs. Mutual Funds Misses the Real Point About Building Wealth",
+      "url": "https://finance.yahoo.com/m/ea1201ff-60a7-3c96-9984-3cc9018577b5/dave-ramsey-on-why-index.html"
     },
     {
-      "text": "Trump's Iran War Risks 'Unmoored' Inflation And 'Weaker Economy,' Warns Moody's Chief Economist As Ed Yardeni Sees July Rate Hike",
-      "url": "https://finance.yahoo.com/economy/policy/articles/trumps-iran-war-risks-unmoored-062506307.html"
+      "text": "Warren Buffett\u2019s Berkshire Delivered a 39,000x Return Since 1965. He Still Tells Most Investors to Buy Index Funds Instead.",
+      "url": "https://finance.yahoo.com/m/898611ab-9f7a-3792-bcd3-2fc8e1aaf7d0/warren-buffett%E2%80%99s-berkshire.html"
     }
   ]
 }
