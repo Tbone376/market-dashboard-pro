@@ -1,6 +1,6 @@
 {
-  "date": "Thu, May 21, 2026",
-  "generated_at": "2026-05-21T11:44:58.124451-04:00",
+  "date": "Fri, May 22, 2026",
+  "generated_at": "2026-05-22T10:53:47.035864-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
+      "symbol": "RGTI",
+      "gap_pct": 17.7,
+      "price": 25.93,
+      "market_cap": 8620763136,
+      "catalyst": ""
+    },
+    {
       "symbol": "INFQ",
-      "gap_pct": 33.8,
-      "price": 14.95,
-      "market_cap": 3262043648,
+      "gap_pct": 17.2,
+      "price": 17.22,
+      "market_cap": 3757961472,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NVTS",
+      "gap_pct": 16.0,
+      "price": 28.29,
+      "market_cap": 6611745792,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DELL",
+      "gap_pct": 15.5,
+      "price": 291.99,
+      "market_cap": 189667426304,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HPQ",
+      "gap_pct": 14.4,
+      "price": 25.05,
+      "market_cap": 23000102912,
       "catalyst": ""
     },
     {
       "symbol": "QBTS",
-      "gap_pct": 24.7,
-      "price": 24.06,
-      "market_cap": 8912911360,
+      "gap_pct": 14.1,
+      "price": 29.38,
+      "market_cap": 10883679232,
       "catalyst": ""
     },
     {
-      "symbol": "RGTI",
-      "gap_pct": 24.5,
-      "price": 21.02,
-      "market_cap": 6985360896,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AAP",
-      "gap_pct": 19.7,
-      "price": 61.32,
-      "market_cap": 3699387136,
-      "catalyst": ""
-    },
-    {
-      "symbol": "APLD",
-      "gap_pct": 18.0,
-      "price": 46.63,
-      "market_cap": 13324147712,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BIRK",
-      "gap_pct": 17.2,
-      "price": 38.93,
-      "market_cap": 7159462400,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NBIS",
-      "gap_pct": 16.4,
-      "price": 223.37,
-      "market_cap": 56713216000,
+      "symbol": "RDW",
+      "gap_pct": 13.8,
+      "price": 17.47,
+      "market_cap": 3475109888,
       "catalyst": ""
     },
     {
       "symbol": "QUBT",
-      "gap_pct": 15.9,
-      "price": 11.08,
-      "market_cap": 2499175936,
+      "gap_pct": 12.5,
+      "price": 12.84,
+      "market_cap": 2895869440,
       "catalyst": ""
     },
     {
-      "symbol": "SPOT",
-      "gap_pct": 15.9,
-      "price": 502.39,
-      "market_cap": 103301464064,
+      "symbol": "FLY",
+      "gap_pct": 12.3,
+      "price": 48.13,
+      "market_cap": 7712841728,
       "catalyst": ""
     },
     {
-      "symbol": "WOLF",
-      "gap_pct": 15.2,
-      "price": 67.54,
-      "market_cap": 3264821504,
+      "symbol": "ZM",
+      "gap_pct": 12.0,
+      "price": 108.39,
+      "market_cap": 31947034624,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Worried About a Recession? Here\u2019s Why Selling When Economists Call It is Already Too Late",
-      "url": "https://finance.yahoo.com/m/b47b593a-0d3f-3304-8024-a73182819a21/worried-about-a-recession%3F.html"
+      "text": "Apple Stock at 52-Week High: Buy, Sell or Hold?",
+      "url": "https://finance.yahoo.com/m/b7b4e88d-e963-3f8b-939f-1197a2dfea13/apple-stock-at-52-week-high%3A.html"
     },
     {
-      "text": "Three Dividend ETFs Outside the S&P 500 That Are Beating It and Paying Up to 3.4 Percent",
-      "url": "https://finance.yahoo.com/m/4b930c1d-9048-3078-bda2-b72f6e37b221/three-dividend-etfs-outside.html"
+      "text": "The Buffett Paradox: Why the World\u2019s Greatest Stock Picker Tells You Not to Pick Stocks",
+      "url": "https://finance.yahoo.com/m/01271772-3a1a-3558-b061-e7de975c2c09/the-buffett-paradox%3A-why-the.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Uncertainty Surrounding US-Iran Talks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131835522.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Buoyed by Robust Corporate Earnings Season",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131038113.html"
     },
     {
-      "text": "MGK Holds 46 Percent in Just Five Stocks, And That Concentration Is Driving Most of Its Recent Gains",
-      "url": "https://finance.yahoo.com/m/7d595973-d81a-3b10-a4f8-9b994a5f7bc8/mgk-holds-46-percent-in-just.html"
+      "text": "Dave Ramsey to Young Couple: $281k Income Means You Can Eliminate $207k Debt in 12 Months",
+      "url": "https://finance.yahoo.com/m/967fe0a4-3bc3-3f64-bf87-c083ff8f8c3e/dave-ramsey-to-young-couple%3A.html"
     },
     {
-      "text": "The \u201cDon\u2019t Fight Trump\u201d Trade Is Working: S&P 500 Ignores Everything and Keeps Surging",
-      "url": "https://finance.yahoo.com/m/0867c761-f981-3bc5-9b79-0f503308f84f/the-%E2%80%9Cdon%E2%80%99t-fight-trump%E2%80%9D-trade.html"
+      "text": "Podcast Host Warns Cash Hoarders: Sitting Idle Could Cost You 12% Per Year",
+      "url": "https://finance.yahoo.com/m/c3950a8f-28f9-3686-9aad-d07a424a8d43/podcast-host-warns-cash.html"
     }
   ]
 }
