@@ -1,6 +1,6 @@
 {
-  "date": "Fri, May 22, 2026",
-  "generated_at": "2026-05-22T10:53:47.035864-04:00",
+  "date": "Tue, May 26, 2026",
+  "generated_at": "2026-05-26T11:59:13.958714-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,98 +36,77 @@
   },
   "gappers": [
     {
-      "symbol": "RGTI",
-      "gap_pct": 17.7,
-      "price": 25.93,
-      "market_cap": 8620763136,
+      "symbol": "BRAI",
+      "gap_pct": 114.8,
+      "price": 15.4,
+      "market_cap": 3173758464,
       "catalyst": ""
     },
     {
-      "symbol": "INFQ",
-      "gap_pct": 17.2,
-      "price": 17.22,
-      "market_cap": 3757961472,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NVTS",
-      "gap_pct": 16.0,
-      "price": 28.29,
-      "market_cap": 6611745792,
-      "catalyst": ""
-    },
-    {
-      "symbol": "DELL",
-      "gap_pct": 15.5,
-      "price": 291.99,
-      "market_cap": 189667426304,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HPQ",
-      "gap_pct": 14.4,
-      "price": 25.05,
-      "market_cap": 23000102912,
-      "catalyst": ""
-    },
-    {
-      "symbol": "QBTS",
-      "gap_pct": 14.1,
-      "price": 29.38,
-      "market_cap": 10883679232,
+      "symbol": "TE",
+      "gap_pct": 24.4,
+      "price": 10.05,
+      "market_cap": 2808073984,
       "catalyst": ""
     },
     {
       "symbol": "RDW",
-      "gap_pct": 13.8,
-      "price": 17.47,
-      "market_cap": 3475109888,
+      "gap_pct": 24.4,
+      "price": 21.75,
+      "market_cap": 4326880256,
       "catalyst": ""
     },
     {
-      "symbol": "QUBT",
-      "gap_pct": 12.5,
-      "price": 12.84,
-      "market_cap": 2895869440,
+      "symbol": "JOYY",
+      "gap_pct": 19.5,
+      "price": 65.06,
+      "market_cap": 3277838592,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FUTU",
+      "gap_pct": 17.6,
+      "price": 105.56,
+      "market_cap": 14798930944,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MOD",
+      "gap_pct": 16.9,
+      "price": 304.48,
+      "market_cap": 16055595008,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MU",
+      "gap_pct": 16.2,
+      "price": 872.45,
+      "market_cap": 983896031232,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ASTS",
+      "gap_pct": 15.9,
+      "price": 122.72,
+      "market_cap": 47630647296,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SEDG",
+      "gap_pct": 15.5,
+      "price": 71.54,
+      "market_cap": 4350927872,
       "catalyst": ""
     },
     {
       "symbol": "FLY",
-      "gap_pct": 12.3,
-      "price": 48.13,
-      "market_cap": 7712841728,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ZM",
-      "gap_pct": 12.0,
-      "price": 108.39,
-      "market_cap": 31947034624,
+      "gap_pct": 15.2,
+      "price": 57.04,
+      "market_cap": 9139816448,
       "catalyst": ""
     }
   ],
   "earnings": [],
   "econ_events": [],
-  "headlines": [
-    {
-      "text": "Apple Stock at 52-Week High: Buy, Sell or Hold?",
-      "url": "https://finance.yahoo.com/m/b7b4e88d-e963-3f8b-939f-1197a2dfea13/apple-stock-at-52-week-high%3A.html"
-    },
-    {
-      "text": "The Buffett Paradox: Why the World\u2019s Greatest Stock Picker Tells You Not to Pick Stocks",
-      "url": "https://finance.yahoo.com/m/01271772-3a1a-3558-b061-e7de975c2c09/the-buffett-paradox%3A-why-the.html"
-    },
-    {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Buoyed by Robust Corporate Earnings Season",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131038113.html"
-    },
-    {
-      "text": "Dave Ramsey to Young Couple: $281k Income Means You Can Eliminate $207k Debt in 12 Months",
-      "url": "https://finance.yahoo.com/m/967fe0a4-3bc3-3f64-bf87-c083ff8f8c3e/dave-ramsey-to-young-couple%3A.html"
-    },
-    {
-      "text": "Podcast Host Warns Cash Hoarders: Sitting Idle Could Cost You 12% Per Year",
-      "url": "https://finance.yahoo.com/m/c3950a8f-28f9-3686-9aad-d07a424a8d43/podcast-host-warns-cash.html"
-    }
-  ]
+  "headlines": []
 }
