@@ -1,6 +1,6 @@
 {
-  "date": "Tue, May 26, 2026",
-  "generated_at": "2026-05-26T11:59:13.958714-04:00",
+  "date": "Wed, May 27, 2026",
+  "generated_at": "2026-05-27T12:02:44.985133-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,77 +36,70 @@
   },
   "gappers": [
     {
-      "symbol": "BRAI",
-      "gap_pct": 114.8,
-      "price": 15.4,
-      "market_cap": 3173758464,
+      "symbol": "DY",
+      "gap_pct": 26.7,
+      "price": 532.59,
+      "market_cap": 15987531776,
       "catalyst": ""
     },
     {
-      "symbol": "TE",
-      "gap_pct": 24.4,
-      "price": 10.05,
-      "market_cap": 2808073984,
+      "symbol": "LUNR",
+      "gap_pct": 13.9,
+      "price": 39.72,
+      "market_cap": 6373165568,
       "catalyst": ""
     },
     {
-      "symbol": "RDW",
-      "gap_pct": 24.4,
-      "price": 21.75,
-      "market_cap": 4326880256,
+      "symbol": "MANU",
+      "gap_pct": 12.2,
+      "price": 22.12,
+      "market_cap": 3814247936,
       "catalyst": ""
     },
     {
-      "symbol": "JOYY",
-      "gap_pct": 19.5,
-      "price": 65.06,
-      "market_cap": 3277838592,
+      "symbol": "ANF",
+      "gap_pct": 11.9,
+      "price": 83.67,
+      "market_cap": 3758606080,
       "catalyst": ""
     },
     {
-      "symbol": "FUTU",
-      "gap_pct": 17.6,
-      "price": 105.56,
-      "market_cap": 14798930944,
+      "symbol": "MGM",
+      "gap_pct": 10.8,
+      "price": 42.61,
+      "market_cap": 10901821440,
       "catalyst": ""
     },
     {
-      "symbol": "MOD",
-      "gap_pct": 16.9,
-      "price": 304.48,
-      "market_cap": 16055595008,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MU",
-      "gap_pct": 16.2,
-      "price": 872.45,
-      "market_cap": 983896031232,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ASTS",
-      "gap_pct": 15.9,
-      "price": 122.72,
-      "market_cap": 47630647296,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SEDG",
-      "gap_pct": 15.5,
-      "price": 71.54,
-      "market_cap": 4350927872,
-      "catalyst": ""
-    },
-    {
-      "symbol": "FLY",
-      "gap_pct": 15.2,
-      "price": 57.04,
-      "market_cap": 9139816448,
+      "symbol": "APP",
+      "gap_pct": 10.4,
+      "price": 567.83,
+      "market_cap": 190754865152,
       "catalyst": ""
     }
   ],
   "earnings": [],
   "econ_events": [],
-  "headlines": []
+  "headlines": [
+    {
+      "text": "I Ignored My 401(k) Allocation for 10 Years While My Wife\u2019s Crushed Mine: Here\u2019s the Percentage That Mattered",
+      "url": "https://finance.yahoo.com/m/cce938c7-afa8-3de0-a4ee-dc6aab05bf81/i-ignored-my-401%28k%29.html"
+    },
+    {
+      "text": "Short Sellers Are Betting Record Amounts Against Stocks. But the Market is Rallying On a Potential Deal Between Trump and Iran.",
+      "url": "https://finance.yahoo.com/m/70c6411a-5f47-32c0-80c7-c0bce7a220f7/short-sellers-are-betting.html"
+    },
+    {
+      "text": "Good News For the Trump Bull Market: Stocks Just Had Their Second Best 8-Week Rally Ever. History Has a Clear Pattern for What Comes Next.",
+      "url": "https://finance.yahoo.com/m/458ca4d5-9d71-3bb9-8ac5-db4a390abca1/good-news-for-the-trump-bull.html"
+    },
+    {
+      "text": "GTS Securities Buys $47.8 Million Worth of This Brand-New Quality-Growth ETF",
+      "url": "https://finance.yahoo.com/m/e69dfbc0-7adf-30e1-b186-9d19829d9295/gts-securities-buys-%2447.8.html"
+    },
+    {
+      "text": "A $1.2M Portfolio Lost $187,000 in Three Weeks. Could a Bond Sleeve Help?",
+      "url": "https://finance.yahoo.com/m/e1182d7b-e6f2-3a3c-99be-c261d30daa3a/a-%241.2m-portfolio-lost.html"
+    }
+  ]
 }
