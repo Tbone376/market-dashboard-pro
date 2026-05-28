@@ -1,6 +1,6 @@
 {
-  "date": "Wed, May 27, 2026",
-  "generated_at": "2026-05-27T12:02:44.985133-04:00",
+  "date": "Thu, May 28, 2026",
+  "generated_at": "2026-05-28T12:17:59.783969-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,45 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "DY",
-      "gap_pct": 26.7,
-      "price": 532.59,
-      "market_cap": 15987531776,
+      "symbol": "SNOW",
+      "gap_pct": 37.1,
+      "price": 240.28,
+      "market_cap": 83281715200,
       "catalyst": ""
     },
     {
-      "symbol": "LUNR",
-      "gap_pct": 13.9,
-      "price": 39.72,
-      "market_cap": 6373165568,
+      "symbol": "BRAI",
+      "gap_pct": 32.3,
+      "price": 14.27,
+      "market_cap": 2940858368,
       "catalyst": ""
     },
     {
-      "symbol": "MANU",
-      "gap_pct": 12.2,
-      "price": 22.12,
-      "market_cap": 3814247936,
+      "symbol": "CHRN",
+      "gap_pct": 32.1,
+      "price": 19.61,
+      "market_cap": 2806146816,
       "catalyst": ""
     },
     {
-      "symbol": "ANF",
-      "gap_pct": 11.9,
-      "price": 83.67,
-      "market_cap": 3758606080,
+      "symbol": "AMPX",
+      "gap_pct": 25.8,
+      "price": 21.59,
+      "market_cap": 3057730560,
       "catalyst": ""
     },
     {
-      "symbol": "MGM",
-      "gap_pct": 10.8,
-      "price": 42.61,
-      "market_cap": 10901821440,
+      "symbol": "ONDS",
+      "gap_pct": 23.8,
+      "price": 13.37,
+      "market_cap": 6664849920,
       "catalyst": ""
     },
     {
-      "symbol": "APP",
-      "gap_pct": 10.4,
-      "price": 567.83,
-      "market_cap": 190754865152,
+      "symbol": "AVAV",
+      "gap_pct": 18.4,
+      "price": 214.65,
+      "market_cap": 10862377984,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DLTR",
+      "gap_pct": 18.2,
+      "price": 113.34,
+      "market_cap": 22070177792,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BBY",
+      "gap_pct": 18.0,
+      "price": 76.17,
+      "market_cap": 16048652288,
+      "catalyst": ""
+    },
+    {
+      "symbol": "A",
+      "gap_pct": 17.2,
+      "price": 135.71,
+      "market_cap": 38351962112,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ICLR",
+      "gap_pct": 17.2,
+      "price": 138.88,
+      "market_cap": 10800604160,
       "catalyst": ""
     }
   ],
@@ -82,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "I Ignored My 401(k) Allocation for 10 Years While My Wife\u2019s Crushed Mine: Here\u2019s the Percentage That Mattered",
-      "url": "https://finance.yahoo.com/m/cce938c7-afa8-3de0-a4ee-dc6aab05bf81/i-ignored-my-401%28k%29.html"
+      "text": "Investor Turns $70K to $4M Using This S&P 500 Bull ETF",
+      "url": "https://finance.yahoo.com/m/41acc7c0-7360-38ed-9258-c2724e3bae35/investor-turns-%2470k-to-%244m.html"
     },
     {
-      "text": "Short Sellers Are Betting Record Amounts Against Stocks. But the Market is Rallying On a Potential Deal Between Trump and Iran.",
-      "url": "https://finance.yahoo.com/m/70c6411a-5f47-32c0-80c7-c0bce7a220f7/short-sellers-are-betting.html"
+      "text": "Dump-Truck of Economic Data: PCE, Claims, Goods & More",
+      "url": "https://finance.yahoo.com/economy/articles/dump-truck-economic-data-pce-145900543.html"
     },
     {
-      "text": "Good News For the Trump Bull Market: Stocks Just Had Their Second Best 8-Week Rally Ever. History Has a Clear Pattern for What Comes Next.",
-      "url": "https://finance.yahoo.com/m/458ca4d5-9d71-3bb9-8ac5-db4a390abca1/good-news-for-the-trump-bull.html"
+      "text": "Prediction. Intel Has Run 492% and Its Own Insiders Are Selling",
+      "url": "https://finance.yahoo.com/m/4778728d-2d71-367b-956b-adc7e1781ed7/prediction.-intel-has-run.html"
     },
     {
-      "text": "GTS Securities Buys $47.8 Million Worth of This Brand-New Quality-Growth ETF",
-      "url": "https://finance.yahoo.com/m/e69dfbc0-7adf-30e1-b186-9d19829d9295/gts-securities-buys-%2447.8.html"
+      "text": "JEPI\u2019s 8.4% Yield Masks The Volatility Trap Most Investors Ignore",
+      "url": "https://finance.yahoo.com/m/760a2db5-edb8-3ff4-93f4-170d99f3cab1/jepi%E2%80%99s-8.4%25-yield-masks-the.html"
     },
     {
-      "text": "A $1.2M Portfolio Lost $187,000 in Three Weeks. Could a Bond Sleeve Help?",
-      "url": "https://finance.yahoo.com/m/e1182d7b-e6f2-3a3c-99be-c261d30daa3a/a-%241.2m-portfolio-lost.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid New US Attacks on Iran",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132232793.html"
     }
   ]
 }
