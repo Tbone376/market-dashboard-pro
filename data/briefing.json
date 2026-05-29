@@ -1,6 +1,6 @@
 {
-  "date": "Thu, May 28, 2026",
-  "generated_at": "2026-05-28T12:17:59.783969-04:00",
+  "date": "Fri, May 29, 2026",
+  "generated_at": "2026-05-29T12:00:47.026146-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "SNOW",
-      "gap_pct": 37.1,
-      "price": 240.28,
-      "market_cap": 83281715200,
+      "symbol": "DELL",
+      "gap_pct": 28.5,
+      "price": 407.38,
+      "market_cap": 264624373760,
       "catalyst": ""
     },
     {
-      "symbol": "BRAI",
-      "gap_pct": 32.3,
-      "price": 14.27,
-      "market_cap": 2940858368,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CHRN",
-      "gap_pct": 32.1,
-      "price": 19.61,
-      "market_cap": 2806146816,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AMPX",
+      "symbol": "OKTA",
       "gap_pct": 25.8,
-      "price": 21.59,
-      "market_cap": 3057730560,
+      "price": 119.18,
+      "market_cap": 20897789952,
       "catalyst": ""
     },
     {
-      "symbol": "ONDS",
-      "gap_pct": 23.8,
-      "price": 13.37,
-      "market_cap": 6664849920,
+      "symbol": "NTAP",
+      "gap_pct": 24.8,
+      "price": 177.76,
+      "market_cap": 35207229440,
       "catalyst": ""
     },
     {
-      "symbol": "AVAV",
-      "gap_pct": 18.4,
-      "price": 214.65,
-      "market_cap": 10862377984,
+      "symbol": "HPE",
+      "gap_pct": 14.8,
+      "price": 43.87,
+      "market_cap": 58209222656,
       "catalyst": ""
     },
     {
-      "symbol": "DLTR",
-      "gap_pct": 18.2,
-      "price": 113.34,
-      "market_cap": 22070177792,
+      "symbol": "NOW",
+      "gap_pct": 14.2,
+      "price": 124.12,
+      "market_cap": 128005955584,
       "catalyst": ""
     },
     {
-      "symbol": "BBY",
-      "gap_pct": 18.0,
-      "price": 76.17,
-      "market_cap": 16048652288,
+      "symbol": "NXT",
+      "gap_pct": 12.6,
+      "price": 154.44,
+      "market_cap": 23502426112,
       "catalyst": ""
     },
     {
-      "symbol": "A",
-      "gap_pct": 17.2,
-      "price": 135.71,
-      "market_cap": 38351962112,
+      "symbol": "TEAM",
+      "gap_pct": 12.0,
+      "price": 104.49,
+      "market_cap": 26516203520,
       "catalyst": ""
     },
     {
-      "symbol": "ICLR",
-      "gap_pct": 17.2,
-      "price": 138.88,
-      "market_cap": 10800604160,
+      "symbol": "LPL",
+      "gap_pct": 11.8,
+      "price": 5.62,
+      "market_cap": 5624999936,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SMCI",
+      "gap_pct": 11.7,
+      "price": 46.12,
+      "market_cap": 27737479168,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WDAY",
+      "gap_pct": 10.6,
+      "price": 143.8,
+      "market_cap": 35514785792,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Investor Turns $70K to $4M Using This S&P 500 Bull ETF",
-      "url": "https://finance.yahoo.com/m/41acc7c0-7360-38ed-9258-c2724e3bae35/investor-turns-%2470k-to-%244m.html"
+      "text": "Pre-Markets Mostly Up on Lower Volume, Trade & Inventory Reports",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pre-markets-mostly-lower-volume-143400455.html"
     },
     {
-      "text": "Dump-Truck of Economic Data: PCE, Claims, Goods & More",
-      "url": "https://finance.yahoo.com/economy/articles/dump-truck-economic-data-pce-145900543.html"
+      "text": "Exchange-Traded Funds, Equity Futures Rise Pre-Bell Friday Amid US-Iran Deal Hopes",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131630396.html"
     },
     {
-      "text": "Prediction. Intel Has Run 492% and Its Own Insiders Are Selling",
-      "url": "https://finance.yahoo.com/m/4778728d-2d71-367b-956b-adc7e1781ed7/prediction.-intel-has-run.html"
+      "text": "CONY\u2019s 100% Yield Hides a 37% Decline That Distributions Cannot Reverse",
+      "url": "https://finance.yahoo.com/m/88eda652-7be4-3cae-8f4e-764428a89cd6/cony%E2%80%99s-100%25-yield-hides-a-37%25.html"
     },
     {
-      "text": "JEPI\u2019s 8.4% Yield Masks The Volatility Trap Most Investors Ignore",
-      "url": "https://finance.yahoo.com/m/760a2db5-edb8-3ff4-93f4-170d99f3cab1/jepi%E2%80%99s-8.4%25-yield-masks-the.html"
+      "text": "Early Retirees Face a Dangerous Choice, Says Wes Moss: Bonds in IRAs or Access to Cash",
+      "url": "https://finance.yahoo.com/m/26724429-64d6-3d6e-a669-ed87794bc45a/early-retirees-face-a.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid New US Attacks on Iran",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132232793.html"
+      "text": "Adobe\u2019s Own AI Tool Is Destroying Its Own Stock Photo Business. Management Just Admitted It",
+      "url": "https://finance.yahoo.com/m/9428464e-fd99-3909-b3b2-8876b66ed331/adobe%E2%80%99s-own-ai-tool-is.html"
     }
   ]
 }
