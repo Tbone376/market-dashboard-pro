@@ -1,6 +1,6 @@
 {
-  "date": "Fri, May 29, 2026",
-  "generated_at": "2026-05-29T12:00:47.026146-04:00",
+  "date": "Mon, Jun 1, 2026",
+  "generated_at": "2026-06-01T13:56:20.079480-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "DELL",
-      "gap_pct": 28.5,
-      "price": 407.38,
-      "market_cap": 264624373760,
+      "symbol": "FLNC",
+      "gap_pct": 48.8,
+      "price": 28.09,
+      "market_cap": 5177287168,
       "catalyst": ""
     },
     {
-      "symbol": "OKTA",
-      "gap_pct": 25.8,
-      "price": 119.18,
-      "market_cap": 20897789952,
+      "symbol": "TMHC",
+      "gap_pct": 22.4,
+      "price": 71.58,
+      "market_cap": 6688018432,
       "catalyst": ""
     },
     {
-      "symbol": "NTAP",
-      "gap_pct": 24.8,
-      "price": 177.76,
-      "market_cap": 35207229440,
+      "symbol": "AAOI",
+      "gap_pct": 20.0,
+      "price": 190.09,
+      "market_cap": 15253347328,
       "catalyst": ""
     },
     {
-      "symbol": "HPE",
-      "gap_pct": 14.8,
-      "price": 43.87,
-      "market_cap": 58209222656,
+      "symbol": "SKM",
+      "gap_pct": 19.0,
+      "price": 44.42,
+      "market_cap": 17052309504,
       "catalyst": ""
     },
     {
-      "symbol": "NOW",
-      "gap_pct": 14.2,
-      "price": 124.12,
-      "market_cap": 128005955584,
+      "symbol": "MDB",
+      "gap_pct": 17.9,
+      "price": 395.6,
+      "market_cap": 31845371904,
       "catalyst": ""
     },
     {
-      "symbol": "NXT",
-      "gap_pct": 12.6,
-      "price": 154.44,
-      "market_cap": 23502426112,
+      "symbol": "TWLO",
+      "gap_pct": 17.5,
+      "price": 224.03,
+      "market_cap": 34001608704,
       "catalyst": ""
     },
     {
-      "symbol": "TEAM",
-      "gap_pct": 12.0,
-      "price": 104.49,
-      "market_cap": 26516203520,
+      "symbol": "NBIS",
+      "gap_pct": 17.3,
+      "price": 271.08,
+      "market_cap": 68827987968,
       "catalyst": ""
     },
     {
-      "symbol": "LPL",
-      "gap_pct": 11.8,
-      "price": 5.62,
-      "market_cap": 5624999936,
+      "symbol": "HUBS",
+      "gap_pct": 16.5,
+      "price": 256.99,
+      "market_cap": 13155371008,
       "catalyst": ""
     },
     {
-      "symbol": "SMCI",
-      "gap_pct": 11.7,
-      "price": 46.12,
-      "market_cap": 27737479168,
+      "symbol": "ARM",
+      "gap_pct": 16.2,
+      "price": 410.54,
+      "market_cap": 438489088000,
       "catalyst": ""
     },
     {
-      "symbol": "WDAY",
-      "gap_pct": 10.6,
-      "price": 143.8,
-      "market_cap": 35514785792,
+      "symbol": "MGM",
+      "gap_pct": 16.2,
+      "price": 50.74,
+      "market_cap": 12981892096,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Pre-Markets Mostly Up on Lower Volume, Trade & Inventory Reports",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pre-markets-mostly-lower-volume-143400455.html"
+      "text": "\u201cA Lost Decade Is a Very Real Possibility,\u201d Says Ultra-High Net Worth Financial Advisor",
+      "url": "https://finance.yahoo.com/m/b51a035d-2192-38a4-a196-681b55fdc7ef/%E2%80%9Ca-lost-decade-is-a-very-real.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Rise Pre-Bell Friday Amid US-Iran Deal Hopes",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131630396.html"
+      "text": "Shell And Total Energize LVHI\u2019s Income Stream As Retirees Seek Stable Foreign Yields",
+      "url": "https://finance.yahoo.com/m/f45db78a-64c3-3b4e-b0f9-7308216fd1ef/shell-and-total-energize.html"
     },
     {
-      "text": "CONY\u2019s 100% Yield Hides a 37% Decline That Distributions Cannot Reverse",
-      "url": "https://finance.yahoo.com/m/88eda652-7be4-3cae-8f4e-764428a89cd6/cony%E2%80%99s-100%25-yield-hides-a-37%25.html"
+      "text": "You\u2019ve Been Contributing to Your 401(k) for Years But Your Money Might Still Be Sitting in Cash",
+      "url": "https://finance.yahoo.com/m/b4eecf08-3616-33a2-9809-879c034105c0/you%E2%80%99ve-been-contributing-to.html"
     },
     {
-      "text": "Early Retirees Face a Dangerous Choice, Says Wes Moss: Bonds in IRAs or Access to Cash",
-      "url": "https://finance.yahoo.com/m/26724429-64d6-3d6e-a669-ed87794bc45a/early-retirees-face-a.html"
+      "text": "Pre-Markets Turn South on News from Middle East",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pre-markets-turn-south-news-144200945.html"
     },
     {
-      "text": "Adobe\u2019s Own AI Tool Is Destroying Its Own Stock Photo Business. Management Just Admitted It",
-      "url": "https://finance.yahoo.com/m/9428464e-fd99-3909-b3b2-8876b66ed331/adobe%E2%80%99s-own-ai-tool-is.html"
+      "text": "30% of Americans Leave IRA Rollovers in Cash for 7 Years: Here\u2019s What That Costs You",
+      "url": "https://finance.yahoo.com/m/c0386fe5-aa08-3793-8c2d-9ca9ac64a14f/30%25-of-americans-leave-ira.html"
     }
   ]
 }
