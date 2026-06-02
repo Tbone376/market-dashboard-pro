@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Jun 1, 2026",
-  "generated_at": "2026-06-01T13:56:20.079480-04:00",
+  "date": "Tue, Jun 2, 2026",
+  "generated_at": "2026-06-02T12:48:14.187950-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "FLNC",
-      "gap_pct": 48.8,
-      "price": 28.09,
-      "market_cap": 5177287168,
+      "symbol": "LEGN",
+      "gap_pct": 34.8,
+      "price": 34.39,
+      "market_cap": 6387591168,
       "catalyst": ""
     },
     {
-      "symbol": "TMHC",
-      "gap_pct": 22.4,
-      "price": 71.58,
-      "market_cap": 6688018432,
+      "symbol": "MRVL",
+      "gap_pct": 28.7,
+      "price": 282.46,
+      "market_cap": 247313121280,
       "catalyst": ""
     },
     {
-      "symbol": "AAOI",
-      "gap_pct": 20.0,
-      "price": 190.09,
-      "market_cap": 15253347328,
+      "symbol": "AEHR",
+      "gap_pct": 18.7,
+      "price": 111.16,
+      "market_cap": 3496343808,
       "catalyst": ""
     },
     {
-      "symbol": "SKM",
-      "gap_pct": 19.0,
-      "price": 44.42,
-      "market_cap": 17052309504,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MDB",
-      "gap_pct": 17.9,
-      "price": 395.6,
-      "market_cap": 31845371904,
-      "catalyst": ""
-    },
-    {
-      "symbol": "TWLO",
+      "symbol": "PENG",
       "gap_pct": 17.5,
-      "price": 224.03,
-      "market_cap": 34001608704,
+      "price": 70.16,
+      "market_cap": 3687357696,
       "catalyst": ""
     },
     {
-      "symbol": "NBIS",
-      "gap_pct": 17.3,
-      "price": 271.08,
-      "market_cap": 68827987968,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HUBS",
+      "symbol": "COHR",
       "gap_pct": 16.5,
-      "price": 256.99,
-      "market_cap": 13155371008,
+      "price": 422.79,
+      "market_cap": 82714329088,
       "catalyst": ""
     },
     {
-      "symbol": "ARM",
-      "gap_pct": 16.2,
-      "price": 410.54,
-      "market_cap": 438489088000,
+      "symbol": "HPE",
+      "gap_pct": 15.7,
+      "price": 54.38,
+      "market_cap": 72147697664,
       "catalyst": ""
     },
     {
-      "symbol": "MGM",
-      "gap_pct": 16.2,
-      "price": 50.74,
-      "market_cap": 12981892096,
+      "symbol": "CAMT",
+      "gap_pct": 15.0,
+      "price": 187.56,
+      "market_cap": 8636332032,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RLAY",
+      "gap_pct": 14.9,
+      "price": 16.39,
+      "market_cap": 3572041984,
+      "catalyst": ""
+    },
+    {
+      "symbol": "STM",
+      "gap_pct": 14.3,
+      "price": 78.91,
+      "market_cap": 70134743040,
+      "catalyst": ""
+    },
+    {
+      "symbol": "VSH",
+      "gap_pct": 13.6,
+      "price": 63.58,
+      "market_cap": 8653608960,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "\u201cA Lost Decade Is a Very Real Possibility,\u201d Says Ultra-High Net Worth Financial Advisor",
-      "url": "https://finance.yahoo.com/m/b51a035d-2192-38a4-a196-681b55fdc7ef/%E2%80%9Ca-lost-decade-is-a-very-real.html"
+      "text": "Buy, Hold, or Sell: Is CoreWeave a Multibagger in the Making, or an AI Infrastructure Debt Trap?",
+      "url": "https://finance.yahoo.com/m/128aa929-f2fc-3c2f-93ff-d57994eb2f35/buy%2C-hold%2C-or-sell%3A-is.html"
     },
     {
-      "text": "Shell And Total Energize LVHI\u2019s Income Stream As Retirees Seek Stable Foreign Yields",
-      "url": "https://finance.yahoo.com/m/f45db78a-64c3-3b4e-b0f9-7308216fd1ef/shell-and-total-energize.html"
+      "text": "Stock Market Today: Dow Wavers Amid Ongoing U.S.-Iran Talks; Credo Tumbles, Lingerie Name Pops (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/e9a1df49-5d6a-3354-98ff-6a1e7c41f5e4/stock-market-today%3A-dow.html"
     },
     {
-      "text": "You\u2019ve Been Contributing to Your 401(k) for Years But Your Money Might Still Be Sitting in Cash",
-      "url": "https://finance.yahoo.com/m/b4eecf08-3616-33a2-9809-879c034105c0/you%E2%80%99ve-been-contributing-to.html"
+      "text": "\u2018We Will Get Into a Lost Decade Again. That\u2019s Almost a Guarantee,\u2019 Says Top Portfolio Strategist",
+      "url": "https://finance.yahoo.com/m/a27fcc84-7229-3906-9c1c-524486b5f1f1/%E2%80%98we-will-get-into-a-lost.html"
     },
     {
-      "text": "Pre-Markets Turn South on News from Middle East",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pre-markets-turn-south-news-144200945.html"
+      "text": "If You Invested $1,000 in Alphabet 15 Years ago, This Is How Much You Have Now (and It\u2019s a Masterclass in 1 Vital Investing Lesson)",
+      "url": "https://finance.yahoo.com/m/6ea3146b-e36d-31f1-9ffb-a1c51f085745/if-you-invested-%241%2C000-in.html"
     },
     {
-      "text": "30% of Americans Leave IRA Rollovers in Cash for 7 Years: Here\u2019s What That Costs You",
-      "url": "https://finance.yahoo.com/m/c0386fe5-aa08-3793-8c2d-9ca9ac64a14f/30%25-of-americans-leave-ira.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Assess AI Momentum",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130545099.html"
     }
   ]
 }
