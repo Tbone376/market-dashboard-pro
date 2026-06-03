@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Jun 2, 2026",
-  "generated_at": "2026-06-02T12:48:14.187950-04:00",
+  "date": "Wed, Jun 3, 2026",
+  "generated_at": "2026-06-03T13:04:32.023680-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "LEGN",
-      "gap_pct": 34.8,
-      "price": 34.39,
-      "market_cap": 6387591168,
+      "symbol": "NVTS",
+      "gap_pct": 23.2,
+      "price": 31.87,
+      "market_cap": 7552890880,
       "catalyst": ""
     },
     {
-      "symbol": "MRVL",
-      "gap_pct": 28.7,
-      "price": 282.46,
-      "market_cap": 247313121280,
+      "symbol": "ABVX",
+      "gap_pct": 19.2,
+      "price": 86.39,
+      "market_cap": 6884810752,
       "catalyst": ""
     },
     {
-      "symbol": "AEHR",
-      "gap_pct": 18.7,
-      "price": 111.16,
-      "market_cap": 3496343808,
+      "symbol": "MMED",
+      "gap_pct": 16.3,
+      "price": 14.31,
+      "market_cap": 4018534400,
       "catalyst": ""
     },
     {
-      "symbol": "PENG",
-      "gap_pct": 17.5,
-      "price": 70.16,
-      "market_cap": 3687357696,
-      "catalyst": ""
-    },
-    {
-      "symbol": "COHR",
-      "gap_pct": 16.5,
-      "price": 422.79,
-      "market_cap": 82714329088,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HPE",
-      "gap_pct": 15.7,
-      "price": 54.38,
-      "market_cap": 72147697664,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CAMT",
-      "gap_pct": 15.0,
-      "price": 187.56,
-      "market_cap": 8636332032,
-      "catalyst": ""
-    },
-    {
-      "symbol": "RLAY",
-      "gap_pct": 14.9,
-      "price": 16.39,
-      "market_cap": 3572041984,
-      "catalyst": ""
-    },
-    {
-      "symbol": "STM",
-      "gap_pct": 14.3,
-      "price": 78.91,
-      "market_cap": 70134743040,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VSH",
-      "gap_pct": 13.6,
-      "price": 63.58,
-      "market_cap": 8653608960,
+      "symbol": "TGTX",
+      "gap_pct": 11.1,
+      "price": 40.7,
+      "market_cap": 6229736448,
       "catalyst": ""
     }
   ],
@@ -110,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Buy, Hold, or Sell: Is CoreWeave a Multibagger in the Making, or an AI Infrastructure Debt Trap?",
-      "url": "https://finance.yahoo.com/m/128aa929-f2fc-3c2f-93ff-d57994eb2f35/buy%2C-hold%2C-or-sell%3A-is.html"
+      "text": "AbbVie Delivers 400% Returns Beating The S&P 500 by 139%",
+      "url": "https://finance.yahoo.com/m/f99be41c-b571-340f-85c7-81e7986fd92a/abbvie-delivers-400%25-returns.html"
     },
     {
-      "text": "Stock Market Today: Dow Wavers Amid Ongoing U.S.-Iran Talks; Credo Tumbles, Lingerie Name Pops (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/e9a1df49-5d6a-3354-98ff-6a1e7c41f5e4/stock-market-today%3A-dow.html"
+      "text": "UFO Turned a Forgotten Thesis Into 165% Returns While the S&P Gained 11%",
+      "url": "https://finance.yahoo.com/m/c4cd5527-bf97-3c5e-8ee7-0f73ae198e98/ufo-turned-a-forgotten-thesis.html"
     },
     {
-      "text": "\u2018We Will Get Into a Lost Decade Again. That\u2019s Almost a Guarantee,\u2019 Says Top Portfolio Strategist",
-      "url": "https://finance.yahoo.com/m/a27fcc84-7229-3906-9c1c-524486b5f1f1/%E2%80%98we-will-get-into-a-lost.html"
+      "text": "You Think You Own the S&P 500. You Mostly Own a Few AI Stocks \u2014 and the Rest Is Growing at Zero",
+      "url": "https://finance.yahoo.com/m/2eecd488-4b8d-3cf1-a9f4-00d8442e22be/you-think-you-own-the-s%26p.html"
     },
     {
-      "text": "If You Invested $1,000 in Alphabet 15 Years ago, This Is How Much You Have Now (and It\u2019s a Masterclass in 1 Vital Investing Lesson)",
-      "url": "https://finance.yahoo.com/m/6ea3146b-e36d-31f1-9ffb-a1c51f085745/if-you-invested-%241%2C000-in.html"
+      "text": "Buy, Hold, or Sell: Palantir Stock At $152?",
+      "url": "https://finance.yahoo.com/m/1f98619c-c627-3520-8b58-64ee178cffe9/buy%2C-hold%2C-or-sell%3A-palantir.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as Traders Assess AI Momentum",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130545099.html"
+      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Fresh Economic Signals",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131043541.html"
     }
   ]
 }
