@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Jun 3, 2026",
-  "generated_at": "2026-06-03T13:04:32.023680-04:00",
+  "date": "Thu, Jun 4, 2026",
+  "generated_at": "2026-06-04T11:32:50.595683-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,31 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "NVTS",
-      "gap_pct": 23.2,
-      "price": 31.87,
-      "market_cap": 7552890880,
+      "symbol": "RDW",
+      "gap_pct": 17.8,
+      "price": 21.94,
+      "market_cap": 4364276736,
       "catalyst": ""
     },
     {
-      "symbol": "ABVX",
-      "gap_pct": 19.2,
-      "price": 86.39,
-      "market_cap": 6884810752,
+      "symbol": "OSCR",
+      "gap_pct": 15.0,
+      "price": 23.58,
+      "market_cap": 7109204480,
       "catalyst": ""
     },
     {
-      "symbol": "MMED",
-      "gap_pct": 16.3,
-      "price": 14.31,
-      "market_cap": 4018534400,
+      "symbol": "BEAM",
+      "gap_pct": 14.7,
+      "price": 33.9,
+      "market_cap": 3487605504,
       "catalyst": ""
     },
     {
-      "symbol": "TGTX",
-      "gap_pct": 11.1,
-      "price": 40.7,
-      "market_cap": 6229736448,
+      "symbol": "CAI",
+      "gap_pct": 14.5,
+      "price": 17.73,
+      "market_cap": 5011928576,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MANU",
+      "gap_pct": 14.3,
+      "price": 24.12,
+      "market_cap": 4159116800,
+      "catalyst": ""
+    },
+    {
+      "symbol": "LQDA",
+      "gap_pct": 12.9,
+      "price": 62.88,
+      "market_cap": 5591798784,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CRSP",
+      "gap_pct": 12.4,
+      "price": 58.55,
+      "market_cap": 5647076864,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NVCR",
+      "gap_pct": 12.3,
+      "price": 18.14,
+      "market_cap": 2100991872,
+      "catalyst": ""
+    },
+    {
+      "symbol": "TEM",
+      "gap_pct": 12.1,
+      "price": 53.27,
+      "market_cap": 9565415424,
+      "catalyst": ""
+    },
+    {
+      "symbol": "GRAL",
+      "gap_pct": 11.3,
+      "price": 68.02,
+      "market_cap": 2919186432,
       "catalyst": ""
     }
   ],
@@ -68,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "AbbVie Delivers 400% Returns Beating The S&P 500 by 139%",
-      "url": "https://finance.yahoo.com/m/f99be41c-b571-340f-85c7-81e7986fd92a/abbvie-delivers-400%25-returns.html"
+      "text": "The Trade That Actually Worked in 2026 Was Not Stocks, It Was Crude",
+      "url": "https://finance.yahoo.com/m/b71a0371-5379-3b94-81a2-86d01276ac7e/the-trade-that-actually.html"
     },
     {
-      "text": "UFO Turned a Forgotten Thesis Into 165% Returns While the S&P Gained 11%",
-      "url": "https://finance.yahoo.com/m/c4cd5527-bf97-3c5e-8ee7-0f73ae198e98/ufo-turned-a-forgotten-thesis.html"
+      "text": "Stock Market Today: Dow Cruises 700 Points Higher But Broadcom Plunges 15% On Earnings (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/08ccf06e-fffb-32a8-93f0-e2cbe5bd4e6d/stock-market-today%3A-dow.html"
     },
     {
-      "text": "You Think You Own the S&P 500. You Mostly Own a Few AI Stocks \u2014 and the Rest Is Growing at Zero",
-      "url": "https://finance.yahoo.com/m/2eecd488-4b8d-3cf1-a9f4-00d8442e22be/you-think-you-own-the-s%26p.html"
+      "text": "A Ramsey Caller\u2019s $2.5 Million Inheritance Math: How $2 Million Replaced a $200K Salary in One Year",
+      "url": "https://finance.yahoo.com/m/0e732fd4-7261-35fe-ab2c-2b09d1dab67a/a-ramsey-caller%E2%80%99s-%242.5.html"
     },
     {
-      "text": "Buy, Hold, or Sell: Palantir Stock At $152?",
-      "url": "https://finance.yahoo.com/m/1f98619c-c627-3520-8b58-64ee178cffe9/buy%2C-hold%2C-or-sell%3A-palantir.html"
+      "text": "AMD\u2019s $130,000 Decade: U.S. Chipmaker Rises from Near-Bankruptcy to AI Leader",
+      "url": "https://finance.yahoo.com/m/5fd83757-fb2f-3adf-81b2-8c2e6e756a37/amd%E2%80%99s-%24130%2C000-decade%3A-u.s..html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Fresh Economic Signals",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131043541.html"
+      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday as Investors Weigh Economic Data",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-124940562.html"
     }
   ]
 }
