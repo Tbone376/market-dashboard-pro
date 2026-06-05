@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Jun 4, 2026",
-  "generated_at": "2026-06-04T11:32:50.595683-04:00",
+  "date": "Fri, Jun 5, 2026",
+  "generated_at": "2026-06-05T11:20:58.926889-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -34,100 +34,29 @@
       "prev_close": 0
     }
   },
-  "gappers": [
-    {
-      "symbol": "RDW",
-      "gap_pct": 17.8,
-      "price": 21.94,
-      "market_cap": 4364276736,
-      "catalyst": ""
-    },
-    {
-      "symbol": "OSCR",
-      "gap_pct": 15.0,
-      "price": 23.58,
-      "market_cap": 7109204480,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BEAM",
-      "gap_pct": 14.7,
-      "price": 33.9,
-      "market_cap": 3487605504,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CAI",
-      "gap_pct": 14.5,
-      "price": 17.73,
-      "market_cap": 5011928576,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MANU",
-      "gap_pct": 14.3,
-      "price": 24.12,
-      "market_cap": 4159116800,
-      "catalyst": ""
-    },
-    {
-      "symbol": "LQDA",
-      "gap_pct": 12.9,
-      "price": 62.88,
-      "market_cap": 5591798784,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CRSP",
-      "gap_pct": 12.4,
-      "price": 58.55,
-      "market_cap": 5647076864,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NVCR",
-      "gap_pct": 12.3,
-      "price": 18.14,
-      "market_cap": 2100991872,
-      "catalyst": ""
-    },
-    {
-      "symbol": "TEM",
-      "gap_pct": 12.1,
-      "price": 53.27,
-      "market_cap": 9565415424,
-      "catalyst": ""
-    },
-    {
-      "symbol": "GRAL",
-      "gap_pct": 11.3,
-      "price": 68.02,
-      "market_cap": 2919186432,
-      "catalyst": ""
-    }
-  ],
+  "gappers": [],
   "earnings": [],
   "econ_events": [],
   "headlines": [
     {
-      "text": "The Trade That Actually Worked in 2026 Was Not Stocks, It Was Crude",
-      "url": "https://finance.yahoo.com/m/b71a0371-5379-3b94-81a2-86d01276ac7e/the-trade-that-actually.html"
+      "text": "Which S&P 500 Fund is the Better Choice: SPY or IVV?",
+      "url": "https://finance.yahoo.com/m/bdeb594d-26d2-3fdd-9e92-c0a375befde4/which-s%26p-500-fund-is-the.html"
     },
     {
-      "text": "Stock Market Today: Dow Cruises 700 Points Higher But Broadcom Plunges 15% On Earnings (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/08ccf06e-fffb-32a8-93f0-e2cbe5bd4e6d/stock-market-today%3A-dow.html"
+      "text": "Micron, SanDisk, and Marvell Plummet as \u201cParabolic 7\u201d Trade Unwinds",
+      "url": "https://finance.yahoo.com/m/8f74cb54-fd16-3d1b-b0a2-ae54c4cfdc8d/micron%2C-sandisk%2C-and-marvell.html"
     },
     {
-      "text": "A Ramsey Caller\u2019s $2.5 Million Inheritance Math: How $2 Million Replaced a $200K Salary in One Year",
-      "url": "https://finance.yahoo.com/m/0e732fd4-7261-35fe-ab2c-2b09d1dab67a/a-ramsey-caller%E2%80%99s-%242.5.html"
+      "text": "Don't expect to see SpaceX on the S&P 500 so soon after IPO",
+      "url": "https://finance.yahoo.com/video/dont-expect-see-spacex-p-134758316.html"
     },
     {
-      "text": "AMD\u2019s $130,000 Decade: U.S. Chipmaker Rises from Near-Bankruptcy to AI Leader",
-      "url": "https://finance.yahoo.com/m/5fd83757-fb2f-3adf-81b2-8c2e6e756a37/amd%E2%80%99s-%24130%2C000-decade%3A-u.s..html"
+      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Friday After May Jobs Report",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-130325951.html"
     },
     {
-      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday as Investors Weigh Economic Data",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-124940562.html"
+      "text": "$10,000 in Taiwan\u2019s ETF Became $16,178 in Five Months While the S&P 500 Limped to $11,093",
+      "url": "https://finance.yahoo.com/m/b968ac69-6011-3b69-a309-9b7767f20703/%2410%2C000-in-taiwan%E2%80%99s-etf.html"
     }
   ]
 }
