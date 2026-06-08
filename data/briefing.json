@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Jun 5, 2026",
-  "generated_at": "2026-06-05T11:20:58.926889-04:00",
+  "date": "Mon, Jun 8, 2026",
+  "generated_at": "2026-06-08T12:09:43.182810-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -34,29 +34,100 @@
       "prev_close": 0
     }
   },
-  "gappers": [],
+  "gappers": [
+    {
+      "symbol": "TNGX",
+      "gap_pct": 42.9,
+      "price": 28.9,
+      "market_cap": 4180326656,
+      "catalyst": ""
+    },
+    {
+      "symbol": "GLXY",
+      "gap_pct": 22.0,
+      "price": 30.67,
+      "market_cap": 11958236160,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CBRS",
+      "gap_pct": 18.3,
+      "price": 237.75,
+      "market_cap": 52212359168,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MRVL",
+      "gap_pct": 13.5,
+      "price": 299.17,
+      "market_cap": 261713920000,
+      "catalyst": ""
+    },
+    {
+      "symbol": "INTC",
+      "gap_pct": 12.8,
+      "price": 111.84,
+      "market_cap": 562107777024,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SOC",
+      "gap_pct": 11.4,
+      "price": 13.65,
+      "market_cap": 2107053696,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PENG",
+      "gap_pct": 10.6,
+      "price": 66.18,
+      "market_cap": 3478431232,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ADEA",
+      "gap_pct": 10.5,
+      "price": 32.03,
+      "market_cap": 3533260288,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MU",
+      "gap_pct": 10.4,
+      "price": 954.25,
+      "market_cap": 1076140179456,
+      "catalyst": ""
+    },
+    {
+      "symbol": "KLAC",
+      "gap_pct": 10.2,
+      "price": 2126.65,
+      "market_cap": 277799010304,
+      "catalyst": ""
+    }
+  ],
   "earnings": [],
   "econ_events": [],
   "headlines": [
     {
-      "text": "Which S&P 500 Fund is the Better Choice: SPY or IVV?",
-      "url": "https://finance.yahoo.com/m/bdeb594d-26d2-3fdd-9e92-c0a375befde4/which-s%26p-500-fund-is-the.html"
+      "text": "Stock Market Today: Nasdaq Bolts Higher After Iran Halts Strikes; Marvell, Intel Rally (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/4666804e-2154-3599-9b27-c294f072946f/stock-market-today%3A-nasdaq.html"
     },
     {
-      "text": "Micron, SanDisk, and Marvell Plummet as \u201cParabolic 7\u201d Trade Unwinds",
-      "url": "https://finance.yahoo.com/m/8f74cb54-fd16-3d1b-b0a2-ae54c4cfdc8d/micron%2C-sandisk%2C-and-marvell.html"
+      "text": "The Nasdaq is Rebounding on Monday. But Rising Oil Prices Still Threaten the AI Trade.",
+      "url": "https://finance.yahoo.com/m/28fdc743-1c9b-3efb-a73c-eebdd1f0e53a/the-nasdaq-is-rebounding-on.html"
     },
     {
-      "text": "Don't expect to see SpaceX on the S&P 500 so soon after IPO",
-      "url": "https://finance.yahoo.com/video/dont-expect-see-spacex-p-134758316.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday as Chip Stocks Rebound",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132017008.html"
     },
     {
-      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Friday After May Jobs Report",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-130325951.html"
+      "text": "These 3 \u2018Old Economy\u2019 Dow Stocks Are Quietly Crushing the Market, and Here\u2019s What They All Share",
+      "url": "https://finance.yahoo.com/m/c2c6058a-e0e7-3f16-bef4-91f678cd034a/these-3-%E2%80%98old-economy%E2%80%99-dow.html"
     },
     {
-      "text": "$10,000 in Taiwan\u2019s ETF Became $16,178 in Five Months While the S&P 500 Limped to $11,093",
-      "url": "https://finance.yahoo.com/m/b968ac69-6011-3b69-a309-9b7767f20703/%2410%2C000-in-taiwan%E2%80%99s-etf.html"
+      "text": "The Overlooked EM ETF (XCEM) Is Up 38% YTD \u2014 What the S&P 500 Took Five Years to Match in Just Five Months",
+      "url": "https://finance.yahoo.com/m/512a78dd-bc94-372b-92ef-c88081e2b3a4/the-overlooked-em-etf-%28xcem%29.html"
     }
   ]
 }
