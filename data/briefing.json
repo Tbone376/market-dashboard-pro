@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Jun 8, 2026",
-  "generated_at": "2026-06-08T12:09:43.182810-04:00",
+  "date": "Tue, Jun 9, 2026",
+  "generated_at": "2026-06-09T11:21:00.232120-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,59 @@
   },
   "gappers": [
     {
-      "symbol": "TNGX",
-      "gap_pct": 42.9,
-      "price": 28.9,
-      "market_cap": 4180326656,
+      "symbol": "NUVL",
+      "gap_pct": 39.2,
+      "price": 123.17,
+      "market_cap": 9729777664,
       "catalyst": ""
     },
     {
-      "symbol": "GLXY",
-      "gap_pct": 22.0,
-      "price": 30.67,
-      "market_cap": 11958236160,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CBRS",
-      "gap_pct": 18.3,
-      "price": 237.75,
-      "market_cap": 52212359168,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MRVL",
-      "gap_pct": 13.5,
-      "price": 299.17,
-      "market_cap": 261713920000,
-      "catalyst": ""
-    },
-    {
-      "symbol": "INTC",
+      "symbol": "ALHC",
       "gap_pct": 12.8,
-      "price": 111.84,
-      "market_cap": 562107777024,
+      "price": 17.31,
+      "market_cap": 3578583296,
       "catalyst": ""
     },
     {
-      "symbol": "SOC",
-      "gap_pct": 11.4,
-      "price": 13.65,
-      "market_cap": 2107053696,
+      "symbol": "SJM",
+      "gap_pct": 12.4,
+      "price": 114.37,
+      "market_cap": 12197368832,
       "catalyst": ""
     },
     {
-      "symbol": "PENG",
-      "gap_pct": 10.6,
-      "price": 66.18,
-      "market_cap": 3478431232,
+      "symbol": "CHRN",
+      "gap_pct": 11.7,
+      "price": 21.11,
+      "market_cap": 3021101824,
       "catalyst": ""
     },
     {
-      "symbol": "ADEA",
-      "gap_pct": 10.5,
-      "price": 32.03,
-      "market_cap": 3533260288,
+      "symbol": "IFS",
+      "gap_pct": 11.0,
+      "price": 52.36,
+      "market_cap": 5815763456,
       "catalyst": ""
     },
     {
-      "symbol": "MU",
+      "symbol": "VECO",
       "gap_pct": 10.4,
-      "price": 954.25,
-      "market_cap": 1076140179456,
+      "price": 67.38,
+      "market_cap": 4112435968,
       "catalyst": ""
     },
     {
-      "symbol": "KLAC",
+      "symbol": "ICHR",
+      "gap_pct": 10.4,
+      "price": 73.7,
+      "market_cap": 2569597184,
+      "catalyst": ""
+    },
+    {
+      "symbol": "UCTT",
       "gap_pct": 10.2,
-      "price": 2126.65,
-      "market_cap": 277799010304,
+      "price": 92.47,
+      "market_cap": 4145277696,
       "catalyst": ""
     }
   ],
@@ -110,24 +96,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Nasdaq Bolts Higher After Iran Halts Strikes; Marvell, Intel Rally (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/4666804e-2154-3599-9b27-c294f072946f/stock-market-today%3A-nasdaq.html"
+      "text": "2 ETFs to Watch for Outsized Volume on Water Resource & Small-Cap",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/2-etfs-watch-outsized-volume-140000097.html"
     },
     {
-      "text": "The Nasdaq is Rebounding on Monday. But Rising Oil Prices Still Threaten the AI Trade.",
-      "url": "https://finance.yahoo.com/m/28fdc743-1c9b-3efb-a73c-eebdd1f0e53a/the-nasdaq-is-rebounding-on.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Inflation Data",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130406510.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday as Chip Stocks Rebound",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132017008.html"
+      "text": "5 'Insane' Growth Stocks Already Tripled Or More This Year",
+      "url": "https://finance.yahoo.com/m/988f1207-a9d3-3530-bba2-1828eb2b1cd9/5-%27insane%27-growth-stocks.html"
     },
     {
-      "text": "These 3 \u2018Old Economy\u2019 Dow Stocks Are Quietly Crushing the Market, and Here\u2019s What They All Share",
-      "url": "https://finance.yahoo.com/m/c2c6058a-e0e7-3f16-bef4-91f678cd034a/these-3-%E2%80%98old-economy%E2%80%99-dow.html"
+      "text": "The Zacks Analyst Blog Highlights SMH, QQQ, SPY, AIQ, EWY, SPY, NVIDIA and Microsoft",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-smh-112300934.html"
     },
     {
-      "text": "The Overlooked EM ETF (XCEM) Is Up 38% YTD \u2014 What the S&P 500 Took Five Years to Match in Just Five Months",
-      "url": "https://finance.yahoo.com/m/512a78dd-bc94-372b-92ef-c88081e2b3a4/the-overlooked-em-etf-%28xcem%29.html"
+      "text": "Nasdaq, S&P 500 Futures Gain After Tech-Led Rebound: Why NVDA, QCOM, AAPL, APLD, ASTS, NUVL Are Keeping Traders Engaged Today",
+      "url": "https://finance.yahoo.com/m/acb209ee-f2f1-3200-8753-c5975c3faa93/nasdaq%2C-s%26p-500-futures-gain.html"
     }
   ]
 }
