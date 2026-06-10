@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Jun 9, 2026",
-  "generated_at": "2026-06-09T11:21:00.232120-04:00",
+  "date": "Wed, Jun 10, 2026",
+  "generated_at": "2026-06-10T11:55:40.467606-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,59 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "NUVL",
-      "gap_pct": 39.2,
-      "price": 123.17,
-      "market_cap": 9729777664,
+      "symbol": "CASY",
+      "gap_pct": 15.0,
+      "price": 875.05,
+      "market_cap": 32435603456,
       "catalyst": ""
     },
     {
-      "symbol": "ALHC",
-      "gap_pct": 12.8,
-      "price": 17.31,
-      "market_cap": 3578583296,
+      "symbol": "PLBL",
+      "gap_pct": 12.1,
+      "price": 5.86,
+      "market_cap": 2145198592,
       "catalyst": ""
     },
     {
-      "symbol": "SJM",
-      "gap_pct": 12.4,
-      "price": 114.37,
-      "market_cap": 12197368832,
+      "symbol": "BULL",
+      "gap_pct": 10.5,
+      "price": 6.08,
+      "market_cap": 3230798336,
       "catalyst": ""
     },
     {
-      "symbol": "CHRN",
-      "gap_pct": 11.7,
-      "price": 21.11,
-      "market_cap": 3021101824,
-      "catalyst": ""
-    },
-    {
-      "symbol": "IFS",
-      "gap_pct": 11.0,
-      "price": 52.36,
-      "market_cap": 5815763456,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VECO",
-      "gap_pct": 10.4,
-      "price": 67.38,
-      "market_cap": 4112435968,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ICHR",
-      "gap_pct": 10.4,
-      "price": 73.7,
-      "market_cap": 2569597184,
-      "catalyst": ""
-    },
-    {
-      "symbol": "UCTT",
-      "gap_pct": 10.2,
-      "price": 92.47,
-      "market_cap": 4145277696,
+      "symbol": "AXTI",
+      "gap_pct": 10.5,
+      "price": 86.59,
+      "market_cap": 5664993280,
       "catalyst": ""
     }
   ],
@@ -96,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "2 ETFs to Watch for Outsized Volume on Water Resource & Small-Cap",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/2-etfs-watch-outsized-volume-140000097.html"
+      "text": "70% of Stock Market Warning Signals Are Now Flashing. On June 16-17, Kevin Warsh Decides Where the Market Heads Next.",
+      "url": "https://finance.yahoo.com/m/24d3856c-40a6-3293-a0d1-06ba6124566a/70%25-of-stock-market-warning.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Inflation Data",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130406510.html"
+      "text": "CPI Inflation Rate +4.2%: Hottest in 3 Years",
+      "url": "https://finance.yahoo.com/economy/articles/cpi-inflation-rate-4-2-142400883.html"
     },
     {
-      "text": "5 'Insane' Growth Stocks Already Tripled Or More This Year",
-      "url": "https://finance.yahoo.com/m/988f1207-a9d3-3530-bba2-1828eb2b1cd9/5-%27insane%27-growth-stocks.html"
+      "text": "Should You Invest in the S&P 500 or the Nasdaq-100 Right Now?",
+      "url": "https://finance.yahoo.com/m/502a1f60-5fb4-3bcf-bebf-66a82b4d9612/should-you-invest-in-the-s%26p.html"
     },
     {
-      "text": "The Zacks Analyst Blog Highlights SMH, QQQ, SPY, AIQ, EWY, SPY, NVIDIA and Microsoft",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-smh-112300934.html"
+      "text": "The Wealth Management Secret That Isn\u2019t a Secret (And Why Rich People Keep Asking for It)",
+      "url": "https://finance.yahoo.com/m/57dcdf5d-04b6-3351-8651-fc421b1d579b/the-wealth-management-secret.html"
     },
     {
-      "text": "Nasdaq, S&P 500 Futures Gain After Tech-Led Rebound: Why NVDA, QCOM, AAPL, APLD, ASTS, NUVL Are Keeping Traders Engaged Today",
-      "url": "https://finance.yahoo.com/m/acb209ee-f2f1-3200-8753-c5975c3faa93/nasdaq%2C-s%26p-500-futures-gain.html"
+      "text": "Buy, Hold, or Sell: Shaking Off a 21% Flash Crash, Is IonQ the Ultimate Quantum Speculation at $56?",
+      "url": "https://finance.yahoo.com/m/c78a5c57-8f15-3580-8b61-88d7b12c1da2/buy%2C-hold%2C-or-sell%3A-shaking.html"
     }
   ]
 }
