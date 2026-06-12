@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Jun 11, 2026",
-  "generated_at": "2026-06-11T12:15:41.363705-04:00",
+  "date": "Fri, Jun 12, 2026",
+  "generated_at": "2026-06-12T11:31:58.695230-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,45 @@
   },
   "gappers": [
     {
-      "symbol": "YSS",
-      "gap_pct": 13.8,
-      "price": 31.42,
-      "market_cap": 4074999808,
+      "symbol": "POET",
+      "gap_pct": 12.7,
+      "price": 12.69,
+      "market_cap": 2189372928,
       "catalyst": ""
     },
     {
-      "symbol": "VOYG",
-      "gap_pct": 13.8,
-      "price": 46.96,
-      "market_cap": 2782950400,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NAVN",
-      "gap_pct": 13.5,
-      "price": 23.68,
-      "market_cap": 5980445184,
-      "catalyst": ""
-    },
-    {
-      "symbol": "FLY",
-      "gap_pct": 13.4,
-      "price": 37.91,
-      "market_cap": 6226157056,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BBAR",
-      "gap_pct": 13.3,
-      "price": 20.0,
-      "market_cap": 4084733696,
+      "symbol": "AXTI",
+      "gap_pct": 12.6,
+      "price": 99.46,
+      "market_cap": 6506989568,
       "catalyst": ""
     },
     {
       "symbol": "ELVN",
-      "gap_pct": 12.4,
-      "price": 41.59,
-      "market_cap": 2533036544,
+      "gap_pct": 11.3,
+      "price": 44.92,
+      "market_cap": 2736154624,
       "catalyst": ""
     },
     {
-      "symbol": "LUNR",
-      "gap_pct": 12.2,
-      "price": 29.77,
-      "market_cap": 4775862784,
+      "symbol": "ARM",
+      "gap_pct": 10.9,
+      "price": 379.64,
+      "market_cap": 405489582080,
       "catalyst": ""
     },
     {
-      "symbol": "IDCC",
-      "gap_pct": 11.7,
-      "price": 283.66,
-      "market_cap": 7331200512,
+      "symbol": "CIFR",
+      "gap_pct": 10.5,
+      "price": 25.0,
+      "market_cap": 10227048448,
       "catalyst": ""
     },
     {
-      "symbol": "CPNG",
-      "gap_pct": 11.6,
-      "price": 16.88,
-      "market_cap": 30291707904,
-      "catalyst": ""
-    },
-    {
-      "symbol": "TEO",
-      "gap_pct": 11.1,
-      "price": 15.81,
-      "market_cap": 6809961472,
+      "symbol": "ALMS",
+      "gap_pct": 10.5,
+      "price": 23.09,
+      "market_cap": 2943789824,
       "catalyst": ""
     }
   ],
@@ -110,24 +82,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Forget the 4% Rule: Why Dividend Hunters Are Taking a Massive Gamble on ULTY",
-      "url": "https://finance.yahoo.com/m/92d93475-3afd-3e4b-aa5c-480aba94115b/forget-the-4%25-rule%3A-why.html"
+      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of SpaceX Debut",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131503816.html"
     },
     {
-      "text": "Forget AI Software: Why the Smart Money is Betting Billions on Autonomous Weapons",
-      "url": "https://finance.yahoo.com/m/f9019e3c-42c5-352a-82c4-72252792382f/forget-ai-software%3A-why-the.html"
+      "text": "Can Retail ETFs Thrive Amid Sticky Inflation and Robust Job Growth?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/retail-etfs-thrive-amid-sticky-130000669.html"
     },
     {
-      "text": "This 2x Super Micro ETF Just Soared 175% in One Month. The YTD Number Is Wilder.",
-      "url": "https://finance.yahoo.com/m/ce79581e-034e-3bcd-b184-bdde5f1b5841/this-2x-super-micro-etf-just.html"
+      "text": "Elon Musk Only Owns 46% Of SpaceX \u2014 Who Has The Rest?",
+      "url": "https://finance.yahoo.com/m/9b783e04-3d7a-3e4a-b617-2befdac40062/elon-musk-only-owns-46%25-of.html"
     },
     {
-      "text": "Energy Stocks Are Back From the Dead: IYE Up 27% YTD",
-      "url": "https://finance.yahoo.com/m/63b6ef52-571c-3a23-8980-ec7fb570c48d/energy-stocks-are-back-from.html"
+      "text": "Dan Ives\u2019 Own ETF Is Up 27% YTD. The AI Revolution Trade Is Real.",
+      "url": "https://finance.yahoo.com/m/ecc6bceb-9997-357d-b6fd-3f8e4a302d55/dan-ives%E2%80%99-own-etf-is-up-27%25.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid US Attacks on Iran",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-123630683.html"
+      "text": "Batteries Beat the S&P 500: BATT Is Up 25% While SPY Hugs 11%",
+      "url": "https://finance.yahoo.com/m/d7f08d5e-d377-30df-befe-fbc9162c3ef3/batteries-beat-the-s%26p-500%3A.html"
     }
   ]
 }
