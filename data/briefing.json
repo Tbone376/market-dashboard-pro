@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Jun 12, 2026",
-  "generated_at": "2026-06-12T11:31:58.695230-04:00",
+  "date": "Mon, Jun 15, 2026",
+  "generated_at": "2026-06-15T13:24:13.527516-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,45 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "POET",
-      "gap_pct": 12.7,
-      "price": 12.69,
-      "market_cap": 2189372928,
+      "symbol": "XNDU",
+      "gap_pct": 18.4,
+      "price": 13.96,
+      "market_cap": 4167218176,
       "catalyst": ""
     },
     {
       "symbol": "AXTI",
-      "gap_pct": 12.6,
-      "price": 99.46,
-      "market_cap": 6506989568,
+      "gap_pct": 17.8,
+      "price": 114.45,
+      "market_cap": 7487683072,
       "catalyst": ""
     },
     {
-      "symbol": "ELVN",
-      "gap_pct": 11.3,
-      "price": 44.92,
-      "market_cap": 2736154624,
+      "symbol": "POET",
+      "gap_pct": 17.1,
+      "price": 14.67,
+      "market_cap": 2531922688,
       "catalyst": ""
     },
     {
-      "symbol": "ARM",
-      "gap_pct": 10.9,
-      "price": 379.64,
-      "market_cap": 405489582080,
+      "symbol": "WDC",
+      "gap_pct": 15.4,
+      "price": 649.38,
+      "market_cap": 223827968000,
       "catalyst": ""
     },
     {
-      "symbol": "CIFR",
-      "gap_pct": 10.5,
-      "price": 25.0,
-      "market_cap": 10227048448,
+      "symbol": "XE",
+      "gap_pct": 15.1,
+      "price": 21.39,
+      "market_cap": 6148741632,
       "catalyst": ""
     },
     {
-      "symbol": "ALMS",
-      "gap_pct": 10.5,
-      "price": 23.09,
-      "market_cap": 2943789824,
+      "symbol": "QBTS",
+      "gap_pct": 15.0,
+      "price": 26.88,
+      "market_cap": 9957566464,
+      "catalyst": ""
+    },
+    {
+      "symbol": "QUBT",
+      "gap_pct": 14.9,
+      "price": 11.41,
+      "market_cap": 2573512192,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AAOI",
+      "gap_pct": 14.0,
+      "price": 192.69,
+      "market_cap": 15461577728,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PLBL",
+      "gap_pct": 13.5,
+      "price": 8.8,
+      "market_cap": 3224209664,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WOLF",
+      "gap_pct": 13.0,
+      "price": 48.74,
+      "market_cap": 2533379840,
       "catalyst": ""
     }
   ],
@@ -82,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Ahead of SpaceX Debut",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131503816.html"
+      "text": "Palantir Rises 5%, Cloudflare Pops 3% as Investors Pile Into AI Security Plays",
+      "url": "https://finance.yahoo.com/m/9f4c6c42-db52-33ab-8218-a5a7cee08410/palantir-rises-5%25%2C-cloudflare.html"
     },
     {
-      "text": "Can Retail ETFs Thrive Amid Sticky Inflation and Robust Job Growth?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/retail-etfs-thrive-amid-sticky-130000669.html"
+      "text": "64 Years of Raises: How DGRO Finds Companies That Never Cut Dividends",
+      "url": "https://finance.yahoo.com/m/a0ed0681-a61b-33fe-91e7-916f4610c9c0/64-years-of-raises%3A-how-dgro.html"
     },
     {
-      "text": "Elon Musk Only Owns 46% Of SpaceX \u2014 Who Has The Rest?",
-      "url": "https://finance.yahoo.com/m/9b783e04-3d7a-3e4a-b617-2befdac40062/elon-musk-only-owns-46%25-of.html"
+      "text": "Quantum Computing and D-Wave Quantum Jump 12%, Rigetti Climbs 9%, IonQ Gains 6% Amid Risk-On Optimism",
+      "url": "https://finance.yahoo.com/m/7361bec7-0e46-3ed1-9320-d6a4c80432df/quantum-computing-and-d-wave.html"
     },
     {
-      "text": "Dan Ives\u2019 Own ETF Is Up 27% YTD. The AI Revolution Trade Is Real.",
-      "url": "https://finance.yahoo.com/m/ecc6bceb-9997-357d-b6fd-3f8e4a302d55/dan-ives%E2%80%99-own-etf-is-up-27%25.html"
+      "text": "Could This Single AI ETF Turn $10,000 Into a Fortune by 2030?",
+      "url": "https://finance.yahoo.com/m/18be165f-c67b-344b-9d01-f178409f64df/could-this-single-ai-etf-turn.html"
     },
     {
-      "text": "Batteries Beat the S&P 500: BATT Is Up 25% While SPY Hugs 11%",
-      "url": "https://finance.yahoo.com/m/d7f08d5e-d377-30df-befe-fbc9162c3ef3/batteries-beat-the-s%26p-500%3A.html"
+      "text": "Buy, Hold, or Sell: Dropping 39% From Its All-Time High Under a Hawkish New Fed, Is Netflix an Absolute Buy at $81?",
+      "url": "https://finance.yahoo.com/m/9d2a8adc-f368-3833-9c43-59df681664c4/buy%2C-hold%2C-or-sell%3A-dropping.html"
     }
   ]
 }
