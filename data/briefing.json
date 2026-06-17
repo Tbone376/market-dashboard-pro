@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Jun 16, 2026",
-  "generated_at": "2026-06-16T13:11:32.898911-04:00",
+  "date": "Wed, Jun 17, 2026",
+  "generated_at": "2026-06-17T11:54:18.693903-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,17 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "INOD",
-      "gap_pct": 13.1,
-      "price": 112.73,
-      "market_cap": 3681401856,
+      "symbol": "QURE",
+      "gap_pct": 72.8,
+      "price": 46.65,
+      "market_cap": 2942098176,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BRAI",
+      "gap_pct": 34.0,
+      "price": 10.04,
+      "market_cap": 2069125760,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PLBL",
+      "gap_pct": 14.7,
+      "price": 8.68,
+      "market_cap": 3178411264,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WOLF",
+      "gap_pct": 14.2,
+      "price": 51.38,
+      "market_cap": 2670331648,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BHVN",
+      "gap_pct": 13.7,
+      "price": 13.74,
+      "market_cap": 2069460864,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NTLA",
+      "gap_pct": 13.4,
+      "price": 16.5,
+      "market_cap": 2304719104,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FRMI",
+      "gap_pct": 12.9,
+      "price": 8.89,
+      "market_cap": 5675751424,
       "catalyst": ""
     },
     {
       "symbol": "EOSE",
-      "gap_pct": 10.1,
-      "price": 7.03,
-      "market_cap": 2385085952,
+      "gap_pct": 12.3,
+      "price": 7.65,
+      "market_cap": 2597316352,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DYN",
+      "gap_pct": 11.9,
+      "price": 20.23,
+      "market_cap": 3343471616,
+      "catalyst": ""
+    },
+    {
+      "symbol": "KOD",
+      "gap_pct": 11.7,
+      "price": 36.8,
+      "market_cap": 2302886656,
       "catalyst": ""
     }
   ],
@@ -54,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Opening the Strait Eases Oil Prices, Imports & Housing Starts Report",
-      "url": "https://finance.yahoo.com/energy/articles/opening-strait-eases-oil-prices-143100338.html"
+      "text": "SpaceX\u2019s Historic Post-IPO Rally Loses Steam as Retail Frenzy Cools",
+      "url": "https://finance.yahoo.com/m/febbb767-c773-3b69-bc06-86caf648b473/spacex%E2%80%99s-historic-post-ipo.html"
     },
     {
-      "text": "This Vanguard ETF Is Quietly Outpacing the S&P 500 in 2026 and Costs Just 0.04 Percent",
-      "url": "https://finance.yahoo.com/m/c3607e46-202a-3add-bce5-34c4288de19e/this-vanguard-etf-is-quietly.html"
+      "text": "Fed Chair Warsh in the Spotlight: Will He Advocate Rate Cuts?",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-chair-warsh-spotlight-advocate-142900586.html"
     },
     {
-      "text": "VOO vs. IWO: What's the Difference for S&P 500 Investors in 2026?",
-      "url": "https://finance.yahoo.com/m/4b410e4f-3495-396a-b20b-9b86fdc98ab9/voo-vs.-iwo%3A-what%27s-the.html"
+      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed Rates Announcement",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131553830.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Ahead of Fed Policy Meeting",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-123451429.html"
+      "text": "Tech ETFs Are Doing Something Unprecedented Right Now. Should Investors Buy or Wait?",
+      "url": "https://finance.yahoo.com/m/da5ec2d4-19e8-3041-97ef-b10dc00a8a11/tech-etfs-are-doing-something.html"
     },
     {
-      "text": "Why Dave Ramsey Chooses $5,000 Index Funds Over SpaceX: The Math Explained",
-      "url": "https://finance.yahoo.com/m/f43a33f7-5b65-3c8c-9802-ebd221ac8f5c/why-dave-ramsey-chooses.html"
+      "text": "S&P 500, Nasdaq, Dow Futures Edge Higher Ahead Of Fed Rate Decision: INTC, SNAP, SOFI, RUM In Focus",
+      "url": "https://finance.yahoo.com/m/beff80e0-3a30-3570-ae3b-37a45f47d04c/s%26p-500%2C-nasdaq%2C-dow-futures.html"
     }
   ]
 }
