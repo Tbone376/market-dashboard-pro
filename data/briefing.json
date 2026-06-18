@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Jun 17, 2026",
-  "generated_at": "2026-06-17T11:54:18.693903-04:00",
+  "date": "Thu, Jun 18, 2026",
+  "generated_at": "2026-06-18T11:43:58.877883-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "QURE",
-      "gap_pct": 72.8,
-      "price": 46.65,
-      "market_cap": 2942098176,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BRAI",
-      "gap_pct": 34.0,
-      "price": 10.04,
-      "market_cap": 2069125760,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PLBL",
-      "gap_pct": 14.7,
-      "price": 8.68,
-      "market_cap": 3178411264,
-      "catalyst": ""
-    },
-    {
-      "symbol": "WOLF",
-      "gap_pct": 14.2,
-      "price": 51.38,
-      "market_cap": 2670331648,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BHVN",
-      "gap_pct": 13.7,
-      "price": 13.74,
-      "market_cap": 2069460864,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NTLA",
-      "gap_pct": 13.4,
-      "price": 16.5,
-      "market_cap": 2304719104,
-      "catalyst": ""
-    },
-    {
       "symbol": "FRMI",
-      "gap_pct": 12.9,
-      "price": 8.89,
-      "market_cap": 5675751424,
+      "gap_pct": 15.5,
+      "price": 10.01,
+      "market_cap": 6384023552,
       "catalyst": ""
     },
     {
-      "symbol": "EOSE",
-      "gap_pct": 12.3,
-      "price": 7.65,
-      "market_cap": 2597316352,
+      "symbol": "QS",
+      "gap_pct": 15.1,
+      "price": 7.95,
+      "market_cap": 4887327744,
       "catalyst": ""
     },
     {
-      "symbol": "DYN",
-      "gap_pct": 11.9,
-      "price": 20.23,
-      "market_cap": 3343471616,
+      "symbol": "EQPT",
+      "gap_pct": 12.7,
+      "price": 26.34,
+      "market_cap": 6646298112,
       "catalyst": ""
     },
     {
-      "symbol": "KOD",
-      "gap_pct": 11.7,
-      "price": 36.8,
-      "market_cap": 2302886656,
+      "symbol": "CHRN",
+      "gap_pct": 11.8,
+      "price": 23.05,
+      "market_cap": 3298302208,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DIOD",
+      "gap_pct": 11.6,
+      "price": 121.41,
+      "market_cap": 5578150400,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MRVL",
+      "gap_pct": 11.2,
+      "price": 321.94,
+      "market_cap": 281875513344,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SNDK",
+      "gap_pct": 10.9,
+      "price": 2172.71,
+      "market_cap": 321756102656,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PENG",
+      "gap_pct": 10.7,
+      "price": 66.07,
+      "market_cap": 3472659968,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SMR",
+      "gap_pct": 10.5,
+      "price": 11.43,
+      "market_cap": 3955989248,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ICHR",
+      "gap_pct": 10.1,
+      "price": 98.47,
+      "market_cap": 3433184256,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "SpaceX\u2019s Historic Post-IPO Rally Loses Steam as Retail Frenzy Cools",
-      "url": "https://finance.yahoo.com/m/febbb767-c773-3b69-bc06-86caf648b473/spacex%E2%80%99s-historic-post-ipo.html"
+      "text": "Pre-Markets Bounce Back, Philly Fed & Jobless Claims Up",
+      "url": "https://finance.yahoo.com/economy/articles/pre-markets-bounce-back-philly-142800629.html"
     },
     {
-      "text": "Fed Chair Warsh in the Spotlight: Will He Advocate Rate Cuts?",
-      "url": "https://finance.yahoo.com/economy/policy/articles/fed-chair-warsh-spotlight-advocate-142900586.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday as Interim US-Iran Deal Lifts Risk Sentiment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125723601.html"
     },
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed Rates Announcement",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131553830.html"
+      "text": "\u2018Forget AI, Fed Is The Story Now\u2019 \u2013 'Bond King' Jeffrey Gundlach Says Kevin Warsh Faces A 1970s-Style Inflation Challenge",
+      "url": "https://finance.yahoo.com/m/02d21e00-0d84-3e90-b818-d96a886b8f02/%E2%80%98forget-ai%2C-fed-is-the-story.html"
     },
     {
-      "text": "Tech ETFs Are Doing Something Unprecedented Right Now. Should Investors Buy or Wait?",
-      "url": "https://finance.yahoo.com/m/da5ec2d4-19e8-3041-97ef-b10dc00a8a11/tech-etfs-are-doing-something.html"
+      "text": "Dow, S&P 500, Nasdaq Futures Climb On US-Iran Agreement Despite Hawkish Fed Outlook: RUM, INTC, NFLX, RXT In Focus",
+      "url": "https://finance.yahoo.com/m/eb5d3f13-39ff-340b-9c5e-274857c2c66b/dow%2C-s%26p-500%2C-nasdaq-futures.html"
     },
     {
-      "text": "S&P 500, Nasdaq, Dow Futures Edge Higher Ahead Of Fed Rate Decision: INTC, SNAP, SOFI, RUM In Focus",
-      "url": "https://finance.yahoo.com/m/beff80e0-3a30-3570-ae3b-37a45f47d04c/s%26p-500%2C-nasdaq%2C-dow-futures.html"
+      "text": "ETF Fund Flows: A Beginner's Guide to the ETF.com Tool",
+      "url": "https://finance.yahoo.com/m/699d9546-0bc9-3cc3-ba1e-1bd4a0b771fc/etf-fund-flows%3A-a-beginner%27s.html"
     }
   ]
 }
