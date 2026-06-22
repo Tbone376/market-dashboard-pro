@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Jun 18, 2026",
-  "generated_at": "2026-06-18T11:43:58.877883-04:00",
+  "date": "Mon, Jun 22, 2026",
+  "generated_at": "2026-06-22T13:08:14.709712-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "FRMI",
-      "gap_pct": 15.5,
-      "price": 10.01,
-      "market_cap": 6384023552,
+      "symbol": "DFTX",
+      "gap_pct": 54.3,
+      "price": 37.78,
+      "market_cap": 4120259584,
       "catalyst": ""
     },
     {
-      "symbol": "QS",
-      "gap_pct": 15.1,
-      "price": 7.95,
-      "market_cap": 4887327744,
+      "symbol": "APGE",
+      "gap_pct": 46.8,
+      "price": 132.66,
+      "market_cap": 10000777216,
       "catalyst": ""
     },
     {
-      "symbol": "EQPT",
-      "gap_pct": 12.7,
-      "price": 26.34,
-      "market_cap": 6646298112,
+      "symbol": "BWIN",
+      "gap_pct": 21.8,
+      "price": 24.66,
+      "market_cap": 2404092416,
       "catalyst": ""
     },
     {
-      "symbol": "CHRN",
+      "symbol": "ORKA",
+      "gap_pct": 21.7,
+      "price": 88.06,
+      "market_cap": 5311083520,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SMCI",
+      "gap_pct": 15.4,
+      "price": 35.38,
+      "market_cap": 22883133440,
+      "catalyst": ""
+    },
+    {
+      "symbol": "UMC",
+      "gap_pct": 14.8,
+      "price": 27.64,
+      "market_cap": 69369233408,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BHVN",
+      "gap_pct": 14.3,
+      "price": 15.51,
+      "market_cap": 2335201024,
+      "catalyst": ""
+    },
+    {
+      "symbol": "INIO",
+      "gap_pct": 12.8,
+      "price": 42.24,
+      "market_cap": 31680002048,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SYRE",
       "gap_pct": 11.8,
-      "price": 23.05,
-      "market_cap": 3298302208,
+      "price": 98.78,
+      "market_cap": 8577745408,
       "catalyst": ""
     },
     {
-      "symbol": "DIOD",
-      "gap_pct": 11.6,
-      "price": 121.41,
-      "market_cap": 5578150400,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MRVL",
-      "gap_pct": 11.2,
-      "price": 321.94,
-      "market_cap": 281875513344,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SNDK",
-      "gap_pct": 10.9,
-      "price": 2172.71,
-      "market_cap": 321756102656,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PENG",
-      "gap_pct": 10.7,
-      "price": 66.07,
-      "market_cap": 3472659968,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SMR",
-      "gap_pct": 10.5,
-      "price": 11.43,
-      "market_cap": 3955989248,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ICHR",
-      "gap_pct": 10.1,
-      "price": 98.47,
-      "market_cap": 3433184256,
+      "symbol": "TE",
+      "gap_pct": 11.3,
+      "price": 10.4,
+      "market_cap": 2905818880,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Pre-Markets Bounce Back, Philly Fed & Jobless Claims Up",
-      "url": "https://finance.yahoo.com/economy/articles/pre-markets-bounce-back-philly-142800629.html"
+      "text": "Had You Invested $1,000 in Marvell or Micron a Decade Ago, Here\u2019s What You\u2019d Have Now",
+      "url": "https://finance.yahoo.com/m/a2197f4e-3be5-3777-91a4-2b269973cca9/had-you-invested-%241%2C000-in.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday as Interim US-Iran Deal Lifts Risk Sentiment",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125723601.html"
+      "text": "Ex-Fed Chair Greenspan Remembered, PCE This Week",
+      "url": "https://finance.yahoo.com/economy/policy/articles/ex-fed-chair-greenspan-remembered-143000913.html"
     },
     {
-      "text": "\u2018Forget AI, Fed Is The Story Now\u2019 \u2013 'Bond King' Jeffrey Gundlach Says Kevin Warsh Faces A 1970s-Style Inflation Challenge",
-      "url": "https://finance.yahoo.com/m/02d21e00-0d84-3e90-b818-d96a886b8f02/%E2%80%98forget-ai%2C-fed-is-the-story.html"
+      "text": "What Happens to a 75 Year Old With a $500,000 IRA Who Takes the RMD in January vs December vs Monthly",
+      "url": "https://finance.yahoo.com/m/979be902-5c81-310a-a3bb-d9666d68b43b/what-happens-to-a-75-year-old.html"
     },
     {
-      "text": "Dow, S&P 500, Nasdaq Futures Climb On US-Iran Agreement Despite Hawkish Fed Outlook: RUM, INTC, NFLX, RXT In Focus",
-      "url": "https://finance.yahoo.com/m/eb5d3f13-39ff-340b-9c5e-274857c2c66b/dow%2C-s%26p-500%2C-nasdaq-futures.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Amid Continued US-Iran Talks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125854095.html"
     },
     {
-      "text": "ETF Fund Flows: A Beginner's Guide to the ETF.com Tool",
-      "url": "https://finance.yahoo.com/m/699d9546-0bc9-3cc3-ba1e-1bd4a0b771fc/etf-fund-flows%3A-a-beginner%27s.html"
+      "text": "One S&P 500 Stock Is Older Than The U.S. \u2014 But Don't Buy It",
+      "url": "https://finance.yahoo.com/m/14e3dd58-d013-3ce6-9ebd-23a719e44d8d/one-s%26p-500-stock-is-older.html"
     }
   ]
 }
