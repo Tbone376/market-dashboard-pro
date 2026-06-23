@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Jun 22, 2026",
-  "generated_at": "2026-06-22T13:08:14.709712-04:00",
+  "date": "Tue, Jun 23, 2026",
+  "generated_at": "2026-06-23T11:16:57.806694-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "DFTX",
-      "gap_pct": 54.3,
-      "price": 37.78,
-      "market_cap": 4120259584,
+      "symbol": "MAAS",
+      "gap_pct": 27.3,
+      "price": 22.72,
+      "market_cap": 10046273536,
       "catalyst": ""
     },
     {
-      "symbol": "APGE",
-      "gap_pct": 46.8,
-      "price": 132.66,
-      "market_cap": 10000777216,
+      "symbol": "INFQ",
+      "gap_pct": 13.2,
+      "price": 16.08,
+      "market_cap": 3508605952,
       "catalyst": ""
     },
     {
-      "symbol": "BWIN",
-      "gap_pct": 21.8,
-      "price": 24.66,
-      "market_cap": 2404092416,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ORKA",
-      "gap_pct": 21.7,
-      "price": 88.06,
-      "market_cap": 5311083520,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SMCI",
-      "gap_pct": 15.4,
-      "price": 35.38,
-      "market_cap": 22883133440,
-      "catalyst": ""
-    },
-    {
-      "symbol": "UMC",
-      "gap_pct": 14.8,
-      "price": 27.64,
-      "market_cap": 69369233408,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BHVN",
-      "gap_pct": 14.3,
-      "price": 15.51,
-      "market_cap": 2335201024,
-      "catalyst": ""
-    },
-    {
-      "symbol": "INIO",
-      "gap_pct": 12.8,
-      "price": 42.24,
-      "market_cap": 31680002048,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SYRE",
-      "gap_pct": 11.8,
-      "price": 98.78,
-      "market_cap": 8577745408,
-      "catalyst": ""
-    },
-    {
-      "symbol": "TE",
-      "gap_pct": 11.3,
-      "price": 10.4,
-      "market_cap": 2905818880,
+      "symbol": "QNT",
+      "gap_pct": 11.9,
+      "price": 76.37,
+      "market_cap": 2395196928,
       "catalyst": ""
     }
   ],
@@ -110,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Had You Invested $1,000 in Marvell or Micron a Decade Ago, Here\u2019s What You\u2019d Have Now",
-      "url": "https://finance.yahoo.com/m/a2197f4e-3be5-3777-91a4-2b269973cca9/had-you-invested-%241%2C000-in.html"
+      "text": "McDonald\u2019s at 52-Week Low: Buy, Sell or Hold?",
+      "url": "https://finance.yahoo.com/m/da38e058-5377-37ce-9355-681bc5f6628f/mcdonald%E2%80%99s-at-52-week-low%3A.html"
     },
     {
-      "text": "Ex-Fed Chair Greenspan Remembered, PCE This Week",
-      "url": "https://finance.yahoo.com/economy/policy/articles/ex-fed-chair-greenspan-remembered-143000913.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as AI Spending Concerns Weigh on Technology Shares",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131921257.html"
     },
     {
-      "text": "What Happens to a 75 Year Old With a $500,000 IRA Who Takes the RMD in January vs December vs Monthly",
-      "url": "https://finance.yahoo.com/m/979be902-5c81-310a-a3bb-d9666d68b43b/what-happens-to-a-75-year-old.html"
+      "text": "Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus",
+      "url": "https://finance.yahoo.com/m/27632a1f-65ee-38aa-ae70-d8eb6485cb52/nasdaq%2C-s%26p-500-futures-dip.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Amid Continued US-Iran Talks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125854095.html"
+      "text": "ETF Zoo: The Leveraged ETF Frenzy Picks Up Momentum",
+      "url": "https://finance.yahoo.com/m/31b34adc-9008-3c2e-abc2-406afc4f25bc/etf-zoo%3A-the-leveraged-etf.html"
     },
     {
-      "text": "One S&P 500 Stock Is Older Than The U.S. \u2014 But Don't Buy It",
-      "url": "https://finance.yahoo.com/m/14e3dd58-d013-3ce6-9ebd-23a719e44d8d/one-s%26p-500-stock-is-older.html"
+      "text": "S&P 500, Nasdaq Drop As SpaceX, Broader Tech Weakness Outweighs US-Iran Hopes \u2014 SPCX, GOOGL, NFLX, COIN, MU In Focus",
+      "url": "https://finance.yahoo.com/m/e2848bcb-a7f8-30e1-99a2-18c7257775ca/s%26p-500%2C-nasdaq-drop-as.html"
     }
   ]
 }
