@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Jun 23, 2026",
-  "generated_at": "2026-06-23T11:16:57.806694-04:00",
+  "date": "Wed, Jun 24, 2026",
+  "generated_at": "2026-06-24T10:47:46.135324-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "MAAS",
-      "gap_pct": 27.3,
-      "price": 22.72,
-      "market_cap": 10046273536,
+      "symbol": "RUN",
+      "gap_pct": 24.4,
+      "price": 15.94,
+      "market_cap": 3802475520,
       "catalyst": ""
     },
     {
-      "symbol": "INFQ",
-      "gap_pct": 13.2,
-      "price": 16.08,
-      "market_cap": 3508605952,
+      "symbol": "DFTX",
+      "gap_pct": 21.4,
+      "price": 43.92,
+      "market_cap": 4790213120,
       "catalyst": ""
     },
     {
-      "symbol": "QNT",
-      "gap_pct": 11.9,
-      "price": 76.37,
-      "market_cap": 2395196928,
+      "symbol": "KBH",
+      "gap_pct": 16.5,
+      "price": 61.44,
+      "market_cap": 3846144000,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ICLR",
+      "gap_pct": 12.2,
+      "price": 160.03,
+      "market_cap": 12253069312,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CCS",
+      "gap_pct": 11.5,
+      "price": 69.97,
+      "market_cap": 2012988416,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BLDR",
+      "gap_pct": 11.4,
+      "price": 85.5,
+      "market_cap": 9196562432,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RKT",
+      "gap_pct": 11.0,
+      "price": 14.96,
+      "market_cap": 42314121216,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FOUR",
+      "gap_pct": 10.8,
+      "price": 42.84,
+      "market_cap": 4246727168,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RH",
+      "gap_pct": 10.4,
+      "price": 156.52,
+      "market_cap": 2958379520,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AFRM",
+      "gap_pct": 10.3,
+      "price": 79.25,
+      "market_cap": 26542385152,
       "catalyst": ""
     }
   ],
@@ -61,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "McDonald\u2019s at 52-Week Low: Buy, Sell or Hold?",
-      "url": "https://finance.yahoo.com/m/da38e058-5377-37ce-9355-681bc5f6628f/mcdonald%E2%80%99s-at-52-week-low%3A.html"
+      "text": "The 4% Retirement Rule Could Fail Within 12 Years if Markets Repeat the 2000s Collapse",
+      "url": "https://finance.yahoo.com/m/bdcbf05f-922a-37db-8c81-4c699766fa56/the-4%25-retirement-rule-could.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Tuesday as AI Spending Concerns Weigh on Technology Shares",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131921257.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Easing US-Iran Tensions",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131740078.html"
     },
     {
-      "text": "Nasdaq, S&P 500 Futures Dip After Megacap Tech Selloff: Why SPCX, INFQ, PLTR, QBTS, HIMS Are In Focus",
-      "url": "https://finance.yahoo.com/m/27632a1f-65ee-38aa-ae70-d8eb6485cb52/nasdaq%2C-s%26p-500-futures-dip.html"
+      "text": "Dow, S&P 500, Nasdaq Futures Rise After Chip Stock Selloff: Why CBRS, PLTR, BLZE, MU, FDX Are Trending",
+      "url": "https://finance.yahoo.com/m/773e7df2-481f-3dfe-80e0-17af326a934f/dow%2C-s%26p-500%2C-nasdaq-futures.html"
     },
     {
-      "text": "ETF Zoo: The Leveraged ETF Frenzy Picks Up Momentum",
-      "url": "https://finance.yahoo.com/m/31b34adc-9008-3c2e-abc2-406afc4f25bc/etf-zoo%3A-the-leveraged-etf.html"
+      "text": "Mark Zandi Says Top 20% Of Americans Now Account For Nearly 60% Of Spending As Bottom 80% Fall Behind Inflation",
+      "url": "https://finance.yahoo.com/economy/articles/mark-zandi-says-top-20-003019501.html"
     },
     {
-      "text": "S&P 500, Nasdaq Drop As SpaceX, Broader Tech Weakness Outweighs US-Iran Hopes \u2014 SPCX, GOOGL, NFLX, COIN, MU In Focus",
-      "url": "https://finance.yahoo.com/m/e2848bcb-a7f8-30e1-99a2-18c7257775ca/s%26p-500%2C-nasdaq-drop-as.html"
+      "text": "Why ARKK Investors Paid Premium Fees for a 37.88% Loss Over Five Years",
+      "url": "https://finance.yahoo.com/m/1697451d-7f65-3aa6-bba9-c1c995cbf648/why-arkk-investors-paid.html"
     }
   ]
 }
