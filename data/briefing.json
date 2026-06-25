@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Jun 24, 2026",
-  "generated_at": "2026-06-24T10:47:46.135324-04:00",
+  "date": "Thu, Jun 25, 2026",
+  "generated_at": "2026-06-25T10:47:15.445956-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,59 @@
   },
   "gappers": [
     {
-      "symbol": "RUN",
-      "gap_pct": 24.4,
-      "price": 15.94,
-      "market_cap": 3802475520,
-      "catalyst": ""
-    },
-    {
-      "symbol": "DFTX",
+      "symbol": "AYI",
       "gap_pct": 21.4,
-      "price": 43.92,
-      "market_cap": 4790213120,
+      "price": 370.94,
+      "market_cap": 11245259776,
       "catalyst": ""
     },
     {
-      "symbol": "KBH",
-      "gap_pct": 16.5,
-      "price": 61.44,
-      "market_cap": 3846144000,
+      "symbol": "BB",
+      "gap_pct": 20.9,
+      "price": 10.43,
+      "market_cap": 6109689856,
       "catalyst": ""
     },
     {
-      "symbol": "ICLR",
-      "gap_pct": 12.2,
-      "price": 160.03,
-      "market_cap": 12253069312,
+      "symbol": "KYMR",
+      "gap_pct": 20.1,
+      "price": 119.96,
+      "market_cap": 9867619328,
       "catalyst": ""
     },
     {
-      "symbol": "CCS",
-      "gap_pct": 11.5,
-      "price": 69.97,
-      "market_cap": 2012988416,
+      "symbol": "TECH",
+      "gap_pct": 19.5,
+      "price": 70.33,
+      "market_cap": 11011480576,
       "catalyst": ""
     },
     {
-      "symbol": "BLDR",
-      "gap_pct": 11.4,
-      "price": 85.5,
-      "market_cap": 9196562432,
+      "symbol": "NRIX",
+      "gap_pct": 15.9,
+      "price": 22.37,
+      "market_cap": 2313188096,
       "catalyst": ""
     },
     {
-      "symbol": "RKT",
-      "gap_pct": 11.0,
-      "price": 14.96,
-      "market_cap": 42314121216,
+      "symbol": "SNDK",
+      "gap_pct": 12.5,
+      "price": 2161.2,
+      "market_cap": 320051576832,
       "catalyst": ""
     },
     {
-      "symbol": "FOUR",
-      "gap_pct": 10.8,
-      "price": 42.84,
-      "market_cap": 4246727168,
+      "symbol": "MU",
+      "gap_pct": 10.6,
+      "price": 1158.6,
+      "market_cap": 1306586906624,
       "catalyst": ""
     },
     {
-      "symbol": "RH",
-      "gap_pct": 10.4,
-      "price": 156.52,
-      "market_cap": 2958379520,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AFRM",
-      "gap_pct": 10.3,
-      "price": 79.25,
-      "market_cap": 26542385152,
+      "symbol": "GLW",
+      "gap_pct": 10.0,
+      "price": 226.5,
+      "market_cap": 194934472704,
       "catalyst": ""
     }
   ],
@@ -110,24 +96,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "The 4% Retirement Rule Could Fail Within 12 Years if Markets Repeat the 2000s Collapse",
-      "url": "https://finance.yahoo.com/m/bdcbf05f-922a-37db-8c81-4c699766fa56/the-4%25-retirement-rule-could.html"
+      "text": "Stock Market Today: Dow Rises After Key Inflation, Surprise GDP Data; Micron Rockets On Earnings (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/a73445f1-297d-3bcf-aba0-9d071c23697c/stock-market-today%3A-dow-rises.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Easing US-Iran Tensions",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131740078.html"
+      "text": "So You Want To Sell 0DTE Options: 3 ETFs That Make It Possible",
+      "url": "https://finance.yahoo.com/m/6e057f2c-0043-3e5f-b7c4-dac0167624ac/so-you-want-to-sell-0dte.html"
     },
     {
-      "text": "Dow, S&P 500, Nasdaq Futures Rise After Chip Stock Selloff: Why CBRS, PLTR, BLZE, MU, FDX Are Trending",
-      "url": "https://finance.yahoo.com/m/773e7df2-481f-3dfe-80e0-17af326a934f/dow%2C-s%26p-500%2C-nasdaq-futures.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday as Investors Embrace AI Growth Themes, Reduced Middle East Risks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-123158533.html"
     },
     {
-      "text": "Mark Zandi Says Top 20% Of Americans Now Account For Nearly 60% Of Spending As Bottom 80% Fall Behind Inflation",
-      "url": "https://finance.yahoo.com/economy/articles/mark-zandi-says-top-20-003019501.html"
+      "text": "Cost Conscious? Vanguard S&P 500 ETF Tops SPDR Rival",
+      "url": "https://finance.yahoo.com/m/329763b2-6b28-3d0b-bc4b-77ce58482e90/cost-conscious%3F-vanguard-s%26p.html"
     },
     {
-      "text": "Why ARKK Investors Paid Premium Fees for a 37.88% Loss Over Five Years",
-      "url": "https://finance.yahoo.com/m/1697451d-7f65-3aa6-bba9-c1c995cbf648/why-arkk-investors-paid.html"
+      "text": "Small-Cap ETFs Beat S&P 500 in 2026: Can the Rally Last?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/small-cap-etfs-beat-p-120000613.html"
     }
   ]
 }
