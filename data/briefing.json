@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Jun 29, 2026",
-  "generated_at": "2026-06-29T12:01:08.417574-04:00",
+  "date": "Tue, Jun 30, 2026",
+  "generated_at": "2026-06-30T10:34:16.125615-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
+      "symbol": "ABVX",
+      "gap_pct": 35.8,
+      "price": 130.53,
+      "market_cap": 10402926592,
+      "catalyst": ""
+    },
+    {
       "symbol": "FCEL",
-      "gap_pct": 25.8,
-      "price": 30.19,
-      "market_cap": 2041259776,
+      "gap_pct": 22.3,
+      "price": 36.45,
+      "market_cap": 2463980032,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AVAV",
+      "gap_pct": 21.1,
+      "price": 168.34,
+      "market_cap": 8518857728,
       "catalyst": ""
     },
     {
       "symbol": "OUST",
-      "gap_pct": 22.6,
-      "price": 51.52,
-      "market_cap": 3280430336,
+      "gap_pct": 15.7,
+      "price": 62.54,
+      "market_cap": 3982106112,
       "catalyst": ""
     },
     {
-      "symbol": "IRDM",
-      "gap_pct": 21.9,
-      "price": 53.04,
-      "market_cap": 5607789056,
+      "symbol": "HSAI",
+      "gap_pct": 15.4,
+      "price": 18.18,
+      "market_cap": 2857190912,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AMBA",
+      "gap_pct": 13.7,
+      "price": 76.2,
+      "market_cap": 3342755584,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WOLF",
+      "gap_pct": 13.2,
+      "price": 50.08,
+      "market_cap": 2602762752,
       "catalyst": ""
     },
     {
       "symbol": "VSAT",
-      "gap_pct": 20.0,
-      "price": 74.37,
-      "market_cap": 10156634112,
+      "gap_pct": 11.7,
+      "price": 85.64,
+      "market_cap": 11695765504,
       "catalyst": ""
     },
     {
-      "symbol": "ASTS",
-      "gap_pct": 14.3,
-      "price": 81.67,
-      "market_cap": 31698132992,
+      "symbol": "NBIS",
+      "gap_pct": 10.8,
+      "price": 289.31,
+      "market_cap": 73456558080,
       "catalyst": ""
     },
     {
-      "symbol": "RBLX",
-      "gap_pct": 14.2,
-      "price": 54.3,
-      "market_cap": 38877646848,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ACMR",
-      "gap_pct": 13.8,
-      "price": 118.96,
-      "market_cap": 8221264384,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SLS",
-      "gap_pct": 13.6,
-      "price": 14.08,
-      "market_cap": 2768586752,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PL",
-      "gap_pct": 13.1,
-      "price": 30.61,
-      "market_cap": 10907699200,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ALGM",
-      "gap_pct": 12.1,
-      "price": 64.88,
-      "market_cap": 12087731200,
+      "symbol": "CRDO",
+      "gap_pct": 10.4,
+      "price": 271.35,
+      "market_cap": 50600779776,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "3 Emerging Long-Term Headwinds for the S&P 500",
-      "url": "https://finance.yahoo.com/m/412c79ae-5e4e-30e0-b364-2925a9c4fd9f/3-emerging-long-term.html"
+      "text": "Stock Market Today: Dow Wobbles Amid Key Economic Data; AeroVironment Soars On Earnings (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/72cb64ac-956e-34d7-a70b-1bc0c9153407/stock-market-today%3A-dow.html"
     },
     {
-      "text": "Looking Forward to Holiday-Shortened \"Jobs Week\"",
-      "url": "https://finance.yahoo.com/economy/articles/looking-forward-holiday-shortened-jobs-142300132.html"
+      "text": "Exchange-Traded Funds Mixed, Equity Futures Lower Pre-Bell Ahead of Key Economic Reports",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130043691.html"
     },
     {
-      "text": "Nasdaq-100 ETFs Keep Sizzling: Can the Rally Last?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-etfs-keep-sizzling-134200838.html"
+      "text": "SpaceX Stock Vaporizes $811 Billion In Value",
+      "url": "https://finance.yahoo.com/m/4753f1ed-8ed0-3d5c-a2de-60dfdf968d7c/spacex-stock-vaporizes-%24811.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid Hopes for Renewed US-Iran Diplomacy",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125624922.html"
+      "text": "S&P 500, Nasdaq, Dow Futures Retreat Ahead Of High-Stakes US-Iran Talks: SLS, QS, NKE, JACK In Focus",
+      "url": "https://finance.yahoo.com/m/e26c73fa-6275-3081-98c7-ad6f45a45429/s%26p-500%2C-nasdaq%2C-dow-futures.html"
     },
     {
-      "text": "\u201cYou\u2019re Gonna Get That $200,000 Back in Tax-Free Growth So Freaking Fast\u201d: Ramsey Host Explains Why Paying Taxes Now Can Leave More for Your Kids",
-      "url": "https://finance.yahoo.com/m/3dfc80c7-a9bc-37d6-b7bf-c3023af77b59/%E2%80%9Cyou%E2%80%99re-gonna-get-that.html"
+      "text": "S&P 500, Nasdaq End Higher To Record Best Quarter Since 2020, While Alphabet Debut Drives Dow \u2014 VZ, CMCSA, RKLB, SMCI, BATL, GOOGL In Focus",
+      "url": "https://finance.yahoo.com/m/7f3eb520-ff55-35aa-90d3-70016586cad3/s%26p-500%2C-nasdaq-end-higher-to.html"
     }
   ]
 }
