@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Jun 30, 2026",
-  "generated_at": "2026-06-30T10:34:16.125615-04:00",
+  "date": "Wed, Jul 1, 2026",
+  "generated_at": "2026-07-01T10:51:29.380283-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,52 @@
   },
   "gappers": [
     {
-      "symbol": "ABVX",
-      "gap_pct": 35.8,
-      "price": 130.53,
-      "market_cap": 10402926592,
+      "symbol": "RGC",
+      "gap_pct": 19.3,
+      "price": 7.26,
+      "market_cap": 3592461824,
       "catalyst": ""
     },
     {
-      "symbol": "FCEL",
-      "gap_pct": 22.3,
-      "price": 36.45,
-      "market_cap": 2463980032,
+      "symbol": "DSC",
+      "gap_pct": 18.8,
+      "price": 6.57,
+      "market_cap": 6579625472,
       "catalyst": ""
     },
     {
-      "symbol": "AVAV",
-      "gap_pct": 21.1,
-      "price": 168.34,
-      "market_cap": 8518857728,
+      "symbol": "FRHC",
+      "gap_pct": 14.8,
+      "price": 149.81,
+      "market_cap": 9182240768,
       "catalyst": ""
     },
     {
-      "symbol": "OUST",
-      "gap_pct": 15.7,
-      "price": 62.54,
-      "market_cap": 3982106112,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HSAI",
-      "gap_pct": 15.4,
-      "price": 18.18,
-      "market_cap": 2857190912,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AMBA",
-      "gap_pct": 13.7,
-      "price": 76.2,
-      "market_cap": 3342755584,
-      "catalyst": ""
-    },
-    {
-      "symbol": "WOLF",
-      "gap_pct": 13.2,
-      "price": 50.08,
-      "market_cap": 2602762752,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VSAT",
-      "gap_pct": 11.7,
-      "price": 85.64,
-      "market_cap": 11695765504,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NBIS",
+      "symbol": "DLO",
       "gap_pct": 10.8,
-      "price": 289.31,
-      "market_cap": 73456558080,
+      "price": 14.4,
+      "market_cap": 4237475328,
       "catalyst": ""
     },
     {
-      "symbol": "CRDO",
+      "symbol": "GRND",
+      "gap_pct": 10.7,
+      "price": 15.91,
+      "market_cap": 2827620352,
+      "catalyst": ""
+    },
+    {
+      "symbol": "META",
       "gap_pct": 10.4,
-      "price": 271.35,
-      "market_cap": 50600779776,
+      "price": 621.85,
+      "market_cap": 1578518446080,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ARX",
+      "gap_pct": 10.3,
+      "price": 12.93,
+      "market_cap": 2821343488,
       "catalyst": ""
     }
   ],
@@ -110,24 +89,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Wobbles Amid Key Economic Data; AeroVironment Soars On Earnings (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/72cb64ac-956e-34d7-a70b-1bc0c9153407/stock-market-today%3A-dow.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday Ahead of Fed Chair Warsh's International Debut",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-123900903.html"
+    },
+    {
+      "text": "The Smartest S&P 500 ETF to Buy With $1,000 Right Now",
+      "url": "https://finance.yahoo.com/m/a656ecd9-c506-3ca9-8c9e-2acfa56aa9e7/the-smartest-s%26p-500-etf-to.html"
+    },
+    {
+      "text": "Why a $50,000 401(k) Loan at 50 Could Quietly Cost You $100,000 by Retirement",
+      "url": "https://finance.yahoo.com/m/19c07e6b-9c57-3811-885f-59a172f29fe2/why-a-%2450%2C000-401%28k%29-loan-at.html"
+    },
+    {
+      "text": "S&P 500, Nasdaq End Higher As Chipmakers Rally, While Dow Posts Best First Half In Five Years \u2014 LUNR, AMZN, PLTR, XYZ, AVAV In Focus",
+      "url": "https://finance.yahoo.com/m/eedad62f-0987-3af3-8369-53a8f12e335f/s%26p-500%2C-nasdaq-end-higher-as.html"
     },
     {
       "text": "Exchange-Traded Funds Mixed, Equity Futures Lower Pre-Bell Ahead of Key Economic Reports",
       "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130043691.html"
-    },
-    {
-      "text": "SpaceX Stock Vaporizes $811 Billion In Value",
-      "url": "https://finance.yahoo.com/m/4753f1ed-8ed0-3d5c-a2de-60dfdf968d7c/spacex-stock-vaporizes-%24811.html"
-    },
-    {
-      "text": "S&P 500, Nasdaq, Dow Futures Retreat Ahead Of High-Stakes US-Iran Talks: SLS, QS, NKE, JACK In Focus",
-      "url": "https://finance.yahoo.com/m/e26c73fa-6275-3081-98c7-ad6f45a45429/s%26p-500%2C-nasdaq%2C-dow-futures.html"
-    },
-    {
-      "text": "S&P 500, Nasdaq End Higher To Record Best Quarter Since 2020, While Alphabet Debut Drives Dow \u2014 VZ, CMCSA, RKLB, SMCI, BATL, GOOGL In Focus",
-      "url": "https://finance.yahoo.com/m/7f3eb520-ff55-35aa-90d3-70016586cad3/s%26p-500%2C-nasdaq-end-higher-to.html"
     }
   ]
 }
