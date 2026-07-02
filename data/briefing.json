@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Jul 1, 2026",
-  "generated_at": "2026-07-01T10:51:29.380283-04:00",
+  "date": "Thu, Jul 2, 2026",
+  "generated_at": "2026-07-02T10:21:04.247632-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,52 +36,52 @@
   },
   "gappers": [
     {
-      "symbol": "RGC",
-      "gap_pct": 19.3,
-      "price": 7.26,
-      "market_cap": 3592461824,
+      "symbol": "RIVN",
+      "gap_pct": 13.7,
+      "price": 19.53,
+      "market_cap": 26226182144,
       "catalyst": ""
     },
     {
-      "symbol": "DSC",
-      "gap_pct": 18.8,
-      "price": 6.57,
-      "market_cap": 6579625472,
+      "symbol": "AVAV",
+      "gap_pct": 12.2,
+      "price": 193.5,
+      "market_cap": 9792907264,
       "catalyst": ""
     },
     {
-      "symbol": "FRHC",
-      "gap_pct": 14.8,
-      "price": 149.81,
-      "market_cap": 9182240768,
+      "symbol": "FIZZ",
+      "gap_pct": 11.5,
+      "price": 34.58,
+      "market_cap": 3237330176,
       "catalyst": ""
     },
     {
-      "symbol": "DLO",
-      "gap_pct": 10.8,
-      "price": 14.4,
-      "market_cap": 4237475328,
+      "symbol": "PLBL",
+      "gap_pct": 11.5,
+      "price": 9.68,
+      "market_cap": 3546630656,
       "catalyst": ""
     },
     {
-      "symbol": "GRND",
-      "gap_pct": 10.7,
-      "price": 15.91,
-      "market_cap": 2827620352,
+      "symbol": "MAAS",
+      "gap_pct": 11.1,
+      "price": 17.34,
+      "market_cap": 7667324928,
       "catalyst": ""
     },
     {
-      "symbol": "META",
-      "gap_pct": 10.4,
-      "price": 621.85,
-      "market_cap": 1578518446080,
+      "symbol": "ARIS",
+      "gap_pct": 10.6,
+      "price": 16.18,
+      "market_cap": 3338519808,
       "catalyst": ""
     },
     {
-      "symbol": "ARX",
-      "gap_pct": 10.3,
-      "price": 12.93,
-      "market_cap": 2821343488,
+      "symbol": "SLS",
+      "gap_pct": 10.0,
+      "price": 14.6,
+      "market_cap": 2870816000,
       "catalyst": ""
     }
   ],
@@ -89,24 +89,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday Ahead of Fed Chair Warsh's International Debut",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-123900903.html"
+      "text": "Stock Market Today: Dow Climbs After Surprise Jobs Report; Tesla Slides On Delivery Numbers (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/0a954eac-e1d5-3f96-bc7a-92420fa6338c/stock-market-today%3A-dow.html"
     },
     {
-      "text": "The Smartest S&P 500 ETF to Buy With $1,000 Right Now",
-      "url": "https://finance.yahoo.com/m/a656ecd9-c506-3ca9-8c9e-2acfa56aa9e7/the-smartest-s%26p-500-etf-to.html"
+      "text": "Analysts Warn: These Popular Income ETFs Were \u2018Built to Be Sold, Not to Work for You\u2019",
+      "url": "https://finance.yahoo.com/m/334db706-36f4-30e6-9a33-636e8f2826e3/analysts-warn%3A-these-popular.html"
     },
     {
-      "text": "Why a $50,000 401(k) Loan at 50 Could Quietly Cost You $100,000 by Retirement",
-      "url": "https://finance.yahoo.com/m/19c07e6b-9c57-3811-885f-59a172f29fe2/why-a-%2450%2C000-401%28k%29-loan-at.html"
+      "text": "Goldman\u2019s Top Strategist Says Europe Is Quietly Keeping Pace With the S&P 500. Here\u2019s the AI Spillover Nobody\u2019s Watching",
+      "url": "https://finance.yahoo.com/m/0c67c31d-d4ca-3e5a-be23-92edb8d47d2c/goldman%E2%80%99s-top-strategist-says.html"
     },
     {
-      "text": "S&P 500, Nasdaq End Higher As Chipmakers Rally, While Dow Posts Best First Half In Five Years \u2014 LUNR, AMZN, PLTR, XYZ, AVAV In Focus",
-      "url": "https://finance.yahoo.com/m/eedad62f-0987-3af3-8369-53a8f12e335f/s%26p-500%2C-nasdaq-end-higher-as.html"
+      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday Amid Latest Economic Reports",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125735076.html"
     },
     {
-      "text": "Exchange-Traded Funds Mixed, Equity Futures Lower Pre-Bell Ahead of Key Economic Reports",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-mixed-equity-130043691.html"
+      "text": "6 S&P 500 Stocks Turn $100,000 Into $3.5 Million In 6 Months",
+      "url": "https://finance.yahoo.com/m/9e9e1cb2-1a08-3390-b56c-697cdcc73272/6-s%26p-500-stocks-turn.html"
     }
   ]
 }
