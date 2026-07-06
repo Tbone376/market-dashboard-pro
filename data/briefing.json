@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Jul 2, 2026",
-  "generated_at": "2026-07-02T10:21:04.247632-04:00",
+  "date": "Mon, Jul 6, 2026",
+  "generated_at": "2026-07-06T11:49:45.666685-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,52 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "RIVN",
-      "gap_pct": 13.7,
-      "price": 19.53,
-      "market_cap": 26226182144,
+      "symbol": "CHRN",
+      "gap_pct": 19.4,
+      "price": 19.69,
+      "market_cap": 2859280128,
       "catalyst": ""
     },
     {
-      "symbol": "AVAV",
-      "gap_pct": 12.2,
-      "price": 193.5,
-      "market_cap": 9792907264,
+      "symbol": "AXTI",
+      "gap_pct": 18.9,
+      "price": 67.3,
+      "market_cap": 4402653184,
       "catalyst": ""
     },
     {
-      "symbol": "FIZZ",
-      "gap_pct": 11.5,
-      "price": 34.58,
-      "market_cap": 3237330176,
+      "symbol": "BFLY",
+      "gap_pct": 16.1,
+      "price": 8.91,
+      "market_cap": 2332528640,
       "catalyst": ""
     },
     {
-      "symbol": "PLBL",
-      "gap_pct": 11.5,
-      "price": 9.68,
-      "market_cap": 3546630656,
+      "symbol": "IREN",
+      "gap_pct": 14.3,
+      "price": 44.37,
+      "market_cap": 15856856064,
       "catalyst": ""
     },
     {
-      "symbol": "MAAS",
+      "symbol": "IMOS",
+      "gap_pct": 14.1,
+      "price": 72.96,
+      "market_cap": 2536885248,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IQMX",
+      "gap_pct": 14.1,
+      "price": 14.87,
+      "market_cap": 3137401856,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CRDO",
+      "gap_pct": 13.1,
+      "price": 273.71,
+      "market_cap": 51040866304,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PENG",
+      "gap_pct": 13.0,
+      "price": 69.46,
+      "market_cap": 3650828288,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WULF",
+      "gap_pct": 12.3,
+      "price": 23.8,
+      "market_cap": 11791199232,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CIFR",
       "gap_pct": 11.1,
-      "price": 17.34,
-      "market_cap": 7667324928,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ARIS",
-      "gap_pct": 10.6,
-      "price": 16.18,
-      "market_cap": 3338519808,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SLS",
-      "gap_pct": 10.0,
-      "price": 14.6,
-      "market_cap": 2870816000,
+      "price": 22.27,
+      "market_cap": 9109525504,
       "catalyst": ""
     }
   ],
@@ -89,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Climbs After Surprise Jobs Report; Tesla Slides On Delivery Numbers (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/0a954eac-e1d5-3f96-bc7a-92420fa6338c/stock-market-today%3A-dow.html"
+      "text": "Pre-Markets Muted Ahead of (Expected) Quiet Week",
+      "url": "https://finance.yahoo.com/markets/articles/pre-markets-muted-ahead-expected-141000030.html"
     },
     {
-      "text": "Analysts Warn: These Popular Income ETFs Were \u2018Built to Be Sold, Not to Work for You\u2019",
-      "url": "https://finance.yahoo.com/m/334db706-36f4-30e6-9a33-636e8f2826e3/analysts-warn%3A-these-popular.html"
+      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday as Chip Stocks Rebound",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125452192.html"
     },
     {
-      "text": "Goldman\u2019s Top Strategist Says Europe Is Quietly Keeping Pace With the S&P 500. Here\u2019s the AI Spillover Nobody\u2019s Watching",
-      "url": "https://finance.yahoo.com/m/0c67c31d-d4ca-3e5a-be23-92edb8d47d2c/goldman%E2%80%99s-top-strategist-says.html"
+      "text": "Trump vs. Pelosi: Who Made More Money in the Stock Market Last Year?",
+      "url": "https://finance.yahoo.com/m/d06b12e7-e19e-3289-bab4-53327adf3597/trump-vs.-pelosi%3A-who-made.html"
     },
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday Amid Latest Economic Reports",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125735076.html"
+      "text": "Best ETF Areas of June",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/best-etf-areas-june-120000507.html"
     },
     {
-      "text": "6 S&P 500 Stocks Turn $100,000 Into $3.5 Million In 6 Months",
-      "url": "https://finance.yahoo.com/m/9e9e1cb2-1a08-3390-b56c-697cdcc73272/6-s%26p-500-stocks-turn.html"
+      "text": "Nasdaq, S&P 500, Dow Futures Rise After Fourth Of July Break As Investors Await Fed Minutes: SLS, ONDS, HOOD, MARA, HUT In Focus",
+      "url": "https://finance.yahoo.com/m/349f17b5-6996-3115-8389-0bb10a8b91a3/nasdaq%2C-s%26p-500%2C-dow-futures.html"
     }
   ]
 }
