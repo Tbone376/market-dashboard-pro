@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Jul 6, 2026",
-  "generated_at": "2026-07-06T11:49:45.666685-04:00",
+  "date": "Tue, Jul 7, 2026",
+  "generated_at": "2026-07-07T10:53:55.237906-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,17 @@
   },
   "gappers": [
     {
-      "symbol": "CHRN",
-      "gap_pct": 19.4,
-      "price": 19.69,
-      "market_cap": 2859280128,
+      "symbol": "MAAS",
+      "gap_pct": 17.6,
+      "price": 18.0,
+      "market_cap": 7959160320,
       "catalyst": ""
     },
     {
-      "symbol": "AXTI",
-      "gap_pct": 18.9,
-      "price": 67.3,
-      "market_cap": 4402653184,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BFLY",
-      "gap_pct": 16.1,
-      "price": 8.91,
-      "market_cap": 2332528640,
-      "catalyst": ""
-    },
-    {
-      "symbol": "IREN",
-      "gap_pct": 14.3,
-      "price": 44.37,
-      "market_cap": 15856856064,
-      "catalyst": ""
-    },
-    {
-      "symbol": "IMOS",
-      "gap_pct": 14.1,
-      "price": 72.96,
-      "market_cap": 2536885248,
-      "catalyst": ""
-    },
-    {
-      "symbol": "IQMX",
-      "gap_pct": 14.1,
-      "price": 14.87,
-      "market_cap": 3137401856,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CRDO",
-      "gap_pct": 13.1,
-      "price": 273.71,
-      "market_cap": 51040866304,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PENG",
-      "gap_pct": 13.0,
-      "price": 69.46,
-      "market_cap": 3650828288,
-      "catalyst": ""
-    },
-    {
-      "symbol": "WULF",
-      "gap_pct": 12.3,
-      "price": 23.8,
-      "market_cap": 11791199232,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CIFR",
-      "gap_pct": 11.1,
-      "price": 22.27,
-      "market_cap": 9109525504,
+      "symbol": "AGIO",
+      "gap_pct": 13.8,
+      "price": 42.55,
+      "market_cap": 2530516992,
       "catalyst": ""
     }
   ],
@@ -110,24 +54,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Pre-Markets Muted Ahead of (Expected) Quiet Week",
-      "url": "https://finance.yahoo.com/markets/articles/pre-markets-muted-ahead-expected-141000030.html"
+      "text": "Stock Market Today: Nasdaq Sinks As Samsung Tumbles; SpaceX Slides After Getting New Status (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/110b2049-5932-3626-b8a1-7e911ed6df13/stock-market-today%3A-nasdaq.html"
     },
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday as Chip Stocks Rebound",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-125452192.html"
+      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Amid Caution Over Chip Sector Outlook",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-132222461.html"
     },
     {
-      "text": "Trump vs. Pelosi: Who Made More Money in the Stock Market Last Year?",
-      "url": "https://finance.yahoo.com/m/d06b12e7-e19e-3289-bab4-53327adf3597/trump-vs.-pelosi%3A-who-made.html"
+      "text": "Playing It Safe With $1.7 Million in Cash and Bonds Is Costing This Retiree $39,000 a Year",
+      "url": "https://finance.yahoo.com/m/d6a722eb-41fa-3d48-b30e-4ca167222dbd/playing-it-safe-with-%241.7.html"
     },
     {
-      "text": "Best ETF Areas of June",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/best-etf-areas-june-120000507.html"
+      "text": "Your Biggest Fund May Be A Bad Deal",
+      "url": "https://finance.yahoo.com/m/f123bee8-932e-328e-ba22-f7e2f1e896f6/your-biggest-fund-may-be-a.html"
     },
     {
-      "text": "Nasdaq, S&P 500, Dow Futures Rise After Fourth Of July Break As Investors Await Fed Minutes: SLS, ONDS, HOOD, MARA, HUT In Focus",
-      "url": "https://finance.yahoo.com/m/349f17b5-6996-3115-8389-0bb10a8b91a3/nasdaq%2C-s%26p-500%2C-dow-futures.html"
+      "text": "Insiders Are Dumping Micron At The Highest Rate Since 2010. Is It Time To Get Out?",
+      "url": "https://finance.yahoo.com/m/8d717ff7-7c0c-34d7-b4ca-aa15a843472f/insiders-are-dumping-micron.html"
     }
   ]
 }
