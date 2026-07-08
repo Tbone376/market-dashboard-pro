@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Jul 7, 2026",
-  "generated_at": "2026-07-07T10:53:55.237906-04:00",
+  "date": "Wed, Jul 8, 2026",
+  "generated_at": "2026-07-08T10:31:37.884832-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,17 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "MAAS",
-      "gap_pct": 17.6,
-      "price": 18.0,
-      "market_cap": 7959160320,
+      "symbol": "PENG",
+      "gap_pct": 15.5,
+      "price": 72.43,
+      "market_cap": 3806932224,
       "catalyst": ""
     },
     {
-      "symbol": "AGIO",
-      "gap_pct": 13.8,
-      "price": 42.55,
-      "market_cap": 2530516992,
+      "symbol": "KC",
+      "gap_pct": 11.7,
+      "price": 10.54,
+      "market_cap": 3155356160,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WULF",
+      "gap_pct": 11.5,
+      "price": 22.57,
+      "market_cap": 11186650112,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BABA",
+      "gap_pct": 10.6,
+      "price": 108.56,
+      "market_cap": 260268720128,
       "catalyst": ""
     }
   ],
@@ -54,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Nasdaq Sinks As Samsung Tumbles; SpaceX Slides After Getting New Status (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/110b2049-5932-3626-b8a1-7e911ed6df13/stock-market-today%3A-nasdaq.html"
+      "text": "Stock Market Today: Dow Drops As Trump Says Iran Ceasefire Is 'Over'; These Airline Firms Slump (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/21ec8542-e737-316b-873a-8dc98ed10edc/stock-market-today%3A-dow-drops.html"
     },
     {
-      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Amid Caution Over Chip Sector Outlook",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-132222461.html"
+      "text": "The Nasdaq 100 Now Controls a Quarter of Every Growth ETF Dollar",
+      "url": "https://finance.yahoo.com/m/45da09ab-5893-37e0-88a9-08e9920f7a41/the-nasdaq-100-now-controls-a.html"
     },
     {
-      "text": "Playing It Safe With $1.7 Million in Cash and Bonds Is Costing This Retiree $39,000 a Year",
-      "url": "https://finance.yahoo.com/m/d6a722eb-41fa-3d48-b30e-4ca167222dbd/playing-it-safe-with-%241.7.html"
+      "text": "This Strategist Sees the S&P 500 Hitting 8,500, and One Thing Changed Her Mind",
+      "url": "https://finance.yahoo.com/m/8e87aa5a-6e92-3666-b1b0-d600f38e2295/this-strategist-sees-the-s%26p.html"
     },
     {
-      "text": "Your Biggest Fund May Be A Bad Deal",
-      "url": "https://finance.yahoo.com/m/f123bee8-932e-328e-ba22-f7e2f1e896f6/your-biggest-fund-may-be-a.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday as Trump Declares US-Iran Agreement Over",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130428931.html"
     },
     {
-      "text": "Insiders Are Dumping Micron At The Highest Rate Since 2010. Is It Time To Get Out?",
-      "url": "https://finance.yahoo.com/m/8d717ff7-7c0c-34d7-b4ca-aa15a843472f/insiders-are-dumping-micron.html"
+      "text": "This $1,200 Stock Could Be the Next Massive Stock Split Opportunity",
+      "url": "https://finance.yahoo.com/m/ede2cd3c-da95-398e-881d-0238d979d9b4/this-%241%2C200-stock-could-be.html"
     }
   ]
 }
