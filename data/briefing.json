@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Jul 9, 2026",
-  "generated_at": "2026-07-09T11:26:57.770497-04:00",
+  "date": "Fri, Jul 10, 2026",
+  "generated_at": "2026-07-10T10:44:16.713329-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "LASR",
-      "gap_pct": 27.9,
-      "price": 75.08,
-      "market_cap": 4235030272,
+      "symbol": "EQPT",
+      "gap_pct": 18.3,
+      "price": 18.92,
+      "market_cap": 4774937088,
       "catalyst": ""
     },
     {
-      "symbol": "MARA",
-      "gap_pct": 16.2,
-      "price": 13.96,
-      "market_cap": 5324442624,
+      "symbol": "WDFC",
+      "gap_pct": 16.1,
+      "price": 278.0,
+      "market_cap": 3740601856,
       "catalyst": ""
     },
     {
-      "symbol": "BBIO",
-      "gap_pct": 14.3,
-      "price": 89.57,
-      "market_cap": 17543292928,
-      "catalyst": ""
-    },
-    {
-      "symbol": "FRVO",
-      "gap_pct": 14.1,
-      "price": 26.89,
-      "market_cap": 7924476416,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PENG",
-      "gap_pct": 14.0,
-      "price": 89.46,
-      "market_cap": 4584172032,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AEHR",
-      "gap_pct": 12.5,
-      "price": 76.36,
-      "market_cap": 2401927680,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ONTO",
-      "gap_pct": 12.2,
-      "price": 326.88,
-      "market_cap": 16260177920,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MXL",
-      "gap_pct": 12.0,
-      "price": 96.4,
-      "market_cap": 8632230912,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ALGM",
-      "gap_pct": 12.0,
-      "price": 57.64,
-      "market_cap": 10738853888,
-      "catalyst": ""
-    },
-    {
-      "symbol": "COHU",
-      "gap_pct": 11.6,
-      "price": 58.16,
-      "market_cap": 2743675648,
+      "symbol": "VOD",
+      "gap_pct": 13.3,
+      "price": 14.82,
+      "market_cap": 34126837760,
       "catalyst": ""
     }
   ],
@@ -110,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "How Much Palo Alto Networks (PANW) Do You Own By Accident?",
-      "url": "https://finance.yahoo.com/m/7cb8f872-ee6f-3154-a4b3-28f1bf451a1c/how-much-palo-alto-networks.html"
+      "text": "Stock Market Today: Dow Jones Index Rises Ahead Of SK Hynix Stock Debut (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/44707f93-df29-35bc-8649-28477f0b5b59/stock-market-today%3A-dow-jones.html"
     },
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Chip Stocks Rebound Despite US-Iran Tensions",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131219951.html"
+      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Amid Renewed US-Iran Tensions Ahead of Q2 Earnings Season",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130717862.html"
     },
     {
-      "text": "Coca-Cola vs Exxon: Which Blue Chip Won the Decade?",
-      "url": "https://finance.yahoo.com/m/05a5b19d-e001-37f7-bba0-a6ce327c3078/coca-cola-vs-exxon%3A-which.html"
+      "text": "What ICLN's Basket Says About Buying This Dip",
+      "url": "https://finance.yahoo.com/m/58d0d7ed-35e1-32ae-a959-03bb0ec0ed11/what-icln%27s-basket-says-about.html"
     },
     {
-      "text": "Wall Street Is Warning of a Market Snapback. For a 73-Year-Old, an RMD Locked to Last Year\u2019s Balance Could Force a Sale at the Bottom.",
-      "url": "https://finance.yahoo.com/m/ed1e208d-dc16-3052-957c-bf6e4430d138/wall-street-is-warning-of-a.html"
+      "text": "These Precious Metals ETFs Beat The S&P 500 Over The Past Year \u2014 Can The Rally Survive The Iran Whiplash?",
+      "url": "https://finance.yahoo.com/m/e2604c9f-74bb-3aa4-95c7-b05e1e274c58/these-precious-metals-etfs.html"
     },
     {
-      "text": "Dow, Nasdaq, S&P 500 Futures Climb Amid US-Iran Tensions, Fed Inflation Worries: WULF, CMPS, ANET, PENG Stocks In Focus",
-      "url": "https://finance.yahoo.com/m/cb818ba1-965d-30af-b6a1-646b9d79602f/dow%2C-nasdaq%2C-s%26p-500-futures.html"
+      "text": "Dow, Nasdaq, S&P 500 Futures Retreat After Chip-Led Gains At Close: META, ONDS, FUBO, FRMI Stocks In Focus",
+      "url": "https://finance.yahoo.com/m/4147a094-7d7c-378c-bf09-6cf04668c3e6/dow%2C-nasdaq%2C-s%26p-500-futures.html"
     }
   ]
 }
