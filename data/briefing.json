@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Jul 10, 2026",
-  "generated_at": "2026-07-10T10:44:16.713329-04:00",
+  "date": "Mon, Jul 13, 2026",
+  "generated_at": "2026-07-13T10:51:16.315954-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,10 @@
   },
   "gappers": [
     {
-      "symbol": "EQPT",
-      "gap_pct": 18.3,
-      "price": 18.92,
-      "market_cap": 4774937088,
-      "catalyst": ""
-    },
-    {
-      "symbol": "WDFC",
-      "gap_pct": 16.1,
-      "price": 278.0,
-      "market_cap": 3740601856,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VOD",
-      "gap_pct": 13.3,
-      "price": 14.82,
-      "market_cap": 34126837760,
+      "symbol": "REZI",
+      "gap_pct": 0,
+      "price": 33.94,
+      "market_cap": 5139406848,
       "catalyst": ""
     }
   ],
@@ -61,24 +47,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Jones Index Rises Ahead Of SK Hynix Stock Debut (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/44707f93-df29-35bc-8649-28477f0b5b59/stock-market-today%3A-dow-jones.html"
+      "text": "Stock Market Today: Nasdaq Slides On New U.S.-Iran Strikes; SK Hynix Plunges (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/5eba618e-9a5d-3cbe-906d-545b7db0d19c/stock-market-today%3A-nasdaq.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Friday Amid Renewed US-Iran Tensions Ahead of Q2 Earnings Season",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130717862.html"
+      "text": "How Much Palo Alto Networks (PANW) Do You Own By Accident?",
+      "url": "https://finance.yahoo.com/m/5b011462-cc0f-3509-93ad-6c72269dba29/how-much-palo-alto-networks.html"
     },
     {
-      "text": "What ICLN's Basket Says About Buying This Dip",
-      "url": "https://finance.yahoo.com/m/58d0d7ed-35e1-32ae-a959-03bb0ec0ed11/what-icln%27s-basket-says-about.html"
+      "text": "QUAL Is At A Record. Don't Make The Obvious Mistake.",
+      "url": "https://finance.yahoo.com/m/3c40a4ff-383b-3c91-9b74-194c2840fa0d/qual-is-at-a-record.-don%27t.html"
     },
     {
-      "text": "These Precious Metals ETFs Beat The S&P 500 Over The Past Year \u2014 Can The Rally Survive The Iran Whiplash?",
-      "url": "https://finance.yahoo.com/m/e2604c9f-74bb-3aa4-95c7-b05e1e274c58/these-precious-metals-etfs.html"
+      "text": "Big Banks to Hit Earnings Season With High Hopes: ETFs in Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/big-banks-hit-earnings-season-131200055.html"
     },
     {
-      "text": "Dow, Nasdaq, S&P 500 Futures Retreat After Chip-Led Gains At Close: META, ONDS, FUBO, FRMI Stocks In Focus",
-      "url": "https://finance.yahoo.com/m/4147a094-7d7c-378c-bf09-6cf04668c3e6/dow%2C-nasdaq%2C-s%26p-500-futures.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday as Renewed US-Iran Conflict Lifts Oil Prices",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125221407.html"
     }
   ]
 }
