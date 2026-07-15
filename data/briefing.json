@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Jul 14, 2026",
-  "generated_at": "2026-07-14T10:01:59.203755-04:00",
+  "date": "Wed, Jul 15, 2026",
+  "generated_at": "2026-07-15T09:58:36.561793-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,10 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "FIG",
-      "gap_pct": 12.0,
-      "price": 23.65,
-      "market_cap": 12496105472,
+      "symbol": "AEHR",
+      "gap_pct": 42.9,
+      "price": 102.95,
+      "market_cap": 3238166016,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PYPL",
+      "gap_pct": 14.9,
+      "price": 54.42,
+      "market_cap": 48004177920,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MANE",
+      "gap_pct": 14.8,
+      "price": 126.18,
+      "market_cap": 5271634944,
+      "catalyst": ""
+    },
+    {
+      "symbol": "LCID",
+      "gap_pct": 13.5,
+      "price": 5.25,
+      "market_cap": 2046896896,
       "catalyst": ""
     }
   ],
@@ -47,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rises Amid Surprise CPI Inflation Report; IBM Plunges 23% On Earnings (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/5d020334-7a7d-3075-adc2-c428ddde2504/stock-market-today%3A-dow-rises.html"
+      "text": "Stock Market Today: Dow Rises On Surprise Inflation Data; ASML Jumps On Earnings Report (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/8b0331a9-7640-359f-947b-04f63d65cc26/stock-market-today%3A-dow-rises.html"
     },
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday Ahead of Warsh Testimony",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-130421454.html"
+      "text": "Here\u2019s the Clear Reason to Buy Intel Before Its July 23 Earnings Report",
+      "url": "https://finance.yahoo.com/m/586ba175-3a11-390e-93f8-e4b96d805b34/here%E2%80%99s-the-clear-reason-to.html"
     },
     {
-      "text": "Which Hot Funds Have Staying Power?",
-      "url": "https://finance.yahoo.com/m/6510b351-2367-3536-89d0-f54b7186f774/which-hot-funds-have-staying.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Economic Reports",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125305699.html"
     },
     {
-      "text": "VOE Is At A Record. Is It Time To Act?",
-      "url": "https://finance.yahoo.com/m/34544fb1-7775-363c-955d-4ce5a6cc5c12/voe-is-at-a-record.-is-it.html"
+      "text": "Is XLF's New High A Quiet Warning?",
+      "url": "https://finance.yahoo.com/m/098a3eb2-f4d4-3824-881e-cd0f9af9d776/is-xlf%27s-new-high-a-quiet.html"
     },
     {
-      "text": "Is This Dip In ARKQ A Gift Or A Trap?",
-      "url": "https://finance.yahoo.com/m/2f97c4b9-3096-3c26-9665-bfdcb134d4a0/is-this-dip-in-arkq-a-gift-or.html"
+      "text": "JPMorgan, BlackRock and Goldman to Tokenize Stocks, Treasurys",
+      "url": "https://finance.yahoo.com/m/59212f24-2b6b-35cb-ada3-0ae07ea3be40/jpmorgan%2C-blackrock-and.html"
     }
   ]
 }
