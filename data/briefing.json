@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Jul 15, 2026",
-  "generated_at": "2026-07-15T09:58:36.561793-04:00",
+  "date": "Thu, Jul 16, 2026",
+  "generated_at": "2026-07-16T10:10:32.080411-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,31 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "AEHR",
-      "gap_pct": 42.9,
-      "price": 102.95,
-      "market_cap": 3238166016,
+      "symbol": "ATAI",
+      "gap_pct": 33.0,
+      "price": 7.13,
+      "market_cap": 2625028608,
       "catalyst": ""
     },
     {
-      "symbol": "PYPL",
-      "gap_pct": 14.9,
-      "price": 54.42,
-      "market_cap": 48004177920,
+      "symbol": "MAN",
+      "gap_pct": 26.8,
+      "price": 49.49,
+      "market_cap": 2301648640,
       "catalyst": ""
     },
     {
-      "symbol": "MANE",
-      "gap_pct": 14.8,
-      "price": 126.18,
-      "market_cap": 5271634944,
+      "symbol": "MAAS",
+      "gap_pct": 19.4,
+      "price": 19.8,
+      "market_cap": 8755076096,
       "catalyst": ""
     },
     {
-      "symbol": "LCID",
-      "gap_pct": 13.5,
-      "price": 5.25,
-      "market_cap": 2046896896,
+      "symbol": "ABT",
+      "gap_pct": 12.3,
+      "price": 100.25,
+      "market_cap": 174616772608,
+      "catalyst": ""
+    },
+    {
+      "symbol": "GHRS",
+      "gap_pct": 11.4,
+      "price": 30.0,
+      "market_cap": 2058267648,
       "catalyst": ""
     }
   ],
@@ -68,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Dow Rises On Surprise Inflation Data; ASML Jumps On Earnings Report (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/8b0331a9-7640-359f-947b-04f63d65cc26/stock-market-today%3A-dow-rises.html"
+      "text": "Stock Market Today: Nasdaq Slides As Sandisk, SK Hynix Plunge; Nvidia Chipmaker TSMC Tumbles (Live Coverage)",
+      "url": "https://finance.yahoo.com/m/c5561775-6f2a-30c3-8319-d6feaa5d3578/stock-market-today%3A-nasdaq.html"
     },
     {
-      "text": "Here\u2019s the Clear Reason to Buy Intel Before Its July 23 Earnings Report",
-      "url": "https://finance.yahoo.com/m/586ba175-3a11-390e-93f8-e4b96d805b34/here%E2%80%99s-the-clear-reason-to.html"
+      "text": "BlackRock, Vanguard and JPMorgan Join DTCC's Tokenization Pilot: Which Crypto Could Benefit?",
+      "url": "https://finance.yahoo.com/m/310d5d30-dff0-376d-a1b0-0e63ec8a4072/blackrock%2C-vanguard-and.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Economic Reports",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125305699.html"
+      "text": "SpaceX Falls Back to $135 IPO Price But Raymond James Thinks The Stock Is Going To The Moon",
+      "url": "https://finance.yahoo.com/m/ef7602ed-5e19-3944-9e72-c1a6afb214e6/spacex-falls-back-to-%24135-ipo.html"
     },
     {
-      "text": "Is XLF's New High A Quiet Warning?",
-      "url": "https://finance.yahoo.com/m/098a3eb2-f4d4-3824-881e-cd0f9af9d776/is-xlf%27s-new-high-a-quiet.html"
+      "text": "Does LIT's History Justify Buying This Dip?",
+      "url": "https://finance.yahoo.com/m/720b6ea2-277b-374e-9ebf-44b5c4e057c3/does-lit%27s-history-justify.html"
     },
     {
-      "text": "JPMorgan, BlackRock and Goldman to Tokenize Stocks, Treasurys",
-      "url": "https://finance.yahoo.com/m/59212f24-2b6b-35cb-ada3-0ae07ea3be40/jpmorgan%2C-blackrock-and.html"
+      "text": "Can You Build a Retirement Portfolio Using Only ETFs?",
+      "url": "https://finance.yahoo.com/m/b36710e9-6561-3825-a27a-bcb4bb1685e8/can-you-build-a-retirement.html"
     }
   ]
 }
