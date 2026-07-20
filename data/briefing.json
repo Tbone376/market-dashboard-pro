@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Jul 17, 2026",
-  "generated_at": "2026-07-17T09:54:15.752912-04:00",
+  "date": "Mon, Jul 20, 2026",
+  "generated_at": "2026-07-20T10:23:46.793334-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -34,29 +34,58 @@
       "prev_close": 0
     }
   },
-  "gappers": [],
+  "gappers": [
+    {
+      "symbol": "IREN",
+      "gap_pct": 15.2,
+      "price": 38.74,
+      "market_cap": 13846636544,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CIFR",
+      "gap_pct": 13.9,
+      "price": 20.0,
+      "market_cap": 8180983808,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HUT",
+      "gap_pct": 12.5,
+      "price": 102.88,
+      "market_cap": 11583119360,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NUVB",
+      "gap_pct": 11.0,
+      "price": 6.44,
+      "market_cap": 2242420736,
+      "catalyst": ""
+    }
+  ],
   "earnings": [],
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday as Investors Retreat From Chipmaker Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130030829.html"
+      "text": "The Dollar\u2019s \u201cDemise\u201d Is Back in the Headlines. Before a Retiree Panics and Piles Into Gold, Here\u2019s What a Weaker Dollar Actually Does to a Social Security Check.",
+      "url": "https://finance.yahoo.com/m/c854674e-e8a9-3cca-8b47-988289215e9f/the-dollar%E2%80%99s-%E2%80%9Cdemise%E2%80%9D-is-back.html"
     },
     {
-      "text": "Stock Market Today: Dow Slides As Netflix Plunges On Earnings; SpaceX Slides After Canceled Flight (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/321db8d1-ca56-378a-a99c-0f73b9c90d9b/stock-market-today%3A-dow.html"
+      "text": "A $10,000 Investment in Bank of America When Brian Moynihan Became CEO Is Worth This Much Today",
+      "url": "https://finance.yahoo.com/m/30224ed0-813b-365f-8dd8-e80a02a46709/a-%2410%2C000-investment-in-bank.html"
     },
     {
-      "text": "A $10,000 Investment in Cisco When Chuck Robbins Became CEO Is Worth This Much Today",
-      "url": "https://finance.yahoo.com/m/26e47297-d813-3837-982d-bf6c787c810f/a-%2410%2C000-investment-in-cisco.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Key Earnings Reports",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130719851.html"
     },
     {
-      "text": "What Is Kimi K3? The Chinese AI Model That Has Wall Street Talking",
-      "url": "https://finance.yahoo.com/m/3558a2b4-a9d1-345c-90e4-872aecff5aeb/what-is-kimi-k3%3F-the-chinese.html"
+      "text": "Nasdaq, Dow, S&P 500 Futures Edge Higher Ahead Of Key Earnings Week Even As Middle East Tensions Continue: DJT, NVDA, SLS, PANW Stocks In Focus",
+      "url": "https://finance.yahoo.com/m/e6c52f50-b2cf-3610-96e0-19f80348fef2/nasdaq%2C-dow%2C-s%26p-500-futures.html"
     },
     {
-      "text": "How Much Of Your Portfolio Is Really CVS?",
-      "url": "https://finance.yahoo.com/m/55e919bc-fc4b-30bf-a3db-54fcaf877d1f/how-much-of-your-portfolio-is.html"
+      "text": "Warren Buffett Looks for Value in Today\u2019s Market But Comes Up Empty: \u2018Everybody Is Preferring Gambling\u2019",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-looks-value-today-203119733.html"
     }
   ]
 }
