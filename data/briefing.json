@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Jul 20, 2026",
-  "generated_at": "2026-07-20T10:23:46.793334-04:00",
+  "date": "Tue, Jul 21, 2026",
+  "generated_at": "2026-07-21T10:09:27.468152-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,31 +36,45 @@
   },
   "gappers": [
     {
-      "symbol": "IREN",
-      "gap_pct": 15.2,
-      "price": 38.74,
-      "market_cap": 13846636544,
+      "symbol": "AEHR",
+      "gap_pct": 19.5,
+      "price": 92.42,
+      "market_cap": 3001645568,
       "catalyst": ""
     },
     {
-      "symbol": "CIFR",
-      "gap_pct": 13.9,
-      "price": 20.0,
-      "market_cap": 8180983808,
+      "symbol": "COIN",
+      "gap_pct": 11.3,
+      "price": 178.59,
+      "market_cap": 47051456512,
       "catalyst": ""
     },
     {
-      "symbol": "HUT",
-      "gap_pct": 12.5,
-      "price": 102.88,
-      "market_cap": 11583119360,
+      "symbol": "DOCN",
+      "gap_pct": 11.2,
+      "price": 132.38,
+      "market_cap": 15476294656,
       "catalyst": ""
     },
     {
-      "symbol": "NUVB",
-      "gap_pct": 11.0,
-      "price": 6.44,
-      "market_cap": 2242420736,
+      "symbol": "BE",
+      "gap_pct": 10.5,
+      "price": 217.74,
+      "market_cap": 61934809088,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HAS",
+      "gap_pct": 10.3,
+      "price": 90.02,
+      "market_cap": 12736991232,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MMM",
+      "gap_pct": 10.3,
+      "price": 175.44,
+      "market_cap": 91501150208,
       "catalyst": ""
     }
   ],
@@ -68,24 +82,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "The Dollar\u2019s \u201cDemise\u201d Is Back in the Headlines. Before a Retiree Panics and Piles Into Gold, Here\u2019s What a Weaker Dollar Actually Does to a Social Security Check.",
-      "url": "https://finance.yahoo.com/m/c854674e-e8a9-3cca-8b47-988289215e9f/the-dollar%E2%80%99s-%E2%80%9Cdemise%E2%80%9D-is-back.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Semiconductor Recovery Supports Markets",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130338886.html"
     },
     {
-      "text": "A $10,000 Investment in Bank of America When Brian Moynihan Became CEO Is Worth This Much Today",
-      "url": "https://finance.yahoo.com/m/30224ed0-813b-365f-8dd8-e80a02a46709/a-%2410%2C000-investment-in-bank.html"
+      "text": "$170,660 Invested In This Stock In January Is Now Worth $1 Million",
+      "url": "https://finance.yahoo.com/m/7cda5447-5140-3310-9bfe-808e1e1cb6ac/%24170%2C660-invested-in-this.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Ahead of Key Earnings Reports",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130719851.html"
+      "text": "Should State Street SPDR S&P 500 ETF Trust (SPY) Be on Your Investing Radar?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-p-500-102003104.html"
     },
     {
-      "text": "Nasdaq, Dow, S&P 500 Futures Edge Higher Ahead Of Key Earnings Week Even As Middle East Tensions Continue: DJT, NVDA, SLS, PANW Stocks In Focus",
-      "url": "https://finance.yahoo.com/m/e6c52f50-b2cf-3610-96e0-19f80348fef2/nasdaq%2C-dow%2C-s%26p-500-futures.html"
+      "text": "Nasdaq, S&P 500 Futures Rise As Chip Rally Counters Iran Jitters Ahead Of Big Tech Earnings: Why IREN, ACHR, TSLA, BA Stocks Are Drawing Focus",
+      "url": "https://finance.yahoo.com/m/88bfa706-5918-3ef4-99d5-6f441297d1cf/nasdaq%2C-s%26p-500-futures-rise.html"
     },
     {
-      "text": "Warren Buffett Looks for Value in Today\u2019s Market But Comes Up Empty: \u2018Everybody Is Preferring Gambling\u2019",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-looks-value-today-203119733.html"
+      "text": "Cash In Your SPYV Gain, Or Let It Ride?",
+      "url": "https://finance.yahoo.com/m/75103f43-84f6-31b3-a39b-89a87e024c63/cash-in-your-spyv-gain%2C-or.html"
     }
   ]
 }
