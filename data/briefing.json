@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Jul 21, 2026",
-  "generated_at": "2026-07-21T10:09:27.468152-04:00",
+  "date": "Wed, Jul 22, 2026",
+  "generated_at": "2026-07-22T10:13:12.409031-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,45 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "AEHR",
-      "gap_pct": 19.5,
-      "price": 92.42,
-      "market_cap": 3001645568,
+      "symbol": "ARWR",
+      "gap_pct": 26.3,
+      "price": 94.14,
+      "market_cap": 13260210176,
       "catalyst": ""
     },
     {
-      "symbol": "COIN",
-      "gap_pct": 11.3,
-      "price": 178.59,
-      "market_cap": 47051456512,
+      "symbol": "SMCI",
+      "gap_pct": 22.5,
+      "price": 31.23,
+      "market_cap": 20198610944,
       "catalyst": ""
     },
     {
-      "symbol": "DOCN",
-      "gap_pct": 11.2,
-      "price": 132.38,
-      "market_cap": 15476294656,
+      "symbol": "PAG",
+      "gap_pct": 10.9,
+      "price": 216.4,
+      "market_cap": 14228139008,
       "catalyst": ""
     },
     {
-      "symbol": "BE",
-      "gap_pct": 10.5,
-      "price": 217.74,
-      "market_cap": 61934809088,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HAS",
-      "gap_pct": 10.3,
-      "price": 90.02,
-      "market_cap": 12736991232,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MMM",
-      "gap_pct": 10.3,
-      "price": 175.44,
-      "market_cap": 91501150208,
+      "symbol": "WAB",
+      "gap_pct": 10.6,
+      "price": 291.58,
+      "market_cap": 49474519040,
       "catalyst": ""
     }
   ],
@@ -82,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday as Semiconductor Recovery Supports Markets",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130338886.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday Ahead of Major Tech Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130102621.html"
     },
     {
-      "text": "$170,660 Invested In This Stock In January Is Now Worth $1 Million",
-      "url": "https://finance.yahoo.com/m/7cda5447-5140-3310-9bfe-808e1e1cb6ac/%24170%2C660-invested-in-this.html"
+      "text": "XLK ETF Is A Sharper Bet Than Its Name Suggests",
+      "url": "https://finance.yahoo.com/m/6247cc41-5d1e-31bf-a7a3-a7e27b19a0bd/xlk-etf-is-a-sharper-bet-than.html"
     },
     {
-      "text": "Should State Street SPDR S&P 500 ETF Trust (SPY) Be on Your Investing Radar?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-spdr-p-500-102003104.html"
+      "text": "Ross Gerber Renews Call For Disney Shake-Up After Stock Trails S&P 500 For 11 Years: 'Break Up The Mouse House Or Sell It'",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-renews-call-disney-075939591.html"
     },
     {
-      "text": "Nasdaq, S&P 500 Futures Rise As Chip Rally Counters Iran Jitters Ahead Of Big Tech Earnings: Why IREN, ACHR, TSLA, BA Stocks Are Drawing Focus",
-      "url": "https://finance.yahoo.com/m/88bfa706-5918-3ef4-99d5-6f441297d1cf/nasdaq%2C-s%26p-500-futures-rise.html"
+      "text": "Your SPLG Position Is Stretched, What's Next?",
+      "url": "https://finance.yahoo.com/m/8467bc44-22df-3de9-96c5-5bf519fce946/your-splg-position-is.html"
     },
     {
-      "text": "Cash In Your SPYV Gain, Or Let It Ride?",
-      "url": "https://finance.yahoo.com/m/75103f43-84f6-31b3-a39b-89a87e024c63/cash-in-your-spyv-gain%2C-or.html"
+      "text": "What Are You Really Paying For Inside VOO?",
+      "url": "https://finance.yahoo.com/m/7dd1304e-1039-3cc2-a462-f28fbfeeb200/what-are-you-really-paying.html"
     }
   ]
 }
