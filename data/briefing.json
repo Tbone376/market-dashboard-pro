@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Jul 22, 2026",
-  "generated_at": "2026-07-22T10:13:12.409031-04:00",
+  "date": "Thu, Jul 23, 2026",
+  "generated_at": "2026-07-23T10:22:18.134294-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,31 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "ARWR",
-      "gap_pct": 26.3,
-      "price": 94.14,
-      "market_cap": 13260210176,
+      "symbol": "NVCR",
+      "gap_pct": 25.6,
+      "price": 19.56,
+      "market_cap": 2265457664,
       "catalyst": ""
     },
     {
-      "symbol": "SMCI",
-      "gap_pct": 22.5,
-      "price": 31.23,
-      "market_cap": 20198610944,
+      "symbol": "CLF",
+      "gap_pct": 18.8,
+      "price": 11.22,
+      "market_cap": 6402904576,
       "catalyst": ""
     },
     {
-      "symbol": "PAG",
-      "gap_pct": 10.9,
-      "price": 216.4,
-      "market_cap": 14228139008,
+      "symbol": "MEDP",
+      "gap_pct": 16.1,
+      "price": 613.23,
+      "market_cap": 17513512960,
       "catalyst": ""
     },
     {
-      "symbol": "WAB",
-      "gap_pct": 10.6,
-      "price": 291.58,
-      "market_cap": 49474519040,
+      "symbol": "URI",
+      "gap_pct": 11.8,
+      "price": 1157.57,
+      "market_cap": 72517771264,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ALLE",
+      "gap_pct": 11.6,
+      "price": 156.23,
+      "market_cap": 13425759232,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IMAX",
+      "gap_pct": 11.6,
+      "price": 43.86,
+      "market_cap": 2412997120,
+      "catalyst": ""
+    },
+    {
+      "symbol": "LMT",
+      "gap_pct": 11.2,
+      "price": 571.97,
+      "market_cap": 131874324480,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DGX",
+      "gap_pct": 10.8,
+      "price": 232.41,
+      "market_cap": 25727510528,
+      "catalyst": ""
+    },
+    {
+      "symbol": "KALU",
+      "gap_pct": 10.1,
+      "price": 180.97,
+      "market_cap": 2957241344,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CCS",
+      "gap_pct": 10.0,
+      "price": 71.01,
+      "market_cap": 2042859520,
       "catalyst": ""
     }
   ],
@@ -68,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Wednesday Ahead of Major Tech Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130102621.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Major Tech Stocks Sell-Off",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130626891.html"
     },
     {
-      "text": "XLK ETF Is A Sharper Bet Than Its Name Suggests",
-      "url": "https://finance.yahoo.com/m/6247cc41-5d1e-31bf-a7a3-a7e27b19a0bd/xlk-etf-is-a-sharper-bet-than.html"
+      "text": "DGRO Is Near A High, Resist The Urge To Act",
+      "url": "https://finance.yahoo.com/m/a59d7aea-d6c3-3f8b-8441-180181eec02f/dgro-is-near-a-high%2C-resist.html"
     },
     {
-      "text": "Ross Gerber Renews Call For Disney Shake-Up After Stock Trails S&P 500 For 11 Years: 'Break Up The Mouse House Or Sell It'",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ross-gerber-renews-call-disney-075939591.html"
+      "text": "Nancy Pelosi\u2019s Family Turned $30 Million Into $278 Million Trading Stocks. Congress Just Voted to Ban It During Her Final Term.",
+      "url": "https://finance.yahoo.com/m/9307f0bf-021d-38c8-8268-2ece1f969bd2/nancy-pelosi%E2%80%99s-family-turned.html"
     },
     {
-      "text": "Your SPLG Position Is Stretched, What's Next?",
-      "url": "https://finance.yahoo.com/m/8467bc44-22df-3de9-96c5-5bf519fce946/your-splg-position-is.html"
+      "text": "Nasdaq, S&P 500 Futures Fall As Tesla, Alphabet Earnings Revive AI Spending Fears: Why TSLA, GOOGL, SPCX, NOW, INTC, AMD, SLS Are In Focus",
+      "url": "https://finance.yahoo.com/m/34aeac5f-951d-34d8-8f71-57eb2ee1812e/nasdaq%2C-s%26p-500-futures-fall.html"
     },
     {
-      "text": "What Are You Really Paying For Inside VOO?",
-      "url": "https://finance.yahoo.com/m/7dd1304e-1039-3cc2-a462-f28fbfeeb200/what-are-you-really-paying.html"
+      "text": "When the Market Drops, the IRS Quietly Discounts Your Roth Conversion. Here\u2019s the Math at $500,000",
+      "url": "https://finance.yahoo.com/m/249a3e86-f6bf-3811-8aab-e5635462f811/when-the-market-drops%2C-the.html"
     }
   ]
 }
