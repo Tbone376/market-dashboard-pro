@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Jul 23, 2026",
-  "generated_at": "2026-07-23T10:22:18.134294-04:00",
+  "date": "Fri, Jul 24, 2026",
+  "generated_at": "2026-07-24T10:01:07.282535-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,45 @@
   },
   "gappers": [
     {
-      "symbol": "NVCR",
-      "gap_pct": 25.6,
-      "price": 19.56,
-      "market_cap": 2265457664,
+      "symbol": "THC",
+      "gap_pct": 22.9,
+      "price": 244.54,
+      "market_cap": 21063942144,
       "catalyst": ""
     },
     {
-      "symbol": "CLF",
-      "gap_pct": 18.8,
-      "price": 11.22,
-      "market_cap": 6402904576,
+      "symbol": "RNG",
+      "gap_pct": 20.5,
+      "price": 46.53,
+      "market_cap": 3901940992,
       "catalyst": ""
     },
     {
-      "symbol": "MEDP",
-      "gap_pct": 16.1,
-      "price": 613.23,
-      "market_cap": 17513512960,
+      "symbol": "BAH",
+      "gap_pct": 14.1,
+      "price": 75.19,
+      "market_cap": 9017240576,
       "catalyst": ""
     },
     {
-      "symbol": "URI",
-      "gap_pct": 11.8,
-      "price": 1157.57,
-      "market_cap": 72517771264,
+      "symbol": "WKC",
+      "gap_pct": 12.7,
+      "price": 40.86,
+      "market_cap": 2098383744,
       "catalyst": ""
     },
     {
-      "symbol": "ALLE",
-      "gap_pct": 11.6,
-      "price": 156.23,
-      "market_cap": 13425759232,
+      "symbol": "DLR",
+      "gap_pct": 12.4,
+      "price": 201.59,
+      "market_cap": 75853946880,
       "catalyst": ""
     },
     {
-      "symbol": "IMAX",
-      "gap_pct": 11.6,
-      "price": 43.86,
-      "market_cap": 2412997120,
-      "catalyst": ""
-    },
-    {
-      "symbol": "LMT",
-      "gap_pct": 11.2,
-      "price": 571.97,
-      "market_cap": 131874324480,
-      "catalyst": ""
-    },
-    {
-      "symbol": "DGX",
+      "symbol": "SSNC",
       "gap_pct": 10.8,
-      "price": 232.41,
-      "market_cap": 25727510528,
-      "catalyst": ""
-    },
-    {
-      "symbol": "KALU",
-      "gap_pct": 10.1,
-      "price": 180.97,
-      "market_cap": 2957241344,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CCS",
-      "gap_pct": 10.0,
-      "price": 71.01,
-      "market_cap": 2042859520,
+      "price": 74.2,
+      "market_cap": 17869885440,
       "catalyst": ""
     }
   ],
@@ -110,24 +82,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Major Tech Stocks Sell-Off",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130626891.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid New US Tariffs",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132354336.html"
     },
     {
-      "text": "DGRO Is Near A High, Resist The Urge To Act",
-      "url": "https://finance.yahoo.com/m/a59d7aea-d6c3-3f8b-8441-180181eec02f/dgro-is-near-a-high%2C-resist.html"
+      "text": "When The Stock Market Fell, HGER ETF Did Not",
+      "url": "https://finance.yahoo.com/m/94381db4-b572-3fac-99f7-1bacd07cf671/when-the-stock-market-fell%2C.html"
     },
     {
-      "text": "Nancy Pelosi\u2019s Family Turned $30 Million Into $278 Million Trading Stocks. Congress Just Voted to Ban It During Her Final Term.",
-      "url": "https://finance.yahoo.com/m/9307f0bf-021d-38c8-8268-2ece1f969bd2/nancy-pelosi%E2%80%99s-family-turned.html"
+      "text": "Is This KWEB Plunge A Bargain Or A Trap?",
+      "url": "https://finance.yahoo.com/m/14754c06-19e1-370b-90f0-4609fcdbe036/is-this-kweb-plunge-a-bargain.html"
     },
     {
-      "text": "Nasdaq, S&P 500 Futures Fall As Tesla, Alphabet Earnings Revive AI Spending Fears: Why TSLA, GOOGL, SPCX, NOW, INTC, AMD, SLS Are In Focus",
-      "url": "https://finance.yahoo.com/m/34aeac5f-951d-34d8-8f71-57eb2ee1812e/nasdaq%2C-s%26p-500-futures-fall.html"
+      "text": "Alphabet Reveals Scary Risk \u2014 Big Companies Bleed Tons Of Cash",
+      "url": "https://finance.yahoo.com/m/7adf6363-b96e-3c8a-8e50-03f52a890afd/alphabet-reveals-scary-risk-%E2%80%94.html"
     },
     {
-      "text": "When the Market Drops, the IRS Quietly Discounts Your Roth Conversion. Here\u2019s the Math at $500,000",
-      "url": "https://finance.yahoo.com/m/249a3e86-f6bf-3811-8aab-e5635462f811/when-the-market-drops%2C-the.html"
+      "text": "Nasdaq, S&P 500, Dow Futures Shake Off Iran Jitters As Investors Turn To AI Hyperscaler Earnings: INTC, TSLA, TTD, HIMS In Focus",
+      "url": "https://finance.yahoo.com/m/78fb0fca-f68b-3e78-ab5b-1f4b39e24986/nasdaq%2C-s%26p-500%2C-dow-futures.html"
     }
   ]
 }
