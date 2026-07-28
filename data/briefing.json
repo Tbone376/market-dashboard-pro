@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Jul 27, 2026",
-  "generated_at": "2026-07-27T10:52:11.588217-04:00",
+  "date": "Tue, Jul 28, 2026",
+  "generated_at": "2026-07-28T10:26:29.771324-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,10 +36,45 @@
   },
   "gappers": [
     {
-      "symbol": "BMNR",
-      "gap_pct": 11.7,
-      "price": 17.63,
-      "market_cap": 10634880000,
+      "symbol": "KNSA",
+      "gap_pct": 24.0,
+      "price": 78.75,
+      "market_cap": 6059253248,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ITRI",
+      "gap_pct": 21.7,
+      "price": 103.21,
+      "market_cap": 4576264192,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RGEN",
+      "gap_pct": 15.2,
+      "price": 151.04,
+      "market_cap": 8519824896,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IQV",
+      "gap_pct": 13.7,
+      "price": 242.52,
+      "market_cap": 40476590080,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AWI",
+      "gap_pct": 11.6,
+      "price": 184.44,
+      "market_cap": 7871898112,
+      "catalyst": ""
+    },
+    {
+      "symbol": "TRU",
+      "gap_pct": 10.8,
+      "price": 85.56,
+      "market_cap": 16495003648,
       "catalyst": ""
     }
   ],
@@ -47,24 +82,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday as Oil Prices Fall",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130512818.html"
+      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Renewed Pressure on Semiconductor Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130015574.html"
     },
     {
-      "text": "WEBs Defined Volatility\u2120 Sector ETFs Celebrate One Year of Helping Investors Navigate Volatile Markets",
-      "url": "https://finance.yahoo.com/markets/options/articles/webs-defined-volatility-sector-etfs-130000107.html"
+      "text": "VTV Just Hit A Record. Let It Ride?",
+      "url": "https://finance.yahoo.com/m/dc478ee2-d743-3caa-9625-6832748e769c/vtv-just-hit-a-record.-let-it.html"
     },
     {
-      "text": "Nasdaq, S&P 500, Dow Futures Rise As Iran Pause Eases Oil Fears Ahead Of Big Tech Earnings, Fed Meeting: ORCL, NVDA, VG, DEL In Focus",
-      "url": "https://finance.yahoo.com/m/192cfd23-abfd-331a-bfa1-37fbdc5ada8c/nasdaq%2C-s%26p-500%2C-dow-futures.html"
+      "text": "Nasdaq, S&P 500 Futures Slip As Korea Chip Shock Dents AI Memory Heavyweights Ahead Of Fed Decision: Why NVDA, SNDK, MU, APLD, SPCX, SLS, CAPR Are In Focus",
+      "url": "https://finance.yahoo.com/m/1610d04f-d05e-38df-8121-b25e3a21a4d7/nasdaq%2C-s%26p-500-futures-slip.html"
     },
     {
-      "text": "Why This Leveraged S&P 500 ETF Can Lose Money Even When Stocks Rise",
-      "url": "https://finance.yahoo.com/m/3f2b859a-a0f3-337a-a7c1-4026bcebde1f/why-this-leveraged-s%26p-500.html"
+      "text": "The Tech Bet Hiding Inside EWY ETF",
+      "url": "https://finance.yahoo.com/m/730204fb-4c29-344b-9b11-c434cf1955e9/the-tech-bet-hiding-inside.html"
     },
     {
-      "text": "Is Equal-Weighting the S&P 500 Worth It? Here\u2019s What the Data Says",
-      "url": "https://finance.yahoo.com/m/09ee1d03-2a19-31c1-a357-b55d0df9f209/is-equal-weighting-the-s%26p.html"
+      "text": "What Should You Do With DVY At A New High?",
+      "url": "https://finance.yahoo.com/m/f20c7911-b8da-310b-b800-e54ad94780d2/what-should-you-do-with-dvy.html"
     }
   ]
 }
