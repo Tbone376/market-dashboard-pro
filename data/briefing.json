@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Jul 28, 2026",
-  "generated_at": "2026-07-28T10:26:29.771324-04:00",
+  "date": "Wed, Jul 29, 2026",
+  "generated_at": "2026-07-29T10:24:48.357163-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,45 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "KNSA",
-      "gap_pct": 24.0,
-      "price": 78.75,
-      "market_cap": 6059253248,
+      "symbol": "HURN",
+      "gap_pct": 30.4,
+      "price": 158.27,
+      "market_cap": 2565846272,
       "catalyst": ""
     },
     {
-      "symbol": "ITRI",
-      "gap_pct": 21.7,
-      "price": 103.21,
-      "market_cap": 4576264192,
+      "symbol": "MANH",
+      "gap_pct": 25.3,
+      "price": 210.78,
+      "market_cap": 12471010304,
       "catalyst": ""
     },
     {
-      "symbol": "RGEN",
-      "gap_pct": 15.2,
-      "price": 151.04,
-      "market_cap": 8519824896,
+      "symbol": "GRMN",
+      "gap_pct": 17.3,
+      "price": 297.56,
+      "market_cap": 57387257856,
       "catalyst": ""
     },
     {
-      "symbol": "IQV",
-      "gap_pct": 13.7,
-      "price": 242.52,
-      "market_cap": 40476590080,
+      "symbol": "CBZ",
+      "gap_pct": 16.7,
+      "price": 54.51,
+      "market_cap": 2924392192,
       "catalyst": ""
     },
     {
-      "symbol": "AWI",
-      "gap_pct": 11.6,
-      "price": 184.44,
-      "market_cap": 7871898112,
+      "symbol": "NEO",
+      "gap_pct": 14.8,
+      "price": 15.38,
+      "market_cap": 2002657152,
       "catalyst": ""
     },
     {
-      "symbol": "TRU",
-      "gap_pct": 10.8,
-      "price": 85.56,
-      "market_cap": 16495003648,
+      "symbol": "LAD",
+      "gap_pct": 14.1,
+      "price": 408.94,
+      "market_cap": 9326325760,
+      "catalyst": ""
+    },
+    {
+      "symbol": "EXLS",
+      "gap_pct": 13.8,
+      "price": 34.74,
+      "market_cap": 5307679232,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MBIN",
+      "gap_pct": 13.4,
+      "price": 55.31,
+      "market_cap": 2540916992,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AVTR",
+      "gap_pct": 12.1,
+      "price": 13.93,
+      "market_cap": 9507368960,
+      "catalyst": ""
+    },
+    {
+      "symbol": "EDU",
+      "gap_pct": 11.8,
+      "price": 56.8,
+      "market_cap": 9469248512,
       "catalyst": ""
     }
   ],
@@ -82,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday Amid Renewed Pressure on Semiconductor Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130015574.html"
+      "text": "SOXQ ETF Is A Sharper Bet Than Its Name Suggests",
+      "url": "https://finance.yahoo.com/m/b14f4288-e91e-36d4-9e67-0b90f5e11a71/soxq-etf-is-a-sharper-bet.html"
     },
     {
-      "text": "VTV Just Hit A Record. Let It Ride?",
-      "url": "https://finance.yahoo.com/m/dc478ee2-d743-3caa-9625-6832748e769c/vtv-just-hit-a-record.-let-it.html"
+      "text": "Time To Take Profits In XLV?",
+      "url": "https://finance.yahoo.com/m/e418ab23-9f4e-3f6f-8ccb-a904b54d1414/time-to-take-profits-in-xlv%3F.html"
     },
     {
-      "text": "Nasdaq, S&P 500 Futures Slip As Korea Chip Shock Dents AI Memory Heavyweights Ahead Of Fed Decision: Why NVDA, SNDK, MU, APLD, SPCX, SLS, CAPR Are In Focus",
-      "url": "https://finance.yahoo.com/m/1610d04f-d05e-38df-8121-b25e3a21a4d7/nasdaq%2C-s%26p-500-futures-slip.html"
+      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Wednesday Ahead of Fed's Interest Rate Announcement",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-123842313.html"
     },
     {
-      "text": "The Tech Bet Hiding Inside EWY ETF",
-      "url": "https://finance.yahoo.com/m/730204fb-4c29-344b-9b11-c434cf1955e9/the-tech-bet-hiding-inside.html"
+      "text": "CSD and VEGN Both Beat the S&P 500 but One Thrives When Markets Punish Tech",
+      "url": "https://finance.yahoo.com/m/9591e75b-60ab-3028-81cc-34cbea256b5a/csd-and-vegn-both-beat-the.html"
     },
     {
-      "text": "What Should You Do With DVY At A New High?",
-      "url": "https://finance.yahoo.com/m/f20c7911-b8da-310b-b800-e54ad94780d2/what-should-you-do-with-dvy.html"
+      "text": "Dow Ends Higher For Third Straight Session As Oil Cools, Nasdaq Slides On Chipmaker Rout \u2014 PYPL, SPCX, AAPL, V, F Stocks In Focus",
+      "url": "https://finance.yahoo.com/m/19716b81-bb1f-3883-839f-6f95477f2cc5/dow-ends-higher-for-third.html"
     }
   ]
 }
