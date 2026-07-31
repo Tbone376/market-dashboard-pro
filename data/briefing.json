@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Jul 30, 2026",
-  "generated_at": "2026-07-30T10:22:17.491057-04:00",
+  "date": "Fri, Jul 31, 2026",
+  "generated_at": "2026-07-31T10:24:55.770034-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "NBIS",
-      "gap_pct": 29.9,
-      "price": 192.52,
-      "market_cap": 48880025600,
+      "symbol": "AXTI",
+      "gap_pct": 27.1,
+      "price": 59.65,
+      "market_cap": 3902492928,
       "catalyst": ""
     },
     {
-      "symbol": "MKTX",
-      "gap_pct": 29.8,
-      "price": 163.17,
-      "market_cap": 5798972416,
+      "symbol": "IESC",
+      "gap_pct": 26.0,
+      "price": 720.09,
+      "market_cap": 14346992640,
       "catalyst": ""
     },
     {
-      "symbol": "CORT",
-      "gap_pct": 29.5,
-      "price": 120.36,
-      "market_cap": 12920301568,
+      "symbol": "NWL",
+      "gap_pct": 20.5,
+      "price": 6.2,
+      "market_cap": 2632427520,
       "catalyst": ""
     },
     {
-      "symbol": "BE",
-      "gap_pct": 28.7,
-      "price": 210.73,
-      "market_cap": 62065750016,
+      "symbol": "SPXC",
+      "gap_pct": 15.0,
+      "price": 229.18,
+      "market_cap": 11473859584,
       "catalyst": ""
     },
     {
-      "symbol": "BHC",
-      "gap_pct": 25.4,
-      "price": 5.87,
-      "market_cap": 2192302080,
+      "symbol": "AMZN",
+      "gap_pct": 14.0,
+      "price": 268.48,
+      "market_cap": 2888015020032,
       "catalyst": ""
     },
     {
-      "symbol": "FORM",
-      "gap_pct": 25.1,
-      "price": 104.42,
-      "market_cap": 8140036608,
+      "symbol": "BSBR",
+      "gap_pct": 12.6,
+      "price": 5.68,
+      "market_cap": 21283297280,
       "catalyst": ""
     },
     {
-      "symbol": "IREN",
-      "gap_pct": 25.0,
-      "price": 36.64,
-      "market_cap": 13094390784,
+      "symbol": "DLB",
+      "gap_pct": 12.5,
+      "price": 58.26,
+      "market_cap": 5511285760,
       "catalyst": ""
     },
     {
-      "symbol": "CIFR",
-      "gap_pct": 24.7,
-      "price": 22.05,
-      "market_cap": 9019534336,
+      "symbol": "CDNA",
+      "gap_pct": 12.2,
+      "price": 42.74,
+      "market_cap": 2207926272,
       "catalyst": ""
     },
     {
-      "symbol": "SIMO",
-      "gap_pct": 22.8,
-      "price": 257.57,
-      "market_cap": 8733641728,
+      "symbol": "SPSC",
+      "gap_pct": 11.5,
+      "price": 73.38,
+      "market_cap": 2693978112,
       "catalyst": ""
     },
     {
-      "symbol": "LRCX",
-      "gap_pct": 21.1,
-      "price": 305.61,
-      "market_cap": 382186979328,
+      "symbol": "DXCM",
+      "gap_pct": 10.3,
+      "price": 82.21,
+      "market_cap": 31722618880,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "AMD is Down 18% Over a Month: One Analyst Targets $1,250, Meaning 190% Returns From Here",
-      "url": "https://finance.yahoo.com/m/b1df0213-1aaf-3209-afe0-43bb0604f3e6/amd-is-down-18%25-over-a-month%3A.html"
+      "text": "Her Wisconsin Pension Rose 2.1%. The Other Part Jumped 18%. Only One Is Safe to Spend.",
+      "url": "https://finance.yahoo.com/m/b2eee3ca-0f22-3326-b5a3-436e9a432dc3/her-wisconsin-pension-rose.html"
     },
     {
-      "text": "Alphabet is $330 a Share: Could It Go To $420 This Year?",
-      "url": "https://finance.yahoo.com/m/9be21ef1-699c-3645-9a66-28e387dec5de/alphabet-is-%24330-a-share%3A.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Amazon Earnings Offset Apple Weakness",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130636476.html"
     },
     {
-      "text": "ServiceNow Showing Signs of Life But Still Down 25% YTD: 115% Returns Coming If This Analyst is Correct",
-      "url": "https://finance.yahoo.com/m/7c1f9942-8235-381a-8347-d3d671897c69/servicenow-showing-signs-of.html"
+      "text": "How Much RTX Are You Quietly Betting On?",
+      "url": "https://finance.yahoo.com/m/e4a5b0e1-6fce-3cd6-92de-7dc4d7e3ce02/how-much-rtx-are-you-quietly.html"
     },
     {
-      "text": "VTV Asks You to Pay Yesterday's Premium for Tomorrow's Growth",
-      "url": "https://finance.yahoo.com/m/48d067ab-41d4-33c6-8b6b-3729d34d1b55/vtv-asks-you-to-pay.html"
+      "text": "Is This XLK Tech Dip A Gift?",
+      "url": "https://finance.yahoo.com/m/bc32eb32-1692-375d-9555-6514ed02c33e/is-this-xlk-tech-dip-a-gift%3F.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Amid Tech Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131132369.html"
+      "text": "S&P 500, Nasdaq End Best Day In A Month On Support From Microsoft Gains, AI Stocks  \u2014 ORCL, GOOGL, MSFT, BE, TSLA Stock In Focus",
+      "url": "https://finance.yahoo.com/m/3c0f5c3c-022b-3f9f-9f83-acebcb3c42c1/s%26p-500%2C-nasdaq-end-best-day.html"
     }
   ]
 }
