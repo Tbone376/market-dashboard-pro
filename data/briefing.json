@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Jul 31, 2026",
-  "generated_at": "2026-07-31T10:24:55.770034-04:00",
+  "date": "Mon, Aug 3, 2026",
+  "generated_at": "2026-08-03T10:55:59.450088-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "AXTI",
-      "gap_pct": 27.1,
-      "price": 59.65,
-      "market_cap": 3902492928,
+      "symbol": "ATKR",
+      "gap_pct": 28.2,
+      "price": 93.55,
+      "market_cap": 3158927616,
       "catalyst": ""
     },
     {
-      "symbol": "IESC",
-      "gap_pct": 26.0,
-      "price": 720.09,
-      "market_cap": 14346992640,
+      "symbol": "AXTI",
+      "gap_pct": 15.0,
+      "price": 69.52,
+      "market_cap": 4548219392,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CNH",
+      "gap_pct": 14.6,
+      "price": 11.75,
+      "market_cap": 14569419776,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ALM",
+      "gap_pct": 13.7,
+      "price": 12.58,
+      "market_cap": 3569472512,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FSLR",
+      "gap_pct": 13.5,
+      "price": 239.53,
+      "market_cap": 25741701120,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CRWV",
+      "gap_pct": 13.4,
+      "price": 81.42,
+      "market_cap": 44417613824,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NBIS",
+      "gap_pct": 12.7,
+      "price": 214.6,
+      "market_cap": 54487183360,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BFLY",
+      "gap_pct": 12.7,
+      "price": 8.02,
+      "market_cap": 2134275840,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AAOI",
+      "gap_pct": 11.9,
+      "price": 105.57,
+      "market_cap": 8471228928,
       "catalyst": ""
     },
     {
       "symbol": "NWL",
-      "gap_pct": 20.5,
-      "price": 6.2,
-      "market_cap": 2632427520,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SPXC",
-      "gap_pct": 15.0,
-      "price": 229.18,
-      "market_cap": 11473859584,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AMZN",
-      "gap_pct": 14.0,
-      "price": 268.48,
-      "market_cap": 2888015020032,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BSBR",
-      "gap_pct": 12.6,
-      "price": 5.68,
-      "market_cap": 21283297280,
-      "catalyst": ""
-    },
-    {
-      "symbol": "DLB",
-      "gap_pct": 12.5,
-      "price": 58.26,
-      "market_cap": 5511285760,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CDNA",
-      "gap_pct": 12.2,
-      "price": 42.74,
-      "market_cap": 2207926272,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SPSC",
-      "gap_pct": 11.5,
-      "price": 73.38,
-      "market_cap": 2693978112,
-      "catalyst": ""
-    },
-    {
-      "symbol": "DXCM",
-      "gap_pct": 10.3,
-      "price": 82.21,
-      "market_cap": 31722618880,
+      "gap_pct": 11.7,
+      "price": 6.25,
+      "market_cap": 2657923328,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Her Wisconsin Pension Rose 2.1%. The Other Part Jumped 18%. Only One Is Safe to Spend.",
-      "url": "https://finance.yahoo.com/m/b2eee3ca-0f22-3326-b5a3-436e9a432dc3/her-wisconsin-pension-rose.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid US-Iran Truce Hopes",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130651670.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Amazon Earnings Offset Apple Weakness",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130636476.html"
+      "text": "What's Inside URA Decides This Dip's Fate",
+      "url": "https://finance.yahoo.com/m/868293ab-2e08-3d4f-a358-bc5b9fde3398/what%27s-inside-ura-decides.html"
     },
     {
-      "text": "How Much RTX Are You Quietly Betting On?",
-      "url": "https://finance.yahoo.com/m/e4a5b0e1-6fce-3cd6-92de-7dc4d7e3ce02/how-much-rtx-are-you-quietly.html"
+      "text": "These 3 ETFs Can Turn $500,000 Into $40,000 a Year Without Touching Principal",
+      "url": "https://finance.yahoo.com/m/fb6b3378-1152-3c1f-a3b4-0aca49c4e833/these-3-etfs-can-turn.html"
     },
     {
-      "text": "Is This XLK Tech Dip A Gift?",
-      "url": "https://finance.yahoo.com/m/bc32eb32-1692-375d-9555-6514ed02c33e/is-this-xlk-tech-dip-a-gift%3F.html"
+      "text": "JEPI vs JEPQ: After Comparing America\u2019s Two Biggest Income ETFs, One Is the Better Buy for the Rest of 2026",
+      "url": "https://finance.yahoo.com/m/e592e342-73bd-3e1f-ba01-49b17911e801/jepi-vs-jepq%3A-after-comparing.html"
     },
     {
-      "text": "S&P 500, Nasdaq End Best Day In A Month On Support From Microsoft Gains, AI Stocks  \u2014 ORCL, GOOGL, MSFT, BE, TSLA Stock In Focus",
-      "url": "https://finance.yahoo.com/m/3c0f5c3c-022b-3f9f-9f83-acebcb3c42c1/s%26p-500%2C-nasdaq-end-best-day.html"
+      "text": "Apple\u2019s Safe Haven Illusion Faces an Impending Hangover",
+      "url": "https://finance.yahoo.com/m/50d95d91-519c-33f2-8b7e-566ac33cae07/apple%E2%80%99s-safe-haven-illusion.html"
     }
   ]
 }
