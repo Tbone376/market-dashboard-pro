@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Aug 3, 2026",
-  "generated_at": "2026-08-03T10:55:59.450088-04:00",
+  "date": "Tue, Aug 4, 2026",
+  "generated_at": "2026-08-04T10:31:58.636099-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "ATKR",
-      "gap_pct": 28.2,
-      "price": 93.55,
-      "market_cap": 3158927616,
+      "symbol": "W",
+      "gap_pct": 29.1,
+      "price": 115.31,
+      "market_cap": 15219856384,
       "catalyst": ""
     },
     {
-      "symbol": "AXTI",
-      "gap_pct": 15.0,
-      "price": 69.52,
-      "market_cap": 4548219392,
+      "symbol": "PAY",
+      "gap_pct": 26.0,
+      "price": 43.51,
+      "market_cap": 5473093632,
       "catalyst": ""
     },
     {
-      "symbol": "CNH",
-      "gap_pct": 14.6,
-      "price": 11.75,
-      "market_cap": 14569419776,
+      "symbol": "PLTR",
+      "gap_pct": 25.2,
+      "price": 157.31,
+      "market_cap": 377121144832,
       "catalyst": ""
     },
     {
-      "symbol": "ALM",
-      "gap_pct": 13.7,
-      "price": 12.58,
-      "market_cap": 3569472512,
+      "symbol": "VOYG",
+      "gap_pct": 25.0,
+      "price": 35.0,
+      "market_cap": 2074175232,
       "catalyst": ""
     },
     {
-      "symbol": "FSLR",
-      "gap_pct": 13.5,
-      "price": 239.53,
-      "market_cap": 25741701120,
+      "symbol": "UFPT",
+      "gap_pct": 20.2,
+      "price": 321.45,
+      "market_cap": 2487039232,
       "catalyst": ""
     },
     {
-      "symbol": "CRWV",
-      "gap_pct": 13.4,
-      "price": 81.42,
-      "market_cap": 44417613824,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NBIS",
-      "gap_pct": 12.7,
-      "price": 214.6,
-      "market_cap": 54487183360,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BFLY",
-      "gap_pct": 12.7,
-      "price": 8.02,
-      "market_cap": 2134275840,
+      "symbol": "ZBRA",
+      "gap_pct": 18.2,
+      "price": 344.85,
+      "market_cap": 16426375168,
       "catalyst": ""
     },
     {
       "symbol": "AAOI",
-      "gap_pct": 11.9,
-      "price": 105.57,
-      "market_cap": 8471228928,
+      "gap_pct": 16.8,
+      "price": 128.7,
+      "market_cap": 10327243776,
       "catalyst": ""
     },
     {
-      "symbol": "NWL",
-      "gap_pct": 11.7,
-      "price": 6.25,
-      "market_cap": 2657923328,
+      "symbol": "IT",
+      "gap_pct": 15.1,
+      "price": 174.44,
+      "market_cap": 11679087616,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DORM",
+      "gap_pct": 13.7,
+      "price": 145.16,
+      "market_cap": 4337635840,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SNAP",
+      "gap_pct": 13.6,
+      "price": 5.72,
+      "market_cap": 9487246336,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid US-Iran Truce Hopes",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130651670.html"
+      "text": "What SCHD's Own History Suggests About Its Price Today",
+      "url": "https://finance.yahoo.com/m/38f24b65-4fa8-3870-8dfa-0c370a0089a8/what-schd%27s-own-history.html"
     },
     {
-      "text": "What's Inside URA Decides This Dip's Fate",
-      "url": "https://finance.yahoo.com/m/868293ab-2e08-3d4f-a358-bc5b9fde3398/what%27s-inside-ura-decides.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Strait of Hormuz Re-Opening Hopes",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131439491.html"
     },
     {
-      "text": "These 3 ETFs Can Turn $500,000 Into $40,000 a Year Without Touching Principal",
-      "url": "https://finance.yahoo.com/m/fb6b3378-1152-3c1f-a3b4-0aca49c4e833/these-3-etfs-can-turn.html"
+      "text": "What IJR's Own History Says About Its Price Today",
+      "url": "https://finance.yahoo.com/m/443a2867-860e-3cde-9c12-765174175759/what-ijr%27s-own-history-says.html"
     },
     {
-      "text": "JEPI vs JEPQ: After Comparing America\u2019s Two Biggest Income ETFs, One Is the Better Buy for the Rest of 2026",
-      "url": "https://finance.yahoo.com/m/e592e342-73bd-3e1f-ba01-49b17911e801/jepi-vs-jepq%3A-after-comparing.html"
+      "text": "Ordinary Income Trap: Why JEPI\u2019s Monthly Distributions Are Quietly Gutting Your After-Tax Returns",
+      "url": "https://finance.yahoo.com/m/413bf8b1-aecf-3fa6-aa6c-0dc48297d590/ordinary-income-trap%3A-why.html"
     },
     {
-      "text": "Apple\u2019s Safe Haven Illusion Faces an Impending Hangover",
-      "url": "https://finance.yahoo.com/m/50d95d91-519c-33f2-8b7e-566ac33cae07/apple%E2%80%99s-safe-haven-illusion.html"
+      "text": "The Hidden Price of Monthly Income: DIVO\u2019s Option Overlay Cost Investors Billions in Foregone Gains",
+      "url": "https://finance.yahoo.com/m/ba707fd2-bdb2-3254-8e26-70169fb69113/the-hidden-price-of-monthly.html"
     }
   ]
 }
