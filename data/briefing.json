@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Aug 4, 2026",
-  "generated_at": "2026-08-04T10:31:58.636099-04:00",
+  "date": "Wed, Aug 5, 2026",
+  "generated_at": "2026-08-05T10:24:45.645949-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "W",
-      "gap_pct": 29.1,
-      "price": 115.31,
-      "market_cap": 15219856384,
+      "symbol": "MTRN",
+      "gap_pct": 25.4,
+      "price": 284.7,
+      "market_cap": 5922182656,
       "catalyst": ""
     },
     {
-      "symbol": "PAY",
-      "gap_pct": 26.0,
-      "price": 43.51,
-      "market_cap": 5473093632,
+      "symbol": "SHOP",
+      "gap_pct": 16.6,
+      "price": 143.82,
+      "market_cap": 186635173888,
       "catalyst": ""
     },
     {
-      "symbol": "PLTR",
-      "gap_pct": 25.2,
-      "price": 157.31,
-      "market_cap": 377121144832,
+      "symbol": "ZETA",
+      "gap_pct": 16.2,
+      "price": 28.19,
+      "market_cap": 7026572288,
       "catalyst": ""
     },
     {
-      "symbol": "VOYG",
-      "gap_pct": 25.0,
-      "price": 35.0,
-      "market_cap": 2074175232,
+      "symbol": "TVTX",
+      "gap_pct": 16.2,
+      "price": 65.08,
+      "market_cap": 6051978240,
       "catalyst": ""
     },
     {
-      "symbol": "UFPT",
-      "gap_pct": 20.2,
-      "price": 321.45,
-      "market_cap": 2487039232,
+      "symbol": "QLYS",
+      "gap_pct": 16.0,
+      "price": 186.94,
+      "market_cap": 6583467520,
       "catalyst": ""
     },
     {
-      "symbol": "ZBRA",
-      "gap_pct": 18.2,
-      "price": 344.85,
-      "market_cap": 16426375168,
+      "symbol": "DT",
+      "gap_pct": 14.8,
+      "price": 52.47,
+      "market_cap": 15292274688,
       "catalyst": ""
     },
     {
-      "symbol": "AAOI",
-      "gap_pct": 16.8,
-      "price": 128.7,
-      "market_cap": 10327243776,
+      "symbol": "INTA",
+      "gap_pct": 13.3,
+      "price": 37.13,
+      "market_cap": 2861397248,
       "catalyst": ""
     },
     {
-      "symbol": "IT",
-      "gap_pct": 15.1,
-      "price": 174.44,
-      "market_cap": 11679087616,
+      "symbol": "AXTI",
+      "gap_pct": 12.5,
+      "price": 73.42,
+      "market_cap": 4803363328,
       "catalyst": ""
     },
     {
-      "symbol": "DORM",
-      "gap_pct": 13.7,
-      "price": 145.16,
-      "market_cap": 4337635840,
+      "symbol": "HYMC",
+      "gap_pct": 12.3,
+      "price": 25.11,
+      "market_cap": 2340257792,
       "catalyst": ""
     },
     {
-      "symbol": "SNAP",
-      "gap_pct": 13.6,
-      "price": 5.72,
-      "market_cap": 9487246336,
+      "symbol": "TWST",
+      "gap_pct": 12.2,
+      "price": 111.55,
+      "market_cap": 6994699264,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "What SCHD's Own History Suggests About Its Price Today",
-      "url": "https://finance.yahoo.com/m/38f24b65-4fa8-3870-8dfa-0c370a0089a8/what-schd%27s-own-history.html"
+      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131015495.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Tuesday Amid Strait of Hormuz Re-Opening Hopes",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-131439491.html"
+      "text": "What Happens When Stock Implied Volatility Outpaces the SPY",
+      "url": "https://finance.yahoo.com/markets/options/articles/happens-stock-implied-volatility-outpaces-124208065.html"
     },
     {
-      "text": "What IJR's Own History Says About Its Price Today",
-      "url": "https://finance.yahoo.com/m/443a2867-860e-3cde-9c12-765174175759/what-ijr%27s-own-history-says.html"
+      "text": "The Dow Just Gained 1000 Points for the 27th Day Ever. 25 of These Days Happened Under Donald Trump.",
+      "url": "https://finance.yahoo.com/m/8e345ac2-baff-3665-94df-b61199eda4c3/the-dow-just-gained-1000.html"
     },
     {
-      "text": "Ordinary Income Trap: Why JEPI\u2019s Monthly Distributions Are Quietly Gutting Your After-Tax Returns",
-      "url": "https://finance.yahoo.com/m/413bf8b1-aecf-3fa6-aa6c-0dc48297d590/ordinary-income-trap%3A-why.html"
+      "text": "US Stock Futures Flat After S&P500, Dow End At Record Highs On Strong Earnings, Easing Geopolitical Concerns \u2014 PLTR, AZN, CMG, MRNA In Focus",
+      "url": "https://finance.yahoo.com/m/2e347034-68ab-31c1-b3b0-02b9d861a5c4/us-stock-futures-flat-after.html"
     },
     {
-      "text": "The Hidden Price of Monthly Income: DIVO\u2019s Option Overlay Cost Investors Billions in Foregone Gains",
-      "url": "https://finance.yahoo.com/m/ba707fd2-bdb2-3254-8e26-70169fb69113/the-hidden-price-of-monthly.html"
+      "text": "Corning Dropped 25% Over a Month: A Major U.S. Bank Expects 66% Gains Over The Near Term",
+      "url": "https://finance.yahoo.com/m/54db2cdf-80e2-3e9b-b678-c4e798d5489c/corning-dropped-25%25-over-a.html"
     }
   ]
 }
