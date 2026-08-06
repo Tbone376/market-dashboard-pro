@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Aug 5, 2026",
-  "generated_at": "2026-08-05T10:24:45.645949-04:00",
+  "date": "Thu, Aug 6, 2026",
+  "generated_at": "2026-08-06T10:28:02.621625-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "MTRN",
-      "gap_pct": 25.4,
-      "price": 284.7,
-      "market_cap": 5922182656,
+      "symbol": "IOVA",
+      "gap_pct": 41.4,
+      "price": 6.14,
+      "market_cap": 2740497920,
       "catalyst": ""
     },
     {
-      "symbol": "SHOP",
-      "gap_pct": 16.6,
-      "price": 143.82,
-      "market_cap": 186635173888,
+      "symbol": "INSM",
+      "gap_pct": 31.6,
+      "price": 130.28,
+      "market_cap": 28239593472,
       "catalyst": ""
     },
     {
-      "symbol": "ZETA",
-      "gap_pct": 16.2,
-      "price": 28.19,
-      "market_cap": 7026572288,
+      "symbol": "SITM",
+      "gap_pct": 26.6,
+      "price": 687.5,
+      "market_cap": 20594419712,
       "catalyst": ""
     },
     {
-      "symbol": "TVTX",
-      "gap_pct": 16.2,
-      "price": 65.08,
-      "market_cap": 6051978240,
+      "symbol": "WPP",
+      "gap_pct": 25.3,
+      "price": 25.83,
+      "market_cap": 5573093376,
       "catalyst": ""
     },
     {
-      "symbol": "QLYS",
-      "gap_pct": 16.0,
-      "price": 186.94,
-      "market_cap": 6583467520,
+      "symbol": "CHYM",
+      "gap_pct": 23.8,
+      "price": 32.1,
+      "market_cap": 12230713344,
       "catalyst": ""
     },
     {
-      "symbol": "DT",
-      "gap_pct": 14.8,
-      "price": 52.47,
-      "market_cap": 15292274688,
+      "symbol": "PAYC",
+      "gap_pct": 21.8,
+      "price": 212.91,
+      "market_cap": 9927374848,
       "catalyst": ""
     },
     {
-      "symbol": "INTA",
-      "gap_pct": 13.3,
-      "price": 37.13,
-      "market_cap": 2861397248,
+      "symbol": "MGNI",
+      "gap_pct": 21.3,
+      "price": 25.07,
+      "market_cap": 3590400256,
       "catalyst": ""
     },
     {
-      "symbol": "AXTI",
-      "gap_pct": 12.5,
-      "price": 73.42,
-      "market_cap": 4803363328,
+      "symbol": "CLOV",
+      "gap_pct": 20.9,
+      "price": 5.0,
+      "market_cap": 2636055040,
       "catalyst": ""
     },
     {
-      "symbol": "HYMC",
-      "gap_pct": 12.3,
-      "price": 25.11,
-      "market_cap": 2340257792,
+      "symbol": "TPC",
+      "gap_pct": 19.3,
+      "price": 100.88,
+      "market_cap": 5325601280,
       "catalyst": ""
     },
     {
-      "symbol": "TWST",
-      "gap_pct": 12.2,
-      "price": 111.55,
-      "market_cap": 6994699264,
+      "symbol": "DIOD",
+      "gap_pct": 19.1,
+      "price": 101.89,
+      "market_cap": 4681538560,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Amid Corporate Earnings, Hormuz Reopening Hopes",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131015495.html"
+      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132120169.html"
     },
     {
-      "text": "What Happens When Stock Implied Volatility Outpaces the SPY",
-      "url": "https://finance.yahoo.com/markets/options/articles/happens-stock-implied-volatility-outpaces-124208065.html"
+      "text": "Nasdaq, Dow Futures Mixed Ahead Of Jobless Claims: Why SPCX, SNDK, SOUN, IONQ, FIG Stocks Are In Focus",
+      "url": "https://finance.yahoo.com/m/8cf7d830-5466-3eeb-895c-1dfd1d703036/nasdaq%2C-dow-futures-mixed.html"
     },
     {
-      "text": "The Dow Just Gained 1000 Points for the 27th Day Ever. 25 of These Days Happened Under Donald Trump.",
-      "url": "https://finance.yahoo.com/m/8e345ac2-baff-3665-94df-b61199eda4c3/the-dow-just-gained-1000.html"
+      "text": "What Determines Applied Materials\u2019 Resilience on Aug 13 Earnings",
+      "url": "https://finance.yahoo.com/m/2d411500-b088-3b72-aef1-42c85f76ee7b/what-determines-applied.html"
     },
     {
-      "text": "US Stock Futures Flat After S&P500, Dow End At Record Highs On Strong Earnings, Easing Geopolitical Concerns \u2014 PLTR, AZN, CMG, MRNA In Focus",
-      "url": "https://finance.yahoo.com/m/2e347034-68ab-31c1-b3b0-02b9d861a5c4/us-stock-futures-flat-after.html"
+      "text": "Alphabet Post-Earnings Rebound is On: Buy at $363?",
+      "url": "https://finance.yahoo.com/m/710d1eb5-7323-3f9f-8ee9-4b899c0679ea/alphabet-post-earnings.html"
     },
     {
-      "text": "Corning Dropped 25% Over a Month: A Major U.S. Bank Expects 66% Gains Over The Near Term",
-      "url": "https://finance.yahoo.com/m/54db2cdf-80e2-3e9b-b678-c4e798d5489c/corning-dropped-25%25-over-a.html"
+      "text": "VNQ Returned 62.61% in 10 Years. SPY Returned 253.49%. Here\u2019s the Hidden Cost Nobody Talks About",
+      "url": "https://finance.yahoo.com/m/1d0a9e91-f86f-3452-9b8a-c6e7e4dd11de/vnq-returned-62.61%25-in-10.html"
     }
   ]
 }
