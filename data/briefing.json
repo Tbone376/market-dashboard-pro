@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Aug 6, 2026",
-  "generated_at": "2026-08-06T10:28:02.621625-04:00",
+  "date": "Fri, Aug 7, 2026",
+  "generated_at": "2026-08-07T09:18:51.064563-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,17 +36,24 @@
   },
   "gappers": [
     {
+      "symbol": "BRVE",
+      "gap_pct": 65.6,
+      "price": 29.8,
+      "market_cap": 2105454592,
+      "catalyst": ""
+    },
+    {
       "symbol": "IOVA",
-      "gap_pct": 41.4,
-      "price": 6.14,
-      "market_cap": 2740497920,
+      "gap_pct": 43.1,
+      "price": 6.21,
+      "market_cap": 2772780032,
       "catalyst": ""
     },
     {
       "symbol": "INSM",
-      "gap_pct": 31.6,
-      "price": 130.28,
-      "market_cap": 28239593472,
+      "gap_pct": 33.9,
+      "price": 132.55,
+      "market_cap": 28946468864,
       "catalyst": ""
     },
     {
@@ -58,51 +65,44 @@
     },
     {
       "symbol": "WPP",
-      "gap_pct": 25.3,
-      "price": 25.83,
-      "market_cap": 5573093376,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CHYM",
-      "gap_pct": 23.8,
-      "price": 32.1,
-      "market_cap": 12230713344,
+      "gap_pct": 25.9,
+      "price": 25.95,
+      "market_cap": 5598984704,
       "catalyst": ""
     },
     {
       "symbol": "PAYC",
-      "gap_pct": 21.8,
-      "price": 212.91,
-      "market_cap": 9927374848,
+      "gap_pct": 23.6,
+      "price": 215.97,
+      "market_cap": 10070053888,
       "catalyst": ""
     },
     {
-      "symbol": "MGNI",
-      "gap_pct": 21.3,
-      "price": 25.07,
-      "market_cap": 3590400256,
+      "symbol": "VAC",
+      "gap_pct": 22.6,
+      "price": 124.75,
+      "market_cap": 4284297216,
       "catalyst": ""
     },
     {
-      "symbol": "CLOV",
-      "gap_pct": 20.9,
-      "price": 5.0,
-      "market_cap": 2636055040,
+      "symbol": "CAI",
+      "gap_pct": 21.6,
+      "price": 20.0,
+      "market_cap": 5653614080,
       "catalyst": ""
     },
     {
-      "symbol": "TPC",
-      "gap_pct": 19.3,
-      "price": 100.88,
-      "market_cap": 5325601280,
+      "symbol": "CACI",
+      "gap_pct": 21.4,
+      "price": 628.79,
+      "market_cap": 13890790400,
       "catalyst": ""
     },
     {
-      "symbol": "DIOD",
-      "gap_pct": 19.1,
-      "price": 101.89,
-      "market_cap": 4681538560,
+      "symbol": "CHYM",
+      "gap_pct": 20.6,
+      "price": 31.25,
+      "market_cap": 11906847744,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Thursday Amid Corporate Earnings Deluge",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-132120169.html"
+      "text": "How A Top T. Rowe Price Manager Literally Scoops Up Melting Stocks",
+      "url": "https://finance.yahoo.com/m/06a75f44-5e05-3b22-acdb-a578a2babe99/how-a-top-t.-rowe-price.html"
     },
     {
-      "text": "Nasdaq, Dow Futures Mixed Ahead Of Jobless Claims: Why SPCX, SNDK, SOUN, IONQ, FIG Stocks Are In Focus",
-      "url": "https://finance.yahoo.com/m/8cf7d830-5466-3eeb-895c-1dfd1d703036/nasdaq%2C-dow-futures-mixed.html"
+      "text": "Trump Calls AI 'Bigger Than Oil' In the Race Against China For Tech, Crypto Dominance",
+      "url": "https://finance.yahoo.com/m/69bbb209-9104-39a2-9f9f-a008191e090b/trump-calls-ai-%27bigger-than.html"
     },
     {
-      "text": "What Determines Applied Materials\u2019 Resilience on Aug 13 Earnings",
-      "url": "https://finance.yahoo.com/m/2d411500-b088-3b72-aef1-42c85f76ee7b/what-determines-applied.html"
+      "text": "Chasing 17.24% Yield? XDTE Holders Are Getting Their Own Money Back\u2014and Paying for It",
+      "url": "https://finance.yahoo.com/m/64b7d2a8-5180-39e6-ad60-0dfd7902e080/chasing-17.24%25-yield%3F-xdte.html"
     },
     {
-      "text": "Alphabet Post-Earnings Rebound is On: Buy at $363?",
-      "url": "https://finance.yahoo.com/m/710d1eb5-7323-3f9f-8ee9-4b899c0679ea/alphabet-post-earnings.html"
+      "text": "Why S&P 500, Dow Futures Are Slipping Overnight After Wall Street\u2019s Second Straight Day In The Red",
+      "url": "https://finance.yahoo.com/m/d7094ba7-cf01-37b6-858a-45cd45194ad6/why-s%26p-500%2C-dow-futures-are.html"
     },
     {
-      "text": "VNQ Returned 62.61% in 10 Years. SPY Returned 253.49%. Here\u2019s the Hidden Cost Nobody Talks About",
-      "url": "https://finance.yahoo.com/m/1d0a9e91-f86f-3452-9b8a-c6e7e4dd11de/vnq-returned-62.61%25-in-10.html"
+      "text": "A Market Drop at 67 Does Twice the Damage of One at 57. Here\u2019s the Math, and the Buffer That Blunts It.",
+      "url": "https://finance.yahoo.com/m/22804a87-7e0e-3afe-ab2b-0120da295aa1/a-market-drop-at-67-does.html"
     }
   ]
 }
