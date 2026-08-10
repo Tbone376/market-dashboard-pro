@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Aug 7, 2026",
-  "generated_at": "2026-08-07T09:18:51.064563-04:00",
+  "date": "Mon, Aug 10, 2026",
+  "generated_at": "2026-08-10T09:24:11.466138-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "BRVE",
-      "gap_pct": 65.6,
-      "price": 29.8,
-      "market_cap": 2105454592,
+      "symbol": "TEAM",
+      "gap_pct": 35.3,
+      "price": 149.07,
+      "market_cap": 37829177344,
       "catalyst": ""
     },
     {
-      "symbol": "IOVA",
-      "gap_pct": 43.1,
-      "price": 6.21,
-      "market_cap": 2772780032,
+      "symbol": "DOCS",
+      "gap_pct": 32.6,
+      "price": 27.4,
+      "market_cap": 4883939840,
       "catalyst": ""
     },
     {
-      "symbol": "INSM",
-      "gap_pct": 33.9,
-      "price": 132.55,
-      "market_cap": 28946468864,
+      "symbol": "FIGS",
+      "gap_pct": 26.9,
+      "price": 14.26,
+      "market_cap": 2369159936,
       "catalyst": ""
     },
     {
-      "symbol": "SITM",
-      "gap_pct": 26.6,
-      "price": 687.5,
-      "market_cap": 20594419712,
+      "symbol": "TWLO",
+      "gap_pct": 24.9,
+      "price": 241.28,
+      "market_cap": 36619997184,
       "catalyst": ""
     },
     {
-      "symbol": "WPP",
-      "gap_pct": 25.9,
-      "price": 25.95,
-      "market_cap": 5598984704,
+      "symbol": "BTG",
+      "gap_pct": 23.0,
+      "price": 5.03,
+      "market_cap": 6644985856,
       "catalyst": ""
     },
     {
-      "symbol": "PAYC",
-      "gap_pct": 23.6,
-      "price": 215.97,
-      "market_cap": 10070053888,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VAC",
-      "gap_pct": 22.6,
-      "price": 124.75,
-      "market_cap": 4284297216,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CAI",
-      "gap_pct": 21.6,
-      "price": 20.0,
-      "market_cap": 5653614080,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CACI",
+      "symbol": "NTRA",
       "gap_pct": 21.4,
-      "price": 628.79,
-      "market_cap": 13890790400,
+      "price": 322.1,
+      "market_cap": 46428839936,
       "catalyst": ""
     },
     {
-      "symbol": "CHYM",
-      "gap_pct": 20.6,
-      "price": 31.25,
-      "market_cap": 11906847744,
+      "symbol": "HALO",
+      "gap_pct": 20.2,
+      "price": 103.12,
+      "market_cap": 12231372800,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FIVN",
+      "gap_pct": 19.8,
+      "price": 33.99,
+      "market_cap": 2539852800,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ROAD",
+      "gap_pct": 19.5,
+      "price": 119.74,
+      "market_cap": 6769469952,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AXTI",
+      "gap_pct": 17.8,
+      "price": 88.58,
+      "market_cap": 5795185664,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "How A Top T. Rowe Price Manager Literally Scoops Up Melting Stocks",
-      "url": "https://finance.yahoo.com/m/06a75f44-5e05-3b22-acdb-a578a2babe99/how-a-top-t.-rowe-price.html"
+      "text": "3 Beaten-Down Healthcare Stocks to Buy in August",
+      "url": "https://finance.yahoo.com/m/8490cb80-1a0b-32d3-8557-ae35edc2d3a7/3-beaten-down-healthcare.html"
     },
     {
-      "text": "Trump Calls AI 'Bigger Than Oil' In the Race Against China For Tech, Crypto Dominance",
-      "url": "https://finance.yahoo.com/m/69bbb209-9104-39a2-9f9f-a008191e090b/trump-calls-ai-%27bigger-than.html"
+      "text": "Super Micro Computer Continues Its 3-Month Fall: One Wall Street Bull\u2019s Thesis Predicts 55% Upside From Here",
+      "url": "https://finance.yahoo.com/m/33e21b58-5ae2-3ae0-aba5-40d019ac0bb4/super-micro-computer.html"
     },
     {
-      "text": "Chasing 17.24% Yield? XDTE Holders Are Getting Their Own Money Back\u2014and Paying for It",
-      "url": "https://finance.yahoo.com/m/64b7d2a8-5180-39e6-ad60-0dfd7902e080/chasing-17.24%25-yield%3F-xdte.html"
+      "text": "S&P 500 Companies' Second-Quarter Profit Boomed \u2014 What's Next?",
+      "url": "https://finance.yahoo.com/m/ab93ec3f-18fc-36b4-bc1d-a2a4ed539a6e/s%26p-500-companies%27.html"
     },
     {
-      "text": "Why S&P 500, Dow Futures Are Slipping Overnight After Wall Street\u2019s Second Straight Day In The Red",
-      "url": "https://finance.yahoo.com/m/d7094ba7-cf01-37b6-858a-45cd45194ad6/why-s%26p-500%2C-dow-futures-are.html"
+      "text": "VOO Is About to Become the First $1 Trillion ETF, and SPY Holders Are Paying 3x More for the Same Index",
+      "url": "https://finance.yahoo.com/m/48024195-5754-3a78-8d28-f5b1fbbbf352/voo-is-about-to-become-the.html"
     },
     {
-      "text": "A Market Drop at 67 Does Twice the Damage of One at 57. Here\u2019s the Math, and the Buffer That Blunts It.",
-      "url": "https://finance.yahoo.com/m/22804a87-7e0e-3afe-ab2b-0120da295aa1/a-market-drop-at-67-does.html"
+      "text": "ISPY\u2019s 0.56% Fee Hides a $38,000 Decade-Long Performance Gap Against SPY",
+      "url": "https://finance.yahoo.com/m/70cbe0c3-26c5-3ad8-86e1-0aeaa3b48744/ispy%E2%80%99s-0.56%25-fee-hides-a.html"
     }
   ]
 }
