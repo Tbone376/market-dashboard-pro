@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Aug 11, 2026",
-  "generated_at": "2026-08-11T09:21:05.672774-04:00",
+  "date": "Wed, Aug 12, 2026",
+  "generated_at": "2026-08-12T09:25:10.226837-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "ABCL",
-      "gap_pct": 34.8,
-      "price": 9.34,
-      "market_cap": 2852206080,
+      "symbol": "NIQ",
+      "gap_pct": 42.0,
+      "price": 16.58,
+      "market_cap": 4890368512,
       "catalyst": ""
     },
     {
-      "symbol": "OBX",
-      "gap_pct": 27.3,
-      "price": 35.0,
-      "market_cap": 2155852544,
+      "symbol": "ALMR",
+      "gap_pct": 30.7,
+      "price": 36.57,
+      "market_cap": 2537693440,
       "catalyst": ""
     },
     {
-      "symbol": "NESR",
-      "gap_pct": 23.3,
-      "price": 35.79,
-      "market_cap": 3609323264,
+      "symbol": "SEPN",
+      "gap_pct": 22.9,
+      "price": 47.76,
+      "market_cap": 2229291008,
       "catalyst": ""
     },
     {
-      "symbol": "FSLY",
-      "gap_pct": 20.9,
-      "price": 27.75,
-      "market_cap": 4420575232,
+      "symbol": "FRMI",
+      "gap_pct": 21.1,
+      "price": 7.12,
+      "market_cap": 4543153152,
       "catalyst": ""
     },
     {
-      "symbol": "QH",
-      "gap_pct": 15.8,
-      "price": 5.08,
-      "market_cap": 447185092608,
+      "symbol": "NN",
+      "gap_pct": 15.6,
+      "price": 17.83,
+      "market_cap": 2432670720,
       "catalyst": ""
     },
     {
-      "symbol": "BSP",
-      "gap_pct": 15.7,
-      "price": 51.43,
-      "market_cap": 32669329408,
+      "symbol": "SE",
+      "gap_pct": 14.6,
+      "price": 131.51,
+      "market_cap": 80547840000,
       "catalyst": ""
     },
     {
-      "symbol": "CLMT",
-      "gap_pct": 15.2,
-      "price": 45.47,
-      "market_cap": 3996732672,
+      "symbol": "RNW",
+      "gap_pct": 11.7,
+      "price": 6.85,
+      "market_cap": 2497243904,
       "catalyst": ""
     },
     {
-      "symbol": "HP",
-      "gap_pct": 12.9,
-      "price": 41.87,
-      "market_cap": 4184443392,
+      "symbol": "IMOS",
+      "gap_pct": 11.7,
+      "price": 59.28,
+      "market_cap": 2061219200,
       "catalyst": ""
     },
     {
-      "symbol": "TXG",
-      "gap_pct": 12.6,
-      "price": 58.57,
-      "market_cap": 7631153664,
+      "symbol": "P",
+      "gap_pct": 11.6,
+      "price": 109.38,
+      "market_cap": 36358451200,
       "catalyst": ""
     },
     {
-      "symbol": "ACHR",
-      "gap_pct": 12.0,
-      "price": 6.26,
-      "market_cap": 4775534592,
+      "symbol": "AEHR",
+      "gap_pct": 10.3,
+      "price": 117.18,
+      "market_cap": 3822464256,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Tuesday Amid Stalled US-Iran Talks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-130332588.html"
+      "text": "The 6.9% Monthly Payer That\u2019s Beating the S&P by 5 Points This Year",
+      "url": "https://finance.yahoo.com/m/7bf8d45c-236c-3deb-a8bf-971cc0b741ae/the-6.9%25-monthly-payer-that%E2%80%99s.html"
     },
     {
-      "text": "SK Hynix Has Suffered Post-IPO as Memory Flags: A Wall Street Pro Remains Sanguine With 160% Returns Predicted",
-      "url": "https://finance.yahoo.com/m/0dd9e658-9ecb-3845-9891-c170c5c87228/sk-hynix-has-suffered.html"
+      "text": "CoreWeave Surges on Upbeat Q2: ETFs in Focus",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-surges-upbeat-q2-etfs-120000086.html"
     },
     {
-      "text": "This Wall Street Pro Makes a Compelling Argument for 70% Gains on NXP Semiconductors Which Cratered Last Month",
-      "url": "https://finance.yahoo.com/m/8e0d4b06-aef0-3d3e-9494-aef96c0ecc1b/this-wall-street-pro-makes-a.html"
+      "text": "Tesla Just Isn\u2019t Worth It, Even Now at $333",
+      "url": "https://finance.yahoo.com/m/198e739d-1f56-3d6d-82e5-4ea521c2f4ff/tesla-just-isn%E2%80%99t-worth-it%2C.html"
     },
     {
-      "text": "S&P 500, Nasdaq, Dow Futures Mixed As CPI Countdown Begins: Why INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI Stocks Are In Focus",
-      "url": "https://finance.yahoo.com/m/f6fbebba-2450-3d55-8d21-e57dd66cee80/s%26p-500%2C-nasdaq%2C-dow-futures.html"
+      "text": "Don\u2019t Mourn the Fed Put. Make This Trade Before Jackson Hole Instead.",
+      "url": "https://finance.yahoo.com/m/b681983a-5df7-31df-b240-4bd851cf7406/don%E2%80%99t-mourn-the-fed-put.-make.html"
     },
     {
-      "text": "S&P500, Nasdaq, Dow Futures Unchanged After Ending Session Mildly Lower As  Investors Brace For Key Inflation Data  \u2014 SPCX, TSLA, INTC, NFLX, PLTR In Focus",
-      "url": "https://finance.yahoo.com/m/d9ee0b71-eca1-3e14-9fc7-1ae9433fcf86/s%26p500%2C-nasdaq%2C-dow-futures.html"
+      "text": "S&P500, Nasdaq, Dow Futures Rangebound As Investors Await Key Inflation Data To Judge Rate Hike Possibilities  \u2014 ORCL, AAPL, NVDA, CURLF In Focus",
+      "url": "https://finance.yahoo.com/m/521f7284-425c-3aa8-9565-a60cd1fb83c0/s%26p500%2C-nasdaq%2C-dow-futures.html"
     }
   ]
 }
