@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Aug 12, 2026",
-  "generated_at": "2026-08-12T09:25:10.226837-04:00",
+  "date": "Thu, Aug 13, 2026",
+  "generated_at": "2026-08-13T09:26:42.824907-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "NIQ",
-      "gap_pct": 42.0,
-      "price": 16.58,
-      "market_cap": 4890368512,
+      "symbol": "NBIS",
+      "gap_pct": 34.1,
+      "price": 259.2,
+      "market_cap": 65810415616,
       "catalyst": ""
     },
     {
-      "symbol": "ALMR",
-      "gap_pct": 30.7,
-      "price": 36.57,
-      "market_cap": 2537693440,
+      "symbol": "QNT",
+      "gap_pct": 28.0,
+      "price": 71.74,
+      "market_cap": 18601146368,
       "catalyst": ""
     },
     {
-      "symbol": "SEPN",
-      "gap_pct": 22.9,
-      "price": 47.76,
-      "market_cap": 2229291008,
+      "symbol": "EROC",
+      "gap_pct": 22.8,
+      "price": 13.82,
+      "market_cap": 3777014272,
       "catalyst": ""
     },
     {
-      "symbol": "FRMI",
-      "gap_pct": 21.1,
-      "price": 7.12,
-      "market_cap": 4543153152,
+      "symbol": "SHAZ",
+      "gap_pct": 21.0,
+      "price": 68.46,
+      "market_cap": 2451107840,
       "catalyst": ""
     },
     {
-      "symbol": "NN",
-      "gap_pct": 15.6,
-      "price": 17.83,
-      "market_cap": 2432670720,
+      "symbol": "CRWV",
+      "gap_pct": 19.3,
+      "price": 107.73,
+      "market_cap": 59417038848,
       "catalyst": ""
     },
     {
-      "symbol": "SE",
-      "gap_pct": 14.6,
-      "price": 131.51,
-      "market_cap": 80547840000,
+      "symbol": "SMCI",
+      "gap_pct": 19.0,
+      "price": 37.61,
+      "market_cap": 24328894464,
       "catalyst": ""
     },
     {
-      "symbol": "RNW",
-      "gap_pct": 11.7,
-      "price": 6.85,
-      "market_cap": 2497243904,
+      "symbol": "MRX",
+      "gap_pct": 18.7,
+      "price": 71.13,
+      "market_cap": 5116442624,
       "catalyst": ""
     },
     {
-      "symbol": "IMOS",
-      "gap_pct": 11.7,
-      "price": 59.28,
-      "market_cap": 2061219200,
+      "symbol": "ATRO",
+      "gap_pct": 17.3,
+      "price": 87.89,
+      "market_cap": 4337231360,
       "catalyst": ""
     },
     {
-      "symbol": "P",
-      "gap_pct": 11.6,
-      "price": 109.38,
-      "market_cap": 36358451200,
+      "symbol": "HRB",
+      "gap_pct": 16.1,
+      "price": 54.18,
+      "market_cap": 6867868160,
       "catalyst": ""
     },
     {
-      "symbol": "AEHR",
-      "gap_pct": 10.3,
-      "price": 117.18,
-      "market_cap": 3822464256,
+      "symbol": "CAVA",
+      "gap_pct": 14.2,
+      "price": 69.47,
+      "market_cap": 8114526720,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "The 6.9% Monthly Payer That\u2019s Beating the S&P by 5 Points This Year",
-      "url": "https://finance.yahoo.com/m/7bf8d45c-236c-3deb-a8bf-971cc0b741ae/the-6.9%25-monthly-payer-that%E2%80%99s.html"
+      "text": "Lumentum Still Down Over 90 Days: A Respected Analyst Sees 22% Gains Ahead Following Sharp Upturn",
+      "url": "https://finance.yahoo.com/m/5815b021-48c5-3048-ad12-624bf840b24c/lumentum-still-down-over-90.html"
     },
     {
-      "text": "CoreWeave Surges on Upbeat Q2: ETFs in Focus",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-surges-upbeat-q2-etfs-120000086.html"
+      "text": "History Says This Surefire ETF Can Turn $200 per Month Into $1 Million -- With Next to No Effort on Your Part",
+      "url": "https://finance.yahoo.com/m/fe019c1b-1d8c-354b-b044-8d52a29e5758/history-says-this-surefire.html"
     },
     {
-      "text": "Tesla Just Isn\u2019t Worth It, Even Now at $333",
-      "url": "https://finance.yahoo.com/m/198e739d-1f56-3d6d-82e5-4ea521c2f4ff/tesla-just-isn%E2%80%99t-worth-it%2C.html"
+      "text": "Exclusive: Scott Bessent Says K-Shaped Economy Is Over, but Wall Street Veteran Says Wealth Divide Is Worsening: \u201850% of Americans Own No Stocks and Are Getting Left Behind\u2019",
+      "url": "https://finance.yahoo.com/economy/articles/exclusive-scott-bessent-says-k-104617437.html"
     },
     {
-      "text": "Don\u2019t Mourn the Fed Put. Make This Trade Before Jackson Hole Instead.",
-      "url": "https://finance.yahoo.com/m/b681983a-5df7-31df-b240-4bd851cf7406/don%E2%80%99t-mourn-the-fed-put.-make.html"
+      "text": "Why Are Nasdaq, S&P 500 Futures Subdued Ahead Of PPI, Jobless Claims? CRWV, NBIS, CBRS, CSCO, ONDS, SPCX Stocks In Focus",
+      "url": "https://finance.yahoo.com/m/81eb15dd-8547-3da2-a4d4-0b392f37d254/why-are-nasdaq%2C-s%26p-500.html"
     },
     {
-      "text": "S&P500, Nasdaq, Dow Futures Rangebound As Investors Await Key Inflation Data To Judge Rate Hike Possibilities  \u2014 ORCL, AAPL, NVDA, CURLF In Focus",
-      "url": "https://finance.yahoo.com/m/521f7284-425c-3aa8-9565-a60cd1fb83c0/s%26p500%2C-nasdaq%2C-dow-futures.html"
+      "text": "GPIQ vs QQQ: What the Rally Lag Actually Costs a $300,000 Position",
+      "url": "https://finance.yahoo.com/m/da8bba47-b492-36a1-b369-63358c0fb1e5/gpiq-vs-qqq%3A-what-the-rally.html"
     }
   ]
 }
