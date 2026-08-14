@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Aug 13, 2026",
-  "generated_at": "2026-08-13T09:26:42.824907-04:00",
+  "date": "Fri, Aug 14, 2026",
+  "generated_at": "2026-08-14T09:21:16.531440-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "NBIS",
-      "gap_pct": 34.1,
-      "price": 259.2,
-      "market_cap": 65810415616,
+      "symbol": "ARX",
+      "gap_pct": 43.4,
+      "price": 19.51,
+      "market_cap": 4257108224,
       "catalyst": ""
     },
     {
-      "symbol": "QNT",
-      "gap_pct": 28.0,
-      "price": 71.74,
-      "market_cap": 18601146368,
+      "symbol": "AVAH",
+      "gap_pct": 24.8,
+      "price": 11.29,
+      "market_cap": 2458456320,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WDAY",
+      "gap_pct": 17.8,
+      "price": 206.45,
+      "market_cap": 50987671552,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MH",
+      "gap_pct": 17.0,
+      "price": 13.57,
+      "market_cap": 2595617536,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WIX",
+      "gap_pct": 16.5,
+      "price": 80.06,
+      "market_cap": 3350471936,
+      "catalyst": ""
+    },
+    {
+      "symbol": "TBBB",
+      "gap_pct": 16.3,
+      "price": 49.2,
+      "market_cap": 5931688448,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HUBS",
+      "gap_pct": 14.5,
+      "price": 240.51,
+      "market_cap": 12311876608,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BVC",
+      "gap_pct": 14.4,
+      "price": 15.03,
+      "market_cap": 2525039872,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SNDK",
+      "gap_pct": 13.7,
+      "price": 1528.11,
+      "market_cap": 223104057344,
       "catalyst": ""
     },
     {
       "symbol": "EROC",
-      "gap_pct": 22.8,
-      "price": 13.82,
-      "market_cap": 3777014272,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SHAZ",
-      "gap_pct": 21.0,
-      "price": 68.46,
-      "market_cap": 2451107840,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CRWV",
-      "gap_pct": 19.3,
-      "price": 107.73,
-      "market_cap": 59417038848,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SMCI",
-      "gap_pct": 19.0,
-      "price": 37.61,
-      "market_cap": 24328894464,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MRX",
-      "gap_pct": 18.7,
-      "price": 71.13,
-      "market_cap": 5116442624,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ATRO",
-      "gap_pct": 17.3,
-      "price": 87.89,
-      "market_cap": 4337231360,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HRB",
-      "gap_pct": 16.1,
-      "price": 54.18,
-      "market_cap": 6867868160,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CAVA",
-      "gap_pct": 14.2,
-      "price": 69.47,
-      "market_cap": 8114526720,
+      "gap_pct": 13.3,
+      "price": 15.66,
+      "market_cap": 4279887360,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Lumentum Still Down Over 90 Days: A Respected Analyst Sees 22% Gains Ahead Following Sharp Upturn",
-      "url": "https://finance.yahoo.com/m/5815b021-48c5-3048-ad12-624bf840b24c/lumentum-still-down-over-90.html"
+      "text": "The Average Social Security Check Gets a Raise Every January. A $500,000 Portfolio\u2019s \u2018Paycheck\u2019 Doesn\u2019t. Here\u2019s the Gap After 10 Years.",
+      "url": "https://finance.yahoo.com/m/085f4fb1-48ed-3f9b-b9dc-e9da5ff665a2/the-average-social-security.html"
     },
     {
-      "text": "History Says This Surefire ETF Can Turn $200 per Month Into $1 Million -- With Next to No Effort on Your Part",
-      "url": "https://finance.yahoo.com/m/fe019c1b-1d8c-354b-b044-8d52a29e5758/history-says-this-surefire.html"
+      "text": "Which ETFs Will Pay Off Soon? Follow The Money!",
+      "url": "https://finance.yahoo.com/m/9e171547-4629-3fd6-ab9d-066b022fdba8/which-etfs-will-pay-off-soon%3F.html"
     },
     {
-      "text": "Exclusive: Scott Bessent Says K-Shaped Economy Is Over, but Wall Street Veteran Says Wealth Divide Is Worsening: \u201850% of Americans Own No Stocks and Are Getting Left Behind\u2019",
-      "url": "https://finance.yahoo.com/economy/articles/exclusive-scott-bessent-says-k-104617437.html"
+      "text": "Wall Street Pricey? Try These 5 Dividend ETFs Under $50",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-pricey-try-5-120000317.html"
     },
     {
-      "text": "Why Are Nasdaq, S&P 500 Futures Subdued Ahead Of PPI, Jobless Claims? CRWV, NBIS, CBRS, CSCO, ONDS, SPCX Stocks In Focus",
-      "url": "https://finance.yahoo.com/m/81eb15dd-8547-3da2-a4d4-0b392f37d254/why-are-nasdaq%2C-s%26p-500.html"
+      "text": "Wall Street's riskiest trades are suddenly back on top: Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/wall-streets-riskiest-trades-are-suddenly-back-on-top-chart-of-the-day-100100027.html"
     },
     {
-      "text": "GPIQ vs QQQ: What the Rally Lag Actually Costs a $300,000 Position",
-      "url": "https://finance.yahoo.com/m/da8bba47-b492-36a1-b369-63358c0fb1e5/gpiq-vs-qqq%3A-what-the-rally.html"
+      "text": "S&P 500, Nasdaq Futures Pause Near Record Highs: Why SPCX, AMAT, SNDK, CSCO, CAPR, SLS, ONDS Stocks Are In Focus",
+      "url": "https://finance.yahoo.com/m/fa1a0adc-f5e6-383b-b797-7905ce59ca74/s%26p-500%2C-nasdaq-futures-pause.html"
     }
   ]
 }
