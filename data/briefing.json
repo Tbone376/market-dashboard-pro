@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Aug 19, 2026",
-  "generated_at": "2026-08-19T08:59:16.583270-04:00",
+  "date": "Thu, Aug 20, 2026",
+  "generated_at": "2026-08-20T09:01:42.043948-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,17 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "AMLX",
-      "gap_pct": 63.8,
-      "price": 35.11,
-      "market_cap": 3912063232,
+      "symbol": "MRNA",
+      "gap_pct": 177.0,
+      "price": 174.38,
+      "market_cap": 69618761728,
       "catalyst": ""
     },
     {
-      "symbol": "HAE",
-      "gap_pct": 15.9,
-      "price": 104.65,
-      "market_cap": 4761266688,
+      "symbol": "TEM",
+      "gap_pct": 24.1,
+      "price": 61.25,
+      "market_cap": 11051628544,
+      "catalyst": ""
+    },
+    {
+      "symbol": "TWST",
+      "gap_pct": 22.6,
+      "price": 142.39,
+      "market_cap": 8928910336,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BNTX",
+      "gap_pct": 22.0,
+      "price": 113.12,
+      "market_cap": 28416239616,
+      "catalyst": ""
+    },
+    {
+      "symbol": "EL",
+      "gap_pct": 16.3,
+      "price": 98.01,
+      "market_cap": 35459518464,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HYMC",
+      "gap_pct": 15.3,
+      "price": 27.9,
+      "market_cap": 2599768832,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AMR",
+      "gap_pct": 14.7,
+      "price": 194.42,
+      "market_cap": 2465059840,
+      "catalyst": ""
+    },
+    {
+      "symbol": "XXI",
+      "gap_pct": 14.7,
+      "price": 5.55,
+      "market_cap": 3121165824,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DRD",
+      "gap_pct": 14.5,
+      "price": 27.83,
+      "market_cap": 2413967616,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HL",
+      "gap_pct": 14.4,
+      "price": 20.54,
+      "market_cap": 13776433152,
       "catalyst": ""
     }
   ],
@@ -54,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Volatility Is Falling. It\u2019s a Good Time to Buy Options Again.",
-      "url": "https://finance.yahoo.com/m/0d0ccec4-7f3c-3b73-ac24-b7ce71aa2a5c/volatility-is-falling.-it%E2%80%99s-a.html"
+      "text": "She Inherited a $300,000 IRA and Let It Grow Untouched for Nine Years, Exactly What the IRS Was Hoping For.",
+      "url": "https://finance.yahoo.com/m/35d19c95-8153-35b2-af47-ebd339558278/she-inherited-a-%24300%2C000-ira.html"
     },
     {
-      "text": "US Stocks End Third Session Lower As Higher Treasury Yields, Oil Prices Weigh \u2014 BABA, AAPL, GRRR, KLAR, CRWD In Focus",
-      "url": "https://finance.yahoo.com/m/1531307b-53c6-3678-aa33-dd7ca8654dd9/us-stocks-end-third-session.html"
+      "text": "US Stock Index Futures Climb As Yields Cool Off Amid Treasury Support \u2014 NVDA, MRNA, MRVL, LOWE In Focus",
+      "url": "https://finance.yahoo.com/m/8027f4c5-a9bb-339a-ac76-30fccc1028eb/us-stock-index-futures-climb.html"
     },
     {
-      "text": "Why Does the JEPI ETF Pay Less Than It Did in January When Its Sister Fund Pays More?",
-      "url": "https://finance.yahoo.com/m/430f8b66-6b72-30de-88d4-7ca1e0508115/why-does-the-jepi-etf-pay.html"
+      "text": "The Market Is in a Bubble. Why I\u2019m Focusing on Quantum Computing Stocks Now.",
+      "url": "https://finance.yahoo.com/m/a47c6532-4c75-31ca-83da-05ffd267000b/the-market-is-in-a-bubble..html"
     },
     {
-      "text": "Is the Small-Cap Surge a Trend or Temporary Rotation?",
-      "url": "https://finance.yahoo.com/m/b5e45608-8f86-32b8-9157-c39a805a2992/is-the-small-cap-surge-a.html"
+      "text": "A Top Strategist Says Buy \u201cAnything but the S&P 500\u201d as Small Caps Quietly Steal the Lead",
+      "url": "https://finance.yahoo.com/m/a15e3d00-9915-357e-98a2-b4caf4c097b1/a-top-strategist-says-buy.html"
     },
     {
-      "text": "Most of the SPYI ETF\u2019s 12% Payout Is Your Own Money Coming Back. The IRS Waits Until You Sell.",
-      "url": "https://finance.yahoo.com/m/fbc73689-6329-369d-abe9-3cb90bd84e61/most-of-the-spyi-etf%E2%80%99s-12%25.html"
+      "text": "Dollar Cost Averaging Into the SCHG ETF Worked for Ten Years. This Year It Is Buying You Less Than the SPY.",
+      "url": "https://finance.yahoo.com/m/20aedb59-bc6e-3adc-928f-1bc1f4043aed/dollar-cost-averaging-into.html"
     }
   ]
 }
