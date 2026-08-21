@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Aug 20, 2026",
-  "generated_at": "2026-08-20T09:01:42.043948-04:00",
+  "date": "Fri, Aug 21, 2026",
+  "generated_at": "2026-08-21T09:00:54.144336-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "MRNA",
-      "gap_pct": 177.0,
-      "price": 174.38,
-      "market_cap": 69618761728,
+      "symbol": "MARA",
+      "gap_pct": 15.5,
+      "price": 11.15,
+      "market_cap": 4307236864,
       "catalyst": ""
     },
     {
-      "symbol": "TEM",
-      "gap_pct": 24.1,
-      "price": 61.25,
-      "market_cap": 11051628544,
+      "symbol": "IOVA",
+      "gap_pct": 12.5,
+      "price": 8.99,
+      "market_cap": 4072212992,
       "catalyst": ""
     },
     {
-      "symbol": "TWST",
-      "gap_pct": 22.6,
-      "price": 142.39,
-      "market_cap": 8928910336,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BNTX",
-      "gap_pct": 22.0,
-      "price": 113.12,
-      "market_cap": 28416239616,
-      "catalyst": ""
-    },
-    {
-      "symbol": "EL",
-      "gap_pct": 16.3,
-      "price": 98.01,
-      "market_cap": 35459518464,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HYMC",
-      "gap_pct": 15.3,
-      "price": 27.9,
-      "market_cap": 2599768832,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AMR",
-      "gap_pct": 14.7,
-      "price": 194.42,
-      "market_cap": 2465059840,
+      "symbol": "ANDG",
+      "gap_pct": 11.8,
+      "price": 50.32,
+      "market_cap": 5685579264,
       "catalyst": ""
     },
     {
       "symbol": "XXI",
-      "gap_pct": 14.7,
-      "price": 5.55,
-      "market_cap": 3121165824,
+      "gap_pct": 11.5,
+      "price": 6.19,
+      "market_cap": 3481084160,
       "catalyst": ""
     },
     {
-      "symbol": "DRD",
-      "gap_pct": 14.5,
-      "price": 27.83,
-      "market_cap": 2413967616,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HL",
-      "gap_pct": 14.4,
-      "price": 20.54,
-      "market_cap": 13776433152,
+      "symbol": "LIME",
+      "gap_pct": 11.4,
+      "price": 42.03,
+      "market_cap": 2691010048,
       "catalyst": ""
     }
   ],
@@ -110,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "She Inherited a $300,000 IRA and Let It Grow Untouched for Nine Years, Exactly What the IRS Was Hoping For.",
-      "url": "https://finance.yahoo.com/m/35d19c95-8153-35b2-af47-ebd339558278/she-inherited-a-%24300%2C000-ira.html"
+      "text": "Dividend Tourists Find Way To Triple S&P 500's Puny Yield",
+      "url": "https://finance.yahoo.com/m/2f68473b-a328-3b83-9243-fe131d04ad1f/dividend-tourists-find-way-to.html"
     },
     {
-      "text": "US Stock Index Futures Climb As Yields Cool Off Amid Treasury Support \u2014 NVDA, MRNA, MRVL, LOWE In Focus",
-      "url": "https://finance.yahoo.com/m/8027f4c5-a9bb-339a-ac76-30fccc1028eb/us-stock-index-futures-climb.html"
+      "text": "$207 Billion Left the Banking System in a Month. Nobody Flinched",
+      "url": "https://finance.yahoo.com/m/8a1f38ca-b91a-34b1-9a45-133976f5f4ad/%24207-billion-left-the-banking.html"
     },
     {
-      "text": "The Market Is in a Bubble. Why I\u2019m Focusing on Quantum Computing Stocks Now.",
-      "url": "https://finance.yahoo.com/m/a47c6532-4c75-31ca-83da-05ffd267000b/the-market-is-in-a-bubble..html"
+      "text": "US Stock Indices End Lower As Trump\u2019s \u2018Economic Warfare\u2019 Threats Push Yields, Oil Higher \u2014 WMT, CRWV, SBUX, DE, RKLB In Focus",
+      "url": "https://finance.yahoo.com/m/bce4fe5a-c9a3-3343-accb-f30e7b141648/us-stock-indices-end-lower-as.html"
     },
     {
-      "text": "A Top Strategist Says Buy \u201cAnything but the S&P 500\u201d as Small Caps Quietly Steal the Lead",
-      "url": "https://finance.yahoo.com/m/a15e3d00-9915-357e-98a2-b4caf4c097b1/a-top-strategist-says-buy.html"
+      "text": "How Much of Your Portfolio Should Actually Be in FTXL",
+      "url": "https://finance.yahoo.com/m/331b6110-f56d-3614-a144-34f0d5c79c37/how-much-of-your-portfolio.html"
     },
     {
-      "text": "Dollar Cost Averaging Into the SCHG ETF Worked for Ten Years. This Year It Is Buying You Less Than the SPY.",
-      "url": "https://finance.yahoo.com/m/20aedb59-bc6e-3adc-928f-1bc1f4043aed/dollar-cost-averaging-into.html"
+      "text": "Your Active ETF Manager Lost Again, and 87% of Them Have Been Losing for a Decade",
+      "url": "https://finance.yahoo.com/m/87b38ccd-f019-3558-af59-c88e4fec4c56/your-active-etf-manager-lost.html"
     }
   ]
 }
