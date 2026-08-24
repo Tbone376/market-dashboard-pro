@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Aug 21, 2026",
-  "generated_at": "2026-08-21T09:00:54.144336-04:00",
+  "date": "Mon, Aug 24, 2026",
+  "generated_at": "2026-08-24T09:03:10.379939-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,66 @@
   },
   "gappers": [
     {
-      "symbol": "MARA",
-      "gap_pct": 15.5,
-      "price": 11.15,
-      "market_cap": 4307236864,
+      "symbol": "SLS",
+      "gap_pct": 15.4,
+      "price": 15.46,
+      "market_cap": 3122080768,
       "catalyst": ""
     },
     {
-      "symbol": "IOVA",
+      "symbol": "IQMX",
+      "gap_pct": 14.8,
+      "price": 11.11,
+      "market_cap": 5266454016,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HOOD",
+      "gap_pct": 13.7,
+      "price": 108.13,
+      "market_cap": 97217765376,
+      "catalyst": ""
+    },
+    {
+      "symbol": "USAR",
+      "gap_pct": 12.6,
+      "price": 19.26,
+      "market_cap": 4713309184,
+      "catalyst": ""
+    },
+    {
+      "symbol": "INFQ",
       "gap_pct": 12.5,
-      "price": 8.99,
-      "market_cap": 4072212992,
+      "price": 14.12,
+      "market_cap": 3182041600,
       "catalyst": ""
     },
     {
-      "symbol": "ANDG",
-      "gap_pct": 11.8,
-      "price": 50.32,
-      "market_cap": 5685579264,
+      "symbol": "DK",
+      "gap_pct": 11.6,
+      "price": 71.47,
+      "market_cap": 4376263680,
       "catalyst": ""
     },
     {
-      "symbol": "XXI",
+      "symbol": "RGTI",
       "gap_pct": 11.5,
-      "price": 6.19,
-      "market_cap": 3481084160,
+      "price": 17.91,
+      "market_cap": 5977798144,
       "catalyst": ""
     },
     {
-      "symbol": "LIME",
-      "gap_pct": 11.4,
-      "price": 42.03,
-      "market_cap": 2691010048,
+      "symbol": "VIRT",
+      "gap_pct": 11.0,
+      "price": 67.93,
+      "market_cap": 5998265344,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CVI",
+      "gap_pct": 10.3,
+      "price": 39.51,
+      "market_cap": 3971963904,
       "catalyst": ""
     }
   ],
@@ -75,24 +103,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Dividend Tourists Find Way To Triple S&P 500's Puny Yield",
-      "url": "https://finance.yahoo.com/m/2f68473b-a328-3b83-9243-fe131d04ad1f/dividend-tourists-find-way-to.html"
+      "text": "KLA Corporation: See What Wall Street Sees",
+      "url": "https://finance.yahoo.com/m/320da549-7cf8-35dd-b4bc-5bc4aa7969b1/kla-corporation%3A-see-what.html"
     },
     {
-      "text": "$207 Billion Left the Banking System in a Month. Nobody Flinched",
-      "url": "https://finance.yahoo.com/m/8a1f38ca-b91a-34b1-9a45-133976f5f4ad/%24207-billion-left-the-banking.html"
+      "text": "This Fund Pays 400% of the S&P\u2019s Dividend and Still Beat Half of Wall Street This Year",
+      "url": "https://finance.yahoo.com/m/a7bd25b5-9098-3eb7-924d-f8513967516d/this-fund-pays-400%25-of-the.html"
     },
     {
-      "text": "US Stock Indices End Lower As Trump\u2019s \u2018Economic Warfare\u2019 Threats Push Yields, Oil Higher \u2014 WMT, CRWV, SBUX, DE, RKLB In Focus",
-      "url": "https://finance.yahoo.com/m/bce4fe5a-c9a3-3343-accb-f30e7b141648/us-stock-indices-end-lower-as.html"
+      "text": "Single at 66 Means One Social Security Check and No Backup. These 4 ETFs Build the Second One",
+      "url": "https://finance.yahoo.com/m/aeaf4d7d-10d8-39d1-9430-4d7b3f52bae5/single-at-66-means-one-social.html"
     },
     {
-      "text": "How Much of Your Portfolio Should Actually Be in FTXL",
-      "url": "https://finance.yahoo.com/m/331b6110-f56d-3614-a144-34f0d5c79c37/how-much-of-your-portfolio.html"
+      "text": "DIVO Holders Gave Up $79,300 on a $500,000 Position Over Five Years for Downside Comfort",
+      "url": "https://finance.yahoo.com/m/c321f883-75ca-359c-9c62-6c5e96564cf4/divo-holders-gave-up-%2479%2C300.html"
     },
     {
-      "text": "Your Active ETF Manager Lost Again, and 87% of Them Have Been Losing for a Decade",
-      "url": "https://finance.yahoo.com/m/87b38ccd-f019-3558-af59-c88e4fec4c56/your-active-etf-manager-lost.html"
+      "text": "VTV\u2019s 0.03% Fee Hides the Real Cost: $250,000 Trails the S&P 500 by $229,000 Over a Decade",
+      "url": "https://finance.yahoo.com/m/840d2bc4-e493-3a7c-8130-a9fc2c787829/vtv%E2%80%99s-0.03%25-fee-hides-the.html"
     }
   ]
 }
