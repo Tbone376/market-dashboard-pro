@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Aug 26, 2026",
-  "generated_at": "2026-08-26T09:05:12.440096-04:00",
+  "date": "Thu, Aug 27, 2026",
+  "generated_at": "2026-08-27T18:09:34.374803-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,52 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "ABCL",
-      "gap_pct": 17.8,
-      "price": 12.5,
-      "market_cap": 4050592000,
+      "symbol": "OKTA",
+      "gap_pct": 28.6,
+      "price": 172.91,
+      "market_cap": 30319155200,
       "catalyst": ""
     },
     {
-      "symbol": "STDN",
-      "gap_pct": 16.8,
-      "price": 13.94,
-      "market_cap": 2239789056,
+      "symbol": "CRM",
+      "gap_pct": 22.6,
+      "price": 252.05,
+      "market_cap": 206428946432,
       "catalyst": ""
     },
     {
-      "symbol": "GENB",
-      "gap_pct": 15.0,
-      "price": 20.38,
-      "market_cap": 2615822336,
+      "symbol": "CRWD",
+      "gap_pct": 20.5,
+      "price": 227.96,
+      "market_cap": 232122384384,
       "catalyst": ""
     },
     {
-      "symbol": "MRNA",
-      "gap_pct": 14.4,
-      "price": 158.83,
-      "market_cap": 63410638848,
+      "symbol": "VEEV",
+      "gap_pct": 15.2,
+      "price": 282.13,
+      "market_cap": 45830127616,
       "catalyst": ""
     },
     {
-      "symbol": "MAIR",
+      "symbol": "SNPS",
+      "gap_pct": 13.4,
+      "price": 464.89,
+      "market_cap": 89016827904,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FIG",
+      "gap_pct": 13.3,
+      "price": 30.62,
+      "market_cap": 16320761856,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PANW",
+      "gap_pct": 12.8,
+      "price": 382.85,
+      "market_cap": 312022761472,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SAIL",
+      "gap_pct": 12.2,
+      "price": 20.45,
+      "market_cap": 11598892032,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FROG",
       "gap_pct": 12.1,
-      "price": 27.99,
-      "market_cap": 14043215872,
+      "price": 104.03,
+      "market_cap": 12827035648,
       "catalyst": ""
     },
     {
-      "symbol": "PURR",
-      "gap_pct": 11.6,
-      "price": 11.87,
-      "market_cap": 2380690944,
-      "catalyst": ""
-    },
-    {
-      "symbol": "OKLO",
-      "gap_pct": 11.5,
-      "price": 44.27,
-      "market_cap": 8235001344,
+      "symbol": "MAAS",
+      "gap_pct": 11.8,
+      "price": 16.54,
+      "market_cap": 7313584640,
       "catalyst": ""
     }
   ],
@@ -89,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "AI At The Top, Cash At The Bottom: Is The Next Return In Between?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-top-cash-bottom-next-110046311.html"
+      "text": "$250,000 in SGOV Earned $9,500 Last Year While the Same Money in SPY Earned $48,000",
+      "url": "https://finance.yahoo.com/m/81cff1cc-ca5c-31cd-9ce1-1c67c0aefac7/%24250%2C000-in-sgov-earned.html"
     },
     {
-      "text": "Why Are Nasdaq, S&P 500 Futures Slipping Premarket? NVDA, INTU, CRWD, CRM, CRML, SLS Stocks In Focus",
-      "url": "https://finance.yahoo.com/m/d421009e-e22a-32e9-b646-aeb3a5d8a1e3/why-are-nasdaq%2C-s%26p-500.html"
+      "text": "Webull Surges 8%, Robinhood Ticks Up as the Retail Trading Bid Extends",
+      "url": "https://finance.yahoo.com/m/508ac20a-4104-3c9b-8116-6bdf93d2950e/webull-surges-8%25%2C-robinhood.html"
     },
     {
-      "text": "S&P 500, Dow, Nasdaq Futures Rangebound As Investors Await Nvidia Earnings, Key Inflation Reading \u2014 MRNA, SPCX, PSKY, OpenAI In Focus",
-      "url": "https://finance.yahoo.com/m/c8774e1b-2e3f-3ecf-848a-632ecf3aef02/s%26p-500%2C-dow%2C-nasdaq-futures.html"
+      "text": "China E-Commerce Stocks Sink While Baidu Climbs 4%: Alibaba Falls 4%, PDD Holdings Declines 3%",
+      "url": "https://finance.yahoo.com/m/4afb088a-fe30-3c4d-9374-0bbfc9ae991a/china-e-commerce-stocks-sink.html"
     },
     {
-      "text": "Jane Street turns bullish on volatile AI stock",
-      "url": "https://finance.yahoo.com/m/c754389b-42d0-3535-9aca-0fb12de517ce/jane-street-turns-bullish-on.html"
+      "text": "Dollar General Advances 5% on Raised Full-Year Outlook, Dollar Tree Slips 3%",
+      "url": "https://finance.yahoo.com/m/37f01819-bd6a-35fa-833e-e777756ef4e6/dollar-general-advances-5%25-on.html"
     },
     {
-      "text": "Snowflake Stock Fans Should Prepare for September 2 as AI Agents Are Pouring More Data Into It",
-      "url": "https://finance.yahoo.com/m/d88c0f31-6ad4-3328-8fdf-d02d60adbbde/snowflake-stock-fans-should.html"
+      "text": "Lucid Jumps 7%, Rivian Edges Higher: Is the EV Selloff Finally Exhausted?",
+      "url": "https://finance.yahoo.com/m/3f0771bb-3d9a-3bd0-841d-9e33eb66fe39/lucid-jumps-7%25%2C-rivian-edges.html"
     }
   ]
 }
