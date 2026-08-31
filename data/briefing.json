@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Aug 28, 2026",
-  "generated_at": "2026-08-28T18:09:14.049719-04:00",
+  "date": "Mon, Aug 31, 2026",
+  "generated_at": "2026-08-31T15:03:55.639173-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,10 @@
   },
   "gappers": [
     {
-      "symbol": "ESTC",
-      "gap_pct": 19.3,
-      "price": 99.91,
-      "market_cap": 10385808384,
-      "catalyst": ""
-    },
-    {
-      "symbol": "GAP",
-      "gap_pct": 12.9,
-      "price": 23.48,
-      "market_cap": 8452305408,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SOLS",
-      "gap_pct": 12.8,
-      "price": 63.53,
-      "market_cap": 10091573248,
+      "symbol": "ASST",
+      "gap_pct": 10.9,
+      "price": 24.12,
+      "market_cap": 2163164160,
       "catalyst": ""
     }
   ],
@@ -61,24 +47,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Social Security Won\u2019t Deposit a Dime Until You Turn 62. These 3 ETFs Pay You Every Month in Between",
-      "url": "https://finance.yahoo.com/m/2dccc910-91ec-3563-8549-c51bbd100690/social-security-won%E2%80%99t-deposit.html"
+      "text": "Deere and AGCO Rally 4% as Baird Upgrades Both on North America Row Crop Demand",
+      "url": "https://finance.yahoo.com/m/35250d50-6b5f-38d3-beb6-ec85de54d727/deere-and-agco-rally-4%25-as.html"
     },
     {
-      "text": "Optics Stocks Slide as AI Hardware Trade Cools: Applied Optoelectronics and Lumentum Fall 6%, Coherent Drops 5%",
-      "url": "https://finance.yahoo.com/m/1bd86428-bf68-33f2-a82b-a6565e942899/optics-stocks-slide-as-ai.html"
+      "text": "IREN Climbs 4% as Co-CEO Says Debt and Prepayments Can Fund FY27 Capex, TeraWulf Slips",
+      "url": "https://finance.yahoo.com/m/453d9986-a049-3fa8-a1d3-b565c95d9183/iren-climbs-4%25-as-co-ceo-says.html"
     },
     {
-      "text": "AppLovin Rises 4% After 54% YTD Slide: Does a Subdued P/E Make APP Stock a Good Value Here?",
-      "url": "https://finance.yahoo.com/m/01fb6aa0-c8c9-3879-8b01-24660b0009b4/applovin-rises-4%25-after-54%25.html"
+      "text": "Shopify Falls 4% as Profit Taking Follows 18% Monthly Run, eBay and Etsy Slip",
+      "url": "https://finance.yahoo.com/m/976c2b82-8015-36f5-90ec-934359888f27/shopify-falls-4%25-as-profit.html"
     },
     {
-      "text": "Rivian Falls 6% as CFO Departs for GE Vernova; Lucid Slips, Tesla Holds Steady",
-      "url": "https://finance.yahoo.com/m/400e25d4-b1a1-323c-a6f9-b1bd5e58540f/rivian-falls-6%25-as-cfo.html"
+      "text": "PG&E Sinks 18%, Edison International Tumbles 23% as California Wildfire Bill Omits Liability Cap",
+      "url": "https://finance.yahoo.com/m/081cf92c-56cf-36cd-9cd1-adc45e5fcf1a/pg%26e-sinks-18%25%2C-edison.html"
     },
     {
-      "text": "Ulta Beauty Slips 4% Despite Raised Guidance and Q2 Earnings Beat, e.l.f. Beauty Pulls Back",
-      "url": "https://finance.yahoo.com/m/11d0f29b-16ca-3833-9d9e-d17d32aa24fb/ulta-beauty-slips-4%25-despite.html"
+      "text": "Ulta Beauty Climbs 4%, e.l.f. Beauty Rises 5% as Post-Earnings Selloff Reverses",
+      "url": "https://finance.yahoo.com/m/a8131f04-ff50-3b7c-ac3a-d64dace03da7/ulta-beauty-climbs-4%25%2C-e.l.f..html"
     }
   ]
 }
