@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Sep 1, 2026",
-  "generated_at": "2026-09-01T12:27:44.091483-04:00",
+  "date": "Wed, Sep 2, 2026",
+  "generated_at": "2026-09-02T12:25:46.668118-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -34,37 +34,29 @@
       "prev_close": 0
     }
   },
-  "gappers": [
-    {
-      "symbol": "FRVO",
-      "gap_pct": 25.3,
-      "price": 19.27,
-      "market_cap": 5680794112,
-      "catalyst": ""
-    }
-  ],
+  "gappers": [],
   "earnings": [],
   "econ_events": [],
   "headlines": [
     {
-      "text": "Dell Falls 4% Ahead of Earnings as Its 266% Rally Raises the Bar, Super Micro and Hewlett Packard Enterprise Slip",
-      "url": "https://finance.yahoo.com/m/d8fd4acd-74a1-3274-adda-a66775935ca1/dell-falls-4%25-ahead-of.html"
+      "text": "Affirm Rallies 6% on $104 Price Target From BofA, Sezzle Climbs 4%, PayPal Rises 3%",
+      "url": "https://finance.yahoo.com/m/9823a594-dc96-3a80-8322-a879ada94d89/affirm-rallies-6%25-on-%24104.html"
     },
     {
-      "text": "What to Understand Before Buying Nebius",
-      "url": "https://finance.yahoo.com/m/4f5d2522-6d80-3f1e-9818-f096ef73caca/what-to-understand-before.html"
+      "text": "FuboTV Rallies 7%, Disney Ticks Up: Is the Hulu Live TV Deal Finally Getting Credit?",
+      "url": "https://finance.yahoo.com/m/17770568-a55e-36d7-b602-3b4448daf5c8/fubotv-rallies-7%25%2C-disney.html"
     },
     {
-      "text": "Stock Market Today: Nasdaq Sinks As Crude Prices Climb; These Oil Names Break Out (Live Coverage)",
-      "url": "https://finance.yahoo.com/m/01f4a532-05e7-3571-8eb1-b7afa3f67969/stock-market-today%3A-nasdaq.html"
+      "text": "Reddit Rallies 7% as Baird Says Renewal Risk Is Already Priced In, Pinterest Holds Flat",
+      "url": "https://finance.yahoo.com/m/0d462a8d-e8bd-3436-9a38-d3679c27129f/reddit-rallies-7%25-as-baird.html"
     },
     {
-      "text": "Pre-Market Futures Lower to Start September",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pre-market-futures-lower-start-141700686.html"
+      "text": "Nio Drops 4% on J.P. Morgan Downgrade and $4.50 Price Target, XPeng and Li Auto Slip",
+      "url": "https://finance.yahoo.com/m/31746d90-4a5f-31f3-8ee4-4c91b2d16bf8/nio-drops-4%25-on-j.p.-morgan.html"
     },
     {
-      "text": "Trump Media Falls 3% as Rising Yields and Higher Oil Squeeze Risk Appetite",
-      "url": "https://finance.yahoo.com/m/86b7ebdc-5c4d-30e5-b49d-af20418e04fc/trump-media-falls-3%25-as.html"
+      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html"
     }
   ]
 }
