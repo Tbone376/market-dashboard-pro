@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Sep 2, 2026",
-  "generated_at": "2026-09-02T12:25:46.668118-04:00",
+  "date": "Thu, Sep 3, 2026",
+  "generated_at": "2026-09-03T12:16:18.565060-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -34,29 +34,100 @@
       "prev_close": 0
     }
   },
-  "gappers": [],
+  "gappers": [
+    {
+      "symbol": "SNOW",
+      "gap_pct": 20.9,
+      "price": 369.68,
+      "market_cap": 128131088384,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HCM",
+      "gap_pct": 17.4,
+      "price": 14.14,
+      "market_cap": 2457732608,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HOOD",
+      "gap_pct": 15.5,
+      "price": 123.53,
+      "market_cap": 111063638016,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CRCL",
+      "gap_pct": 14.6,
+      "price": 101.57,
+      "market_cap": 27687383040,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SMMT",
+      "gap_pct": 13.3,
+      "price": 16.54,
+      "market_cap": 13194779648,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MSTR",
+      "gap_pct": 13.1,
+      "price": 139.35,
+      "market_cap": 55361204224,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BLSH",
+      "gap_pct": 12.8,
+      "price": 36.81,
+      "market_cap": 5582934016,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HSAI",
+      "gap_pct": 12.7,
+      "price": 18.7,
+      "market_cap": 23502188544,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BULL",
+      "gap_pct": 12.3,
+      "price": 10.11,
+      "market_cap": 5455562240,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CIFR",
+      "gap_pct": 11.9,
+      "price": 16.98,
+      "market_cap": 7049296896,
+      "catalyst": ""
+    }
+  ],
   "earnings": [],
   "econ_events": [],
   "headlines": [
     {
-      "text": "Affirm Rallies 6% on $104 Price Target From BofA, Sezzle Climbs 4%, PayPal Rises 3%",
-      "url": "https://finance.yahoo.com/m/9823a594-dc96-3a80-8322-a879ada94d89/affirm-rallies-6%25-on-%24104.html"
+      "text": "Planet Labs Sinks 8% Despite New Defense Contract, Intuitive Machines Pulls Back, AST SpaceMobile Sits Out Broad-Market Rally",
+      "url": "https://finance.yahoo.com/m/407fe0bb-95d7-3923-b3a9-6cffd67ce881/planet-labs-sinks-8%25-despite.html"
     },
     {
-      "text": "FuboTV Rallies 7%, Disney Ticks Up: Is the Hulu Live TV Deal Finally Getting Credit?",
-      "url": "https://finance.yahoo.com/m/17770568-a55e-36d7-b602-3b4448daf5c8/fubotv-rallies-7%25%2C-disney.html"
+      "text": "Big Morning for News: Jobless Claims, Fed Speakers, Trade Deficit",
+      "url": "https://finance.yahoo.com/economy/policy/articles/big-morning-news-jobless-claims-142500064.html"
     },
     {
-      "text": "Reddit Rallies 7% as Baird Says Renewal Risk Is Already Priced In, Pinterest Holds Flat",
-      "url": "https://finance.yahoo.com/m/0d462a8d-e8bd-3436-9a38-d3679c27129f/reddit-rallies-7%25-as-baird.html"
+      "text": "AeroVironment Rises 6% on $464.8M Army Laser Award, Unusual Machines and Red Cat Tick Up",
+      "url": "https://finance.yahoo.com/m/7b5aea9b-aed5-38b7-bc4d-8cd5693dab92/aerovironment-rises-6%25-on.html"
     },
     {
-      "text": "Nio Drops 4% on J.P. Morgan Downgrade and $4.50 Price Target, XPeng and Li Auto Slip",
-      "url": "https://finance.yahoo.com/m/31746d90-4a5f-31f3-8ee4-4c91b2d16bf8/nio-drops-4%25-on-j.p.-morgan.html"
+      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Wednesday Amid Escalating US-Iran Tensions",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130827604.html"
+      "text": "Broadcom Is Sitting at $370 and Wall Street Suddenly Has Doubts About Its AI Business",
+      "url": "https://finance.yahoo.com/m/7816caed-088a-30d2-8b57-7bfc82a6da83/broadcom-is-sitting-at-%24370.html"
     }
   ]
 }
