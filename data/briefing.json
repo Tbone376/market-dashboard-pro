@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Sep 3, 2026",
-  "generated_at": "2026-09-03T12:16:18.565060-04:00",
+  "date": "Fri, Sep 4, 2026",
+  "generated_at": "2026-09-04T12:11:36.151171-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "SNOW",
-      "gap_pct": 20.9,
-      "price": 369.68,
-      "market_cap": 128131088384,
+      "symbol": "ALAB",
+      "gap_pct": 12.2,
+      "price": 317.25,
+      "market_cap": 55037280256,
       "catalyst": ""
     },
     {
-      "symbol": "HCM",
-      "gap_pct": 17.4,
-      "price": 14.14,
-      "market_cap": 2457732608,
+      "symbol": "CBRS",
+      "gap_pct": 11.3,
+      "price": 211.92,
+      "market_cap": 50344599552,
       "catalyst": ""
     },
     {
-      "symbol": "HOOD",
-      "gap_pct": 15.5,
-      "price": 123.53,
-      "market_cap": 111063638016,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CRCL",
-      "gap_pct": 14.6,
-      "price": 101.57,
-      "market_cap": 27687383040,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SMMT",
-      "gap_pct": 13.3,
-      "price": 16.54,
-      "market_cap": 13194779648,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MSTR",
-      "gap_pct": 13.1,
-      "price": 139.35,
-      "market_cap": 55361204224,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BLSH",
-      "gap_pct": 12.8,
-      "price": 36.81,
-      "market_cap": 5582934016,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HSAI",
-      "gap_pct": 12.7,
-      "price": 18.7,
-      "market_cap": 23502188544,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BULL",
-      "gap_pct": 12.3,
-      "price": 10.11,
-      "market_cap": 5455562240,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CIFR",
-      "gap_pct": 11.9,
-      "price": 16.98,
-      "market_cap": 7049296896,
+      "symbol": "AEHR",
+      "gap_pct": 10.6,
+      "price": 84.34,
+      "market_cap": 2751371776,
       "catalyst": ""
     }
   ],
@@ -110,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Planet Labs Sinks 8% Despite New Defense Contract, Intuitive Machines Pulls Back, AST SpaceMobile Sits Out Broad-Market Rally",
-      "url": "https://finance.yahoo.com/m/407fe0bb-95d7-3923-b3a9-6cffd67ce881/planet-labs-sinks-8%25-despite.html"
+      "text": "GPIX Is Paying 8% and Trailing SPY by Just Half a Point. Has Goldman Finally Fixed the Covered-Call ETF?",
+      "url": "https://finance.yahoo.com/m/b173bd9d-1ffa-312d-90b0-d0f9a9a2f5a1/gpix-is-paying-8%25-and.html"
     },
     {
-      "text": "Big Morning for News: Jobless Claims, Fed Speakers, Trade Deficit",
-      "url": "https://finance.yahoo.com/economy/policy/articles/big-morning-news-jobless-claims-142500064.html"
+      "text": "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined. Is That Why Growth Investors Are Falling Behind?",
+      "url": "https://finance.yahoo.com/m/997b6e9f-d47a-3b64-a6cb-0b2ef428858d/schg-owns-more-apple-than.html"
     },
     {
-      "text": "AeroVironment Rises 6% on $464.8M Army Laser Award, Unusual Machines and Red Cat Tick Up",
-      "url": "https://finance.yahoo.com/m/7b5aea9b-aed5-38b7-bc4d-8cd5693dab92/aerovironment-rises-6%25-on.html"
+      "text": "SanDisk Rises 8%, Micron Gains 5%: Is the NAND Pricing Cycle Still Accelerating?",
+      "url": "https://finance.yahoo.com/m/cec0626a-69ee-356b-9fb7-3c64037df9a2/sandisk-rises-8%25%2C-micron.html"
     },
     {
-      "text": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Thursday as Markets Weigh Oil Prices, Tech Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-132019027.html"
+      "text": "Adobe Sinks 7% as Internal CEO Pick Lands Ahead of Earnings, Workday Falls 4%",
+      "url": "https://finance.yahoo.com/m/ae2875b7-e96d-3f98-95fd-e511e44bd741/adobe-sinks-7%25-as-internal.html"
     },
     {
-      "text": "Broadcom Is Sitting at $370 and Wall Street Suddenly Has Doubts About Its AI Business",
-      "url": "https://finance.yahoo.com/m/7816caed-088a-30d2-8b57-7bfc82a6da83/broadcom-is-sitting-at-%24370.html"
+      "text": "UiPath Tumbles 14% as Guided Slowdown Overshadows Revenue Beat",
+      "url": "https://finance.yahoo.com/m/92496e41-6aa8-375b-9bf8-f28e10220a38/uipath-tumbles-14%25-as-guided.html"
     }
   ]
 }
