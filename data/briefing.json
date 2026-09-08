@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Sep 4, 2026",
-  "generated_at": "2026-09-04T12:11:36.151171-04:00",
+  "date": "Tue, Sep 8, 2026",
+  "generated_at": "2026-09-08T12:29:00.720534-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "ALAB",
-      "gap_pct": 12.2,
-      "price": 317.25,
-      "market_cap": 55037280256,
+      "symbol": "ROIV",
+      "gap_pct": 19.8,
+      "price": 41.85,
+      "market_cap": 30232829952,
       "catalyst": ""
     },
     {
-      "symbol": "CBRS",
+      "symbol": "SEI",
+      "gap_pct": 16.0,
+      "price": 63.79,
+      "market_cap": 6418955776,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SMR",
+      "gap_pct": 14.9,
+      "price": 11.14,
+      "market_cap": 4573791744,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CRWV",
+      "gap_pct": 14.7,
+      "price": 102.46,
+      "market_cap": 56510492672,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FRMI",
+      "gap_pct": 12.3,
+      "price": 5.75,
+      "market_cap": 3683968000,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PS",
+      "gap_pct": 11.6,
+      "price": 43.62,
+      "market_cap": 17447999488,
+      "catalyst": ""
+    },
+    {
+      "symbol": "LITE",
+      "gap_pct": 11.4,
+      "price": 981.84,
+      "market_cap": 88071405568,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IOND",
       "gap_pct": 11.3,
-      "price": 211.92,
-      "market_cap": 50344599552,
+      "price": 84.78,
+      "market_cap": 3814775808,
       "catalyst": ""
     },
     {
-      "symbol": "AEHR",
-      "gap_pct": 10.6,
-      "price": 84.34,
-      "market_cap": 2751371776,
+      "symbol": "AXTI",
+      "gap_pct": 11.1,
+      "price": 68.47,
+      "market_cap": 4489469952,
+      "catalyst": ""
+    },
+    {
+      "symbol": "INFQ",
+      "gap_pct": 10.9,
+      "price": 14.24,
+      "market_cap": 3210211328,
       "catalyst": ""
     }
   ],
@@ -61,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "GPIX Is Paying 8% and Trailing SPY by Just Half a Point. Has Goldman Finally Fixed the Covered-Call ETF?",
-      "url": "https://finance.yahoo.com/m/b173bd9d-1ffa-312d-90b0-d0f9a9a2f5a1/gpix-is-paying-8%25-and.html"
+      "text": "AMC Falls 5%, Robinhood Barely Budges: Is the Tokenization Bounce Already Over?",
+      "url": "https://finance.yahoo.com/m/381d9ea1-b4df-31e6-90d9-2b9851503cdb/amc-falls-5%25%2C-robinhood.html"
     },
     {
-      "text": "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined. Is That Why Growth Investors Are Falling Behind?",
-      "url": "https://finance.yahoo.com/m/997b6e9f-d47a-3b64-a6cb-0b2ef428858d/schg-owns-more-apple-than.html"
+      "text": "SK Hynix Jumps 7% as AI Diverts Memory From Phones, Micron Holds Steady, Apple Slips",
+      "url": "https://finance.yahoo.com/m/dc5d32e2-54ad-3ff6-b998-74b6f351428d/sk-hynix-jumps-7%25-as-ai.html"
     },
     {
-      "text": "SanDisk Rises 8%, Micron Gains 5%: Is the NAND Pricing Cycle Still Accelerating?",
-      "url": "https://finance.yahoo.com/m/cec0626a-69ee-356b-9fb7-3c64037df9a2/sandisk-rises-8%25%2C-micron.html"
+      "text": "NuScale Power Spikes 13%, Oklo Climbs 7%: Is the Nuclear Selloff Finally Exhausted?",
+      "url": "https://finance.yahoo.com/m/a1a063b3-7b1f-3502-8c1e-d324fa0aedc9/nuscale-power-spikes-13%25%2C.html"
     },
     {
-      "text": "Adobe Sinks 7% as Internal CEO Pick Lands Ahead of Earnings, Workday Falls 4%",
-      "url": "https://finance.yahoo.com/m/ae2875b7-e96d-3f98-95fd-e511e44bd741/adobe-sinks-7%25-as-internal.html"
+      "text": "Bloom Energy Surges 8% as S&P 500 Swaps It In for Trade Desk; TTD Stock Slips 2%",
+      "url": "https://finance.yahoo.com/m/d3df8a79-f71a-393d-97f1-bcdce305c095/bloom-energy-surges-8%25-as-s%26p.html"
     },
     {
-      "text": "UiPath Tumbles 14% as Guided Slowdown Overshadows Revenue Beat",
-      "url": "https://finance.yahoo.com/m/92496e41-6aa8-375b-9bf8-f28e10220a38/uipath-tumbles-14%25-as-guided.html"
+      "text": "Qualcomm Rises 5% on Multi-Generation Amazon AI Silicon Deal; Broadcom Ticks Up, Amazon Holds Flat",
+      "url": "https://finance.yahoo.com/m/7bc65670-bf37-3b3c-84f2-0eae77a0cd42/qualcomm-rises-5%25-on.html"
     }
   ]
 }
