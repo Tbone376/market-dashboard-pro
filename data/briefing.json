@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Sep 9, 2026",
-  "generated_at": "2026-09-09T12:25:37.555379-04:00",
+  "date": "Thu, Sep 10, 2026",
+  "generated_at": "2026-09-10T12:15:12.163582-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -34,58 +34,29 @@
       "prev_close": 0
     }
   },
-  "gappers": [
-    {
-      "symbol": "SIG",
-      "gap_pct": 19.1,
-      "price": 98.47,
-      "market_cap": 3872803840,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PLSE",
-      "gap_pct": 18.0,
-      "price": 57.55,
-      "market_cap": 4104502016,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SUNB",
-      "gap_pct": 10.5,
-      "price": 76.58,
-      "market_cap": 31393783808,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SSL",
-      "gap_pct": 10.5,
-      "price": 14.69,
-      "market_cap": 9416779776,
-      "catalyst": ""
-    }
-  ],
+  "gappers": [],
   "earnings": [],
   "econ_events": [],
   "headlines": [
     {
-      "text": "Jim Cramer Called the Magnificent Seven Cheap but the Three Building AI Factories Are All Trailing the S&P",
-      "url": "https://finance.yahoo.com/m/68ce7a40-e132-3c3c-9d68-18bcbaa5c08a/jim-cramer-called-the.html"
+      "text": "GoPro Spikes 11% as Lumentum Eases and Coherent Holds Flat: Is This a Merger Trade or a Meme Trade?",
+      "url": "https://finance.yahoo.com/m/f8a92276-59e8-3f90-9eea-784f25a504e2/gopro-spikes-11%25-as-lumentum.html"
     },
     {
-      "text": "GameStop Rises 4% as Collectibles Sales Jump 57% and a Director Buys $1M",
-      "url": "https://finance.yahoo.com/m/ab902962-e959-3e71-aa86-4d84d255cc80/gamestop-rises-4%25-as.html"
+      "text": "Reddit Rises 6% as User Growth Hits Fastest Pace of the Year, Pinterest Ticks Up, Snap Barely Budges",
+      "url": "https://finance.yahoo.com/m/4fafbb17-7bfb-322b-b811-b70f0fd708be/reddit-rises-6%25-as-user.html"
     },
     {
-      "text": "SanDisk at $1,740: The Price of Momentum.",
-      "url": "https://finance.yahoo.com/m/5b665bda-f830-359d-91d7-8083967364df/sandisk-at-%241%2C740%3A-the-price.html"
+      "text": "Copper Stocks Tumble as Tariff Doubt Reverses Record Rally: Freeport-McMoRan Sinks 8%, Teck Resources and Southern Copper Drop 7%",
+      "url": "https://finance.yahoo.com/m/5e6445c4-f7b6-33d7-9d07-abd94b21cdaa/copper-stocks-tumble-as.html"
     },
     {
-      "text": "UnitedHealth Slips 3% as TPG Buys Into Florida WellMed Clinics Ahead of Guidance Reaffirmation",
-      "url": "https://finance.yahoo.com/m/09ee2517-bc1a-32af-aac7-b18f30144d12/unitedhealth-slips-3%25-as-tpg.html"
+      "text": "American Eagle Outfitters Sinks 13% as $161M Tariff Refund Flatters Beat; Urban Outfitters Drops 3%, Abercrombie & Fitch Slips",
+      "url": "https://finance.yahoo.com/m/96774b33-015c-3682-a446-2e31cbe7d583/american-eagle-outfitters.html"
     },
     {
-      "text": "\u201cBeing Too Prudent Is Actually Reckless\u201d: Cramer as the Safe Bond Fund Loses Money Over 5 Years",
-      "url": "https://finance.yahoo.com/m/6777bf3d-46fb-3e21-8dd6-d7bff36c51aa/%E2%80%9Cbeing-too-prudent-is.html"
+      "text": "Opendoor Sinks 7% as Yield Spike Meets Delayed Profit Timeline, Offerpad and Zillow Group Trail",
+      "url": "https://finance.yahoo.com/m/cb66411a-b5e5-3a59-a9eb-321bf32c2af2/opendoor-sinks-7%25-as-yield.html"
     }
   ]
 }
