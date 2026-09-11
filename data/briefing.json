@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Sep 10, 2026",
-  "generated_at": "2026-09-10T12:15:12.163582-04:00",
+  "date": "Fri, Sep 11, 2026",
+  "generated_at": "2026-09-11T12:19:12.187888-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -34,29 +34,51 @@
       "prev_close": 0
     }
   },
-  "gappers": [],
+  "gappers": [
+    {
+      "symbol": "VICR",
+      "gap_pct": 11.5,
+      "price": 198.45,
+      "market_cap": 9149880320,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HUT",
+      "gap_pct": 10.9,
+      "price": 100.46,
+      "market_cap": 12382646272,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DELL",
+      "gap_pct": 10.7,
+      "price": 561.01,
+      "market_cap": 356700487680,
+      "catalyst": ""
+    }
+  ],
   "earnings": [],
   "econ_events": [],
   "headlines": [
     {
-      "text": "GoPro Spikes 11% as Lumentum Eases and Coherent Holds Flat: Is This a Merger Trade or a Meme Trade?",
-      "url": "https://finance.yahoo.com/m/f8a92276-59e8-3f90-9eea-784f25a504e2/gopro-spikes-11%25-as-lumentum.html"
+      "text": "Moderna Rallies 8% on 2026 Melt-Up Momentum Even While BioNTech and Merck Stay Flat",
+      "url": "https://finance.yahoo.com/m/9576f84b-4456-3a09-a70c-5519af55f698/moderna-rallies-8%25-on-2026.html"
     },
     {
-      "text": "Reddit Rises 6% as User Growth Hits Fastest Pace of the Year, Pinterest Ticks Up, Snap Barely Budges",
-      "url": "https://finance.yahoo.com/m/4fafbb17-7bfb-322b-b811-b70f0fd708be/reddit-rises-6%25-as-user.html"
+      "text": "Bloom Energy Climbs 7% as Fuel Cell Bid Spreads Beyond Its S&P 500 Add, FuelCell Energy Rises 4%, Plug Power Inches Higher",
+      "url": "https://finance.yahoo.com/m/6d60a188-2731-32c6-85a3-97adfbe68d0b/bloom-energy-climbs-7%25-as.html"
     },
     {
-      "text": "Copper Stocks Tumble as Tariff Doubt Reverses Record Rally: Freeport-McMoRan Sinks 8%, Teck Resources and Southern Copper Drop 7%",
-      "url": "https://finance.yahoo.com/m/5e6445c4-f7b6-33d7-9d07-abd94b21cdaa/copper-stocks-tumble-as.html"
+      "text": "Bitmine Surges 8% on Ethereum Strength After Cantor Fitzgerald Doubles Its Target, SharpLink Advances 9%, Strategy Gains 4%",
+      "url": "https://finance.yahoo.com/m/2cc674b4-38d8-3674-88bf-43b453403297/bitmine-surges-8%25-on-ethereum.html"
     },
     {
-      "text": "American Eagle Outfitters Sinks 13% as $161M Tariff Refund Flatters Beat; Urban Outfitters Drops 3%, Abercrombie & Fitch Slips",
-      "url": "https://finance.yahoo.com/m/96774b33-015c-3682-a446-2e31cbe7d583/american-eagle-outfitters.html"
+      "text": "CPI +3.4%, as Expected: Wherefor Go Fed Rates?",
+      "url": "https://finance.yahoo.com/economy/policy/articles/cpi-3-4-expected-wherefor-143000839.html"
     },
     {
-      "text": "Opendoor Sinks 7% as Yield Spike Meets Delayed Profit Timeline, Offerpad and Zillow Group Trail",
-      "url": "https://finance.yahoo.com/m/cb66411a-b5e5-3a59-a9eb-321bf32c2af2/opendoor-sinks-7%25-as-yield.html"
+      "text": "Meta at $645: Recent Momentum Makes One Thing Very Clear",
+      "url": "https://finance.yahoo.com/m/171c8f38-8217-38e0-a46e-6d697104c685/meta-at-%24645%3A-recent-momentum.html"
     }
   ]
 }
