@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Sep 11, 2026",
-  "generated_at": "2026-09-11T12:19:12.187888-04:00",
+  "date": "Mon, Sep 14, 2026",
+  "generated_at": "2026-09-14T14:00:00.291876-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "VICR",
-      "gap_pct": 11.5,
-      "price": 198.45,
-      "market_cap": 9149880320,
+      "symbol": "S",
+      "gap_pct": 16.2,
+      "price": 22.95,
+      "market_cap": 7985987072,
       "catalyst": ""
     },
     {
-      "symbol": "HUT",
-      "gap_pct": 10.9,
-      "price": 100.46,
-      "market_cap": 12382646272,
+      "symbol": "RUM",
+      "gap_pct": 15.8,
+      "price": 8.3,
+      "market_cap": 4117703936,
       "catalyst": ""
     },
     {
-      "symbol": "DELL",
-      "gap_pct": 10.7,
-      "price": 561.01,
-      "market_cap": 356700487680,
+      "symbol": "ZS",
+      "gap_pct": 15.7,
+      "price": 190.36,
+      "market_cap": 31039092736,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SAIL",
+      "gap_pct": 15.5,
+      "price": 19.92,
+      "market_cap": 11372559360,
+      "catalyst": ""
+    },
+    {
+      "symbol": "QLYS",
+      "gap_pct": 15.5,
+      "price": 173.54,
+      "market_cap": 6111735808,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NTSK",
+      "gap_pct": 15.4,
+      "price": 16.97,
+      "market_cap": 6933733888,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CRWD",
+      "gap_pct": 14.9,
+      "price": 237.61,
+      "market_cap": 243297157120,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RBRK",
+      "gap_pct": 14.4,
+      "price": 99.1,
+      "market_cap": 20397608960,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PANW",
+      "gap_pct": 13.9,
+      "price": 376.64,
+      "market_cap": 308091518976,
+      "catalyst": ""
+    },
+    {
+      "symbol": "TENB",
+      "gap_pct": 13.1,
+      "price": 34.06,
+      "market_cap": 3756414720,
       "catalyst": ""
     }
   ],
@@ -61,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Moderna Rallies 8% on 2026 Melt-Up Momentum Even While BioNTech and Merck Stay Flat",
-      "url": "https://finance.yahoo.com/m/9576f84b-4456-3a09-a70c-5519af55f698/moderna-rallies-8%25-on-2026.html"
+      "text": "Corning Tumbles 12% on $2B At-the-Market Equity Offering; Coherent Sinks 11%, Lumentum Drops 9%, Fabrinet Slides 6%",
+      "url": "https://finance.yahoo.com/m/6c050913-f7e8-37ee-9fba-89842928c16b/corning-tumbles-12%25-on-%242b.html"
     },
     {
-      "text": "Bloom Energy Climbs 7% as Fuel Cell Bid Spreads Beyond Its S&P 500 Add, FuelCell Energy Rises 4%, Plug Power Inches Higher",
-      "url": "https://finance.yahoo.com/m/6d60a188-2731-32c6-85a3-97adfbe68d0b/bloom-energy-climbs-7%25-as.html"
+      "text": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+      "url": "https://finance.yahoo.com/m/c75187ac-85cd-3619-8931-259d54e7241a/netflix-climbs-4%25%2C-alphabet.html"
     },
     {
-      "text": "Bitmine Surges 8% on Ethereum Strength After Cantor Fitzgerald Doubles Its Target, SharpLink Advances 9%, Strategy Gains 4%",
-      "url": "https://finance.yahoo.com/m/2cc674b4-38d8-3674-88bf-43b453403297/bitmine-surges-8%25-on-ethereum.html"
+      "text": "U.S. Household Wealth Explodes by Record $12.5 Trillion in Q2 \u2014 Largest Jump Ever Recorded",
+      "url": "https://finance.yahoo.com/m/dbf44002-b64e-3749-806e-8f8acafb2a31/u.s.-household-wealth.html"
     },
     {
-      "text": "CPI +3.4%, as Expected: Wherefor Go Fed Rates?",
-      "url": "https://finance.yahoo.com/economy/policy/articles/cpi-3-4-expected-wherefor-143000839.html"
+      "text": "Roblox Jumps 10% as Wedbush Lifts Target to $48 While Staying Neutral; Take-Two and GameStop Nudge Higher",
+      "url": "https://finance.yahoo.com/m/72cab5d9-9489-3c8f-a12d-e970fa7c54f0/roblox-jumps-10%25-as-wedbush.html"
     },
     {
-      "text": "Meta at $645: Recent Momentum Makes One Thing Very Clear",
-      "url": "https://finance.yahoo.com/m/171c8f38-8217-38e0-a46e-6d697104c685/meta-at-%24645%3A-recent-momentum.html"
+      "text": "Caterpillar Falls 4% While Deere Edges Higher: Is the Data Center Power Trade Unwinding?",
+      "url": "https://finance.yahoo.com/m/2ae54c49-0110-37aa-b432-91359c3e903b/caterpillar-falls-4%25-while.html"
     }
   ]
 }
