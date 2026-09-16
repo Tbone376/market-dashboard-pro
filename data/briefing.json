@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Sep 15, 2026",
-  "generated_at": "2026-09-15T12:46:38.428913-04:00",
+  "date": "Wed, Sep 16, 2026",
+  "generated_at": "2026-09-16T12:39:23.936825-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "SWKS",
-      "gap_pct": 12.2,
-      "price": 88.95,
-      "market_cap": 13384553472,
-      "catalyst": ""
-    },
-    {
       "symbol": "FPS",
-      "gap_pct": 11.8,
-      "price": 32.02,
-      "market_cap": 9749336064,
+      "gap_pct": 12.5,
+      "price": 35.27,
+      "market_cap": 11250593792,
       "catalyst": ""
     },
     {
-      "symbol": "TLX",
-      "gap_pct": 10.3,
-      "price": 12.99,
-      "market_cap": 4413763584,
+      "symbol": "CIFR",
+      "gap_pct": 12.4,
+      "price": 16.96,
+      "market_cap": 7038920704,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SMTC",
+      "gap_pct": 10.9,
+      "price": 167.31,
+      "market_cap": 15614310400,
+      "catalyst": ""
+    },
+    {
+      "symbol": "WOR",
+      "gap_pct": 10.4,
+      "price": 59.99,
+      "market_cap": 2935362304,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AXTI",
+      "gap_pct": 10.2,
+      "price": 63.57,
+      "market_cap": 4168488960,
       "catalyst": ""
     }
   ],
@@ -61,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Norwegian Falls 3% as Wells Fargo Trims Carnival Target on Caribbean Pricing Pressure; Carnival Slips, Royal Caribbean Dips",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/norwegian-falls-3-wells-fargo-163654293.html"
+      "text": "Oil Producers Slide as Crude Retreats: EOG Resources Drops 6%, ConocoPhillips and Occidental Petroleum Fall 5%",
+      "url": "https://finance.yahoo.com/energy/articles/oil-producers-slide-crude-retreats-160306957.html"
     },
     {
-      "text": "12 Investment Must Reads for This Week (Sept. 15, 2026)",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/12-investment-must-reads-week-160848000.html"
+      "text": "Bitget Publishes 45th Consecutive Monthly Proof-of-Reserves Report at 122% Reserve Ratio",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitget-publishes-45th-consecutive-monthly-160021181.html"
     },
     {
-      "text": "Offshore Oil Stocks Rally While the Broad Market Slips: Transocean Climbs 6%, Valaris Rises 6%, W&T Offshore Gains 6%",
-      "url": "https://finance.yahoo.com/energy/articles/offshore-oil-stocks-rally-while-160315565.html"
+      "text": "EV Charging Stocks Climb as Small Caps Catch a Bid: Blink Charging Jumps 6%, ChargePoint Rises 4%, EVgo Ticks Up",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ev-charging-stocks-climb-small-155923649.html"
     },
     {
-      "text": "Ciena Rises 4% as Optics Selloff Unwinds; Coherent Edges Higher, Corning Holds Steady",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ciena-rises-4-optics-selloff-155953305.html"
+      "text": "Red Cat Sinks 6% as Speculative Drone Names Extend Month-Long Slide; Unusual Machines Drops 4%, AeroVironment Barely Budges",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/red-cat-sinks-6-speculative-153524269.html"
     },
     {
-      "text": "TeraWulf Falls 5% as AI Infrastructure Names Extend a Month-Long Slide; IREN Drops 4%, Applied Digital Declines 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/terawulf-falls-5-ai-infrastructure-153049003.html"
+      "text": "Optics Stocks Rally as Oversold Bounce Takes Hold: Coherent Jumps 6%, Lumentum Climbs 5%, Applied Optoelectronics Advances 3%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/optics-stocks-rally-oversold-bounce-144615359.html"
     }
   ]
 }
