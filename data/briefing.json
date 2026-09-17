@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Sep 16, 2026",
-  "generated_at": "2026-09-16T12:39:23.936825-04:00",
+  "date": "Thu, Sep 17, 2026",
+  "generated_at": "2026-09-17T12:46:22.274319-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "FPS",
-      "gap_pct": 12.5,
-      "price": 35.27,
-      "market_cap": 11250593792,
+      "symbol": "GNRC",
+      "gap_pct": 21.0,
+      "price": 211.9,
+      "market_cap": 12503000064,
       "catalyst": ""
     },
     {
-      "symbol": "CIFR",
+      "symbol": "VICR",
+      "gap_pct": 17.0,
+      "price": 215.15,
+      "market_cap": 9919862784,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SDGR",
+      "gap_pct": 17.0,
+      "price": 28.0,
+      "market_cap": 2094931712,
+      "catalyst": ""
+    },
+    {
+      "symbol": "TEM",
+      "gap_pct": 14.0,
+      "price": 79.76,
+      "market_cap": 14391476224,
+      "catalyst": ""
+    },
+    {
+      "symbol": "OKLO",
+      "gap_pct": 13.5,
+      "price": 40.44,
+      "market_cap": 7522553344,
+      "catalyst": ""
+    },
+    {
+      "symbol": "XE",
       "gap_pct": 12.4,
-      "price": 16.96,
-      "market_cap": 7038920704,
+      "price": 16.38,
+      "market_cap": 4707136512,
       "catalyst": ""
     },
     {
-      "symbol": "SMTC",
-      "gap_pct": 10.9,
-      "price": 167.31,
-      "market_cap": 15614310400,
+      "symbol": "TWST",
+      "gap_pct": 11.8,
+      "price": 159.99,
+      "market_cap": 10607194112,
       "catalyst": ""
     },
     {
-      "symbol": "WOR",
-      "gap_pct": 10.4,
-      "price": 59.99,
-      "market_cap": 2935362304,
+      "symbol": "BHVN",
+      "gap_pct": 11.6,
+      "price": 13.42,
+      "market_cap": 2027007488,
       "catalyst": ""
     },
     {
-      "symbol": "AXTI",
-      "gap_pct": 10.2,
-      "price": 63.57,
-      "market_cap": 4168488960,
+      "symbol": "BLSH",
+      "gap_pct": 11.1,
+      "price": 35.64,
+      "market_cap": 5404747264,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SMCI",
+      "gap_pct": 11.0,
+      "price": 40.9,
+      "market_cap": 26453872640,
       "catalyst": ""
     }
   ],
@@ -75,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Oil Producers Slide as Crude Retreats: EOG Resources Drops 6%, ConocoPhillips and Occidental Petroleum Fall 5%",
-      "url": "https://finance.yahoo.com/energy/articles/oil-producers-slide-crude-retreats-160306957.html"
+      "text": "Why CoreWeave Is Tumbling Hard While the Market Is Soaring",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-coreweave-tumbling-hard-while-160621149.html"
     },
     {
-      "text": "Bitget Publishes 45th Consecutive Monthly Proof-of-Reserves Report at 122% Reserve Ratio",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitget-publishes-45th-consecutive-monthly-160021181.html"
+      "text": "FuelCell Jumps 13% as House Shifts Data Center Power Costs to Operators; Plug Power Climbs 7%, Bloom Energy Rises 3%",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fuelcell-jumps-13-house-shifts-155210122.html"
     },
     {
-      "text": "EV Charging Stocks Climb as Small Caps Catch a Bid: Blink Charging Jumps 6%, ChargePoint Rises 4%, EVgo Ticks Up",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ev-charging-stocks-climb-small-155923649.html"
+      "text": "Generac Surges 16% on $2.4B Amazon Data Center Generator Deal; Caterpillar Ticks Up, Cummins Sits Out the Rally",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/generac-surges-16-2-4b-154321331.html"
     },
     {
-      "text": "Red Cat Sinks 6% as Speculative Drone Names Extend Month-Long Slide; Unusual Machines Drops 4%, AeroVironment Barely Budges",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/red-cat-sinks-6-speculative-153524269.html"
+      "text": "The Strategist Who Wanted 8,400 on the S&P 500 Just Cut His Number, and It Is Not Because Earnings Got Worse",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/strategist-wanted-8-400-p-152036941.html"
     },
     {
-      "text": "Optics Stocks Rally as Oversold Bounce Takes Hold: Coherent Jumps 6%, Lumentum Climbs 5%, Applied Optoelectronics Advances 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/optics-stocks-rally-oversold-bounce-144615359.html"
+      "text": "Democrat Sweep Odds Just Hit a Record 60%. History Says This Is Exactly When Midterm-Year Stock Drawdowns Happen.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/democrat-sweep-odds-just-hit-145552516.html"
     }
   ]
 }
