@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Sep 18, 2026",
-  "generated_at": "2026-09-18T12:14:59.491885-04:00",
+  "date": "Mon, Sep 21, 2026",
+  "generated_at": "2026-09-21T14:08:25.296658-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "ALMR",
+      "symbol": "GRAL",
+      "gap_pct": 35.4,
+      "price": 109.39,
+      "market_cap": 4886039040,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ARM",
       "gap_pct": 15.4,
-      "price": 36.93,
-      "market_cap": 2562737408,
+      "price": 318.16,
+      "market_cap": 339794427904,
       "catalyst": ""
     },
     {
-      "symbol": "MSTR",
+      "symbol": "MRNA",
+      "gap_pct": 14.3,
+      "price": 176.09,
+      "market_cap": 70301491200,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FSLY",
+      "gap_pct": 14.1,
+      "price": 27.23,
+      "market_cap": 4337738752,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AXTI",
       "gap_pct": 13.1,
-      "price": 149.51,
-      "market_cap": 59397623808,
+      "price": 79.22,
+      "market_cap": 5194710016,
       "catalyst": ""
     },
     {
-      "symbol": "COIN",
-      "gap_pct": 11.4,
-      "price": 193.84,
-      "market_cap": 51142148096,
+      "symbol": "LUNR",
+      "gap_pct": 12.2,
+      "price": 15.62,
+      "market_cap": 2505462784,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DOCN",
+      "gap_pct": 12.1,
+      "price": 145.85,
+      "market_cap": 17051046912,
+      "catalyst": ""
+    },
+    {
+      "symbol": "INTC",
+      "gap_pct": 12.0,
+      "price": 121.6,
+      "market_cap": 642790391808,
+      "catalyst": ""
+    },
+    {
+      "symbol": "VNET",
+      "gap_pct": 11.7,
+      "price": 7.28,
+      "market_cap": 2072555264,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AKAM",
+      "gap_pct": 11.6,
+      "price": 116.61,
+      "market_cap": 16758794240,
       "catalyst": ""
     }
   ],
@@ -61,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Strategy Climbs 12%, Coinbase Jumps 10% as Bitcoin Tops $80,000",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-climbs-12-coinbase-jumps-155737829.html"
+      "text": "S&P 500 Will \u2018Easily\u2019 Top 8,000 Before Historic Crash, \u2018Black Swan\u2019 Fund Manager Says",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-easily-top-8-165414928.html"
     },
     {
-      "text": "SanDisk Jumps 6% as Storage Bid Concentrates in One Name; Western Digital Rises 3%, Micron Ticks Up",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-jumps-6-storage-bid-155121366.html"
+      "text": "Corning Climbs 6% as AI Optical Interconnect Demo Highlights Its Fiber; Lumentum, Coherent and Applied Optoelectronics Rise 4%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/corning-climbs-6-ai-optical-164652102.html"
     },
     {
-      "text": "NuScale Power Drops 7% as Nuclear Stocks Hand Back the Vote Rally; Oklo Falls 5%, Centrus Energy Slides 3%",
-      "url": "https://finance.yahoo.com/energy/articles/nuscale-power-drops-7-nuclear-154947830.html"
+      "text": "Moderna Surges 9% as Phase 3 Melanoma Data Wins Presidential Symposium Slot; Merck and BioNTech Edge Higher",
+      "url": "https://finance.yahoo.com/healthcare/articles/moderna-surges-9-phase-3-154555747.html"
     },
     {
-      "text": "Amazon\u2019s AI Bet is Already Starting to Pay Off",
-      "url": "https://finance.yahoo.com/technology/ai/articles/amazon-ai-bet-already-starting-152946757.html"
+      "text": "Rocket Lab Climbs 7% as Cantor Reiterates $122 Target on Launch Record; Intuitive Machines Jumps 10%, AST SpaceMobile Rises 6%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-climbs-7-cantor-154002618.html"
     },
     {
-      "text": "Red Cat and Unusual Machines Fall 3% as Drone Selloff Extends; Ondas Slips",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/red-cat-unusual-machines-fall-145714667.html"
+      "text": "Super Micro Computer Looks Very Intriguing Right Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-looks-very-150040526.html"
     }
   ]
 }
