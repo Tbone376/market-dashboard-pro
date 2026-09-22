@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Sep 21, 2026",
-  "generated_at": "2026-09-21T14:08:25.296658-04:00",
+  "date": "Tue, Sep 22, 2026",
+  "generated_at": "2026-09-22T12:44:55.256089-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "GRAL",
-      "gap_pct": 35.4,
-      "price": 109.39,
-      "market_cap": 4886039040,
+      "symbol": "VKTX",
+      "gap_pct": 32.4,
+      "price": 39.87,
+      "market_cap": 4650952192,
       "catalyst": ""
     },
     {
-      "symbol": "ARM",
-      "gap_pct": 15.4,
-      "price": 318.16,
-      "market_cap": 339794427904,
+      "symbol": "BFLY",
+      "gap_pct": 20.2,
+      "price": 9.79,
+      "market_cap": 2605600512,
       "catalyst": ""
     },
     {
-      "symbol": "MRNA",
-      "gap_pct": 14.3,
-      "price": 176.09,
-      "market_cap": 70301491200,
+      "symbol": "VICR",
+      "gap_pct": 14.9,
+      "price": 257.18,
+      "market_cap": 11857498112,
       "catalyst": ""
     },
     {
-      "symbol": "FSLY",
-      "gap_pct": 14.1,
-      "price": 27.23,
-      "market_cap": 4337738752,
+      "symbol": "BLLN",
+      "gap_pct": 11.2,
+      "price": 115.5,
+      "market_cap": 5449867264,
       "catalyst": ""
     },
     {
-      "symbol": "AXTI",
-      "gap_pct": 13.1,
-      "price": 79.22,
-      "market_cap": 5194710016,
-      "catalyst": ""
-    },
-    {
-      "symbol": "LUNR",
-      "gap_pct": 12.2,
-      "price": 15.62,
-      "market_cap": 2505462784,
-      "catalyst": ""
-    },
-    {
-      "symbol": "DOCN",
-      "gap_pct": 12.1,
-      "price": 145.85,
-      "market_cap": 17051046912,
-      "catalyst": ""
-    },
-    {
-      "symbol": "INTC",
-      "gap_pct": 12.0,
-      "price": 121.6,
-      "market_cap": 642790391808,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VNET",
-      "gap_pct": 11.7,
-      "price": 7.28,
-      "market_cap": 2072555264,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AKAM",
-      "gap_pct": 11.6,
-      "price": 116.61,
-      "market_cap": 16758794240,
+      "symbol": "ONON",
+      "gap_pct": 10.7,
+      "price": 30.23,
+      "market_cap": 10104713216,
       "catalyst": ""
     }
   ],
@@ -110,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "S&P 500 Will \u2018Easily\u2019 Top 8,000 Before Historic Crash, \u2018Black Swan\u2019 Fund Manager Says",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-easily-top-8-165414928.html"
+      "text": "SanDisk Jumps 6% as Rosenblatt Starts Coverage at Buy With $2,400 Target; Micron Rises 3%, Seagate Ticks Up",
+      "url": "https://finance.yahoo.com/m/3d14c395-04fd-305e-a48f-4b6e4b11ea44/sandisk-jumps-6%25-as.html"
     },
     {
-      "text": "Corning Climbs 6% as AI Optical Interconnect Demo Highlights Its Fiber; Lumentum, Coherent and Applied Optoelectronics Rise 4%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/corning-climbs-6-ai-optical-164652102.html"
+      "text": "Trade Desk Falls 4% as Index-Removal Flows Keep Pressure On; Magnite Drops 3%, AppLovin Pulls Back",
+      "url": "https://finance.yahoo.com/m/0d3beacb-9726-3c5c-a434-55bc18bc1ae5/trade-desk-falls-4%25-as.html"
     },
     {
-      "text": "Moderna Surges 9% as Phase 3 Melanoma Data Wins Presidential Symposium Slot; Merck and BioNTech Edge Higher",
-      "url": "https://finance.yahoo.com/healthcare/articles/moderna-surges-9-phase-3-154555747.html"
+      "text": "Defense Stocks Fall While Oil Slides on Hormuz Reopening Report: Lockheed Martin and RTX Drop 3%, Boeing Dips",
+      "url": "https://finance.yahoo.com/m/693be8b2-e8bc-33f4-8f20-0a5d2a0d0029/defense-stocks-fall-while-oil.html"
     },
     {
-      "text": "Rocket Lab Climbs 7% as Cantor Reiterates $122 Target on Launch Record; Intuitive Machines Jumps 10%, AST SpaceMobile Rises 6%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-climbs-7-cantor-154002618.html"
+      "text": "\u201cMarket Has to Chew Through Indigestion\u201d: Analyst Warns of 7000 Dip Before 8150 Target",
+      "url": "https://finance.yahoo.com/m/3a0dc7e5-a2b7-3a91-a1b2-ba1b1e8a20f4/%E2%80%9Cmarket-has-to-chew-through.html"
     },
     {
-      "text": "Super Micro Computer Looks Very Intriguing Right Now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-looks-very-150040526.html"
+      "text": "Paramount Skydance Rises 4% on 12-State Settlement, Warner Bros. Discovery Holds Flat as $110B Deal Nears Its Close",
+      "url": "https://finance.yahoo.com/m/a447ba50-b131-329e-b9d5-88503e7643e1/paramount-skydance-rises-4%25.html"
     }
   ]
 }
