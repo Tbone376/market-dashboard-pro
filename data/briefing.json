@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Sep 22, 2026",
-  "generated_at": "2026-09-22T12:44:55.256089-04:00",
+  "date": "Wed, Sep 23, 2026",
+  "generated_at": "2026-09-23T12:41:08.768904-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,10 @@
   },
   "gappers": [
     {
-      "symbol": "VKTX",
-      "gap_pct": 32.4,
-      "price": 39.87,
-      "market_cap": 4650952192,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BFLY",
-      "gap_pct": 20.2,
-      "price": 9.79,
-      "market_cap": 2605600512,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VICR",
-      "gap_pct": 14.9,
-      "price": 257.18,
-      "market_cap": 11857498112,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BLLN",
-      "gap_pct": 11.2,
-      "price": 115.5,
-      "market_cap": 5449867264,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ONON",
-      "gap_pct": 10.7,
-      "price": 30.23,
-      "market_cap": 10104713216,
+      "symbol": "SECZ",
+      "gap_pct": 12.2,
+      "price": 14.58,
+      "market_cap": 2380413696,
       "catalyst": ""
     }
   ],
@@ -75,24 +47,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "SanDisk Jumps 6% as Rosenblatt Starts Coverage at Buy With $2,400 Target; Micron Rises 3%, Seagate Ticks Up",
-      "url": "https://finance.yahoo.com/m/3d14c395-04fd-305e-a48f-4b6e4b11ea44/sandisk-jumps-6%25-as.html"
+      "text": "Opendoor Slides 5% as Housing Names Fall Together; Zillow and Offerpad Drop 3%",
+      "url": "https://finance.yahoo.com/real-estate/articles/opendoor-slides-5-housing-names-160305148.html"
     },
     {
-      "text": "Trade Desk Falls 4% as Index-Removal Flows Keep Pressure On; Magnite Drops 3%, AppLovin Pulls Back",
-      "url": "https://finance.yahoo.com/m/0d3beacb-9726-3c5c-a434-55bc18bc1ae5/trade-desk-falls-4%25-as.html"
+      "text": "Two Biotechs Get Beaten Down: Jaguar Health Collapses 59%, Viking Therapeutics Sinks 4%",
+      "url": "https://finance.yahoo.com/healthcare/articles/two-biotechs-beaten-down-jaguar-150244696.html"
     },
     {
-      "text": "Defense Stocks Fall While Oil Slides on Hormuz Reopening Report: Lockheed Martin and RTX Drop 3%, Boeing Dips",
-      "url": "https://finance.yahoo.com/m/693be8b2-e8bc-33f4-8f20-0a5d2a0d0029/defense-stocks-fall-while-oil.html"
+      "text": "McDonald\u2019s Falls 4% as Investor Day Sets $8.5B Franchisee Support Plan; Wendy\u2019s Dips, Yum! Brands Holds Steady",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-falls-4-investor-day-142936117.html"
     },
     {
-      "text": "\u201cMarket Has to Chew Through Indigestion\u201d: Analyst Warns of 7000 Dip Before 8150 Target",
-      "url": "https://finance.yahoo.com/m/3a0dc7e5-a2b7-3a91-a1b2-ba1b1e8a20f4/%E2%80%9Cmarket-has-to-chew-through.html"
+      "text": "Royal Caribbean Group Falls 5% on $3B Sandals Resorts Stake; Carnival and Norwegian Slide 3%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/royal-caribbean-group-falls-5-141638827.html"
     },
     {
-      "text": "Paramount Skydance Rises 4% on 12-State Settlement, Warner Bros. Discovery Holds Flat as $110B Deal Nears Its Close",
-      "url": "https://finance.yahoo.com/m/a447ba50-b131-329e-b9d5-88503e7643e1/paramount-skydance-rises-4%25.html"
+      "text": "Fastly Just Ripped 138% This Year but It\u2019s Now Falling. Is It Time to Sell?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fastly-just-ripped-138-now-140538816.html"
     }
   ]
 }
