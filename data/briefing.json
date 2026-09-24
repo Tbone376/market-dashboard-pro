@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Sep 23, 2026",
-  "generated_at": "2026-09-23T12:41:08.768904-04:00",
+  "date": "Thu, Sep 24, 2026",
+  "generated_at": "2026-09-24T12:58:49.755502-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,10 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "SECZ",
-      "gap_pct": 12.2,
-      "price": 14.58,
-      "market_cap": 2380413696,
+      "symbol": "P",
+      "gap_pct": 16.5,
+      "price": 127.69,
+      "market_cap": 42549788672,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CDNA",
+      "gap_pct": 12.6,
+      "price": 61.15,
+      "market_cap": 3163547904,
+      "catalyst": ""
+    },
+    {
+      "symbol": "TWST",
+      "gap_pct": 10.2,
+      "price": 174.67,
+      "market_cap": 11580502016,
       "catalyst": ""
     }
   ],
@@ -47,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Opendoor Slides 5% as Housing Names Fall Together; Zillow and Offerpad Drop 3%",
-      "url": "https://finance.yahoo.com/real-estate/articles/opendoor-slides-5-housing-names-160305148.html"
+      "text": "BlackBerry Falls 2% Despite Record QNX Quarter and Raised Full-Year Outlook; Mobileye Holds Steady",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackberry-falls-2-despite-record-161549550.html"
     },
     {
-      "text": "Two Biotechs Get Beaten Down: Jaguar Health Collapses 59%, Viking Therapeutics Sinks 4%",
-      "url": "https://finance.yahoo.com/healthcare/articles/two-biotechs-beaten-down-jaguar-150244696.html"
+      "text": "Klarna Falls 3% as Selling Persists Weeks After Its Guidance Cut; Affirm Advances 2%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/klarna-falls-3-selling-persists-160304236.html"
     },
     {
-      "text": "McDonald\u2019s Falls 4% as Investor Day Sets $8.5B Franchisee Support Plan; Wendy\u2019s Dips, Yum! Brands Holds Steady",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-falls-4-investor-day-142936117.html"
+      "text": "Solar Stocks Slide as High Borrowing Costs Weigh on Project Financing: First Solar Sinks 8%, SolarEdge Falls 5%, Enphase Energy Drops 4%",
+      "url": "https://finance.yahoo.com/energy/articles/solar-stocks-slide-high-borrowing-155516536.html"
     },
     {
-      "text": "Royal Caribbean Group Falls 5% on $3B Sandals Resorts Stake; Carnival and Norwegian Slide 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/royal-caribbean-group-falls-5-141638827.html"
+      "text": "Webull Drops 6% as Selling Outlasts Its Insider-Sale Headlines; Robinhood and Interactive Brokers Dip 2%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/webull-drops-6-selling-outlasts-153930839.html"
     },
     {
-      "text": "Fastly Just Ripped 138% This Year but It\u2019s Now Falling. Is It Time to Sell?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fastly-just-ripped-138-now-140538816.html"
+      "text": "Nebius Surges 6%, CoreWeave Treads Water as JPMorgan Upgrade Flags Rising Compute Pricing; IREN Slides 4%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-surges-6-coreweave-treads-152956064.html"
     }
   ]
 }
