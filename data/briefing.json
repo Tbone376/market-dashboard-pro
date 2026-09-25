@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Sep 24, 2026",
-  "generated_at": "2026-09-24T12:58:49.755502-04:00",
+  "date": "Fri, Sep 25, 2026",
+  "generated_at": "2026-09-25T13:00:49.239263-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "P",
-      "gap_pct": 16.5,
-      "price": 127.69,
-      "market_cap": 42549788672,
+      "symbol": "PPLI",
+      "gap_pct": 11.0,
+      "price": 39.89,
+      "market_cap": 2970365952,
       "catalyst": ""
     },
     {
-      "symbol": "CDNA",
-      "gap_pct": 12.6,
-      "price": 61.15,
-      "market_cap": 3163547904,
+      "symbol": "MXL",
+      "gap_pct": 11.0,
+      "price": 94.67,
+      "market_cap": 8585924096,
       "catalyst": ""
     },
     {
-      "symbol": "TWST",
-      "gap_pct": 10.2,
-      "price": 174.67,
-      "market_cap": 11580502016,
+      "symbol": "ALM",
+      "gap_pct": 10.8,
+      "price": 13.74,
+      "market_cap": 3963725312,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MAAS",
+      "gap_pct": 10.0,
+      "price": 15.44,
+      "market_cap": 6824980480,
       "catalyst": ""
     }
   ],
@@ -61,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "BlackBerry Falls 2% Despite Record QNX Quarter and Raised Full-Year Outlook; Mobileye Holds Steady",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/blackberry-falls-2-despite-record-161549550.html"
+      "text": "Microsoft Climbs 4% as Oppenheimer Lifts Target to $570 on Copilot Enterprise Pivot; Alphabet Ticks Up",
+      "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-climbs-3-oppenheimer-lifts-160230509.html"
     },
     {
-      "text": "Klarna Falls 3% as Selling Persists Weeks After Its Guidance Cut; Affirm Advances 2%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/klarna-falls-3-selling-persists-160304236.html"
+      "text": "Zscaler Sinks 9% on Chief Revenue Officer Exit, Fastly Drops 6% as Citi Questions AI Traffic Payoff",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-sinks-9-chief-revenue-155749435.html"
     },
     {
-      "text": "Solar Stocks Slide as High Borrowing Costs Weigh on Project Financing: First Solar Sinks 8%, SolarEdge Falls 5%, Enphase Energy Drops 4%",
-      "url": "https://finance.yahoo.com/energy/articles/solar-stocks-slide-high-borrowing-155516536.html"
+      "text": "GameStop Tumbles 8% Despite Ryan Cohen\u2019s $26M Insider Buy; eBay Ticks Up",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-tumbles-8-despite-ryan-145624855.html"
     },
     {
-      "text": "Webull Drops 6% as Selling Outlasts Its Insider-Sale Headlines; Robinhood and Interactive Brokers Dip 2%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/webull-drops-6-selling-outlasts-153930839.html"
+      "text": "Jaguar Health Soars 32% as Rare-Disease Pipeline News Meets Thin Post-Split Float",
+      "url": "https://finance.yahoo.com/healthcare/articles/jaguar-health-soars-32-rare-144908323.html"
     },
     {
-      "text": "Nebius Surges 6%, CoreWeave Treads Water as JPMorgan Upgrade Flags Rising Compute Pricing; IREN Slides 4%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-surges-6-coreweave-treads-152956064.html"
+      "text": "Micron at $1080: The Street Loves What It Sees Underneath The Headlines",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-1080-street-loves-sees-144108179.html"
     }
   ]
 }
