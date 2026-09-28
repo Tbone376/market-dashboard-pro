@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Sep 25, 2026",
-  "generated_at": "2026-09-25T13:00:49.239263-04:00",
+  "date": "Mon, Sep 28, 2026",
+  "generated_at": "2026-09-28T15:32:50.664913-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,31 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "PPLI",
-      "gap_pct": 11.0,
-      "price": 39.89,
-      "market_cap": 2970365952,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MXL",
-      "gap_pct": 11.0,
-      "price": 94.67,
-      "market_cap": 8585924096,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ALM",
-      "gap_pct": 10.8,
-      "price": 13.74,
-      "market_cap": 3963725312,
+      "symbol": "KOD",
+      "gap_pct": 186.1,
+      "price": 92.73,
+      "market_cap": 5827966976,
       "catalyst": ""
     },
     {
       "symbol": "MAAS",
-      "gap_pct": 10.0,
-      "price": 15.44,
-      "market_cap": 6824980480,
+      "gap_pct": 20.1,
+      "price": 18.45,
+      "market_cap": 8160350208,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ABCL",
+      "gap_pct": 10.6,
+      "price": 14.05,
+      "market_cap": 4552573952,
       "catalyst": ""
     }
   ],
@@ -68,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Microsoft Climbs 4% as Oppenheimer Lifts Target to $570 on Copilot Enterprise Pivot; Alphabet Ticks Up",
-      "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-climbs-3-oppenheimer-lifts-160230509.html"
+      "text": "MP Materials Just Sank 21% in a Month. Is It Time to Sell, or Is This a Prime Buying Opportunity?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-just-sank-21-192302370.html"
     },
     {
-      "text": "Zscaler Sinks 9% on Chief Revenue Officer Exit, Fastly Drops 6% as Citi Questions AI Traffic Payoff",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-sinks-9-chief-revenue-155749435.html"
+      "text": "Optics Stocks Slide Despite Citi\u2019s $11B Switching Forecast: Coherent and Applied Optoelectronics Drop 5%, Corning Falls 3%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/optics-stocks-slide-despite-citi-175230924.html"
     },
     {
-      "text": "GameStop Tumbles 8% Despite Ryan Cohen\u2019s $26M Insider Buy; eBay Ticks Up",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-tumbles-8-despite-ryan-145624855.html"
+      "text": "Cleveland-Cliffs Sinks 9% as Selloff Outruns Steel Group; Nucor and Steel Dynamics Pull Back",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cleveland-cliffs-sinks-9-selloff-174631149.html"
     },
     {
-      "text": "Jaguar Health Soars 32% as Rare-Disease Pipeline News Meets Thin Post-Split Float",
-      "url": "https://finance.yahoo.com/healthcare/articles/jaguar-health-soars-32-rare-144908323.html"
+      "text": "AMC Spikes 13% as Refinancing Rally Extends; Cinemark and IMAX Edge Higher",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amc-spikes-13-refinancing-rally-174318002.html"
     },
     {
-      "text": "Micron at $1080: The Street Loves What It Sees Underneath The Headlines",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-1080-street-loves-sees-144108179.html"
+      "text": "Bloom Energy Sinks 8% as Sharp Run Unwinds; Plug Power Drops 6%, FuelCell Eases",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-sinks-8-sharp-171245218.html"
     }
   ]
 }
