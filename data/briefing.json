@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Sep 28, 2026",
-  "generated_at": "2026-09-28T15:32:50.664913-04:00",
+  "date": "Tue, Sep 29, 2026",
+  "generated_at": "2026-09-29T13:59:29.428072-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "KOD",
-      "gap_pct": 186.1,
-      "price": 92.73,
-      "market_cap": 5827966976,
+      "symbol": "IOVA",
+      "gap_pct": 34.6,
+      "price": 14.8,
+      "market_cap": 6701803008,
       "catalyst": ""
     },
     {
-      "symbol": "MAAS",
-      "gap_pct": 20.1,
-      "price": 18.45,
-      "market_cap": 8160350208,
+      "symbol": "CCL",
+      "gap_pct": 12.8,
+      "price": 24.98,
+      "market_cap": 34206988288,
       "catalyst": ""
     },
     {
-      "symbol": "ABCL",
-      "gap_pct": 10.6,
-      "price": 14.05,
-      "market_cap": 4552573952,
+      "symbol": "BE",
+      "gap_pct": 11.2,
+      "price": 292.25,
+      "market_cap": 86075621376,
       "catalyst": ""
     }
   ],
@@ -61,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "MP Materials Just Sank 21% in a Month. Is It Time to Sell, or Is This a Prime Buying Opportunity?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mp-materials-just-sank-21-192302370.html"
+      "text": "Paramount Skydance Falls 3% as $44.4B Bond Sale for Warner Deal Reaches Investors; Netflix Ticks Up, Warner Bros. Discovery Holds Flat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/paramount-skydance-falls-3-44-174932260.html"
     },
     {
-      "text": "Optics Stocks Slide Despite Citi\u2019s $11B Switching Forecast: Coherent and Applied Optoelectronics Drop 5%, Corning Falls 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/optics-stocks-slide-despite-citi-175230924.html"
+      "text": "SK Hynix Climbs 3%, Outpaces U.S. Rivals Micron and Seagate as Traders Weigh Memory Demand",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-climbs-3-outpaces-165847585.html"
     },
     {
-      "text": "Cleveland-Cliffs Sinks 9% as Selloff Outruns Steel Group; Nucor and Steel Dynamics Pull Back",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cleveland-cliffs-sinks-9-selloff-174631149.html"
+      "text": "AMC Sinks 7%, Gives Back Part of Sharp Rally; Cinemark and IMAX Dip",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amc-sinks-7-gives-back-165510801.html"
     },
     {
-      "text": "AMC Spikes 13% as Refinancing Rally Extends; Cinemark and IMAX Edge Higher",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amc-spikes-13-refinancing-rally-174318002.html"
+      "text": "ChargePoint Climbs 6%, Extends 65% Monthly Run; EVgo Inches Higher, Blink Charging Slips",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chargepoint-climbs-6-extends-65-165242111.html"
     },
     {
-      "text": "Bloom Energy Sinks 8% as Sharp Run Unwinds; Plug Power Drops 6%, FuelCell Eases",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-sinks-8-sharp-171245218.html"
+      "text": "Stellantis Falls 4% With Canadian Labor Standoff Unresolved; Ford and General Motors Dip",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-falls-4-canadian-labor-160655966.html"
     }
   ]
 }
