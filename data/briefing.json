@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Sep 29, 2026",
-  "generated_at": "2026-09-29T13:59:29.428072-04:00",
+  "date": "Wed, Sep 30, 2026",
+  "generated_at": "2026-09-30T13:55:12.192762-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "IOVA",
-      "gap_pct": 34.6,
-      "price": 14.8,
-      "market_cap": 6701803008,
+      "symbol": "NWCL",
+      "gap_pct": 13.7,
+      "price": 8.16,
+      "market_cap": 2256929024,
       "catalyst": ""
     },
     {
-      "symbol": "CCL",
-      "gap_pct": 12.8,
-      "price": 24.98,
-      "market_cap": 34206988288,
+      "symbol": "UTHR",
+      "gap_pct": 13.5,
+      "price": 546.38,
+      "market_cap": 23434616832,
       "catalyst": ""
     },
     {
-      "symbol": "BE",
-      "gap_pct": 11.2,
-      "price": 292.25,
-      "market_cap": 86075621376,
+      "symbol": "ROG",
+      "gap_pct": 12.1,
+      "price": 154.91,
+      "market_cap": 2764827392,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PGEN",
+      "gap_pct": 10.6,
+      "price": 8.9,
+      "market_cap": 3174730240,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IBRX",
+      "gap_pct": 10.3,
+      "price": 9.74,
+      "market_cap": 10322699264,
       "catalyst": ""
     }
   ],
@@ -61,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Paramount Skydance Falls 3% as $44.4B Bond Sale for Warner Deal Reaches Investors; Netflix Ticks Up, Warner Bros. Discovery Holds Flat",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/paramount-skydance-falls-3-44-174932260.html"
+      "text": "ChargePoint Jumps 7% as Electric September Run Persists; EVgo Falls 3%, Blink Charging Slips",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chargepoint-jumps-7-electric-september-174233875.html"
     },
     {
-      "text": "SK Hynix Climbs 3%, Outpaces U.S. Rivals Micron and Seagate as Traders Weigh Memory Demand",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-climbs-3-outpaces-165847585.html"
+      "text": "GameStop Pops 4% on Ryan Cohen\u2019s Buying Binge; Take-Two Interactive and Roblox Advance 3%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-pops-4-ryan-cohen-170348544.html"
     },
     {
-      "text": "AMC Sinks 7%, Gives Back Part of Sharp Rally; Cinemark and IMAX Dip",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amc-sinks-7-gives-back-165510801.html"
+      "text": "\u201cSoundHound AI Jumps 5% on India Product Launch; BigBear.ai Rises 3%, Pony AI Stays Flat",
+      "url": "https://finance.yahoo.com/technology/ai/articles/soundhound-ai-jumps-5-india-165246345.html"
     },
     {
-      "text": "ChargePoint Climbs 6%, Extends 65% Monthly Run; EVgo Inches Higher, Blink Charging Slips",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chargepoint-climbs-6-extends-65-165242111.html"
+      "text": "\u201cCleveland-Cliffs Rises 3% as Steel-Stock Selloff Subsides; Nucor and Steel Dynamics Tick Higher",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cleveland-cliffs-rises-3-steel-164249184.html"
     },
     {
-      "text": "Stellantis Falls 4% With Canadian Labor Standoff Unresolved; Ford and General Motors Dip",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-falls-4-canadian-labor-160655966.html"
+      "text": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-rises-3-chip-contender-162913840.html"
     }
   ]
 }
