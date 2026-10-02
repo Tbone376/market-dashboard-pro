@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Oct 1, 2026",
-  "generated_at": "2026-10-01T14:20:36.588572-04:00",
+  "date": "Fri, Oct 2, 2026",
+  "generated_at": "2026-10-02T13:46:01.530252-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,52 +36,45 @@
   },
   "gappers": [
     {
-      "symbol": "ACN",
-      "gap_pct": 17.1,
-      "price": 214.65,
-      "market_cap": 131353362432,
+      "symbol": "IMOS",
+      "gap_pct": 13.8,
+      "price": 82.7,
+      "market_cap": 2875713536,
       "catalyst": ""
     },
     {
-      "symbol": "FICO",
-      "gap_pct": 13.2,
-      "price": 670.49,
-      "market_cap": 14480924672,
+      "symbol": "SYNA",
+      "gap_pct": 13.7,
+      "price": 120.68,
+      "market_cap": 4790080512,
       "catalyst": ""
     },
     {
-      "symbol": "SNPS",
-      "gap_pct": 12.2,
-      "price": 488.19,
-      "market_cap": 93556047872,
+      "symbol": "VSH",
+      "gap_pct": 13.4,
+      "price": 38.87,
+      "market_cap": 5961848320,
       "catalyst": ""
     },
     {
-      "symbol": "EFXT",
-      "gap_pct": 10.6,
-      "price": 25.2,
-      "market_cap": 3076992768,
+      "symbol": "MXL",
+      "gap_pct": 13.1,
+      "price": 104.2,
+      "market_cap": 9450230784,
       "catalyst": ""
     },
     {
-      "symbol": "VICR",
-      "gap_pct": 10.4,
-      "price": 318.95,
-      "market_cap": 14705742848,
+      "symbol": "RXO",
+      "gap_pct": 11.0,
+      "price": 23.7,
+      "market_cap": 3909573888,
       "catalyst": ""
     },
     {
-      "symbol": "INOD",
-      "gap_pct": 10.3,
-      "price": 72.56,
-      "market_cap": 2494805248,
-      "catalyst": ""
-    },
-    {
-      "symbol": "COHR",
-      "gap_pct": 10.0,
-      "price": 316.69,
-      "market_cap": 62018113536,
+      "symbol": "PENG",
+      "gap_pct": 10.8,
+      "price": 60.93,
+      "market_cap": 3122217728,
       "catalyst": ""
     }
   ],
@@ -89,24 +82,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "AMC Sinks 9% as Cinema Stocks Sell Off Together; IMAX Drops 4%, Cinemark Slides 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amc-sinks-9-cinema-stocks-170945521.html"
+      "text": "Dell Climbs 4% on AI Server Backlog; Hewlett Packard Enterprise Jumps 8%",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dell-climbs-4-ai-server-165907911.html"
     },
     {
-      "text": "Unity Software Rallies 5% as Meta VR Support Extends Into a Second Session; Roblox Inches Higher, Take-Two Slides 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/unity-software-rallies-5-meta-165459584.html"
+      "text": "Stellantis Sinks 7% as Jeep Weakness Offsets Ram Strength; Ford Drops 2%, General Motors Slips",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-sinks-7-jeep-weakness-165243920.html"
     },
     {
-      "text": "Unusual Machines Tumbles 8% Despite Pentagon\u2019s Autonomous Warfare Push; AeroVironment Eases, Red Cat Pulls Back",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/unusual-machines-tumbles-8-despite-164923345.html"
+      "text": "EVgo Jumps 10% and Blink Charging Climbs 6% as ChargePoint Slides 5%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/evgo-jumps-10-blink-charging-164836172.html"
     },
     {
-      "text": "Citadel Securities strategist sees October \u2018reload\u2019 after September reset",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/citadel-securities-strategist-sees-october-164903124.html"
+      "text": "AMD Climbs 3% as Chip Stocks Extend Their Run; Arm Jumps 8%, NVIDIA Rises 2%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-climbs-3-chip-stocks-154731873.html"
     },
     {
-      "text": "Bank of America Cut Its Fair Isaac Price Target in Half and the Stock Still Fell Below It",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-cut-fair-isaac-161513927.html"
+      "text": "Citadel\u2019s Strategist Says History Favors a Year-End Rally. Here\u2019s the Catch",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/citadel-strategist-says-history-favors-152516947.html"
     }
   ]
 }
