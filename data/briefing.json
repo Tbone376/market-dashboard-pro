@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Oct 6, 2026",
-  "generated_at": "2026-10-06T14:14:35.043388-04:00",
+  "date": "Wed, Oct 7, 2026",
+  "generated_at": "2026-10-07T14:47:24.728541-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,17 @@
   },
   "gappers": [
     {
-      "symbol": "OPCH",
-      "gap_pct": 33.1,
-      "price": 31.1,
-      "market_cap": 4658321408,
+      "symbol": "BSP",
+      "gap_pct": 14.4,
+      "price": 37.82,
+      "market_cap": 24023994368,
       "catalyst": ""
     },
     {
-      "symbol": "SECZ",
-      "gap_pct": 12.7,
-      "price": 13.19,
-      "market_cap": 2152658176,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CEG",
-      "gap_pct": 12.7,
-      "price": 301.63,
-      "market_cap": 106871513088,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CTVA",
-      "gap_pct": 12.3,
-      "price": 13.91,
-      "market_cap": 9280696320,
-      "catalyst": ""
-    },
-    {
-      "symbol": "STDN",
-      "gap_pct": 12.0,
-      "price": 14.57,
-      "market_cap": 2341816832,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CIEN",
-      "gap_pct": 11.8,
-      "price": 435.68,
-      "market_cap": 61783138304,
-      "catalyst": ""
-    },
-    {
-      "symbol": "TLN",
-      "gap_pct": 11.4,
-      "price": 369.81,
-      "market_cap": 17492013056,
-      "catalyst": ""
-    },
-    {
-      "symbol": "INIO",
-      "gap_pct": 11.2,
-      "price": 21.11,
-      "market_cap": 15832500224,
-      "catalyst": ""
-    },
-    {
-      "symbol": "LEU",
-      "gap_pct": 10.6,
-      "price": 156.43,
-      "market_cap": 3199377408,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VST",
-      "gap_pct": 10.2,
-      "price": 159.69,
-      "market_cap": 53599264768,
+      "symbol": "PENG",
+      "gap_pct": 13.8,
+      "price": 73.06,
+      "market_cap": 3743863552,
       "catalyst": ""
     }
   ],
@@ -110,24 +54,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Arista Networks Advances 4% While Ciena Soars 11% on AI Networking Demand; Cisco Rises 3%",
-      "url": "https://finance.yahoo.com/technology/articles/arista-networks-advances-4-while-165634151.html"
+      "text": "Energy Fuels Falls 9% as Uranium and Reactor Names Sell Off Together; Oklo and Centrus Energy Drop 5%",
+      "url": "https://finance.yahoo.com/energy/articles/energy-fuels-falls-9-uranium-180220543.html"
     },
     {
-      "text": "FuelCell Energy Surges 11% on Fit Energy\u2019s Pennsylvania Data Center Plan; Bloom Energy Climbs 4%, Plug Power Barely Budges",
-      "url": "https://finance.yahoo.com/energy/articles/fuelcell-energy-surges-11-fit-164806415.html"
+      "text": "Intuitive Machines Falls 7% Despite Scaling Up Satellite Manufacturing; Rocket Lab and Redwire Drop 5%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-falls-7-despite-175414346.html"
     },
     {
-      "text": "Nuclear Stocks Rally as Google\u2019s Reactor Deal Lifts the Sector: NANO Nuclear Energy and Oklo Jump 8%, NuScale Power Gains 7%",
-      "url": "https://finance.yahoo.com/energy/articles/nuclear-stocks-rally-google-reactor-160010403.html"
+      "text": "Ondas Falls 5% Despite $165 Million in New Orders; AeroVironment and Red Cat Drop 5%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-falls-5-despite-165-170218767.html"
     },
     {
-      "text": "SpaceX Gains 2% as Morgan Stanley Sees a Closing Window; AST SpaceMobile Surges 8%, Rocket Lab Rises 5%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-gains-2-morgan-stanley-145341999.html"
+      "text": "Bitmine Falls 7% as Tom Lee Says the Ethereum Buying Spree Is About to End; Sharplink and Strategy Drop 5%",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitmine-falls-7-tom-lee-165930526.html"
     },
     {
-      "text": "Constellation Energy Soars 12% on Google Nuclear Deal for 890 MW; Vistra Jumps 8%, Talen Energy Climbs 7%",
-      "url": "https://finance.yahoo.com/energy/articles/constellation-energy-soars-12-google-140600039.html"
+      "text": "IREN Falls 7% as Financing-Heavy Data Center Names Sell Off Apart From Their Sector Fund; TeraWulf and Core Scientific Drop 5%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/iren-falls-7-financing-heavy-165615596.html"
     }
   ]
 }
