@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Oct 7, 2026",
-  "generated_at": "2026-10-07T14:47:24.728541-04:00",
+  "date": "Thu, Oct 8, 2026",
+  "generated_at": "2026-10-08T14:45:18.113358-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,17 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "BSP",
-      "gap_pct": 14.4,
-      "price": 37.82,
-      "market_cap": 24023994368,
+      "symbol": "HAE",
+      "gap_pct": 17.3,
+      "price": 119.32,
+      "market_cap": 5428708352,
       "catalyst": ""
     },
     {
-      "symbol": "PENG",
-      "gap_pct": 13.8,
-      "price": 73.06,
-      "market_cap": 3743863552,
+      "symbol": "MANE",
+      "gap_pct": 11.9,
+      "price": 124.13,
+      "market_cap": 5186168320,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SECZ",
+      "gap_pct": 11.6,
+      "price": 12.72,
+      "market_cap": 2077555840,
       "catalyst": ""
     }
   ],
@@ -54,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Energy Fuels Falls 9% as Uranium and Reactor Names Sell Off Together; Oklo and Centrus Energy Drop 5%",
-      "url": "https://finance.yahoo.com/energy/articles/energy-fuels-falls-9-uranium-180220543.html"
+      "text": "Buffett Bet $1 Million That an S&P 500 Fund Would Beat Hedge Funds. He Won by Nearly 5 Points a Year",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buffett-bet-1-million-p-172633377.html"
     },
     {
-      "text": "Intuitive Machines Falls 7% Despite Scaling Up Satellite Manufacturing; Rocket Lab and Redwire Drop 5%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-falls-7-despite-175414346.html"
+      "text": "Ondas Falls 5% as Defense Orders Pile Up Without Lifting Shares; AeroVironment Slips, Kratos Edges Higher",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-falls-5-defense-orders-170358999.html"
     },
     {
-      "text": "Ondas Falls 5% Despite $165 Million in New Orders; AeroVironment and Red Cat Drop 5%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-falls-5-despite-165-170218767.html"
+      "text": "GameStop Rises 4% but Stays Far Below Its Warrant Strike; Take-Two Interactive Gains 3%, Roblox Falls 3%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-rises-4-stays-far-170011831.html"
     },
     {
-      "text": "Bitmine Falls 7% as Tom Lee Says the Ethereum Buying Spree Is About to End; Sharplink and Strategy Drop 5%",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/bitmine-falls-7-tom-lee-165930526.html"
+      "text": "Western Digital Crushed the S&P 500 Over 10 Years. Now AI Is Changing Everything",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-crushed-p-500-164514875.html"
     },
     {
-      "text": "IREN Falls 7% as Financing-Heavy Data Center Names Sell Off Apart From Their Sector Fund; TeraWulf and Core Scientific Drop 5%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/iren-falls-7-financing-heavy-165615596.html"
+      "text": "Dow Tumbles, Oil Surges, and Yields Rise to New 24-Year Highs as Trump Considers Ramping Up Iran Attacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dow-tumbles-oil-surges-yields-163751854.html"
     }
   ]
 }
