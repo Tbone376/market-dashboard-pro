@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Oct 8, 2026",
-  "generated_at": "2026-10-08T14:45:18.113358-04:00",
+  "date": "Fri, Oct 9, 2026",
+  "generated_at": "2026-10-09T14:15:42.823444-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,52 @@
   },
   "gappers": [
     {
-      "symbol": "HAE",
-      "gap_pct": 17.3,
-      "price": 119.32,
-      "market_cap": 5428708352,
+      "symbol": "FSLY",
+      "gap_pct": 18.4,
+      "price": 29.93,
+      "market_cap": 4768645632,
       "catalyst": ""
     },
     {
-      "symbol": "MANE",
-      "gap_pct": 11.9,
-      "price": 124.13,
-      "market_cap": 5186168320,
+      "symbol": "NVAX",
+      "gap_pct": 15.9,
+      "price": 12.76,
+      "market_cap": 2104938496,
       "catalyst": ""
     },
     {
-      "symbol": "SECZ",
+      "symbol": "CCI",
+      "gap_pct": 12.7,
+      "price": 77.64,
+      "market_cap": 33032357888,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AUGO",
+      "gap_pct": 12.6,
+      "price": 92.86,
+      "market_cap": 7785507840,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HUM",
+      "gap_pct": 12.3,
+      "price": 434.82,
+      "market_cap": 52213919744,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MRNA",
       "gap_pct": 11.6,
-      "price": 12.72,
-      "market_cap": 2077555840,
+      "price": 219.86,
+      "market_cap": 87777288192,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IOVA",
+      "gap_pct": 10.4,
+      "price": 14.7,
+      "market_cap": 6656460288,
       "catalyst": ""
     }
   ],
@@ -61,24 +89,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Buffett Bet $1 Million That an S&P 500 Fund Would Beat Hedge Funds. He Won by Nearly 5 Points a Year",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buffett-bet-1-million-p-172633377.html"
+      "text": "Novavax Soars 16%, Moderna Surges 11%, Merck Climbs 3% as Biotech Rallies",
+      "url": "https://finance.yahoo.com/healthcare/articles/novavax-soars-16-moderna-surges-175942844.html"
     },
     {
-      "text": "Ondas Falls 5% as Defense Orders Pile Up Without Lifting Shares; AeroVironment Slips, Kratos Edges Higher",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-falls-5-defense-orders-170358999.html"
+      "text": "Circle Internet Spikes 7% After Backing OKX at $25B Valuation; Coinbase Rallies 6%, Strategy Climbs 3%",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/circle-internet-spikes-7-backing-175745164.html"
     },
     {
-      "text": "GameStop Rises 4% but Stays Far Below Its Warrant Strike; Take-Two Interactive Gains 3%, Roblox Falls 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/gamestop-rises-4-stays-far-170011831.html"
+      "text": "ETF Zoo: No CLARITY and New Treasury Tax Crackdowns",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/etf-zoo-no-clarity-treasury-163754748.html"
     },
     {
-      "text": "Western Digital Crushed the S&P 500 Over 10 Years. Now AI Is Changing Everything",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/western-digital-crushed-p-500-164514875.html"
+      "text": "Fastly Spikes 15% as Oppenheimer Upgrades to Outperform With $35 Target; Datadog Rises 4%, Cloudflare Gains 2%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fastly-spikes-15-oppenheimer-upgrades-155137756.html"
     },
     {
-      "text": "Dow Tumbles, Oil Surges, and Yields Rise to New 24-Year Highs as Trump Considers Ramping Up Iran Attacks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dow-tumbles-oil-surges-yields-163751854.html"
+      "text": "Waited Two Months After the Tariff Crash to Buy VOO? It Cost You $1,500 on Every $10,000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/waited-two-months-tariff-crash-155123644.html"
     }
   ]
 }
