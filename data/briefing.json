@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Oct 9, 2026",
-  "generated_at": "2026-10-09T14:15:42.823444-04:00",
+  "date": "Mon, Oct 12, 2026",
+  "generated_at": "2026-10-12T17:11:02.469323-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,52 +36,17 @@
   },
   "gappers": [
     {
-      "symbol": "FSLY",
-      "gap_pct": 18.4,
-      "price": 29.93,
-      "market_cap": 4768645632,
+      "symbol": "FIGS",
+      "gap_pct": 12.4,
+      "price": 17.74,
+      "market_cap": 2947327744,
       "catalyst": ""
     },
     {
-      "symbol": "NVAX",
-      "gap_pct": 15.9,
-      "price": 12.76,
-      "market_cap": 2104938496,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CCI",
-      "gap_pct": 12.7,
-      "price": 77.64,
-      "market_cap": 33032357888,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AUGO",
-      "gap_pct": 12.6,
-      "price": 92.86,
-      "market_cap": 7785507840,
-      "catalyst": ""
-    },
-    {
-      "symbol": "HUM",
-      "gap_pct": 12.3,
-      "price": 434.82,
-      "market_cap": 52213919744,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MRNA",
-      "gap_pct": 11.6,
-      "price": 219.86,
-      "market_cap": 87777288192,
-      "catalyst": ""
-    },
-    {
-      "symbol": "IOVA",
-      "gap_pct": 10.4,
-      "price": 14.7,
-      "market_cap": 6656460288,
+      "symbol": "FICO",
+      "gap_pct": 10.8,
+      "price": 740.0,
+      "market_cap": 15982251008,
       "catalyst": ""
     }
   ],
@@ -89,24 +54,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Novavax Soars 16%, Moderna Surges 11%, Merck Climbs 3% as Biotech Rallies",
-      "url": "https://finance.yahoo.com/healthcare/articles/novavax-soars-16-moderna-surges-175942844.html"
+      "text": "Joby Just Dropped 20% in a Month: Is It Time to Sell?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/joby-just-dropped-20-month-191038192.html"
     },
     {
-      "text": "Circle Internet Spikes 7% After Backing OKX at $25B Valuation; Coinbase Rallies 6%, Strategy Climbs 3%",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/circle-internet-spikes-7-backing-175745164.html"
+      "text": "USA Rare Earth Drops 6% With Milestone-Based Government Funding Still Ahead of It; MP Materials Falls 6%, Critical Metals Holds Steady",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-drops-6-175511584.html"
     },
     {
-      "text": "ETF Zoo: No CLARITY and New Treasury Tax Crackdowns",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/etf-zoo-no-clarity-treasury-163754748.html"
+      "text": "T-Mobile Rebounds 3% After Record Drop on Starlink Spectrum Move; SpaceX Ticks Up, Verizon Edges Higher",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-rebounds-3-record-175136834.html"
     },
     {
-      "text": "Fastly Spikes 15% as Oppenheimer Upgrades to Outperform With $35 Target; Datadog Rises 4%, Cloudflare Gains 2%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/fastly-spikes-15-oppenheimer-upgrades-155137756.html"
+      "text": "Meta Climbs 4% on Muse Retention Data; Snap Rises 3%, Reddit Falls 3%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-climbs-4-muse-retention-174720111.html"
     },
     {
-      "text": "Waited Two Months After the Tariff Crash to Buy VOO? It Cost You $1,500 on Every $10,000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/waited-two-months-tariff-crash-155123644.html"
+      "text": "Update: US Equity Indexes Mixed as Technology Leads Sector Losses, Ukraine-Russia Energy Ceasefire Struggles",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-technology-170341336.html"
     }
   ]
 }
