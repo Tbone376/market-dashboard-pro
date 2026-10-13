@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Oct 12, 2026",
-  "generated_at": "2026-10-12T17:11:02.469323-04:00",
+  "date": "Tue, Oct 13, 2026",
+  "generated_at": "2026-10-13T15:09:49.110300-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,17 +36,17 @@
   },
   "gappers": [
     {
-      "symbol": "FIGS",
-      "gap_pct": 12.4,
-      "price": 17.74,
-      "market_cap": 2947327744,
+      "symbol": "RGC",
+      "gap_pct": 19.8,
+      "price": 8.54,
+      "market_cap": 4237332224,
       "catalyst": ""
     },
     {
-      "symbol": "FICO",
-      "gap_pct": 10.8,
-      "price": 740.0,
-      "market_cap": 15982251008,
+      "symbol": "EFXT",
+      "gap_pct": 13.6,
+      "price": 27.36,
+      "market_cap": 3340734976,
       "catalyst": ""
     }
   ],
@@ -54,24 +54,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Joby Just Dropped 20% in a Month: Is It Time to Sell?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/joby-just-dropped-20-month-191038192.html"
+      "text": "Pfizer (PFE) Pays Out Over 226% of Earnings and Trades at 36.7x Trailing Against 9.8 Forward. What Is the Yield Telling You?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/pfizer-pfe-pays-over-226-190116566.html"
     },
     {
-      "text": "USA Rare Earth Drops 6% With Milestone-Based Government Funding Still Ahead of It; MP Materials Falls 6%, Critical Metals Holds Steady",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-drops-6-175511584.html"
+      "text": "NY Fed\u2019s Williams sees one more rate hike this year, disinflation ahead",
+      "url": "https://finance.yahoo.com/economy/policy/articles/ny-fed-williams-sees-one-184627584.html"
     },
     {
-      "text": "T-Mobile Rebounds 3% After Record Drop on Starlink Spectrum Move; SpaceX Ticks Up, Verizon Edges Higher",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/t-mobile-rebounds-3-record-175136834.html"
+      "text": "What is MSCI\u2019s (MSCI) Economic Moat, and is it Widening or Narrowing?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/msci-msci-economic-moat-widening-183628464.html"
     },
     {
-      "text": "Meta Climbs 4% on Muse Retention Data; Snap Rises 3%, Reddit Falls 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/meta-climbs-4-muse-retention-174720111.html"
+      "text": "Is Qualcomm (QCOM) a Good or Bad Investment at Today\u2019s Price?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-qcom-good-bad-investment-181947598.html"
     },
     {
-      "text": "Update: US Equity Indexes Mixed as Technology Leads Sector Losses, Ukraine-Russia Energy Ceasefire Struggles",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-technology-170341336.html"
+      "text": "First Solar Climbs 4% as Truist Buy Call and December Tariff Floor Reset Panel Pricing Outlook; Enphase Energy and Sunrun Hold Flat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/first-solar-climbs-4-truist-180338755.html"
     }
   ]
 }
