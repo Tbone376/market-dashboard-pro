@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Oct 13, 2026",
-  "generated_at": "2026-10-13T15:09:49.110300-04:00",
+  "date": "Wed, Oct 14, 2026",
+  "generated_at": "2026-10-14T12:59:09.655813-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,17 +36,17 @@
   },
   "gappers": [
     {
-      "symbol": "RGC",
-      "gap_pct": 19.8,
-      "price": 8.54,
-      "market_cap": 4237332224,
+      "symbol": "BSP",
+      "gap_pct": 45.2,
+      "price": 54.98,
+      "market_cap": 34924359680,
       "catalyst": ""
     },
     {
-      "symbol": "EFXT",
-      "gap_pct": 13.6,
-      "price": 27.36,
-      "market_cap": 3340734976,
+      "symbol": "LQDA",
+      "gap_pct": 26.4,
+      "price": 33.88,
+      "market_cap": 3033008640,
       "catalyst": ""
     }
   ],
@@ -54,24 +54,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Pfizer (PFE) Pays Out Over 226% of Earnings and Trades at 36.7x Trailing Against 9.8 Forward. What Is the Yield Telling You?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/pfizer-pfe-pays-over-226-190116566.html"
+      "text": "Affirm Falls 10% as Inflation Print Lifts Yields; Klarna Drops 3%, PayPal Barely Budges",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/affirm-falls-10-inflation-print-164749757.html"
     },
     {
-      "text": "NY Fed\u2019s Williams sees one more rate hike this year, disinflation ahead",
-      "url": "https://finance.yahoo.com/economy/policy/articles/ny-fed-williams-sees-one-184627584.html"
+      "text": "Taiwan Semiconductor\u2019s Top Line Growth is Starting to Raise Eyebrows",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-top-line-growth-164518154.html"
     },
     {
-      "text": "What is MSCI\u2019s (MSCI) Economic Moat, and is it Widening or Narrowing?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/msci-msci-economic-moat-widening-183628464.html"
+      "text": "Ondas Retreats 6% Despite Regna AI Launch With Palantir; AeroVironment Drops 3%, Kratos Slips",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-retreats-6-despite-regna-164132147.html"
     },
     {
-      "text": "Is Qualcomm (QCOM) a Good or Bad Investment at Today\u2019s Price?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/qualcomm-qcom-good-bad-investment-181947598.html"
+      "text": "Applied Optoelectronics Dives 9% as AI Funding Fears Hit Optical Stocks; Coherent Slides 7%, Lumentum Drops 7%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-dives-9-ai-163558871.html"
     },
     {
-      "text": "First Solar Climbs 4% as Truist Buy Call and December Tariff Floor Reset Panel Pricing Outlook; Enphase Energy and Sunrun Hold Flat",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/first-solar-climbs-4-truist-180338755.html"
+      "text": "AST SpaceMobile Falls 8% as Piper Sandler Cuts Target to $54 on SpaceX Competition; Rocket Lab Slips",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-falls-8-piper-143131846.html"
     }
   ]
 }
