@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Oct 14, 2026",
-  "generated_at": "2026-10-14T12:59:09.655813-04:00",
+  "date": "Thu, Oct 15, 2026",
+  "generated_at": "2026-10-15T12:46:19.762162-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,17 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "BSP",
-      "gap_pct": 45.2,
-      "price": 54.98,
-      "market_cap": 34924359680,
+      "symbol": "RGC",
+      "gap_pct": 24.9,
+      "price": 10.12,
+      "market_cap": 5018350080,
       "catalyst": ""
     },
     {
-      "symbol": "LQDA",
-      "gap_pct": 26.4,
-      "price": 33.88,
-      "market_cap": 3033008640,
+      "symbol": "APPN",
+      "gap_pct": 10.6,
+      "price": 42.53,
+      "market_cap": 3046680064,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MAAS",
+      "gap_pct": 10.0,
+      "price": 13.08,
+      "market_cap": 5783181312,
       "catalyst": ""
     }
   ],
@@ -54,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Affirm Falls 10% as Inflation Print Lifts Yields; Klarna Drops 3%, PayPal Barely Budges",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/affirm-falls-10-inflation-print-164749757.html"
+      "text": "Skydance Rebounds 5% as Warrant Adjustment Selloff Fades; Netflix Rises 3%, Disney Advances 2%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/skydance-rebounds-5-warrant-adjustment-160143686.html"
     },
     {
-      "text": "Taiwan Semiconductor\u2019s Top Line Growth is Starting to Raise Eyebrows",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/taiwan-semiconductor-top-line-growth-164518154.html"
+      "text": "Opendoor and Zillow Surge 7% as Long-Term Rates Retreat; Compass Climbs 6%",
+      "url": "https://finance.yahoo.com/real-estate/articles/opendoor-zillow-surge-7-long-155148310.html"
     },
     {
-      "text": "Ondas Retreats 6% Despite Regna AI Launch With Palantir; AeroVironment Drops 3%, Kratos Slips",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ondas-retreats-6-despite-regna-164132147.html"
+      "text": "Quantum Computing Stocks Rebound After Dilution Scare: IonQ and Rigetti Climb 3%, D-Wave Advances 2%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/quantum-computing-stocks-rebound-dilution-154659409.html"
     },
     {
-      "text": "Applied Optoelectronics Dives 9% as AI Funding Fears Hit Optical Stocks; Coherent Slides 7%, Lumentum Drops 7%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-dives-9-ai-163558871.html"
+      "text": "Data Center Stocks Tumble as Financing Costs Draw Scrutiny: Cipher Digital Drops 9%, Applied Digital Falls 6%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/data-center-stocks-tumble-financing-134446737.html"
     },
     {
-      "text": "AST SpaceMobile Falls 8% as Piper Sandler Cuts Target to $54 on SpaceX Competition; Rocket Lab Slips",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ast-spacemobile-falls-8-piper-143131846.html"
+      "text": "PPI, Retail Sales Jump, Claims Stay Resilient",
+      "url": "https://finance.yahoo.com/economy/articles/ppi-retail-sales-jump-claims-133800503.html"
     }
   ]
 }
