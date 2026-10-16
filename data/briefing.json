@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Oct 15, 2026",
-  "generated_at": "2026-10-15T12:46:19.762162-04:00",
+  "date": "Fri, Oct 16, 2026",
+  "generated_at": "2026-10-16T12:28:56.811265-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -34,51 +34,29 @@
       "prev_close": 0
     }
   },
-  "gappers": [
-    {
-      "symbol": "RGC",
-      "gap_pct": 24.9,
-      "price": 10.12,
-      "market_cap": 5018350080,
-      "catalyst": ""
-    },
-    {
-      "symbol": "APPN",
-      "gap_pct": 10.6,
-      "price": 42.53,
-      "market_cap": 3046680064,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MAAS",
-      "gap_pct": 10.0,
-      "price": 13.08,
-      "market_cap": 5783181312,
-      "catalyst": ""
-    }
-  ],
+  "gappers": [],
   "earnings": [],
   "econ_events": [],
   "headlines": [
     {
-      "text": "Skydance Rebounds 5% as Warrant Adjustment Selloff Fades; Netflix Rises 3%, Disney Advances 2%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/skydance-rebounds-5-warrant-adjustment-160143686.html"
+      "text": "Alcoa Gains 8%, United States Antimony Jumps 10% After Alcoa\u2019s Q3 Beat and Data Center Site Sale; Cleveland-Cliffs Rises 2%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-gains-8-united-states-151110356.html"
     },
     {
-      "text": "Opendoor and Zillow Surge 7% as Long-Term Rates Retreat; Compass Climbs 6%",
-      "url": "https://finance.yahoo.com/real-estate/articles/opendoor-zillow-surge-7-long-155148310.html"
+      "text": "Moderna Tumbles 10% as Profit Taking Hits Cancer Vaccine Rally; BioNTech Eases, Pfizer Stays Put",
+      "url": "https://finance.yahoo.com/healthcare/articles/moderna-tumbles-10-profit-taking-144923338.html"
     },
     {
-      "text": "Quantum Computing Stocks Rebound After Dilution Scare: IonQ and Rigetti Climb 3%, D-Wave Advances 2%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/quantum-computing-stocks-rebound-dilution-154659409.html"
+      "text": "After Hot CPI, Hot PPI: Producer Prices Rose the Most Since 2022",
+      "url": "https://finance.yahoo.com/economy/policy/articles/hot-cpi-hot-ppi-producer-141225247.html"
     },
     {
-      "text": "Data Center Stocks Tumble as Financing Costs Draw Scrutiny: Cipher Digital Drops 9%, Applied Digital Falls 6%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/data-center-stocks-tumble-financing-134446737.html"
+      "text": "Applied Digital Sinks 4% as Rotation Out of Debt-Funded AI Builders Extends; TeraWulf Dips 3%, Core Scientific Retreats 2%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-sinks-4-rotation-135346259.html"
     },
     {
-      "text": "PPI, Retail Sales Jump, Claims Stay Resilient",
-      "url": "https://finance.yahoo.com/economy/articles/ppi-retail-sales-jump-claims-133800503.html"
+      "text": "Strategy and Riot Fall 4%, Cipher Digital Declines 3% as MSCI Index Rules and Convertible Sale Weigh",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-riot-fall-4-cipher-134350045.html"
     }
   ]
 }
