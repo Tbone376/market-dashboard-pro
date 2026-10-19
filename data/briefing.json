@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Oct 16, 2026",
-  "generated_at": "2026-10-16T12:28:56.811265-04:00",
+  "date": "Mon, Oct 19, 2026",
+  "generated_at": "2026-10-19T14:38:13.712580-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -34,29 +34,72 @@
       "prev_close": 0
     }
   },
-  "gappers": [],
+  "gappers": [
+    {
+      "symbol": "IRON",
+      "gap_pct": 37.9,
+      "price": 78.32,
+      "market_cap": 3006927616,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CLF",
+      "gap_pct": 16.9,
+      "price": 14.16,
+      "market_cap": 8081699328,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ARQT",
+      "gap_pct": 14.1,
+      "price": 32.89,
+      "market_cap": 4134008576,
+      "catalyst": ""
+    },
+    {
+      "symbol": "PBLS",
+      "gap_pct": 11.6,
+      "price": 25.4,
+      "market_cap": 3137732096,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MANE",
+      "gap_pct": 10.8,
+      "price": 120.62,
+      "market_cap": 5039729152,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AXTI",
+      "gap_pct": 10.2,
+      "price": 56.73,
+      "market_cap": 3719968256,
+      "catalyst": ""
+    }
+  ],
   "earnings": [],
   "econ_events": [],
   "headlines": [
     {
-      "text": "Alcoa Gains 8%, United States Antimony Jumps 10% After Alcoa\u2019s Q3 Beat and Data Center Site Sale; Cleveland-Cliffs Rises 2%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-gains-8-united-states-151110356.html"
+      "text": "Calamos to Launch CAYN, the World\u2019s First Indexed \u2018Least-Of\u2019 Autocallable Income ETF",
+      "url": "https://finance.yahoo.com/markets/options/articles/calamos-launch-cayn-world-first-181841994.html"
     },
     {
-      "text": "Moderna Tumbles 10% as Profit Taking Hits Cancer Vaccine Rally; BioNTech Eases, Pfizer Stays Put",
-      "url": "https://finance.yahoo.com/healthcare/articles/moderna-tumbles-10-profit-taking-144923338.html"
+      "text": "Sunrun Sinks 5% Toward 52-Week Low Ahead of Earnings; Enphase Energy and First Solar Slip",
+      "url": "https://finance.yahoo.com/energy/articles/sunrun-sinks-5-toward-52-180938600.html"
     },
     {
-      "text": "After Hot CPI, Hot PPI: Producer Prices Rose the Most Since 2022",
-      "url": "https://finance.yahoo.com/economy/policy/articles/hot-cpi-hot-ppi-producer-141225247.html"
+      "text": "Trump Media Drops 7% While Rumble Climbs 3% Amid a Rising Market",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-media-drops-7-while-175651287.html"
     },
     {
-      "text": "Applied Digital Sinks 4% as Rotation Out of Debt-Funded AI Builders Extends; TeraWulf Dips 3%, Core Scientific Retreats 2%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-sinks-4-rotation-135346259.html"
+      "text": "Targa (TRGP) Borrowed Five Times Its Equity and the Stock Nearly Doubled",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/targa-trgp-borrowed-five-times-171408878.html"
     },
     {
-      "text": "Strategy and Riot Fall 4%, Cipher Digital Declines 3% as MSCI Index Rules and Convertible Sale Weigh",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/strategy-riot-fall-4-cipher-134350045.html"
+      "text": "Is TC Energy (TRP) a Good or Bad Investment at Today\u2019s Multiple?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tc-energy-trp-good-bad-171210493.html"
     }
   ]
 }
