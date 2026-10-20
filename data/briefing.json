@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Oct 19, 2026",
-  "generated_at": "2026-10-19T14:38:13.712580-04:00",
+  "date": "Tue, Oct 20, 2026",
+  "generated_at": "2026-10-20T12:44:34.685532-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,45 +36,45 @@
   },
   "gappers": [
     {
-      "symbol": "IRON",
-      "gap_pct": 37.9,
-      "price": 78.32,
-      "market_cap": 3006927616,
+      "symbol": "BRZE",
+      "gap_pct": 51.6,
+      "price": 45.54,
+      "market_cap": 5172634624,
       "catalyst": ""
     },
     {
-      "symbol": "CLF",
-      "gap_pct": 16.9,
-      "price": 14.16,
-      "market_cap": 8081699328,
+      "symbol": "LION",
+      "gap_pct": 12.5,
+      "price": 11.95,
+      "market_cap": 3555838208,
       "catalyst": ""
     },
     {
-      "symbol": "ARQT",
-      "gap_pct": 14.1,
-      "price": 32.89,
-      "market_cap": 4134008576,
+      "symbol": "TLK",
+      "gap_pct": 11.0,
+      "price": 11.6,
+      "market_cap": 11430460416,
       "catalyst": ""
     },
     {
-      "symbol": "PBLS",
-      "gap_pct": 11.6,
-      "price": 25.4,
-      "market_cap": 3137732096,
+      "symbol": "SLS",
+      "gap_pct": 10.3,
+      "price": 11.57,
+      "market_cap": 2337521664,
       "catalyst": ""
     },
     {
-      "symbol": "MANE",
-      "gap_pct": 10.8,
-      "price": 120.62,
-      "market_cap": 5039729152,
+      "symbol": "EFX",
+      "gap_pct": 10.3,
+      "price": 174.91,
+      "market_cap": 20549283840,
       "catalyst": ""
     },
     {
-      "symbol": "AXTI",
+      "symbol": "KVYO",
       "gap_pct": 10.2,
-      "price": 56.73,
-      "market_cap": 3719968256,
+      "price": 19.3,
+      "market_cap": 5777596928,
       "catalyst": ""
     }
   ],
@@ -82,24 +82,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Calamos to Launch CAYN, the World\u2019s First Indexed \u2018Least-Of\u2019 Autocallable Income ETF",
-      "url": "https://finance.yahoo.com/markets/options/articles/calamos-launch-cayn-world-first-181841994.html"
+      "text": "American Airlines Rises 5% Ahead of Earnings as Oil Prices Ease; United Airlines and Delta Climb 3%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-rises-5-ahead-154928305.html"
     },
     {
-      "text": "Sunrun Sinks 5% Toward 52-Week Low Ahead of Earnings; Enphase Energy and First Solar Slip",
-      "url": "https://finance.yahoo.com/energy/articles/sunrun-sinks-5-toward-52-180938600.html"
+      "text": "3M Jumps 6% on Expanded Amazon Data Center Deal and Earnings Beat; Coherent Edges Higher, Corning Stays Flat",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3m-jumps-6-expanded-amazon-145845385.html"
     },
     {
-      "text": "Trump Media Drops 7% While Rumble Climbs 3% Amid a Rising Market",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-media-drops-7-while-175651287.html"
+      "text": "What Is Twilio\u2019s (TWLO) Economic Moat, and Is It Widening or Narrowing?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-twlo-economic-moat-widening-145146660.html"
     },
     {
-      "text": "Targa (TRGP) Borrowed Five Times Its Equity and the Stock Nearly Doubled",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/targa-trgp-borrowed-five-times-171408878.html"
+      "text": "Can MongoDB (MDB) Hold Its Guidance After Losing Its Chief Executive?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mongodb-mdb-hold-guidance-losing-145042146.html"
     },
     {
-      "text": "Is TC Energy (TRP) a Good or Bad Investment at Today\u2019s Multiple?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tc-energy-trp-good-bad-171210493.html"
+      "text": "Palo Alto Networks (PANW) Pays a Large Part of Its Wage Bill in Stock. What Does That Do to Profit?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-pays-144939208.html"
     }
   ]
 }
