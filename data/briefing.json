@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Oct 20, 2026",
-  "generated_at": "2026-10-20T12:44:34.685532-04:00",
+  "date": "Wed, Oct 21, 2026",
+  "generated_at": "2026-10-21T13:01:25.696797-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,45 +36,17 @@
   },
   "gappers": [
     {
-      "symbol": "BRZE",
-      "gap_pct": 51.6,
-      "price": 45.54,
-      "market_cap": 5172634624,
-      "catalyst": ""
-    },
-    {
-      "symbol": "LION",
+      "symbol": "ASST",
       "gap_pct": 12.5,
-      "price": 11.95,
-      "market_cap": 3555838208,
+      "price": 30.43,
+      "market_cap": 3071553024,
       "catalyst": ""
     },
     {
-      "symbol": "TLK",
-      "gap_pct": 11.0,
-      "price": 11.6,
-      "market_cap": 11430460416,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SLS",
+      "symbol": "SEI",
       "gap_pct": 10.3,
-      "price": 11.57,
-      "market_cap": 2337521664,
-      "catalyst": ""
-    },
-    {
-      "symbol": "EFX",
-      "gap_pct": 10.3,
-      "price": 174.91,
-      "market_cap": 20549283840,
-      "catalyst": ""
-    },
-    {
-      "symbol": "KVYO",
-      "gap_pct": 10.2,
-      "price": 19.3,
-      "market_cap": 5777596928,
+      "price": 69.85,
+      "market_cap": 7028761088,
       "catalyst": ""
     }
   ],
@@ -82,24 +54,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "American Airlines Rises 5% Ahead of Earnings as Oil Prices Ease; United Airlines and Delta Climb 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-rises-5-ahead-154928305.html"
+      "text": "Circle Internet Jumps 6% as OCC Finalizes GENIUS Act Stablecoin Rules; Strategy Surges 8%, Coinbase Climbs 5%",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/circle-internet-jumps-6-occ-165305939.html"
     },
     {
-      "text": "3M Jumps 6% on Expanded Amazon Data Center Deal and Earnings Beat; Coherent Edges Higher, Corning Stays Flat",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/3m-jumps-6-expanded-amazon-145845385.html"
+      "text": "Applied Optoelectronics Cratered 50% Over 6 Months: It\u2019s Going to Triple According to 2 Wall Street Pros",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-cratered-50-over-164549048.html"
     },
     {
-      "text": "What Is Twilio\u2019s (TWLO) Economic Moat, and Is It Widening or Narrowing?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/twilio-twlo-economic-moat-widening-145146660.html"
+      "text": "Bloom Energy Jumps 7% Ahead of Q3 Report as Musk Calls Power AI\u2019s Real Bottleneck; FuelCell Ticks Up, Plug Power Barely Moves",
+      "url": "https://finance.yahoo.com/technology/ai/articles/bloom-energy-jumps-7-ahead-155720577.html"
     },
     {
-      "text": "Can MongoDB (MDB) Hold Its Guidance After Losing Its Chief Executive?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/mongodb-mdb-hold-guidance-losing-145042146.html"
+      "text": "China Tech Stocks Slide While U.S. Market Rises: Alibaba Sinks 5%, JD.com and PDD Drop 4%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/china-tech-stocks-slide-while-155249436.html"
     },
     {
-      "text": "Palo Alto Networks (PANW) Pays a Large Part of Its Wage Bill in Stock. What Does That Do to Profit?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-pays-144939208.html"
+      "text": "Oracle\u2019s Growth to Valuation Mismatch is Less and Less Compelling",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-growth-valuation-mismatch-less-144556798.html"
     }
   ]
 }
