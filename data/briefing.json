@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Oct 22, 2026",
-  "generated_at": "2026-10-22T13:00:31.477186-04:00",
+  "date": "Fri, Oct 23, 2026",
+  "generated_at": "2026-10-23T12:53:02.994205-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,10 @@
   },
   "gappers": [
     {
-      "symbol": "BHVN",
-      "gap_pct": 24.7,
-      "price": 14.65,
-      "market_cap": 2213048064,
-      "catalyst": ""
-    },
-    {
-      "symbol": "KSS",
-      "gap_pct": 11.6,
-      "price": 24.73,
-      "market_cap": 2803799552,
-      "catalyst": ""
-    },
-    {
-      "symbol": "POOL",
-      "gap_pct": 10.3,
-      "price": 190.21,
-      "market_cap": 6912373760,
+      "symbol": "RHI",
+      "gap_pct": 19.9,
+      "price": 45.19,
+      "market_cap": 4625730560,
       "catalyst": ""
     }
   ],
@@ -61,24 +47,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Chinese Competitors Aren\u2019t Eroding ASML\u2019s EUV Core Monopoly",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chinese-competitors-aren-t-eroding-164550986.html"
+      "text": "Cruise Stocks Fall as Oil Price Hits Five-Month High: Norwegian Sinks 6%, Royal Caribbean and Carnival Drop 4%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cruise-stocks-fall-oil-price-150150088.html"
     },
     {
-      "text": "Procter & Gamble Jumps 6% as Earnings Beat Draws Defensive Buyers; Johnson & Johnson Rises 3%, Coca-Cola Ticks Up",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-jumps-6-earnings-160102126.html"
+      "text": "Stellantis Sinks 8% as Q3 Report Nears; Ford Drops 4%, General Motors Slides 3%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stellantis-sinks-8-q3-report-145613447.html"
     },
     {
-      "text": "Nokia Tumbles 10% Despite Data Center-Driven Profit Beat; Ericsson Slips",
-      "url": "https://finance.yahoo.com/technology/articles/nokia-tumbles-10-despite-data-145759922.html"
+      "text": "China\u2019s Mid-Tier Emergence Threatens ASML Over the Next 3-5 Years",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/china-mid-tier-emergence-threatens-144528379.html"
     },
     {
-      "text": "Netflix Has Another Tough Month, Dropping 10%: This Wall Street Pro Says 90% Gains Lie Ahead",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-another-tough-month-dropping-144546706.html"
+      "text": "Hedge Funds Are Shorting Stocks at Near-Record Levels",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-shorting-stocks-near-141500684.html"
     },
     {
-      "text": "Webull Launching Extended-Hours Options Trading",
-      "url": "https://finance.yahoo.com/markets/options/articles/webull-launching-extended-hours-options-135117064.html"
+      "text": "American Airlines Sinks 4% as Oil-Price Climb Reverses Post-Earnings Rebound; Delta and United Airlines Slide 3%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/american-airlines-sinks-4-oil-140113755.html"
     }
   ]
 }
