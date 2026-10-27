@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Oct 26, 2026",
-  "generated_at": "2026-10-26T14:35:50.810838-04:00",
+  "date": "Tue, Oct 27, 2026",
+  "generated_at": "2026-10-27T13:51:05.516332-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,59 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "SGRY",
-      "gap_pct": 47.3,
-      "price": 23.2,
-      "market_cap": 3036648960,
+      "symbol": "HRI",
+      "gap_pct": 23.1,
+      "price": 156.5,
+      "market_cap": 5232020992,
       "catalyst": ""
     },
     {
-      "symbol": "NN",
-      "gap_pct": 21.1,
-      "price": 12.21,
-      "market_cap": 2061168896,
+      "symbol": "KNSA",
+      "gap_pct": 21.8,
+      "price": 88.88,
+      "market_cap": 6838250496,
       "catalyst": ""
     },
     {
-      "symbol": "XNCR",
-      "gap_pct": 18.8,
-      "price": 29.91,
-      "market_cap": 2224081152,
+      "symbol": "CHRN",
+      "gap_pct": 17.3,
+      "price": 17.16,
+      "market_cap": 2491160576,
       "catalyst": ""
     },
     {
-      "symbol": "RRC",
-      "gap_pct": 17.5,
-      "price": 53.48,
-      "market_cap": 12497180672,
+      "symbol": "HWKN",
+      "gap_pct": 15.1,
+      "price": 155.92,
+      "market_cap": 3254848000,
       "catalyst": ""
     },
     {
-      "symbol": "VICR",
-      "gap_pct": 11.8,
-      "price": 196.87,
-      "market_cap": 9076802560,
+      "symbol": "CTOS",
+      "gap_pct": 14.5,
+      "price": 10.32,
+      "market_cap": 2347857152,
       "catalyst": ""
     },
     {
-      "symbol": "ORKA",
-      "gap_pct": 11.4,
-      "price": 89.28,
-      "market_cap": 5911201792,
+      "symbol": "SOFI",
+      "gap_pct": 14.0,
+      "price": 16.48,
+      "market_cap": 21284431872,
       "catalyst": ""
     },
     {
-      "symbol": "LITE",
-      "gap_pct": 10.4,
-      "price": 834.46,
-      "market_cap": 75587321856,
+      "symbol": "PNR",
+      "gap_pct": 13.2,
+      "price": 62.52,
+      "market_cap": 10103578624,
       "catalyst": ""
     },
     {
-      "symbol": "VSAT",
-      "gap_pct": 10.3,
-      "price": 67.83,
-      "market_cap": 9343976448,
+      "symbol": "USAR",
+      "gap_pct": 13.0,
+      "price": 10.06,
+      "market_cap": 3775145472,
+      "catalyst": ""
+    },
+    {
+      "symbol": "EQPT",
+      "gap_pct": 12.8,
+      "price": 18.34,
+      "market_cap": 4645648384,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AEHR",
+      "gap_pct": 11.7,
+      "price": 63.21,
+      "market_cap": 2064409856,
       "catalyst": ""
     }
   ],
@@ -96,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Skydance Sinks 6% Despite Citi Buy Call and Elon Musk\u2019s Reported $1B Investment; Roku and Disney Dip",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/skydance-sinks-6-despite-citi-180025310.html"
+      "text": "Micron\u2019s Long-Term Returns Crushed the S&P 500. Does the Recent Drop Matter?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-long-term-returns-crushed-164729653.html"
     },
     {
-      "text": "Micron Climbs 4% as Bank of America Grows More Positive on Memory; Western Digital Rises 5%, SanDisk Gains 3%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-climbs-4-bank-america-175234042.html"
+      "text": "Energy Fuels Jumps 9% on $126M Australian Financing for Rare Earth Project; NuScale Power Climbs 7%, Oklo Gains 6%",
+      "url": "https://finance.yahoo.com/energy/articles/energy-fuels-jumps-9-126m-160215023.html"
     },
     {
-      "text": "Netflix Drops 4% as Engagement Worries Outweigh Earnings Beat; Disney and Spotify Slip",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-drops-4-engagement-worries-164902099.html"
+      "text": "Intuitive Machines Surges 9% as Small-Cap Space Selloff Reverses; Rocket Lab Climbs 7%, SpaceX Lags",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-surges-9-small-155427071.html"
     },
     {
-      "text": "Lumentum Jumps 8% as StoneX Starts Coverage With $1,200 Target; Applied Optoelectronics and Coherent Climb 6%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-jumps-8-stonex-starts-164618475.html"
+      "text": "Critical Minerals Stocks Rally as Sector Bid Broadens: United States Antimony and USA Rare Earth Jump 11%, Critical Metals Climbs 8%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/critical-minerals-stocks-rally-sector-154933314.html"
     },
     {
-      "text": "PayPal Slips 3% Ahead of Earnings Despite Truist Target Raise; Klarna and Affirm Retreat",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/paypal-slips-3-ahead-earnings-164322037.html"
+      "text": "JetBlue Jumps 11% as Higher Fares Recapture Fuel Costs; Delta and American Airlines Inch Higher",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jetblue-jumps-11-higher-fares-140457672.html"
     }
   ]
 }
