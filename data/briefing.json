@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Oct 27, 2026",
-  "generated_at": "2026-10-27T13:51:05.516332-04:00",
+  "date": "Wed, Oct 28, 2026",
+  "generated_at": "2026-10-28T14:15:37.208853-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "HRI",
-      "gap_pct": 23.1,
-      "price": 156.5,
-      "market_cap": 5232020992,
+      "symbol": "GMAB",
+      "gap_pct": 32.3,
+      "price": 59.09,
+      "market_cap": 36334592000,
       "catalyst": ""
     },
     {
-      "symbol": "KNSA",
-      "gap_pct": 21.8,
-      "price": 88.88,
-      "market_cap": 6838250496,
+      "symbol": "AXGN",
+      "gap_pct": 29.3,
+      "price": 48.42,
+      "market_cap": 2841167872,
       "catalyst": ""
     },
     {
-      "symbol": "CHRN",
-      "gap_pct": 17.3,
-      "price": 17.16,
-      "market_cap": 2491160576,
+      "symbol": "VRT",
+      "gap_pct": 14.8,
+      "price": 239.44,
+      "market_cap": 92181569536,
       "catalyst": ""
     },
     {
-      "symbol": "HWKN",
-      "gap_pct": 15.1,
-      "price": 155.92,
-      "market_cap": 3254848000,
+      "symbol": "BEAM",
+      "gap_pct": 13.9,
+      "price": 28.37,
+      "market_cap": 2930271232,
       "catalyst": ""
     },
     {
-      "symbol": "CTOS",
-      "gap_pct": 14.5,
-      "price": 10.32,
-      "market_cap": 2347857152,
+      "symbol": "EAT",
+      "gap_pct": 13.5,
+      "price": 223.37,
+      "market_cap": 9355017216,
       "catalyst": ""
     },
     {
-      "symbol": "SOFI",
-      "gap_pct": 14.0,
-      "price": 16.48,
-      "market_cap": 21284431872,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PNR",
-      "gap_pct": 13.2,
-      "price": 62.52,
-      "market_cap": 10103578624,
-      "catalyst": ""
-    },
-    {
-      "symbol": "USAR",
+      "symbol": "SDGR",
       "gap_pct": 13.0,
-      "price": 10.06,
-      "market_cap": 3775145472,
+      "price": 30.19,
+      "market_cap": 2258382080,
       "catalyst": ""
     },
     {
-      "symbol": "EQPT",
-      "gap_pct": 12.8,
-      "price": 18.34,
-      "market_cap": 4645648384,
+      "symbol": "WING",
+      "gap_pct": 12.9,
+      "price": 139.41,
+      "market_cap": 3797883392,
       "catalyst": ""
     },
     {
-      "symbol": "AEHR",
-      "gap_pct": 11.7,
-      "price": 63.21,
-      "market_cap": 2064409856,
+      "symbol": "SKHY",
+      "gap_pct": 12.6,
+      "price": 163.68,
+      "market_cap": 1154210070528,
+      "catalyst": ""
+    },
+    {
+      "symbol": "EVR",
+      "gap_pct": 12.1,
+      "price": 291.35,
+      "market_cap": 11204481024,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HAYW",
+      "gap_pct": 11.8,
+      "price": 14.56,
+      "market_cap": 3089521664,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Micron\u2019s Long-Term Returns Crushed the S&P 500. Does the Recent Drop Matter?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-long-term-returns-crushed-164729653.html"
+      "text": "The ETF Industry Is About to Get Weird",
+      "url": "https://finance.yahoo.com/markets/options/articles/etf-industry-weird-173435817.html"
     },
     {
-      "text": "Energy Fuels Jumps 9% on $126M Australian Financing for Rare Earth Project; NuScale Power Climbs 7%, Oklo Gains 6%",
-      "url": "https://finance.yahoo.com/energy/articles/energy-fuels-jumps-9-126m-160215023.html"
+      "text": "Wall Street\u2019s Borrowing Binge Is Slowing, and BofA Says That Can Signal a Top",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-borrowing-binge-slowing-151114985.html"
     },
     {
-      "text": "Intuitive Machines Surges 9% as Small-Cap Space Selloff Reverses; Rocket Lab Climbs 7%, SpaceX Lags",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-surges-9-small-155427071.html"
+      "text": "Trump Media Falls 5% Toward $6 With Earnings Ahead; Rumble Ticks Up",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-media-falls-5-toward-150713765.html"
     },
     {
-      "text": "Critical Minerals Stocks Rally as Sector Bid Broadens: United States Antimony and USA Rare Earth Jump 11%, Critical Metals Climbs 8%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/critical-minerals-stocks-rally-sector-154933314.html"
+      "text": "Robinhood Sinks 7% as Crypto Slump and Tighter Spreads Overshadow Record Prediction Markets Quarter; Interactive Brokers Edges Higher, Webull Barely Budges",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-sinks-7-crypto-slump-131941460.html"
     },
     {
-      "text": "JetBlue Jumps 11% as Higher Fares Recapture Fuel Costs; Delta and American Airlines Inch Higher",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jetblue-jumps-11-higher-fares-140457672.html"
+      "text": "Oct. 27 Has Historically Marked the Stock Market\u2019s Autumn Bottom",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oct-27-historically-marked-stock-130316554.html"
     }
   ]
 }
