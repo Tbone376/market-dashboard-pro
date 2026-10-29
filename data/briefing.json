@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Oct 28, 2026",
-  "generated_at": "2026-10-28T14:15:37.208853-04:00",
+  "date": "Thu, Oct 29, 2026",
+  "generated_at": "2026-10-29T14:21:17.108170-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "GMAB",
-      "gap_pct": 32.3,
-      "price": 59.09,
-      "market_cap": 36334592000,
+      "symbol": "ADT",
+      "gap_pct": 34.0,
+      "price": 9.93,
+      "market_cap": 7254453248,
       "catalyst": ""
     },
     {
-      "symbol": "AXGN",
-      "gap_pct": 29.3,
-      "price": 48.42,
-      "market_cap": 2841167872,
+      "symbol": "GKOS",
+      "gap_pct": 32.8,
+      "price": 240.96,
+      "market_cap": 14212474880,
       "catalyst": ""
     },
     {
-      "symbol": "VRT",
-      "gap_pct": 14.8,
-      "price": 239.44,
-      "market_cap": 92181569536,
+      "symbol": "BHC",
+      "gap_pct": 28.5,
+      "price": 8.89,
+      "market_cap": 3326646272,
       "catalyst": ""
     },
     {
-      "symbol": "BEAM",
-      "gap_pct": 13.9,
-      "price": 28.37,
-      "market_cap": 2930271232,
+      "symbol": "PRCH",
+      "gap_pct": 26.8,
+      "price": 20.66,
+      "market_cap": 2345887488,
       "catalyst": ""
     },
     {
-      "symbol": "EAT",
-      "gap_pct": 13.5,
-      "price": 223.37,
-      "market_cap": 9355017216,
+      "symbol": "CROX",
+      "gap_pct": 25.9,
+      "price": 150.71,
+      "market_cap": 7225562624,
       "catalyst": ""
     },
     {
-      "symbol": "SDGR",
-      "gap_pct": 13.0,
-      "price": 30.19,
-      "market_cap": 2258382080,
+      "symbol": "PURR",
+      "gap_pct": 18.9,
+      "price": 11.85,
+      "market_cap": 3297515008,
       "catalyst": ""
     },
     {
-      "symbol": "WING",
-      "gap_pct": 12.9,
-      "price": 139.41,
-      "market_cap": 3797883392,
+      "symbol": "CVNA",
+      "gap_pct": 16.1,
+      "price": 68.58,
+      "market_cap": 76018442240,
       "catalyst": ""
     },
     {
-      "symbol": "SKHY",
-      "gap_pct": 12.6,
-      "price": 163.68,
-      "market_cap": 1154210070528,
+      "symbol": "MESO",
+      "gap_pct": 15.1,
+      "price": 15.41,
+      "market_cap": 2001557120,
       "catalyst": ""
     },
     {
-      "symbol": "EVR",
-      "gap_pct": 12.1,
-      "price": 291.35,
-      "market_cap": 11204481024,
+      "symbol": "GEN",
+      "gap_pct": 15.0,
+      "price": 28.01,
+      "market_cap": 16765824000,
       "catalyst": ""
     },
     {
-      "symbol": "HAYW",
-      "gap_pct": 11.8,
-      "price": 14.56,
-      "market_cap": 3089521664,
+      "symbol": "BOOT",
+      "gap_pct": 14.5,
+      "price": 129.76,
+      "market_cap": 3929761280,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "The ETF Industry Is About to Get Weird",
-      "url": "https://finance.yahoo.com/markets/options/articles/etf-industry-weird-173435817.html"
+      "text": "AbbVie Stock: What 10 Years of Growth and Dividends Did for $1,000",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/abbvie-stock-10-years-growth-171831751.html"
     },
     {
-      "text": "Wall Street\u2019s Borrowing Binge Is Slowing, and BofA Says That Can Signal a Top",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-borrowing-binge-slowing-151114985.html"
+      "text": "Vertiv Staged a Small Comeback After Cratering for 6 Months: This Wall Street Team Predicts 76% Gains From Here",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-staged-small-comeback-cratering-144544467.html"
     },
     {
-      "text": "Trump Media Falls 5% Toward $6 With Earnings Ahead; Rumble Ticks Up",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-media-falls-5-toward-150713765.html"
+      "text": "SoFi\u2019s Recent 13% Upward Burst Means Execution Is Now a Must",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-recent-13-upward-burst-144524140.html"
     },
     {
-      "text": "Robinhood Sinks 7% as Crypto Slump and Tighter Spreads Overshadow Record Prediction Markets Quarter; Interactive Brokers Edges Higher, Webull Barely Budges",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-sinks-7-crypto-slump-131941460.html"
+      "text": "The Fed Is Cutting Back on Rate Votes for the First Time Since 1981",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-cutting-back-rate-votes-141103076.html"
     },
     {
-      "text": "Oct. 27 Has Historically Marked the Stock Market\u2019s Autumn Bottom",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/oct-27-historically-marked-stock-130316554.html"
+      "text": "Norwegian Surges 11% as Earnings Beat Lifts Full-Year Outlook; Royal Caribbean Rises 3%, Carnival Edges Higher",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/norwegian-surges-11-earnings-beat-140724727.html"
     }
   ]
 }
