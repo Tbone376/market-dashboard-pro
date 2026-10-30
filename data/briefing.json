@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Oct 29, 2026",
-  "generated_at": "2026-10-29T14:21:17.108170-04:00",
+  "date": "Fri, Oct 30, 2026",
+  "generated_at": "2026-10-30T13:55:39.315247-04:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,52 @@
   },
   "gappers": [
     {
-      "symbol": "ADT",
-      "gap_pct": 34.0,
-      "price": 9.93,
-      "market_cap": 7254453248,
+      "symbol": "CDNA",
+      "gap_pct": 22.3,
+      "price": 87.5,
+      "market_cap": 4526744576,
       "catalyst": ""
     },
     {
-      "symbol": "GKOS",
-      "gap_pct": 32.8,
-      "price": 240.96,
-      "market_cap": 14212474880,
+      "symbol": "CPRI",
+      "gap_pct": 16.6,
+      "price": 18.73,
+      "market_cap": 2150165504,
       "catalyst": ""
     },
     {
-      "symbol": "BHC",
-      "gap_pct": 28.5,
-      "price": 8.89,
-      "market_cap": 3326646272,
+      "symbol": "FDXF",
+      "gap_pct": 15.3,
+      "price": 126.44,
+      "market_cap": 18905071616,
       "catalyst": ""
     },
     {
-      "symbol": "PRCH",
-      "gap_pct": 26.8,
-      "price": 20.66,
-      "market_cap": 2345887488,
+      "symbol": "MEOH",
+      "gap_pct": 13.3,
+      "price": 71.11,
+      "market_cap": 5501380608,
       "catalyst": ""
     },
     {
-      "symbol": "CROX",
-      "gap_pct": 25.9,
-      "price": 150.71,
-      "market_cap": 7225562624,
+      "symbol": "CVCO",
+      "gap_pct": 11.6,
+      "price": 610.86,
+      "market_cap": 4697147904,
       "catalyst": ""
     },
     {
-      "symbol": "PURR",
-      "gap_pct": 18.9,
-      "price": 11.85,
-      "market_cap": 3297515008,
+      "symbol": "REGN",
+      "gap_pct": 11.2,
+      "price": 910.43,
+      "market_cap": 93733314560,
       "catalyst": ""
     },
     {
-      "symbol": "CVNA",
-      "gap_pct": 16.1,
-      "price": 68.58,
-      "market_cap": 76018442240,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MESO",
-      "gap_pct": 15.1,
-      "price": 15.41,
-      "market_cap": 2001557120,
-      "catalyst": ""
-    },
-    {
-      "symbol": "GEN",
-      "gap_pct": 15.0,
-      "price": 28.01,
-      "market_cap": 16765824000,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BOOT",
-      "gap_pct": 14.5,
-      "price": 129.76,
-      "market_cap": 3929761280,
+      "symbol": "GPN",
+      "gap_pct": 10.4,
+      "price": 94.67,
+      "market_cap": 25051422720,
       "catalyst": ""
     }
   ],
@@ -110,24 +89,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "AbbVie Stock: What 10 Years of Growth and Dividends Did for $1,000",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/abbvie-stock-10-years-growth-171831751.html"
+      "text": "They Called This Stock a Winner in the AI Coding Boom. A Year Later, It\u2019s Up 94%.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/called-stock-winner-ai-coding-164921139.html"
     },
     {
-      "text": "Vertiv Staged a Small Comeback After Cratering for 6 Months: This Wall Street Team Predicts 76% Gains From Here",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-staged-small-comeback-cratering-144544467.html"
+      "text": "Intel\u2019s Earnings Fallout Is Hitting Your Index Funds Too",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-earnings-fallout-hitting-index-162111051.html"
     },
     {
-      "text": "SoFi\u2019s Recent 13% Upward Burst Means Execution Is Now a Must",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-recent-13-upward-burst-144524140.html"
+      "text": "Coinbase Tumbles 11% as Record Binance Hack Hits Crypto and Trading Revenue Slides; Strategy Sinks 12%, Robinhood Plunges 10%, Circle Drops 9%",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-tumbles-11-record-binance-135440656.html"
     },
     {
-      "text": "The Fed Is Cutting Back on Rate Votes for the First Time Since 1981",
-      "url": "https://finance.yahoo.com/economy/policy/articles/fed-cutting-back-rate-votes-141103076.html"
+      "text": "Tom Lee Sees 'Big Beats' Ahead, Says Kevin Warsh-Led Fed Won't Slow AI Growth Despite Inflation: 'Good News Is Good News'",
+      "url": "https://finance.yahoo.com/technology/ai/articles/tom-lee-sees-big-beats-133007421.html"
     },
     {
-      "text": "Norwegian Surges 11% as Earnings Beat Lifts Full-Year Outlook; Royal Caribbean Rises 3%, Carnival Edges Higher",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/norwegian-surges-11-earnings-beat-140724727.html"
+      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Friday Amid Steep Tech Decline",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131734005.html"
     }
   ]
 }
