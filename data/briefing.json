@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Oct 30, 2026",
-  "generated_at": "2026-10-30T13:55:39.315247-04:00",
+  "date": "Mon, Nov 2, 2026",
+  "generated_at": "2026-11-02T16:38:31.957531-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,52 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "CDNA",
-      "gap_pct": 22.3,
-      "price": 87.5,
-      "market_cap": 4526744576,
+      "symbol": "IDXX",
+      "gap_pct": 21.8,
+      "price": 671.64,
+      "market_cap": 52912553984,
       "catalyst": ""
     },
     {
-      "symbol": "CPRI",
-      "gap_pct": 16.6,
-      "price": 18.73,
-      "market_cap": 2150165504,
+      "symbol": "NWL",
+      "gap_pct": 15.1,
+      "price": 5.96,
+      "market_cap": 2538960128,
       "catalyst": ""
     },
     {
-      "symbol": "FDXF",
-      "gap_pct": 15.3,
-      "price": 126.44,
-      "market_cap": 18905071616,
+      "symbol": "NXT",
+      "gap_pct": 14.9,
+      "price": 91.13,
+      "market_cap": 14001062912,
       "catalyst": ""
     },
     {
-      "symbol": "MEOH",
-      "gap_pct": 13.3,
-      "price": 71.11,
-      "market_cap": 5501380608,
+      "symbol": "PHIN",
+      "gap_pct": 12.5,
+      "price": 70.79,
+      "market_cap": 2545585664,
       "catalyst": ""
     },
     {
-      "symbol": "CVCO",
-      "gap_pct": 11.6,
-      "price": 610.86,
-      "market_cap": 4697147904,
-      "catalyst": ""
-    },
-    {
-      "symbol": "REGN",
-      "gap_pct": 11.2,
-      "price": 910.43,
-      "market_cap": 93733314560,
-      "catalyst": ""
-    },
-    {
-      "symbol": "GPN",
-      "gap_pct": 10.4,
-      "price": 94.67,
-      "market_cap": 25051422720,
+      "symbol": "SFM",
+      "gap_pct": 11.1,
+      "price": 55.23,
+      "market_cap": 5094008320,
       "catalyst": ""
     }
   ],
@@ -89,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "They Called This Stock a Winner in the AI Coding Boom. A Year Later, It\u2019s Up 94%.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/called-stock-winner-ai-coding-164921139.html"
+      "text": "IDEXX Soars 20.2% on Earnings Beat: What It Means for Your S&P 500 Index Fund",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/idexx-soars-20-2-earnings-195439479.html"
     },
     {
-      "text": "Intel\u2019s Earnings Fallout Is Hitting Your Index Funds Too",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-earnings-fallout-hitting-index-162111051.html"
+      "text": "Ed Yardeni's Midterms Prediction: Democratic Sweep Could Be a 'Cold Shower' for Stock Market",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ed-yardenis-midterms-prediction-democratic-173022387.html"
     },
     {
-      "text": "Coinbase Tumbles 11% as Record Binance Hack Hits Crypto and Trading Revenue Slides; Strategy Sinks 12%, Robinhood Plunges 10%, Circle Drops 9%",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/coinbase-tumbles-11-record-binance-135440656.html"
+      "text": "Only 37% of Wall Street\u2019s Money Managers Think AI Will Pay Off Within 2 Years \u2014 Half Are Still Bullish",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/only-37-wall-street-money-165913273.html"
     },
     {
-      "text": "Tom Lee Sees 'Big Beats' Ahead, Says Kevin Warsh-Led Fed Won't Slow AI Growth Despite Inflation: 'Good News Is Good News'",
-      "url": "https://finance.yahoo.com/technology/ai/articles/tom-lee-sees-big-beats-133007421.html"
+      "text": "AI Stocks Slide: Are Tech ETFs Worth Watching?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-stocks-slide-tech-etfs-152200828.html"
     },
     {
-      "text": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Friday Amid Steep Tech Decline",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-lower-equity-131734005.html"
+      "text": "\u2018Marking Their Calendar Until November 3rd.\u2019 Tom Lee Says Investors Waiting To Buy The Dip After The Nasdaq 100\u2019s Worst Month Since March 2025",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marking-calendar-until-november-3rd-150424721.html"
     }
   ]
 }
