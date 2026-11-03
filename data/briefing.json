@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Nov 2, 2026",
-  "generated_at": "2026-11-02T16:38:31.957531-05:00",
+  "date": "Tue, Nov 3, 2026",
+  "generated_at": "2026-11-03T14:23:26.838945-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "IDXX",
-      "gap_pct": 21.8,
-      "price": 671.64,
-      "market_cap": 52912553984,
+      "symbol": "AEHR",
+      "gap_pct": 25.3,
+      "price": 64.51,
+      "market_cap": 2106867328,
       "catalyst": ""
     },
     {
-      "symbol": "NWL",
-      "gap_pct": 15.1,
-      "price": 5.96,
-      "market_cap": 2538960128,
+      "symbol": "XMTR",
+      "gap_pct": 20.7,
+      "price": 115.24,
+      "market_cap": 6366532096,
       "catalyst": ""
     },
     {
-      "symbol": "NXT",
-      "gap_pct": 14.9,
-      "price": 91.13,
-      "market_cap": 14001062912,
+      "symbol": "GPK",
+      "gap_pct": 19.9,
+      "price": 11.19,
+      "market_cap": 3309500672,
       "catalyst": ""
     },
     {
-      "symbol": "PHIN",
-      "gap_pct": 12.5,
-      "price": 70.79,
-      "market_cap": 2545585664,
+      "symbol": "FN",
+      "gap_pct": 17.3,
+      "price": 369.08,
+      "market_cap": 13226110976,
       "catalyst": ""
     },
     {
-      "symbol": "SFM",
-      "gap_pct": 11.1,
-      "price": 55.23,
-      "market_cap": 5094008320,
+      "symbol": "NBIX",
+      "gap_pct": 16.2,
+      "price": 168.82,
+      "market_cap": 17160923136,
+      "catalyst": ""
+    },
+    {
+      "symbol": "HUT",
+      "gap_pct": 15.9,
+      "price": 63.73,
+      "market_cap": 7855942656,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CIFR",
+      "gap_pct": 15.8,
+      "price": 7.94,
+      "market_cap": 3623539200,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BETA",
+      "gap_pct": 15.7,
+      "price": 23.57,
+      "market_cap": 5515160576,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SRAD",
+      "gap_pct": 14.8,
+      "price": 14.78,
+      "market_cap": 4372685312,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RIOT",
+      "gap_pct": 14.6,
+      "price": 13.57,
+      "market_cap": 5092263936,
       "catalyst": ""
     }
   ],
@@ -75,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "IDEXX Soars 20.2% on Earnings Beat: What It Means for Your S&P 500 Index Fund",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/idexx-soars-20-2-earnings-195439479.html"
+      "text": "Investors Are Beginning to Say That Meta Is The Best Buy And Hold Stock Through 2030",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-beginning-meta-best-buy-174525004.html"
     },
     {
-      "text": "Ed Yardeni's Midterms Prediction: Democratic Sweep Could Be a 'Cold Shower' for Stock Market",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ed-yardenis-midterms-prediction-democratic-173022387.html"
+      "text": "Palantir\u2019s Bookings Worry Is Dragging Down These Widely Held ETFs",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-bookings-worry-dragging-down-163349134.html"
     },
     {
-      "text": "Only 37% of Wall Street\u2019s Money Managers Think AI Will Pay Off Within 2 Years \u2014 Half Are Still Bullish",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/only-37-wall-street-money-165913273.html"
+      "text": "\u2018Great For Our Farmers, Great For Our Country\u2019: Trump Says \u2018Concept of a Deal\u2019 Reached With Canada",
+      "url": "https://finance.yahoo.com/economy/policy/articles/great-farmers-great-country-trump-163005769.html"
     },
     {
-      "text": "AI Stocks Slide: Are Tech ETFs Worth Watching?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-stocks-slide-tech-etfs-152200828.html"
+      "text": "US Midterm Elections: Dow Falls Nearly 200 Points, S&P 500 And Nasdaq Edge Higher As Polls Begin",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/us-midterm-elections-dow-falls-145200518.html"
     },
     {
-      "text": "\u2018Marking Their Calendar Until November 3rd.\u2019 Tom Lee Says Investors Waiting To Buy The Dip After The Nasdaq 100\u2019s Worst Month Since March 2025",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/marking-calendar-until-november-3rd-150424721.html"
+      "text": "The Average Stock Just Beat the S&P 500 by the Most Since 2009",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/average-stock-just-beat-p-141256534.html"
     }
   ]
 }
