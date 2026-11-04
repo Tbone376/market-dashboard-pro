@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Nov 3, 2026",
-  "generated_at": "2026-11-03T14:23:26.838945-05:00",
+  "date": "Wed, Nov 4, 2026",
+  "generated_at": "2026-11-04T14:38:24.949746-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "AEHR",
-      "gap_pct": 25.3,
-      "price": 64.51,
-      "market_cap": 2106867328,
+      "symbol": "KD",
+      "gap_pct": 36.7,
+      "price": 17.69,
+      "market_cap": 3853204992,
       "catalyst": ""
     },
     {
-      "symbol": "XMTR",
-      "gap_pct": 20.7,
-      "price": 115.24,
-      "market_cap": 6366532096,
+      "symbol": "DUOL",
+      "gap_pct": 32.2,
+      "price": 169.26,
+      "market_cap": 7919043584,
       "catalyst": ""
     },
     {
-      "symbol": "GPK",
-      "gap_pct": 19.9,
-      "price": 11.19,
-      "market_cap": 3309500672,
+      "symbol": "YOU",
+      "gap_pct": 22.9,
+      "price": 58.71,
+      "market_cap": 6041907712,
       "catalyst": ""
     },
     {
-      "symbol": "FN",
-      "gap_pct": 17.3,
-      "price": 369.08,
-      "market_cap": 13226110976,
+      "symbol": "LIVN",
+      "gap_pct": 21.8,
+      "price": 97.34,
+      "market_cap": 5363077632,
       "catalyst": ""
     },
     {
-      "symbol": "NBIX",
-      "gap_pct": 16.2,
-      "price": 168.82,
-      "market_cap": 17160923136,
+      "symbol": "PCOR",
+      "gap_pct": 17.9,
+      "price": 74.47,
+      "market_cap": 11315354624,
       "catalyst": ""
     },
     {
-      "symbol": "HUT",
-      "gap_pct": 15.9,
-      "price": 63.73,
-      "market_cap": 7855942656,
+      "symbol": "MDLN",
+      "gap_pct": 16.8,
+      "price": 39.81,
+      "market_cap": 53561696256,
       "catalyst": ""
     },
     {
-      "symbol": "CIFR",
-      "gap_pct": 15.8,
-      "price": 7.94,
-      "market_cap": 3623539200,
+      "symbol": "UFPT",
+      "gap_pct": 16.6,
+      "price": 326.81,
+      "market_cap": 2531401728,
       "catalyst": ""
     },
     {
-      "symbol": "BETA",
-      "gap_pct": 15.7,
-      "price": 23.57,
-      "market_cap": 5515160576,
+      "symbol": "TREX",
+      "gap_pct": 16.3,
+      "price": 58.15,
+      "market_cap": 6041711104,
       "catalyst": ""
     },
     {
-      "symbol": "SRAD",
-      "gap_pct": 14.8,
-      "price": 14.78,
-      "market_cap": 4372685312,
+      "symbol": "XYZ",
+      "gap_pct": 15.5,
+      "price": 87.78,
+      "market_cap": 52737785856,
       "catalyst": ""
     },
     {
-      "symbol": "RIOT",
-      "gap_pct": 14.6,
-      "price": 13.57,
-      "market_cap": 5092263936,
+      "symbol": "SWK",
+      "gap_pct": 15.1,
+      "price": 120.45,
+      "market_cap": 18189953024,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Investors Are Beginning to Say That Meta Is The Best Buy And Hold Stock Through 2030",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-beginning-meta-best-buy-174525004.html"
+      "text": "Job Openings Are Rising, but Hiring Is the Slowest Since 2013. But How?",
+      "url": "https://finance.yahoo.com/economy/articles/job-openings-rising-hiring-slowest-180829338.html"
     },
     {
-      "text": "Palantir\u2019s Bookings Worry Is Dragging Down These Widely Held ETFs",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-bookings-worry-dragging-down-163349134.html"
+      "text": "Counterparty Concentration and Depreciation Define CoreWeave Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/counterparty-concentration-depreciation-define-coreweave-154547528.html"
     },
     {
-      "text": "\u2018Great For Our Farmers, Great For Our Country\u2019: Trump Says \u2018Concept of a Deal\u2019 Reached With Canada",
-      "url": "https://finance.yahoo.com/economy/policy/articles/great-farmers-great-country-trump-163005769.html"
+      "text": "Midterm Elections Are Over. Here\u2019s What History Says About the Next 12 Months",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/midterm-elections-over-history-says-144732929.html"
     },
     {
-      "text": "US Midterm Elections: Dow Falls Nearly 200 Points, S&P 500 And Nasdaq Edge Higher As Polls Begin",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/us-midterm-elections-dow-falls-145200518.html"
+      "text": "Exchange-Traded Funds, Equity Futures Rise Pre-Bell Wednesday as Investors React to US Midterm Election Results",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141810509.html"
     },
     {
-      "text": "The Average Stock Just Beat the S&P 500 by the Most Since 2009",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/average-stock-just-beat-p-141256534.html"
+      "text": "60% of S&P 500 Stocks Are in a Bear Market, With the Index Near a Record",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/60-p-500-stocks-bear-132828561.html"
     }
   ]
 }
