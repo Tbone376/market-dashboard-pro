@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Nov 4, 2026",
-  "generated_at": "2026-11-04T14:38:24.949746-05:00",
+  "date": "Thu, Nov 5, 2026",
+  "generated_at": "2026-11-05T14:48:08.608525-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "KD",
-      "gap_pct": 36.7,
-      "price": 17.69,
-      "market_cap": 3853204992,
+      "symbol": "APP",
+      "gap_pct": 30.1,
+      "price": 353.65,
+      "market_cap": 118349160448,
       "catalyst": ""
     },
     {
-      "symbol": "DUOL",
-      "gap_pct": 32.2,
-      "price": 169.26,
-      "market_cap": 7919043584,
+      "symbol": "WRBY",
+      "gap_pct": 27.1,
+      "price": 27.05,
+      "market_cap": 3343597824,
       "catalyst": ""
     },
     {
-      "symbol": "YOU",
-      "gap_pct": 22.9,
-      "price": 58.71,
-      "market_cap": 6041907712,
+      "symbol": "ADMA",
+      "gap_pct": 26.2,
+      "price": 13.22,
+      "market_cap": 2962197248,
       "catalyst": ""
     },
     {
-      "symbol": "LIVN",
-      "gap_pct": 21.8,
-      "price": 97.34,
-      "market_cap": 5363077632,
+      "symbol": "XERS",
+      "gap_pct": 25.7,
+      "price": 13.15,
+      "market_cap": 2397511936,
       "catalyst": ""
     },
     {
-      "symbol": "PCOR",
-      "gap_pct": 17.9,
-      "price": 74.47,
-      "market_cap": 11315354624,
+      "symbol": "ECPG",
+      "gap_pct": 22.4,
+      "price": 122.31,
+      "market_cap": 2594011392,
       "catalyst": ""
     },
     {
-      "symbol": "MDLN",
-      "gap_pct": 16.8,
-      "price": 39.81,
-      "market_cap": 53561696256,
+      "symbol": "MGNI",
+      "gap_pct": 21.5,
+      "price": 27.68,
+      "market_cap": 3970697728,
       "catalyst": ""
     },
     {
-      "symbol": "UFPT",
-      "gap_pct": 16.6,
-      "price": 326.81,
-      "market_cap": 2531401728,
+      "symbol": "EPAM",
+      "gap_pct": 20.0,
+      "price": 164.78,
+      "market_cap": 8500502528,
       "catalyst": ""
     },
     {
-      "symbol": "TREX",
+      "symbol": "ARDT",
+      "gap_pct": 19.2,
+      "price": 15.48,
+      "market_cap": 2184095744,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SEZL",
       "gap_pct": 16.3,
-      "price": 58.15,
-      "market_cap": 6041711104,
+      "price": 158.96,
+      "market_cap": 5370209280,
       "catalyst": ""
     },
     {
-      "symbol": "XYZ",
-      "gap_pct": 15.5,
-      "price": 87.78,
-      "market_cap": 52737785856,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SWK",
-      "gap_pct": 15.1,
-      "price": 120.45,
-      "market_cap": 18189953024,
+      "symbol": "U",
+      "gap_pct": 15.6,
+      "price": 49.08,
+      "market_cap": 21597364224,
       "catalyst": ""
     }
   ],
@@ -110,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Job Openings Are Rising, but Hiring Is the Slowest Since 2013. But How?",
-      "url": "https://finance.yahoo.com/economy/articles/job-openings-rising-hiring-slowest-180829338.html"
+      "text": "Market Jitters? How Buffer ETFs Can Help Protect Your Portfolio",
+      "url": "https://finance.yahoo.com/markets/options/articles/market-jitters-buffer-etfs-help-180400264.html"
     },
     {
-      "text": "Counterparty Concentration and Depreciation Define CoreWeave Now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/counterparty-concentration-depreciation-define-coreweave-154547528.html"
+      "text": "Wall Street Is Already Bracing for a 2027 Debt Ceiling Fight",
+      "url": "https://finance.yahoo.com/economy/policy/articles/wall-street-already-bracing-2027-164804526.html"
     },
     {
-      "text": "Midterm Elections Are Over. Here\u2019s What History Says About the Next 12 Months",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/midterm-elections-over-history-says-144732929.html"
+      "text": "Nvidia Is the Biggest Bet in Your Index Fund. Here\u2019s What Its Drop Just Cost You",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-biggest-bet-index-fund-163335478.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Rise Pre-Bell Wednesday as Investors React to US Midterm Election Results",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141810509.html"
+      "text": "SPY support levels: three key floors to watch",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spy-support-levels-three-key-160935890.html"
     },
     {
-      "text": "60% of S&P 500 Stocks Are in a Bear Market, With the Index Near a Record",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/60-p-500-stocks-bear-132828561.html"
+      "text": "Tesla\u2019s Plunge Just Hit Millions of Index Fund Investors. Here\u2019s How Much Your ETF Lost",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-plunge-just-hit-millions-160349991.html"
     }
   ]
 }
