@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Nov 9, 2026",
-  "generated_at": "2026-11-09T17:13:00.680025-05:00",
+  "date": "Tue, Nov 10, 2026",
+  "generated_at": "2026-11-10T14:35:11.663581-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "FRVO",
-      "gap_pct": 26.1,
-      "price": 11.38,
-      "market_cap": 3354405376,
+      "symbol": "AAON",
+      "gap_pct": 20.6,
+      "price": 75.8,
+      "market_cap": 6249986048,
       "catalyst": ""
     },
     {
-      "symbol": "PRAX",
-      "gap_pct": 19.9,
-      "price": 332.97,
-      "market_cap": 9296518144,
+      "symbol": "CSQR",
+      "gap_pct": 18.3,
+      "price": 18.06,
+      "market_cap": 3009409536,
       "catalyst": ""
     },
     {
-      "symbol": "QXO",
-      "gap_pct": 19.2,
-      "price": 13.78,
-      "market_cap": 14296621056,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CECO",
-      "gap_pct": 19.0,
-      "price": 52.0,
-      "market_cap": 3045631232,
-      "catalyst": ""
-    },
-    {
-      "symbol": "WRBY",
-      "gap_pct": 18.6,
-      "price": 30.21,
-      "market_cap": 3755543296,
-      "catalyst": ""
-    },
-    {
-      "symbol": "FLY",
-      "gap_pct": 17.1,
-      "price": 24.31,
-      "market_cap": 4069606656,
-      "catalyst": ""
-    },
-    {
-      "symbol": "COHR",
-      "gap_pct": 16.8,
-      "price": 225.19,
-      "market_cap": 44353122304,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MPWR",
-      "gap_pct": 16.6,
-      "price": 1388.05,
-      "market_cap": 67692425216,
-      "catalyst": ""
-    },
-    {
-      "symbol": "VSAT",
-      "gap_pct": 16.3,
-      "price": 74.37,
-      "market_cap": 10244899840,
-      "catalyst": ""
-    },
-    {
-      "symbol": "FPS",
-      "gap_pct": 16.0,
-      "price": 22.6,
-      "market_cap": 7209056768,
+      "symbol": "ACAD",
+      "gap_pct": 10.1,
+      "price": 18.17,
+      "market_cap": 3140302592,
       "catalyst": ""
     }
   ],
@@ -110,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Winmark Stock Is Down More Than 30% in 2026. Here\u2019s What $1,000 Became in 10 Years",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/winmark-stock-down-more-30-194701418.html"
+      "text": "Cathie Wood Is Buying Nvidia Again, Adding 90,443 Shares During the Huang Selloff",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-buying-nvidia-again-163832251.html"
     },
     {
-      "text": "Risk-On: S&P 500 Surges Out of the Gate, Adds $1 Trillion in Market Value",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/risk-p-500-surges-gate-150909942.html"
+      "text": "Fed\u2019s Goolsbee Says AI Data Centers Look Like \u2018Old-Fashioned Overheating\u2019",
+      "url": "https://finance.yahoo.com/technology/ai/articles/fed-goolsbee-says-ai-data-153842776.html"
     },
     {
-      "text": "Citigroup\u2019s Jane Fraser Says Hedge Funds Drove the Sell-Off. Here\u2019s Why She Doesn\u2019t Expect It to Get Worse",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/citigroup-jane-fraser-says-hedge-141708763.html"
+      "text": "Stock Market Today: Hotter CPI Reading Hasn\u2019t Deterred Stocks From Rising",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-hotter-cpi-142440685.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday Amid Global Market Recovery",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141309144.html"
+      "text": "Pre-Markets Drop on Warmer CPI Numbers: +0.4% Month over Month",
+      "url": "https://finance.yahoo.com/economy/policy/articles/pre-markets-drop-warmer-cpi-142000520.html"
     },
     {
-      "text": "SPDR S&P 500 ETF (SPY) Sells $182.9 Million of Apple on Nov. 5",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110431430.html"
+      "text": "Andrew Sheets Says Stocks Rose After 11 Straight Midterms. Will 2026 Make It 12?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/andrew-sheets-says-stocks-rose-141706975.html"
     }
   ]
 }
