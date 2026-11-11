@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Nov 10, 2026",
-  "generated_at": "2026-11-10T14:35:11.663581-05:00",
+  "date": "Wed, Nov 11, 2026",
+  "generated_at": "2026-11-11T14:28:24.794675-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "AAON",
-      "gap_pct": 20.6,
-      "price": 75.8,
-      "market_cap": 6249986048,
+      "symbol": "CRWV",
+      "gap_pct": 24.2,
+      "price": 60.54,
+      "market_cap": 33390024704,
       "catalyst": ""
     },
     {
-      "symbol": "CSQR",
-      "gap_pct": 18.3,
-      "price": 18.06,
-      "market_cap": 3009409536,
+      "symbol": "AZTA",
+      "gap_pct": 22.1,
+      "price": 49.43,
+      "market_cap": 2165448704,
       "catalyst": ""
     },
     {
-      "symbol": "ACAD",
-      "gap_pct": 10.1,
-      "price": 18.17,
-      "market_cap": 3140302592,
+      "symbol": "AXTI",
+      "gap_pct": 21.3,
+      "price": 47.7,
+      "market_cap": 3127514368,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NBIS",
+      "gap_pct": 17.3,
+      "price": 157.18,
+      "market_cap": 42730205184,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AAOI",
+      "gap_pct": 16.8,
+      "price": 56.43,
+      "market_cap": 5122192896,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SNDK",
+      "gap_pct": 15.6,
+      "price": 994.48,
+      "market_cap": 141503922176,
+      "catalyst": ""
+    },
+    {
+      "symbol": "RUM",
+      "gap_pct": 15.5,
+      "price": 5.9,
+      "market_cap": 2360112640,
+      "catalyst": ""
+    },
+    {
+      "symbol": "REZI",
+      "gap_pct": 15.3,
+      "price": 22.43,
+      "market_cap": 3405936640,
+      "catalyst": ""
+    },
+    {
+      "symbol": "BE",
+      "gap_pct": 14.4,
+      "price": 212.19,
+      "market_cap": 62711521280,
+      "catalyst": ""
+    },
+    {
+      "symbol": "DELL",
+      "gap_pct": 13.4,
+      "price": 379.07,
+      "market_cap": 241020715008,
       "catalyst": ""
     }
   ],
@@ -61,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Cathie Wood Is Buying Nvidia Again, Adding 90,443 Shares During the Huang Selloff",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-buying-nvidia-again-163832251.html"
+      "text": "Tractor Supply Turned $1,000 Into Over $3,200 in 10 Years. Then Came 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tractor-supply-turned-1-000-191744842.html"
     },
     {
-      "text": "Fed\u2019s Goolsbee Says AI Data Centers Look Like \u2018Old-Fashioned Overheating\u2019",
-      "url": "https://finance.yahoo.com/technology/ai/articles/fed-goolsbee-says-ai-data-153842776.html"
+      "text": "Cramer Says Apple Investors Who Sold After Steve Jobs Missed Years Of Gains. The Stock Is Up Nearly 3,000% Since. Now He\u2019s Asking If Nvidia Needs Jensen Huang",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cramer-says-apple-investors-sold-184657733.html"
     },
     {
-      "text": "Stock Market Today: Hotter CPI Reading Hasn\u2019t Deterred Stocks From Rising",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-hotter-cpi-142440685.html"
+      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday as Nvidia Stock Recovers",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141131269.html"
     },
     {
-      "text": "Pre-Markets Drop on Warmer CPI Numbers: +0.4% Month over Month",
-      "url": "https://finance.yahoo.com/economy/policy/articles/pre-markets-drop-warmer-cpi-142000520.html"
+      "text": "AMD sees $709 million reversal as major ETFs pile in",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-sees-709-million-reversal-115710107.html"
     },
     {
-      "text": "Andrew Sheets Says Stocks Rose After 11 Straight Midterms. Will 2026 Make It 12?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/andrew-sheets-says-stocks-rose-141706975.html"
+      "text": "Micron draws $554 million in ETF buying after steep selloff",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-draws-554-million-etf-114345334.html"
     }
   ]
 }
