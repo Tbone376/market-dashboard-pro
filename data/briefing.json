@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Nov 11, 2026",
-  "generated_at": "2026-11-11T14:28:24.794675-05:00",
+  "date": "Thu, Nov 12, 2026",
+  "generated_at": "2026-11-12T14:46:54.558434-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "CRWV",
-      "gap_pct": 24.2,
-      "price": 60.54,
-      "market_cap": 33390024704,
+      "symbol": "PLBL",
+      "gap_pct": 26.1,
+      "price": 7.12,
+      "market_cap": 2608678656,
       "catalyst": ""
     },
     {
-      "symbol": "AZTA",
-      "gap_pct": 22.1,
-      "price": 49.43,
-      "market_cap": 2165448704,
+      "symbol": "MBGL",
+      "gap_pct": 15.2,
+      "price": 22.94,
+      "market_cap": 7340800000,
       "catalyst": ""
     },
     {
-      "symbol": "AXTI",
-      "gap_pct": 21.3,
-      "price": 47.7,
-      "market_cap": 3127514368,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NBIS",
-      "gap_pct": 17.3,
-      "price": 157.18,
-      "market_cap": 42730205184,
-      "catalyst": ""
-    },
-    {
-      "symbol": "AAOI",
-      "gap_pct": 16.8,
-      "price": 56.43,
-      "market_cap": 5122192896,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SNDK",
-      "gap_pct": 15.6,
-      "price": 994.48,
-      "market_cap": 141503922176,
-      "catalyst": ""
-    },
-    {
-      "symbol": "RUM",
-      "gap_pct": 15.5,
-      "price": 5.9,
-      "market_cap": 2360112640,
-      "catalyst": ""
-    },
-    {
-      "symbol": "REZI",
-      "gap_pct": 15.3,
-      "price": 22.43,
-      "market_cap": 3405936640,
-      "catalyst": ""
-    },
-    {
-      "symbol": "BE",
-      "gap_pct": 14.4,
-      "price": 212.19,
-      "market_cap": 62711521280,
-      "catalyst": ""
-    },
-    {
-      "symbol": "DELL",
-      "gap_pct": 13.4,
-      "price": 379.07,
-      "market_cap": 241020715008,
+      "symbol": "LUNR",
+      "gap_pct": 10.8,
+      "price": 13.49,
+      "market_cap": 2177460736,
       "catalyst": ""
     }
   ],
@@ -110,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Tractor Supply Turned $1,000 Into Over $3,200 in 10 Years. Then Came 2026",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tractor-supply-turned-1-000-191744842.html"
+      "text": "NVIDIA\u2019s Leadership Crisis Is Dragging the S&P 500 Lower. Here\u2019s What Else Is Moving",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-leadership-crisis-dragging-p-153849957.html"
     },
     {
-      "text": "Cramer Says Apple Investors Who Sold After Steve Jobs Missed Years Of Gains. The Stock Is Up Nearly 3,000% Since. Now He\u2019s Asking If Nvidia Needs Jensen Huang",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cramer-says-apple-investors-sold-184657733.html"
+      "text": "Jensen Huang Resigns from NVIDIA, Shares -10%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-resigns-nvidia-shares-141200158.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday as Nvidia Stock Recovers",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141131269.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Nvidia Leadership Uncertainty",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140846632.html"
     },
     {
-      "text": "AMD sees $709 million reversal as major ETFs pile in",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/amd-sees-709-million-reversal-115710107.html"
+      "text": "Seagate\u2019s Legitimacy as a Play on AI Hardware Demand is About To Be Tested",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-legitimacy-play-ai-hardware-121504398.html"
     },
     {
-      "text": "Micron draws $554 million in ETF buying after steep selloff",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-draws-554-million-etf-114345334.html"
+      "text": "What SPDR S&P 500 ETF (SPY) Bought: Apple Leads on Nov. 10",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110413896.html"
     }
   ]
 }
