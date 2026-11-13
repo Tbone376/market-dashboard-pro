@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Nov 12, 2026",
-  "generated_at": "2026-11-12T14:46:54.558434-05:00",
+  "date": "Fri, Nov 13, 2026",
+  "generated_at": "2026-11-13T14:29:54.197513-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,38 @@
   },
   "gappers": [
     {
-      "symbol": "PLBL",
-      "gap_pct": 26.1,
-      "price": 7.12,
-      "market_cap": 2608678656,
+      "symbol": "MOD",
+      "gap_pct": 29.1,
+      "price": 136.97,
+      "market_cap": 7286382080,
       "catalyst": ""
     },
     {
-      "symbol": "MBGL",
-      "gap_pct": 15.2,
-      "price": 22.94,
-      "market_cap": 7340800000,
+      "symbol": "LFTO",
+      "gap_pct": 24.8,
+      "price": 23.34,
+      "market_cap": 3953044224,
       "catalyst": ""
     },
     {
-      "symbol": "LUNR",
-      "gap_pct": 10.8,
-      "price": 13.49,
-      "market_cap": 2177460736,
+      "symbol": "STN",
+      "gap_pct": 13.5,
+      "price": 85.27,
+      "market_cap": 9584322560,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CBRS",
+      "gap_pct": 13.1,
+      "price": 110.57,
+      "market_cap": 26268289024,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NU",
+      "gap_pct": 10.1,
+      "price": 13.03,
+      "market_cap": 62943875072,
       "catalyst": ""
     }
   ],
@@ -61,24 +75,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "NVIDIA\u2019s Leadership Crisis Is Dragging the S&P 500 Lower. Here\u2019s What Else Is Moving",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-leadership-crisis-dragging-p-153849957.html"
+      "text": "Intel attracts $79 million in ETF buying despite warning",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-attracts-79-million-etf-171801765.html"
     },
     {
-      "text": "Jensen Huang Resigns from NVIDIA, Shares -10%",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-resigns-nvidia-shares-141200158.html"
+      "text": "Kevin Warsh\u2019s Fed Will Vote on Rates Only 7 Times in 2027",
+      "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-fed-vote-rates-171358960.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Nvidia Leadership Uncertainty",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140846632.html"
+      "text": "The S&P 500 Has a \u201cPure Value\u201d Version. RPV Gives Its Cheapest Stocks the Biggest Weights",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-pure-value-version-170302428.html"
     },
     {
-      "text": "Seagate\u2019s Legitimacy as a Play on AI Hardware Demand is About To Be Tested",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-legitimacy-play-ai-hardware-121504398.html"
+      "text": "Nvidia Is 6.1% Of Your S&P 500 Fund. What Is Your Number?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-6-1-p-500-121250703.html"
     },
     {
-      "text": "What SPDR S&P 500 ETF (SPY) Bought: Apple Leads on Nov. 10",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110413896.html"
+      "text": "$1 Million In SCHD Five Years Ago: What Is It Worth Now?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-million-schd-five-years-121251181.html"
     }
   ]
 }
