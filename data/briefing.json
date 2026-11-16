@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Nov 13, 2026",
-  "generated_at": "2026-11-13T14:29:54.197513-05:00",
+  "date": "Mon, Nov 16, 2026",
+  "generated_at": "2026-11-16T16:53:29.618164-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "MOD",
-      "gap_pct": 29.1,
-      "price": 136.97,
-      "market_cap": 7286382080,
+      "symbol": "CGON",
+      "gap_pct": 14.0,
+      "price": 84.78,
+      "market_cap": 7572457472,
       "catalyst": ""
     },
     {
-      "symbol": "LFTO",
-      "gap_pct": 24.8,
-      "price": 23.34,
-      "market_cap": 3953044224,
+      "symbol": "TU",
+      "gap_pct": 12.2,
+      "price": 9.57,
+      "market_cap": 15216299008,
       "catalyst": ""
     },
     {
-      "symbol": "STN",
-      "gap_pct": 13.5,
-      "price": 85.27,
-      "market_cap": 9584322560,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CBRS",
-      "gap_pct": 13.1,
-      "price": 110.57,
-      "market_cap": 26268289024,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NU",
-      "gap_pct": 10.1,
-      "price": 13.03,
-      "market_cap": 62943875072,
+      "symbol": "MOH",
+      "gap_pct": 11.3,
+      "price": 233.09,
+      "market_cap": 12167298048,
       "catalyst": ""
     }
   ],
@@ -75,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Intel attracts $79 million in ETF buying despite warning",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/intel-attracts-79-million-etf-171801765.html"
+      "text": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-100-145810375.html"
     },
     {
-      "text": "Kevin Warsh\u2019s Fed Will Vote on Rates Only 7 Times in 2027",
-      "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-fed-vote-rates-171358960.html"
+      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Weakness in AI-Linked Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141346501.html"
     },
     {
-      "text": "The S&P 500 Has a \u201cPure Value\u201d Version. RPV Gives Its Cheapest Stocks the Biggest Weights",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-pure-value-version-170302428.html"
+      "text": "Hedge Funds Are Dumping Leverage at a Pace Last Seen in March 2020. A 63-Year-Old Who Moved His 401(k) to Cash Then Would Have Missed a 51.5% Rally. Here\u2019s the Math",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-dumping-leverage-pace-141210875.html"
     },
     {
-      "text": "Nvidia Is 6.1% Of Your S&P 500 Fund. What Is Your Number?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-6-1-p-500-121250703.html"
+      "text": "Pre-Markets Lower as Puzzle Pieces Sorted",
+      "url": "https://finance.yahoo.com/economy/policy/articles/pre-markets-lower-puzzle-pieces-140300474.html"
     },
     {
-      "text": "$1 Million In SCHD Five Years Ago: What Is It Worth Now?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-million-schd-five-years-121251181.html"
+      "text": "Berkshire Hathaway Hits an All-Time High: Here\u2019s What $10,000 Invested a Year Ago Is Worth Now",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-hits-time-high-132621538.html"
     }
   ]
 }
