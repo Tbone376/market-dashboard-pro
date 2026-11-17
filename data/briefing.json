@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Nov 16, 2026",
-  "generated_at": "2026-11-16T16:53:29.618164-05:00",
+  "date": "Tue, Nov 17, 2026",
+  "generated_at": "2026-11-17T15:43:49.183129-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,24 @@
   },
   "gappers": [
     {
-      "symbol": "CGON",
-      "gap_pct": 14.0,
-      "price": 84.78,
-      "market_cap": 7572457472,
+      "symbol": "SLS",
+      "gap_pct": 151.4,
+      "price": 18.78,
+      "market_cap": 3828475136,
       "catalyst": ""
     },
     {
-      "symbol": "TU",
-      "gap_pct": 12.2,
-      "price": 9.57,
-      "market_cap": 15216299008,
+      "symbol": "ACM",
+      "gap_pct": 12.9,
+      "price": 81.84,
+      "market_cap": 10532514816,
       "catalyst": ""
     },
     {
-      "symbol": "MOH",
-      "gap_pct": 11.3,
-      "price": 233.09,
-      "market_cap": 12167298048,
+      "symbol": "BILL",
+      "gap_pct": 12.1,
+      "price": 64.62,
+      "market_cap": 5549762048,
       "catalyst": ""
     }
   ],
@@ -61,24 +61,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nasdaq-100-145810375.html"
+      "text": "Bill Ackman Cut His Microsoft Stake. Your S&P 500 Fund Can\u2019t.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-cut-microsoft-stake-180220390.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Weakness in AI-Linked Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141346501.html"
+      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday as Investors Await Nvidia Earnings",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141622060.html"
     },
     {
-      "text": "Hedge Funds Are Dumping Leverage at a Pace Last Seen in March 2020. A 63-Year-Old Who Moved His 401(k) to Cash Then Would Have Missed a 51.5% Rally. Here\u2019s the Math",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/hedge-funds-dumping-leverage-pace-141210875.html"
+      "text": "Cathie Wood and Jim Cramer Agree on These 10 Stocks: Latest 13F",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-jim-cramer-agree-132819758.html"
     },
     {
-      "text": "Pre-Markets Lower as Puzzle Pieces Sorted",
-      "url": "https://finance.yahoo.com/economy/policy/articles/pre-markets-lower-puzzle-pieces-140300474.html"
+      "text": "Cathie Wood and Jim Cramer Agree on These 5 Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-jim-cramer-agree-132403111.html"
     },
     {
-      "text": "Berkshire Hathaway Hits an All-Time High: Here\u2019s What $10,000 Invested a Year Ago Is Worth Now",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-hits-time-high-132621538.html"
+      "text": "How Much Does a 70-Year-Old Couple Give Up Leaving a $300,000 Annuity Before the Surrender Period Ends?",
+      "url": "https://finance.yahoo.com/markets/options/articles/much-does-70-old-couple-130259073.html"
     }
   ]
 }
