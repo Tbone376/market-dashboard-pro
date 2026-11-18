@@ -1,6 +1,6 @@
 {
-  "date": "Tue, Nov 17, 2026",
-  "generated_at": "2026-11-17T15:43:49.183129-05:00",
+  "date": "Wed, Nov 18, 2026",
+  "generated_at": "2026-11-18T15:19:25.663251-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,24 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "SLS",
-      "gap_pct": 151.4,
-      "price": 18.78,
-      "market_cap": 3828475136,
+      "symbol": "PLBL",
+      "gap_pct": 16.2,
+      "price": 8.83,
+      "market_cap": 3235201280,
       "catalyst": ""
     },
     {
-      "symbol": "ACM",
-      "gap_pct": 12.9,
-      "price": 81.84,
-      "market_cap": 10532514816,
+      "symbol": "TENB",
+      "gap_pct": 16.1,
+      "price": 44.83,
+      "market_cap": 4685076992,
       "catalyst": ""
     },
     {
-      "symbol": "BILL",
-      "gap_pct": 12.1,
-      "price": 64.62,
-      "market_cap": 5549762048,
+      "symbol": "MFP",
+      "gap_pct": 13.7,
+      "price": 48.17,
+      "market_cap": 2178750976,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SAIL",
+      "gap_pct": 12.2,
+      "price": 22.64,
+      "market_cap": 12925438976,
+      "catalyst": ""
+    },
+    {
+      "symbol": "QLYS",
+      "gap_pct": 12.0,
+      "price": 195.6,
+      "market_cap": 6828439040,
+      "catalyst": ""
+    },
+    {
+      "symbol": "OKTA",
+      "gap_pct": 11.5,
+      "price": 194.65,
+      "market_cap": 34028892160,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FSLY",
+      "gap_pct": 11.5,
+      "price": 17.73,
+      "market_cap": 2858075904,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NTSK",
+      "gap_pct": 11.4,
+      "price": 23.22,
+      "market_cap": 9487407104,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ATEN",
+      "gap_pct": 11.2,
+      "price": 32.56,
+      "market_cap": 2345998080,
+      "catalyst": ""
+    },
+    {
+      "symbol": "FROG",
+      "gap_pct": 10.8,
+      "price": 116.45,
+      "market_cap": 14512914432,
       "catalyst": ""
     }
   ],
@@ -61,24 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Bill Ackman Cut His Microsoft Stake. Your S&P 500 Fund Can\u2019t.",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-cut-microsoft-stake-180220390.html"
+      "text": "Take-Two Is Surging on GTA VI\u2019s Launch, and Your Index Fund Might Be Along for the Ride Without You Knowing It",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/two-surging-gta-vi-launch-180610758.html"
     },
     {
-      "text": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday as Investors Await Nvidia Earnings",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141622060.html"
+      "text": "ARKK Is Down, But These 10 Cathie Wood Stocks Have Soared Up to 285% in 2026",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arkk-down-10-cathie-wood-173103158.html"
     },
     {
-      "text": "Cathie Wood and Jim Cramer Agree on These 10 Stocks: Latest 13F",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-jim-cramer-agree-132819758.html"
+      "text": "Cathie Wood Was Right About These 5 Stocks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-5-stocks-171622537.html"
     },
     {
-      "text": "Cathie Wood and Jim Cramer Agree on These 5 Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-jim-cramer-agree-132403111.html"
+      "text": "SCHD Is Having Its Best Year Since 2013. What Happens Next Year?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/schd-having-best-since-2013-162528647.html"
     },
     {
-      "text": "How Much Does a 70-Year-Old Couple Give Up Leaving a $300,000 Annuity Before the Surrender Period Ends?",
-      "url": "https://finance.yahoo.com/markets/options/articles/much-does-70-old-couple-130259073.html"
+      "text": "Buying SPY At The 2007 Top Still Paid Off",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buying-spy-2007-top-still-152108287.html"
     }
   ]
 }
