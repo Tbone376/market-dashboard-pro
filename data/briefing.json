@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Nov 18, 2026",
-  "generated_at": "2026-11-18T15:19:25.663251-05:00",
+  "date": "Thu, Nov 19, 2026",
+  "generated_at": "2026-11-19T15:23:37.975445-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,31 @@
   },
   "gappers": [
     {
-      "symbol": "PLBL",
-      "gap_pct": 16.2,
-      "price": 8.83,
-      "market_cap": 3235201280,
+      "symbol": "INSM",
+      "gap_pct": 21.3,
+      "price": 145.31,
+      "market_cap": 31878152192,
       "catalyst": ""
     },
     {
-      "symbol": "TENB",
-      "gap_pct": 16.1,
-      "price": 44.83,
-      "market_cap": 4685076992,
+      "symbol": "ANT",
+      "gap_pct": 15.0,
+      "price": 95.48,
+      "market_cap": 1249485389824,
       "catalyst": ""
     },
     {
-      "symbol": "MFP",
-      "gap_pct": 13.7,
-      "price": 48.17,
-      "market_cap": 2178750976,
+      "symbol": "TU",
+      "gap_pct": 12.9,
+      "price": 10.74,
+      "market_cap": 17076599808,
       "catalyst": ""
     },
     {
-      "symbol": "SAIL",
-      "gap_pct": 12.2,
-      "price": 22.64,
-      "market_cap": 12925438976,
-      "catalyst": ""
-    },
-    {
-      "symbol": "QLYS",
-      "gap_pct": 12.0,
-      "price": 195.6,
-      "market_cap": 6828439040,
-      "catalyst": ""
-    },
-    {
-      "symbol": "OKTA",
-      "gap_pct": 11.5,
-      "price": 194.65,
-      "market_cap": 34028892160,
-      "catalyst": ""
-    },
-    {
-      "symbol": "FSLY",
-      "gap_pct": 11.5,
-      "price": 17.73,
-      "market_cap": 2858075904,
-      "catalyst": ""
-    },
-    {
-      "symbol": "NTSK",
-      "gap_pct": 11.4,
-      "price": 23.22,
-      "market_cap": 9487407104,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ATEN",
+      "symbol": "PDD",
       "gap_pct": 11.2,
-      "price": 32.56,
-      "market_cap": 2345998080,
-      "catalyst": ""
-    },
-    {
-      "symbol": "FROG",
-      "gap_pct": 10.8,
-      "price": 116.45,
-      "market_cap": 14512914432,
+      "price": 86.16,
+      "market_cap": 122639843328,
       "catalyst": ""
     }
   ],
@@ -110,24 +68,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Take-Two Is Surging on GTA VI\u2019s Launch, and Your Index Fund Might Be Along for the Ride Without You Knowing It",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/two-surging-gta-vi-launch-180610758.html"
+      "text": "$1,000 Invested in Eli Lilly 10 Years Ago Would Be Worth a Fortune Today",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-000-invested-eli-lilly-181741109.html"
     },
     {
-      "text": "ARKK Is Down, But These 10 Cathie Wood Stocks Have Soared Up to 285% in 2026",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/arkk-down-10-cathie-wood-173103158.html"
+      "text": "If You Have $1,000 to Invest Right Now, Here's the 1 ETF I'd Buy Without a Second Thought",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-000-invest-now-heres-171302749.html"
     },
     {
-      "text": "Cathie Wood Was Right About These 5 Stocks",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-5-stocks-171622537.html"
+      "text": "Do Nvidia, Alphabet, Meta Drops Hurt Your Index Fund?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-alphabet-meta-drops-hurt-171008010.html"
     },
     {
-      "text": "SCHD Is Having Its Best Year Since 2013. What Happens Next Year?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/schd-having-best-since-2013-162528647.html"
+      "text": "How a 68-Year-Old Collects $5,225 a Month From Just Three Tickers: VYM, DIVO, and ARCC",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/68-old-collects-5-225-170548951.html"
     },
     {
-      "text": "Buying SPY At The 2007 Top Still Paid Off",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buying-spy-2007-top-still-152108287.html"
+      "text": "The Fed Just Warned About a Hidden $3 Trillion AI Risk. Here\u2019s How It Can Spread Beyond Tech Stocks",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fed-just-warned-hidden-3-154354296.html"
     }
   ]
 }
