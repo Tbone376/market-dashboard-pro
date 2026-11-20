@@ -1,6 +1,6 @@
 {
-  "date": "Thu, Nov 19, 2026",
-  "generated_at": "2026-11-19T15:23:37.975445-05:00",
+  "date": "Fri, Nov 20, 2026",
+  "generated_at": "2026-11-20T14:55:05.243303-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,31 +36,10 @@
   },
   "gappers": [
     {
-      "symbol": "INSM",
-      "gap_pct": 21.3,
-      "price": 145.31,
-      "market_cap": 31878152192,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ANT",
-      "gap_pct": 15.0,
-      "price": 95.48,
-      "market_cap": 1249485389824,
-      "catalyst": ""
-    },
-    {
-      "symbol": "TU",
-      "gap_pct": 12.9,
-      "price": 10.74,
-      "market_cap": 17076599808,
-      "catalyst": ""
-    },
-    {
-      "symbol": "PDD",
-      "gap_pct": 11.2,
-      "price": 86.16,
-      "market_cap": 122639843328,
+      "symbol": "GAP",
+      "gap_pct": 11.7,
+      "price": 20.98,
+      "market_cap": 7371404288,
       "catalyst": ""
     }
   ],
@@ -68,24 +47,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "$1,000 Invested in Eli Lilly 10 Years Ago Would Be Worth a Fortune Today",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-000-invested-eli-lilly-181741109.html"
+      "text": "Why Did The Trade Deficit Nearly Triple To $105 Billion?",
+      "url": "https://finance.yahoo.com/economy/policy/articles/why-did-trade-deficit-nearly-192701336.html"
     },
     {
-      "text": "If You Have $1,000 to Invest Right Now, Here's the 1 ETF I'd Buy Without a Second Thought",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-000-invest-now-heres-171302749.html"
+      "text": "Warren Buffett\u2019s 3 Biggest Investing Lessons for Anyone Retiring in 2027",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-3-biggest-investing-182930897.html"
     },
     {
-      "text": "Do Nvidia, Alphabet, Meta Drops Hurt Your Index Fund?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-alphabet-meta-drops-hurt-171008010.html"
+      "text": "The Inflation Math In Five Lines",
+      "url": "https://finance.yahoo.com/economy/articles/inflation-math-five-lines-173158458.html"
     },
     {
-      "text": "How a 68-Year-Old Collects $5,225 a Month From Just Three Tickers: VYM, DIVO, and ARCC",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/68-old-collects-5-225-170548951.html"
+      "text": "Managed Futures Are a Hedge Fund Staple. RSST Stacks $1 of Them on Top of $1 of U.S. Stocks",
+      "url": "https://finance.yahoo.com/markets/options/articles/managed-futures-hedge-fund-staple-163611246.html"
     },
     {
-      "text": "The Fed Just Warned About a Hidden $3 Trillion AI Risk. Here\u2019s How It Can Spread Beyond Tech Stocks",
-      "url": "https://finance.yahoo.com/economy/policy/articles/fed-just-warned-hidden-3-154354296.html"
+      "text": "Exchange-Traded Funds, Equity Futures Fall Pre-Bell Friday Amid Continued AI Stock Selloff",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140012643.html"
     }
   ]
 }
