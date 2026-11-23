@@ -1,6 +1,6 @@
 {
-  "date": "Fri, Nov 20, 2026",
-  "generated_at": "2026-11-20T14:55:05.243303-05:00",
+  "date": "Mon, Nov 23, 2026",
+  "generated_at": "2026-11-23T18:43:43.555027-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,10 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "GAP",
-      "gap_pct": 11.7,
-      "price": 20.98,
-      "market_cap": 7371404288,
+      "symbol": "NVDA",
+      "gap_pct": 31.5,
+      "price": 165.05,
+      "market_cap": 3985462263808,
+      "catalyst": ""
+    },
+    {
+      "symbol": "KYMR",
+      "gap_pct": 30.4,
+      "price": 150.37,
+      "market_cap": 12837297152,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AXTI",
+      "gap_pct": 24.4,
+      "price": 38.02,
+      "market_cap": 2498763776,
+      "catalyst": ""
+    },
+    {
+      "symbol": "IREN",
+      "gap_pct": 23.9,
+      "price": 14.64,
+      "market_cap": 6212592128,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ALAB",
+      "gap_pct": 23.2,
+      "price": 222.12,
+      "market_cap": 38822596608,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CRDO",
+      "gap_pct": 22.6,
+      "price": 122.46,
+      "market_cap": 23016591360,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CRWV",
+      "gap_pct": 22.3,
+      "price": 48.33,
+      "market_cap": 26877556736,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SITM",
+      "gap_pct": 21.5,
+      "price": 438.82,
+      "market_cap": 13256634368,
+      "catalyst": ""
+    },
+    {
+      "symbol": "MXL",
+      "gap_pct": 21.4,
+      "price": 50.31,
+      "market_cap": 4578210304,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ASX",
+      "gap_pct": 21.4,
+      "price": 31.88,
+      "market_cap": 70377447424,
       "catalyst": ""
     }
   ],
@@ -47,24 +110,20 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Why Did The Trade Deficit Nearly Triple To $105 Billion?",
-      "url": "https://finance.yahoo.com/economy/policy/articles/why-did-trade-deficit-nearly-192701336.html"
+      "text": "EEM Now Moves Like A Chip Fund",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/eem-now-moves-chip-fund-224310940.html"
     },
     {
-      "text": "Warren Buffett\u2019s 3 Biggest Investing Lessons for Anyone Retiring in 2027",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-3-biggest-investing-182930897.html"
+      "text": "Own Gold As A Hedge? BND Rose More Often",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/own-gold-hedge-bnd-rose-223805102.html"
     },
     {
-      "text": "The Inflation Math In Five Lines",
-      "url": "https://finance.yahoo.com/economy/articles/inflation-math-five-lines-173158458.html"
+      "text": "Why stocks had their best Monday since 2020",
+      "url": "https://finance.yahoo.com/markets/article/why-stocks-are-having-their-wildest-morning-since-2008-184837610.html"
     },
     {
-      "text": "Managed Futures Are a Hedge Fund Staple. RSST Stacks $1 of Them on Top of $1 of U.S. Stocks",
-      "url": "https://finance.yahoo.com/markets/options/articles/managed-futures-hedge-fund-staple-163611246.html"
-    },
-    {
-      "text": "Exchange-Traded Funds, Equity Futures Fall Pre-Bell Friday Amid Continued AI Stock Selloff",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140012643.html"
+      "text": "Trump Admits Falling Stocks Pushed Him to Phone Into Nvidia\u2019s Board Meeting Himself",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-admits-falling-stocks-pushed-193215456.html"
     }
   ]
 }
