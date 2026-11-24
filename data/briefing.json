@@ -1,6 +1,6 @@
 {
-  "date": "Mon, Nov 23, 2026",
-  "generated_at": "2026-11-23T18:43:43.555027-05:00",
+  "date": "Tue, Nov 24, 2026",
+  "generated_at": "2026-11-24T17:15:20.008402-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,73 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "NVDA",
-      "gap_pct": 31.5,
-      "price": 165.05,
-      "market_cap": 3985462263808,
+      "symbol": "AMTM",
+      "gap_pct": 20.1,
+      "price": 24.8,
+      "market_cap": 6063758848,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ANF",
+      "gap_pct": 19.7,
+      "price": 168.1,
+      "market_cap": 7133218816,
+      "catalyst": ""
+    },
+    {
+      "symbol": "KSS",
+      "gap_pct": 19.5,
+      "price": 25.33,
+      "market_cap": 2871825408,
+      "catalyst": ""
+    },
+    {
+      "symbol": "CELC",
+      "gap_pct": 18.5,
+      "price": 68.02,
+      "market_cap": 3328348160,
+      "catalyst": ""
+    },
+    {
+      "symbol": "COGT",
+      "gap_pct": 17.4,
+      "price": 33.01,
+      "market_cap": 5743556608,
+      "catalyst": ""
+    },
+    {
+      "symbol": "NAMS",
+      "gap_pct": 16.9,
+      "price": 24.45,
+      "market_cap": 2932288512,
+      "catalyst": ""
+    },
+    {
+      "symbol": "STOK",
+      "gap_pct": 16.7,
+      "price": 32.84,
+      "market_cap": 2147941888,
       "catalyst": ""
     },
     {
       "symbol": "KYMR",
-      "gap_pct": 30.4,
-      "price": 150.37,
-      "market_cap": 12837297152,
+      "gap_pct": 15.7,
+      "price": 173.92,
+      "market_cap": 14847794176,
       "catalyst": ""
     },
     {
-      "symbol": "AXTI",
-      "gap_pct": 24.4,
-      "price": 38.02,
-      "market_cap": 2498763776,
+      "symbol": "IRON",
+      "gap_pct": 15.3,
+      "price": 88.34,
+      "market_cap": 4023077632,
       "catalyst": ""
     },
     {
-      "symbol": "IREN",
-      "gap_pct": 23.9,
-      "price": 14.64,
-      "market_cap": 6212592128,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ALAB",
-      "gap_pct": 23.2,
-      "price": 222.12,
-      "market_cap": 38822596608,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CRDO",
-      "gap_pct": 22.6,
-      "price": 122.46,
-      "market_cap": 23016591360,
-      "catalyst": ""
-    },
-    {
-      "symbol": "CRWV",
-      "gap_pct": 22.3,
-      "price": 48.33,
-      "market_cap": 26877556736,
-      "catalyst": ""
-    },
-    {
-      "symbol": "SITM",
-      "gap_pct": 21.5,
-      "price": 438.82,
-      "market_cap": 13256634368,
-      "catalyst": ""
-    },
-    {
-      "symbol": "MXL",
-      "gap_pct": 21.4,
-      "price": 50.31,
-      "market_cap": 4578210304,
-      "catalyst": ""
-    },
-    {
-      "symbol": "ASX",
-      "gap_pct": 21.4,
-      "price": 31.88,
-      "market_cap": 70377447424,
+      "symbol": "DKS",
+      "gap_pct": 14.6,
+      "price": 153.17,
+      "market_cap": 13620881408,
       "catalyst": ""
     }
   ],
@@ -110,20 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "EEM Now Moves Like A Chip Fund",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/eem-now-moves-chip-fund-224310940.html"
+      "text": "She Retires at 65 With a $900,000 All-Stock 401(k) as the S&P 500 Swings From Its Worst Week to Its Best Day Since April 2025. The 8.6% Drop Erases $77,400, and the Rebound Still Leaves Her $38,409 Short",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/she-retires-65-900-000-211509035.html"
     },
     {
-      "text": "Own Gold As A Hedge? BND Rose More Often",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/own-gold-hedge-bnd-rose-223805102.html"
+      "text": "Is Apple (AAPL) Above Fair Value As ETF Buying Returns?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-above-fair-value-211324050.html"
     },
     {
-      "text": "Why stocks had their best Monday since 2020",
-      "url": "https://finance.yahoo.com/markets/article/why-stocks-are-having-their-wildest-morning-since-2008-184837610.html"
+      "text": "Here\u2019s How Quickly NVIDIA Could Reach $200 Following Jensen Huang\u2019s Reinstatement as CEO",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/quickly-nvidia-could-reach-200-174559412.html"
     },
     {
-      "text": "Trump Admits Falling Stocks Pushed Him to Phone Into Nvidia\u2019s Board Meeting Himself",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trump-admits-falling-stocks-pushed-193215456.html"
+      "text": "Hashed and Nurihaus Bring U.S. Beauty Investors to Brooklyn for K-Beauty Investor Day",
+      "url": "https://finance.yahoo.com/small-business/articles/hashed-nurihaus-bring-u-beauty-170025550.html"
+    },
+    {
+      "text": "Stock Market Today: Jensen\u2019s Return to Nvidia Is Causing Index Indigestion",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-jensen-return-165001958.html"
     }
   ]
 }
