@@ -1,6 +1,6 @@
 {
-  "date": "Wed, Nov 25, 2026",
-  "generated_at": "2026-11-25T16:30:56.215218-05:00",
+  "date": "Fri, Nov 27, 2026",
+  "generated_at": "2026-11-27T15:59:54.507294-05:00",
   "sentiment": "BULLISH",
   "futures": {
     "ES": {
@@ -36,38 +36,73 @@
   },
   "gappers": [
     {
-      "symbol": "BZ",
-      "gap_pct": 12.6,
-      "price": 14.34,
-      "market_cap": 6273831936,
+      "symbol": "GUNN",
+      "gap_pct": 23.9,
+      "price": 6.38,
+      "market_cap": 3286043392,
       "catalyst": ""
     },
     {
-      "symbol": "LBTYB",
-      "gap_pct": 11.9,
-      "price": 12.28,
-      "market_cap": 4081770240,
+      "symbol": "XP",
+      "gap_pct": 18.1,
+      "price": 16.99,
+      "market_cap": 8423278592,
       "catalyst": ""
     },
     {
-      "symbol": "HPQ",
-      "gap_pct": 11.5,
-      "price": 31.15,
-      "market_cap": 28090787840,
+      "symbol": "VERA",
+      "gap_pct": 16.1,
+      "price": 34.26,
+      "market_cap": 2476955648,
       "catalyst": ""
     },
     {
-      "symbol": "LI",
-      "gap_pct": 11.0,
-      "price": 11.88,
-      "market_cap": 11610020864,
+      "symbol": "SNDK",
+      "gap_pct": 16.0,
+      "price": 85.36,
+      "market_cap": 97166557184,
       "catalyst": ""
     },
     {
-      "symbol": "ASTS",
-      "gap_pct": 10.3,
-      "price": 26.02,
-      "market_cap": 10426942464,
+      "symbol": "AYA",
+      "gap_pct": 15.0,
+      "price": 22.84,
+      "market_cap": 3293422080,
+      "catalyst": ""
+    },
+    {
+      "symbol": "COHR",
+      "gap_pct": 14.1,
+      "price": 223.79,
+      "market_cap": 44077379584,
+      "catalyst": ""
+    },
+    {
+      "symbol": "AXTI",
+      "gap_pct": 13.7,
+      "price": 36.37,
+      "market_cap": 2390321920,
+      "catalyst": ""
+    },
+    {
+      "symbol": "ELPC",
+      "gap_pct": 13.4,
+      "price": 11.71,
+      "market_cap": 8693534720,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SA",
+      "gap_pct": 13.3,
+      "price": 21.52,
+      "market_cap": 2325878528,
+      "catalyst": ""
+    },
+    {
+      "symbol": "SKE",
+      "gap_pct": 12.4,
+      "price": 29.14,
+      "market_cap": 3661267456,
       "catalyst": ""
     }
   ],
@@ -75,20 +110,24 @@
   "econ_events": [],
   "headlines": [
     {
-      "text": "Berkshire Hathaway Is Up 15% in 2026 and Easily Beating the S&P 500. Is Berkshire Stock Better Than an Index Fund Now?",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-15-2026-easily-180215639.html"
+      "text": "Fidelity Counted 654,000 401(k) Millionaires in the Third Quarter of 2025, Up From 544,000 a Year Earlier",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/fidelity-counted-654-000-401-190316254.html"
     },
     {
-      "text": "SPYD and SCHD Hold No Nvidia. Here\u2019s What You Give Up and What You Get",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spyd-schd-hold-no-nvidia-175102178.html"
+      "text": "I Tested More Than 100 Trading Strategies With AI. Most Of Them Failed, And The Reasons Why Were More Interesting Than The Winners",
+      "url": "https://finance.yahoo.com/markets/options/articles/tested-more-100-trading-strategies-171507159.html"
     },
     {
-      "text": "JPMorgan Says the Biggest Risk to Stocks in 2027 Is the Fed",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-says-biggest-risk-stocks-162750501.html"
+      "text": "SoFi\u2019s 500-Stock ETF Doesn\u2019t Weight Strictly by Size. SFY Tilts America\u2019s Biggest Companies Toward Growth",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-500-stock-etf-doesn-153240789.html"
     },
     {
-      "text": "What Happens to a $900,000 401(k) by the End of 2027? $1,062,300 in Wall Street\u2019s Best Case, $824,900 in Its Worst",
-      "url": "https://finance.yahoo.com/markets/options/articles/happens-900-000-401-k-154517445.html"
+      "text": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-markets-off-150313752.html"
+    },
+    {
+      "text": "The Nasdaq Needs Two Huge Days to Dodge Its Worst November Since 2008",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-needs-two-huge-days-145233273.html"
     }
   ]
 }
